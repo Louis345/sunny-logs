@@ -1,0 +1,106 @@
+🎮 [audit] component=transcript action=accepted turnState=IDLE tts=on childName=Reina round=0
+🎮 [audit] component=transcript action=accepted turnState=WORD_BUILDER tts=on childName=Reina round=1
+🎮 [audit] component=transcript action=accepted turnState=WORD_BUILDER tts=on childName=Reina round=2
+🎮 [audit] component=transcript action=accepted turnState=WORD_BUILDER tts=on childName=Reina round=3
+🎮 [audit] component=transcript action=accepted turnState=WORD_BUILDER tts=on childName=Reina round=4
+🎮 [audit] component=turn action=barge_in stateBefore=SPEAKING turnState=IDLE tts=on childName=Reina round=5
+🎮 [audit] component=transcript action=accepted turnState=IDLE tts=on childName=Reina round=5
+🎮 [audit] component=transcript action=accepted turnState=IDLE tts=on childName=Reina round=6
+🎮 [audit] component=transcript action=accepted turnState=IDLE tts=on childName=Reina round=7
+🎮 [audit] component=transcript action=accepted turnState=IDLE tts=on childName=Reina round=8
+🎮 [audit] component=turn action=barge_in stateBefore=SPEAKING turnState=IDLE tts=on childName=Reina round=9
+🎮 [audit] component=transcript action=accepted turnState=IDLE tts=on childName=Reina round=9
+🎮 [audit] component=transcript action=queued turnState=PROCESSING tts=on childName=Reina round=10
+🎮 [audit] component=transcript action=replay turnState=IDLE tts=on childName=Reina round=10
+🎮 [audit] component=transcript action=accepted turnState=IDLE tts=on childName=Reina round=10
+🎮 [audit] component=transcript action=accepted turnState=IDLE tts=on childName=Reina round=11
+🎮 [audit] component=transcript action=accepted turnState=IDLE tts=on childName=Reina round=12
+🎮 [audit] component=transcript action=accepted turnState=IDLE tts=on childName=Reina round=13
+🎮 [audit] component=transcript action=queued turnState=PROCESSING tts=on childName=Reina round=14
+🎮 [audit] component=turn action=barge_in stateBefore=SPEAKING turnState=IDLE tts=on childName=Reina round=14
+🎮 [audit] component=transcript action=accepted turnState=IDLE tts=on childName=Reina round=14
+🎮 [audit] component=transcript action=accepted turnState=IDLE tts=on childName=Reina round=15
+🎮 [audit] component=word_builder action=wire_corrected reason=session_already_active childName=Ila
+🎮 [audit] component=word_builder action=rejected error=Word Builder is already active. Call canvasClear first if you want to restart it. childName=Ila
+🎮 [audit] component=word_builder action=rejected error=Word Builder is already active. Call canvasClear first if you want to restart it. childName=Ila
+🎮 [audit] component=word_builder action=wire_corrected reason=session_already_active childName=Ila
+🎮 [audit] component=word_builder action=rejected error=Word Builder is already active. Call canvasClear first if you want to restart it. childName=Ila
+🎮 [audit] component=word_builder action=rejected error=Word Builder is already active. Call canvasClear first if you want to restart it. childName=Ila
+🎮 [audit] component=transcript action=queued turnState=PROCESSING tts=on childName=Ila round=0
+🎮 [audit] component=transcript action=replay turnState=IDLE tts=on childName=Ila round=0
+🎮 [audit] component=transcript action=accepted turnState=IDLE tts=on childName=Ila round=0
+🎮 [audit] component=transcript action=queued turnState=PROCESSING tts=off childName=Ila round=0
+🎮 [audit] component=transcript action=replay turnState=IDLE tts=off childName=Ila round=0
+🎮 [audit] component=transcript action=accepted turnState=IDLE tts=off childName=Ila round=0
+🎮 [audit] component=transcript action=queued turnState=PROCESSING tts=off childName=Ila round=0
+🎮 [audit] component=transcript action=replay turnState=IDLE tts=off childName=Ila round=0
+🎮 [audit] component=transcript action=accepted turnState=IDLE tts=off childName=Ila round=0
+🎮 [audit] component=transcript action=accepted turnState=IDLE tts=off childName=Reina round=0
+🎮 [audit] component=transcript action=queued turnState=PROCESSING tts=off childName=Reina round=1
+🎮 [audit] component=transcript action=replay turnState=IDLE tts=off childName=Reina round=1
+🎮 [audit] component=transcript action=accepted turnState=IDLE tts=off childName=Reina round=1
+🎮 [audit] component=transcript action=accepted turnState=IDLE tts=off childName=Reina round=2
+🎮 [audit] component=transcript action=accepted turnState=IDLE tts=off childName=Reina round=3
+🎮 [audit] component=transcript action=accepted turnState=IDLE tts=off childName=Reina round=4
+🎮 [audit] component=transcript action=accepted turnState=IDLE tts=off childName=Reina round=5
+🎮 [audit] component=transcript action=accepted turnState=IDLE tts=off childName=Reina round=0
+🎮 [audit] component=transcript action=accepted turnState=IDLE tts=off childName=Reina round=1
+🎮 [audit] component=transcript action=accepted turnState=WORD_BUILDER tts=off childName=Reina round=2
+🎮 [audit] component=word_builder action=rejected error=Word Builder is already active. Call canvasClear first if you want to restart it. childName=Reina
+🎮 [audit] component=transcript action=accepted turnState=WORD_BUILDER tts=off childName=Reina round=3
+🎮 [audit] component=transcript action=accepted turnState=WORD_BUILDER tts=off childName=Reina round=4
+🎮 [audit] component=word_builder action=rejected error=Word Builder is already active. Call canvasClear first if you want to restart it. childName=Reina
+🎮 [audit] component=transcript action=accepted turnState=WORD_BUILDER tts=off childName=Reina round=5
+🎮 [audit] component=word_builder action=rejected error=Word Builder is already active. Call canvasClear first if you want to restart it. childName=Reina
+🎮 [audit] component=transcript action=accepted turnState=WORD_BUILDER tts=off childName=Reina round=6
+🎮 [audit] component=transcript action=accepted turnState=WORD_BUILDER tts=off childName=Reina round=7
+🎮 [audit] component=transcript action=accepted turnState=WORD_BUILDER tts=off childName=Reina round=8
+🎮 [audit] component=transcript action=accepted turnState=WORD_BUILDER tts=off childName=Reina round=9
+🎮 [audit] component=transcript action=accepted turnState=WORD_BUILDER tts=off childName=Reina round=10
+🎮 [audit] component=transcript action=accepted turnState=IDLE tts=on childName=Ila round=0
+🎮 [audit] component=transcript action=accepted turnState=IDLE tts=on childName=Ila round=1
+🎮 [audit] component=transcript action=accepted turnState=IDLE tts=on childName=Ila round=2
+🎮 [audit] component=transcript action=accepted turnState=IDLE tts=on childName=Ila round=3
+🎮 [audit] component=transcript action=accepted turnState=IDLE tts=on childName=Ila round=4
+🎮 [audit] component=turn action=barge_in stateBefore=SPEAKING turnState=IDLE tts=on childName=Ila round=5
+🎮 [audit] component=transcript action=accepted turnState=IDLE tts=on childName=Ila round=5
+🎮 [audit] component=transcript action=queued turnState=PROCESSING tts=on childName=Ila round=6
+🎮 [audit] component=turn action=barge_in stateBefore=SPEAKING turnState=IDLE tts=on childName=Ila round=6
+🎮 [audit] component=transcript action=accepted turnState=IDLE tts=on childName=Ila round=6
+🎮 [audit] component=transcript action=accepted turnState=IDLE tts=on childName=Ila round=7
+🎮 [audit] component=turn action=barge_in stateBefore=SPEAKING turnState=IDLE tts=on childName=Ila round=8
+🎮 [audit] component=transcript action=accepted turnState=IDLE tts=on childName=Ila round=8
+🎮 [audit] component=transcript action=accepted turnState=IDLE tts=on childName=Ila round=9
+🎮 [audit] component=transcript action=accepted turnState=IDLE tts=on childName=Ila round=10
+🎮 [audit] component=transcript action=queued turnState=PROCESSING tts=on childName=Ila round=11
+🎮 [audit] component=transcript action=replay turnState=IDLE tts=on childName=Ila round=11
+🎮 [audit] component=transcript action=accepted turnState=IDLE tts=on childName=Ila round=11
+🎮 [audit] component=transcript action=accepted turnState=IDLE tts=on childName=Ila round=12
+🎮 [audit] component=transcript action=queued turnState=PROCESSING tts=on childName=Ila round=13
+🎮 [audit] component=transcript action=replay turnState=IDLE tts=on childName=Ila round=13
+🎮 [audit] component=transcript action=accepted turnState=IDLE tts=on childName=Ila round=13
+🎮 [audit] component=transcript action=accepted turnState=IDLE tts=on childName=Ila round=14
+🎮 [audit] component=transcript action=accepted turnState=IDLE tts=on childName=Ila round=15
+🎮 [audit] component=turn action=barge_in stateBefore=SPEAKING turnState=IDLE tts=on childName=Ila round=16
+🎮 [audit] component=transcript action=accepted turnState=IDLE tts=on childName=Ila round=16
+🎮 [audit] component=transcript action=accepted turnState=IDLE tts=on childName=Ila round=17
+🎮 [audit] component=transcript action=accepted turnState=IDLE tts=on childName=Ila round=18
+🎮 [audit] component=transcript action=accepted turnState=IDLE tts=on childName=Ila round=19
+🎮 [audit] component=transcript action=queued turnState=PROCESSING tts=on childName=Ila round=20
+🎮 [audit] component=transcript action=replay turnState=IDLE tts=on childName=Ila round=20
+🎮 [audit] component=transcript action=accepted turnState=IDLE tts=on childName=Ila round=20
+🎮 [audit] component=turn action=barge_in stateBefore=SPEAKING turnState=IDLE tts=on childName=Ila round=21
+🎮 [audit] component=transcript action=accepted turnState=IDLE tts=on childName=Ila round=21
+🎮 [audit] component=transcript action=accepted turnState=IDLE tts=on childName=Ila round=22
+🎮 [audit] component=transcript action=accepted turnState=WORD_BUILDER tts=on childName=Ila round=23
+🎮 [audit] component=transcript action=accepted turnState=WORD_BUILDER tts=on childName=Ila round=24
+🎮 [audit] component=transcript action=accepted turnState=IDLE tts=on childName=Ila round=25
+🎮 [audit] component=transcript action=queued turnState=PROCESSING tts=on childName=Ila round=26
+🎮 [audit] component=transcript action=replay turnState=IDLE tts=on childName=Ila round=26
+🎮 [audit] component=transcript action=accepted turnState=IDLE tts=on childName=Ila round=26
+🎮 [audit] component=transcript action=queued turnState=PROCESSING tts=on childName=Ila round=27
+🎮 [audit] component=transcript action=replay turnState=IDLE tts=on childName=Ila round=27
+🎮 [audit] component=transcript action=accepted turnState=IDLE tts=on childName=Ila round=27
+🎮 [audit] component=transcript action=accepted turnState=IDLE tts=on childName=Ila round=28
+🎮 [audit] component=transcript action=accepted turnState=IDLE tts=on childName=Ila round=29
+🎮 [audit] component=transcript action=accepted turnState=IDLE tts=on childName=Ila round=30

@@ -1,0 +1,9 @@
+🎮 [audit] component=transcript action=queued turnState=PROCESSING tts=on childName=Ila round=0
+🎮 [audit] component=transcript action=replay turnState=IDLE tts=on childName=Ila round=0
+🎮 [audit] component=transcript action=accepted turnState=IDLE tts=on childName=Ila round=0
+🎮 [audit] component=transcript action=queued turnState=PROCESSING tts=off childName=Ila round=0
+🎮 [audit] component=transcript action=replay turnState=IDLE tts=off childName=Ila round=0
+🎮 [audit] component=transcript action=accepted turnState=IDLE tts=off childName=Ila round=0
+🎮 [audit] component=transcript action=queued turnState=PROCESSING tts=off childName=Ila round=0
+🎮 [audit] component=transcript action=replay turnState=IDLE tts=off childName=Ila round=0
+🎮 [audit] component=transcript action=accepted turnState=IDLE tts=off childName=Ila round=0

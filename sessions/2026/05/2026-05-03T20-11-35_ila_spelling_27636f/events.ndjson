@@ -1,0 +1,3 @@
+{"ts":"2026-05-03T20:11:35.573Z","sessionId":"27636f8b-b71f-441d-b918-8c677cfea381","child":"Ila","subject":"spelling","component":"session","action":"constructed","diagKiosk":false,"silentTts":false,"sttOnly":false}
+{"ts":"2026-05-03T20:11:35.596Z","sessionId":"27636f8b-b71f-441d-b918-8c677cfea381","child":"Ila","subject":"spelling","component":"session","action":"start_requested","childName":"Ila","companionName":"Elli"}
+{"ts":"2026-05-03T20:11:41.303Z","sessionId":"27636f8b-b71f-441d-b918-8c677cfea381","child":"Ila","subject":"spelling","component":"canvas","action":"draw","mode":"worksheet_pdf"}

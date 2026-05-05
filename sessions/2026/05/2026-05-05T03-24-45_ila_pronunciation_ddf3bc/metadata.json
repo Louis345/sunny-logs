@@ -1,0 +1,16 @@
+{
+  "sessionId": "ddf3bc23-450c-4ee0-bf10-a1e37f2b4155",
+  "child": "Ila",
+  "subject": "pronunciation",
+  "mode": "as-child",
+  "startedAt": "2026-05-05T03:24:45.126Z",
+  "command": "npm run npx",
+  "gitCommit": "8f8e5f8",
+  "envFlags": {
+    "TTS_ENABLED": "false",
+    "SUNNY_MODE": "as-child",
+    "SUNNY_CHILD": "ila",
+    "SUNNY_SUBJECT": "pronunciation",
+    "ADVENTURE_MAP": "true"
+  }
+}

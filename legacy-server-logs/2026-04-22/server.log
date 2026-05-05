@@ -1,0 +1,728 @@
+🎮 [audit] component=transcript action=replay turnState=SPEAKING tts=on childName=creator round=0
+🎮 [audit] component=transcript action=accepted turnState=SPEAKING tts=on childName=creator round=0
+🎮 [audit] component=transcript action=replay turnState=LOADING tts=on childName=creator round=0
+🎮 [audit] component=transcript action=accepted turnState=LOADING tts=on childName=creator round=0
+🎮 [audit] component=transcript action=replay turnState=SPEAKING tts=on childName=creator round=0
+🎮 [audit] component=transcript action=accepted turnState=SPEAKING tts=on childName=creator round=0
+🎮 [audit] component=transcript action=queued turnState=PROCESSING tts=on childName=Ila round=0
+🎮 [audit] component=transcript action=replay turnState=IDLE tts=on childName=Ila round=0
+🎮 [audit] component=transcript action=accepted turnState=IDLE tts=on childName=Ila round=0
+🎮 [audit] component=transcript action=queued turnState=PROCESSING tts=off childName=Ila round=0
+🎮 [audit] component=transcript action=replay turnState=IDLE tts=off childName=Ila round=0
+🎮 [audit] component=transcript action=accepted turnState=IDLE tts=off childName=Ila round=0
+🎮 [audit] component=transcript action=queued turnState=PROCESSING tts=off childName=Ila round=0
+🎮 [audit] component=transcript action=replay turnState=IDLE tts=off childName=Ila round=0
+🎮 [audit] component=transcript action=accepted turnState=IDLE tts=off childName=Ila round=0
+🎮 [audit] component=transcript action=replay turnState=IDLE tts=on childName=Ila round=0
+🎮 [audit] component=transcript action=accepted turnState=IDLE tts=on childName=Ila round=0
+🎮 [audit] component=transcript action=replay turnState=IDLE tts=on childName=Ila round=0
+🎮 [audit] component=transcript action=accepted turnState=IDLE tts=on childName=Ila round=0
+🎮 [audit] component=word_builder action=wire_corrected reason=session_already_active childName=Ila
+🎮 [audit] component=word_builder action=rejected error=Word Builder is already active. Call canvasClear first if you want to restart it. childName=Ila
+🎮 [audit] component=word_builder action=rejected error=Word Builder is already active. Call canvasClear first if you want to restart it. childName=Ila
+🎮 [audit] component=transcript action=replay turnState=SPEAKING tts=on childName=creator round=0
+🎮 [audit] component=transcript action=accepted turnState=SPEAKING tts=on childName=creator round=0
+🎮 [audit] component=transcript action=replay turnState=LOADING tts=on childName=creator round=0
+🎮 [audit] component=transcript action=accepted turnState=LOADING tts=on childName=creator round=0
+🎮 [audit] component=transcript action=replay turnState=SPEAKING tts=on childName=creator round=0
+🎮 [audit] component=transcript action=accepted turnState=SPEAKING tts=on childName=creator round=0
+🎮 [audit] component=transcript action=queued turnState=PROCESSING tts=on childName=Ila round=0
+🎮 [audit] component=transcript action=replay turnState=IDLE tts=on childName=Ila round=0
+🎮 [audit] component=transcript action=accepted turnState=IDLE tts=on childName=Ila round=0
+🎮 [audit] component=transcript action=queued turnState=PROCESSING tts=off childName=Ila round=0
+🎮 [audit] component=transcript action=replay turnState=IDLE tts=off childName=Ila round=0
+🎮 [audit] component=transcript action=accepted turnState=IDLE tts=off childName=Ila round=0
+🎮 [audit] component=transcript action=queued turnState=PROCESSING tts=off childName=Ila round=0
+🎮 [audit] component=transcript action=replay turnState=IDLE tts=off childName=Ila round=0
+🎮 [audit] component=transcript action=accepted turnState=IDLE tts=off childName=Ila round=0
+🎮 [audit] component=transcript action=replay turnState=IDLE tts=on childName=Ila round=0
+🎮 [audit] component=transcript action=accepted turnState=IDLE tts=on childName=Ila round=0
+🎮 [audit] component=transcript action=replay turnState=IDLE tts=on childName=Ila round=0
+🎮 [audit] component=transcript action=accepted turnState=IDLE tts=on childName=Ila round=0
+🎮 [audit] component=word_builder action=wire_corrected reason=session_already_active childName=Ila
+🎮 [audit] component=word_builder action=rejected error=Word Builder is already active. Call canvasClear first if you want to restart it. childName=Ila
+🎮 [audit] component=word_builder action=rejected error=Word Builder is already active. Call canvasClear first if you want to restart it. childName=Ila
+🎮 [audit] component=transcript action=replay turnState=SPEAKING tts=on childName=creator round=0
+🎮 [audit] component=transcript action=accepted turnState=SPEAKING tts=on childName=creator round=0
+🎮 [audit] component=transcript action=replay turnState=LOADING tts=on childName=creator round=0
+🎮 [audit] component=transcript action=accepted turnState=LOADING tts=on childName=creator round=0
+🎮 [audit] component=transcript action=replay turnState=SPEAKING tts=on childName=creator round=0
+🎮 [audit] component=transcript action=accepted turnState=SPEAKING tts=on childName=creator round=0
+🎮 [audit] component=transcript action=queued turnState=PROCESSING tts=on childName=Ila round=0
+🎮 [audit] component=transcript action=replay turnState=IDLE tts=on childName=Ila round=0
+🎮 [audit] component=transcript action=accepted turnState=IDLE tts=on childName=Ila round=0
+🎮 [audit] component=transcript action=queued turnState=PROCESSING tts=off childName=Ila round=0
+🎮 [audit] component=transcript action=replay turnState=IDLE tts=off childName=Ila round=0
+🎮 [audit] component=transcript action=accepted turnState=IDLE tts=off childName=Ila round=0
+🎮 [audit] component=transcript action=queued turnState=PROCESSING tts=off childName=Ila round=0
+🎮 [audit] component=transcript action=replay turnState=IDLE tts=off childName=Ila round=0
+🎮 [audit] component=transcript action=accepted turnState=IDLE tts=off childName=Ila round=0
+🎮 [audit] component=transcript action=replay turnState=IDLE tts=on childName=Ila round=0
+🎮 [audit] component=transcript action=accepted turnState=IDLE tts=on childName=Ila round=0
+🎮 [audit] component=transcript action=replay turnState=IDLE tts=on childName=Ila round=0
+🎮 [audit] component=transcript action=accepted turnState=IDLE tts=on childName=Ila round=0
+🎮 [audit] component=word_builder action=wire_corrected reason=session_already_active childName=Ila
+🎮 [audit] component=word_builder action=rejected error=Word Builder is already active. Call canvasClear first if you want to restart it. childName=Ila
+🎮 [audit] component=word_builder action=rejected error=Word Builder is already active. Call canvasClear first if you want to restart it. childName=Ila
+🎮 [audit] component=transcript action=replay turnState=SPEAKING tts=on childName=creator round=0
+🎮 [audit] component=transcript action=accepted turnState=SPEAKING tts=on childName=creator round=0
+🎮 [audit] component=transcript action=replay turnState=LOADING tts=on childName=creator round=0
+🎮 [audit] component=transcript action=accepted turnState=LOADING tts=on childName=creator round=0
+🎮 [audit] component=transcript action=replay turnState=SPEAKING tts=on childName=creator round=0
+🎮 [audit] component=transcript action=accepted turnState=SPEAKING tts=on childName=creator round=0
+🎮 [audit] component=transcript action=replay turnState=IDLE tts=on childName=Ila round=0
+🎮 [audit] component=transcript action=accepted turnState=IDLE tts=on childName=Ila round=0
+🎮 [audit] component=transcript action=replay turnState=IDLE tts=on childName=Ila round=0
+🎮 [audit] component=transcript action=accepted turnState=IDLE tts=on childName=Ila round=0
+🎮 [audit] component=transcript action=queued turnState=PROCESSING tts=on childName=Ila round=0
+🎮 [audit] component=transcript action=replay turnState=IDLE tts=on childName=Ila round=0
+🎮 [audit] component=transcript action=accepted turnState=IDLE tts=on childName=Ila round=0
+🎮 [audit] component=transcript action=queued turnState=PROCESSING tts=off childName=Ila round=0
+🎮 [audit] component=transcript action=replay turnState=IDLE tts=off childName=Ila round=0
+🎮 [audit] component=transcript action=accepted turnState=IDLE tts=off childName=Ila round=0
+🎮 [audit] component=transcript action=queued turnState=PROCESSING tts=off childName=Ila round=0
+🎮 [audit] component=transcript action=replay turnState=IDLE tts=off childName=Ila round=0
+🎮 [audit] component=transcript action=accepted turnState=IDLE tts=off childName=Ila round=0
+🎮 [audit] component=word_builder action=wire_corrected reason=session_already_active childName=Ila
+🎮 [audit] component=word_builder action=rejected error=Word Builder is already active. Call canvasClear first if you want to restart it. childName=Ila
+🎮 [audit] component=word_builder action=rejected error=Word Builder is already active. Call canvasClear first if you want to restart it. childName=Ila
+🎮 [audit] component=transcript action=replay turnState=SPEAKING tts=on childName=creator round=0
+🎮 [audit] component=transcript action=accepted turnState=SPEAKING tts=on childName=creator round=0
+🎮 [audit] component=transcript action=replay turnState=LOADING tts=on childName=creator round=0
+🎮 [audit] component=transcript action=accepted turnState=LOADING tts=on childName=creator round=0
+🎮 [audit] component=transcript action=replay turnState=SPEAKING tts=on childName=creator round=0
+🎮 [audit] component=transcript action=accepted turnState=SPEAKING tts=on childName=creator round=0
+🎮 [audit] component=transcript action=queued turnState=PROCESSING tts=on childName=Ila round=0
+🎮 [audit] component=transcript action=replay turnState=IDLE tts=on childName=Ila round=0
+🎮 [audit] component=transcript action=accepted turnState=IDLE tts=on childName=Ila round=0
+🎮 [audit] component=transcript action=queued turnState=PROCESSING tts=off childName=Ila round=0
+🎮 [audit] component=transcript action=replay turnState=IDLE tts=off childName=Ila round=0
+🎮 [audit] component=transcript action=accepted turnState=IDLE tts=off childName=Ila round=0
+🎮 [audit] component=transcript action=queued turnState=PROCESSING tts=off childName=Ila round=0
+🎮 [audit] component=transcript action=replay turnState=IDLE tts=off childName=Ila round=0
+🎮 [audit] component=transcript action=accepted turnState=IDLE tts=off childName=Ila round=0
+🎮 [audit] component=transcript action=replay turnState=IDLE tts=on childName=Ila round=0
+🎮 [audit] component=transcript action=accepted turnState=IDLE tts=on childName=Ila round=0
+🎮 [audit] component=transcript action=replay turnState=IDLE tts=on childName=Ila round=0
+🎮 [audit] component=transcript action=accepted turnState=IDLE tts=on childName=Ila round=0
+🎮 [audit] component=word_builder action=wire_corrected reason=session_already_active childName=Ila
+🎮 [audit] component=word_builder action=rejected error=Word Builder is already active. Call canvasClear first if you want to restart it. childName=Ila
+🎮 [audit] component=word_builder action=rejected error=Word Builder is already active. Call canvasClear first if you want to restart it. childName=Ila
+🎮 [audit] component=transcript action=replay turnState=SPEAKING tts=on childName=creator round=0
+🎮 [audit] component=transcript action=accepted turnState=SPEAKING tts=on childName=creator round=0
+🎮 [audit] component=transcript action=replay turnState=LOADING tts=on childName=creator round=0
+🎮 [audit] component=transcript action=accepted turnState=LOADING tts=on childName=creator round=0
+🎮 [audit] component=transcript action=replay turnState=SPEAKING tts=on childName=creator round=0
+🎮 [audit] component=transcript action=accepted turnState=SPEAKING tts=on childName=creator round=0
+🎮 [audit] component=transcript action=queued turnState=PROCESSING tts=on childName=Ila round=0
+🎮 [audit] component=transcript action=replay turnState=IDLE tts=on childName=Ila round=0
+🎮 [audit] component=transcript action=accepted turnState=IDLE tts=on childName=Ila round=0
+🎮 [audit] component=transcript action=queued turnState=PROCESSING tts=off childName=Ila round=0
+🎮 [audit] component=transcript action=replay turnState=IDLE tts=off childName=Ila round=0
+🎮 [audit] component=transcript action=accepted turnState=IDLE tts=off childName=Ila round=0
+🎮 [audit] component=transcript action=queued turnState=PROCESSING tts=off childName=Ila round=0
+🎮 [audit] component=transcript action=replay turnState=IDLE tts=off childName=Ila round=0
+🎮 [audit] component=transcript action=accepted turnState=IDLE tts=off childName=Ila round=0
+🎮 [audit] component=transcript action=replay turnState=IDLE tts=on childName=Ila round=0
+🎮 [audit] component=transcript action=accepted turnState=IDLE tts=on childName=Ila round=0
+🎮 [audit] component=transcript action=replay turnState=IDLE tts=on childName=Ila round=0
+🎮 [audit] component=transcript action=accepted turnState=IDLE tts=on childName=Ila round=0
+🎮 [audit] component=word_builder action=wire_corrected reason=session_already_active childName=Ila
+🎮 [audit] component=word_builder action=rejected error=Word Builder is already active. Call canvasClear first if you want to restart it. childName=Ila
+🎮 [audit] component=word_builder action=rejected error=Word Builder is already active. Call canvasClear first if you want to restart it. childName=Ila
+🎮 [audit] component=transcript action=replay turnState=SPEAKING tts=on childName=creator round=0
+🎮 [audit] component=transcript action=accepted turnState=SPEAKING tts=on childName=creator round=0
+🎮 [audit] component=transcript action=replay turnState=LOADING tts=on childName=creator round=0
+🎮 [audit] component=transcript action=accepted turnState=LOADING tts=on childName=creator round=0
+🎮 [audit] component=transcript action=replay turnState=SPEAKING tts=on childName=creator round=0
+🎮 [audit] component=transcript action=accepted turnState=SPEAKING tts=on childName=creator round=0
+🎮 [audit] component=transcript action=queued turnState=PROCESSING tts=on childName=Ila round=0
+🎮 [audit] component=transcript action=replay turnState=IDLE tts=on childName=Ila round=0
+🎮 [audit] component=transcript action=accepted turnState=IDLE tts=on childName=Ila round=0
+🎮 [audit] component=transcript action=queued turnState=PROCESSING tts=off childName=Ila round=0
+🎮 [audit] component=transcript action=replay turnState=IDLE tts=off childName=Ila round=0
+🎮 [audit] component=transcript action=accepted turnState=IDLE tts=off childName=Ila round=0
+🎮 [audit] component=transcript action=queued turnState=PROCESSING tts=off childName=Ila round=0
+🎮 [audit] component=transcript action=replay turnState=IDLE tts=off childName=Ila round=0
+🎮 [audit] component=transcript action=accepted turnState=IDLE tts=off childName=Ila round=0
+🎮 [audit] component=transcript action=replay turnState=IDLE tts=on childName=Ila round=0
+🎮 [audit] component=transcript action=accepted turnState=IDLE tts=on childName=Ila round=0
+🎮 [audit] component=transcript action=replay turnState=IDLE tts=on childName=Ila round=0
+🎮 [audit] component=transcript action=accepted turnState=IDLE tts=on childName=Ila round=0
+🎮 [audit] component=word_builder action=wire_corrected reason=session_already_active childName=Ila
+🎮 [audit] component=word_builder action=rejected error=Word Builder is already active. Call canvasClear first if you want to restart it. childName=Ila
+🎮 [audit] component=word_builder action=rejected error=Word Builder is already active. Call canvasClear first if you want to restart it. childName=Ila
+🎮 [audit] component=transcript action=replay turnState=SPEAKING tts=on childName=creator round=0
+🎮 [audit] component=transcript action=accepted turnState=SPEAKING tts=on childName=creator round=0
+🎮 [audit] component=transcript action=replay turnState=LOADING tts=on childName=creator round=0
+🎮 [audit] component=transcript action=accepted turnState=LOADING tts=on childName=creator round=0
+🎮 [audit] component=transcript action=replay turnState=SPEAKING tts=on childName=creator round=0
+🎮 [audit] component=transcript action=accepted turnState=SPEAKING tts=on childName=creator round=0
+🎮 [audit] component=transcript action=queued turnState=PROCESSING tts=on childName=Ila round=0
+🎮 [audit] component=transcript action=replay turnState=IDLE tts=on childName=Ila round=0
+🎮 [audit] component=transcript action=accepted turnState=IDLE tts=on childName=Ila round=0
+🎮 [audit] component=transcript action=queued turnState=PROCESSING tts=off childName=Ila round=0
+🎮 [audit] component=transcript action=replay turnState=IDLE tts=off childName=Ila round=0
+🎮 [audit] component=transcript action=accepted turnState=IDLE tts=off childName=Ila round=0
+🎮 [audit] component=transcript action=queued turnState=PROCESSING tts=off childName=Ila round=0
+🎮 [audit] component=transcript action=replay turnState=IDLE tts=off childName=Ila round=0
+🎮 [audit] component=transcript action=accepted turnState=IDLE tts=off childName=Ila round=0
+🎮 [audit] component=transcript action=replay turnState=IDLE tts=on childName=Ila round=0
+🎮 [audit] component=transcript action=accepted turnState=IDLE tts=on childName=Ila round=0
+🎮 [audit] component=transcript action=replay turnState=IDLE tts=on childName=Ila round=0
+🎮 [audit] component=transcript action=accepted turnState=IDLE tts=on childName=Ila round=0
+🎮 [audit] component=word_builder action=wire_corrected reason=session_already_active childName=Ila
+🎮 [audit] component=word_builder action=rejected error=Word Builder is already active. Call canvasClear first if you want to restart it. childName=Ila
+🎮 [audit] component=word_builder action=rejected error=Word Builder is already active. Call canvasClear first if you want to restart it. childName=Ila
+🎮 [audit] component=transcript action=accepted turnState=IDLE tts=on childName=Ila round=0
+🎮 [audit] component=turn action=barge_in stateBefore=SPEAKING turnState=IDLE tts=on childName=Ila round=1
+🎮 [audit] component=transcript action=queued turnState=PROCESSING tts=on childName=Ila round=0
+🎮 [audit] component=transcript action=replay turnState=IDLE tts=on childName=Ila round=0
+🎮 [audit] component=transcript action=accepted turnState=IDLE tts=on childName=Ila round=0
+🎮 [audit] component=transcript action=queued turnState=PROCESSING tts=off childName=Ila round=0
+🎮 [audit] component=transcript action=replay turnState=IDLE tts=off childName=Ila round=0
+🎮 [audit] component=transcript action=accepted turnState=IDLE tts=off childName=Ila round=0
+🎮 [audit] component=transcript action=queued turnState=PROCESSING tts=off childName=Ila round=0
+🎮 [audit] component=transcript action=replay turnState=IDLE tts=off childName=Ila round=0
+🎮 [audit] component=transcript action=accepted turnState=IDLE tts=off childName=Ila round=0
+🎮 [audit] component=transcript action=replay turnState=IDLE tts=on childName=Ila round=0
+🎮 [audit] component=transcript action=accepted turnState=IDLE tts=on childName=Ila round=0
+🎮 [audit] component=transcript action=replay turnState=IDLE tts=on childName=Ila round=0
+🎮 [audit] component=transcript action=accepted turnState=IDLE tts=on childName=Ila round=0
+🎮 [audit] component=transcript action=replay turnState=SPEAKING tts=on childName=creator round=0
+🎮 [audit] component=transcript action=accepted turnState=SPEAKING tts=on childName=creator round=0
+🎮 [audit] component=transcript action=replay turnState=LOADING tts=on childName=creator round=0
+🎮 [audit] component=transcript action=accepted turnState=LOADING tts=on childName=creator round=0
+🎮 [audit] component=transcript action=replay turnState=SPEAKING tts=on childName=creator round=0
+🎮 [audit] component=transcript action=accepted turnState=SPEAKING tts=on childName=creator round=0
+🎮 [audit] component=word_builder action=wire_corrected reason=session_already_active childName=Ila
+🎮 [audit] component=word_builder action=rejected error=Word Builder is already active. Call canvasClear first if you want to restart it. childName=Ila
+🎮 [audit] component=word_builder action=rejected error=Word Builder is already active. Call canvasClear first if you want to restart it. childName=Ila
+🎮 [audit] component=transcript action=queued turnState=PROCESSING tts=on childName=Ila round=0
+🎮 [audit] component=transcript action=replay turnState=IDLE tts=on childName=Ila round=0
+🎮 [audit] component=transcript action=accepted turnState=IDLE tts=on childName=Ila round=0
+🎮 [audit] component=transcript action=queued turnState=PROCESSING tts=off childName=Ila round=0
+🎮 [audit] component=transcript action=replay turnState=IDLE tts=off childName=Ila round=0
+🎮 [audit] component=transcript action=accepted turnState=IDLE tts=off childName=Ila round=0
+🎮 [audit] component=transcript action=queued turnState=PROCESSING tts=off childName=Ila round=0
+🎮 [audit] component=transcript action=replay turnState=IDLE tts=off childName=Ila round=0
+🎮 [audit] component=transcript action=accepted turnState=IDLE tts=off childName=Ila round=0
+🎮 [audit] component=transcript action=replay turnState=SPEAKING tts=on childName=creator round=0
+🎮 [audit] component=transcript action=accepted turnState=SPEAKING tts=on childName=creator round=0
+🎮 [audit] component=transcript action=replay turnState=LOADING tts=on childName=creator round=0
+🎮 [audit] component=transcript action=accepted turnState=LOADING tts=on childName=creator round=0
+🎮 [audit] component=transcript action=replay turnState=SPEAKING tts=on childName=creator round=0
+🎮 [audit] component=transcript action=accepted turnState=SPEAKING tts=on childName=creator round=0
+🎮 [audit] component=transcript action=replay turnState=IDLE tts=on childName=Ila round=0
+🎮 [audit] component=transcript action=accepted turnState=IDLE tts=on childName=Ila round=0
+🎮 [audit] component=transcript action=replay turnState=IDLE tts=on childName=Ila round=0
+🎮 [audit] component=transcript action=accepted turnState=IDLE tts=on childName=Ila round=0
+🎮 [audit] component=word_builder action=wire_corrected reason=session_already_active childName=Ila
+🎮 [audit] component=word_builder action=rejected error=Word Builder is already active. Call canvasClear first if you want to restart it. childName=Ila
+🎮 [audit] component=word_builder action=rejected error=Word Builder is already active. Call canvasClear first if you want to restart it. childName=Ila
+🎮 [audit] component=transcript action=replay turnState=IDLE tts=on childName=Ila round=0
+🎮 [audit] component=transcript action=accepted turnState=IDLE tts=on childName=Ila round=0
+🎮 [audit] component=transcript action=replay turnState=IDLE tts=on childName=Ila round=0
+🎮 [audit] component=transcript action=accepted turnState=IDLE tts=on childName=Ila round=0
+🎮 [audit] component=transcript action=queued turnState=PROCESSING tts=on childName=Ila round=0
+🎮 [audit] component=transcript action=replay turnState=IDLE tts=on childName=Ila round=0
+🎮 [audit] component=transcript action=accepted turnState=IDLE tts=on childName=Ila round=0
+🎮 [audit] component=transcript action=queued turnState=PROCESSING tts=off childName=Ila round=0
+🎮 [audit] component=transcript action=replay turnState=IDLE tts=off childName=Ila round=0
+🎮 [audit] component=transcript action=accepted turnState=IDLE tts=off childName=Ila round=0
+🎮 [audit] component=transcript action=queued turnState=PROCESSING tts=off childName=Ila round=0
+🎮 [audit] component=transcript action=replay turnState=IDLE tts=off childName=Ila round=0
+🎮 [audit] component=transcript action=accepted turnState=IDLE tts=off childName=Ila round=0
+🎮 [audit] component=transcript action=replay turnState=SPEAKING tts=on childName=creator round=0
+🎮 [audit] component=transcript action=accepted turnState=SPEAKING tts=on childName=creator round=0
+🎮 [audit] component=transcript action=replay turnState=LOADING tts=on childName=creator round=0
+🎮 [audit] component=transcript action=accepted turnState=LOADING tts=on childName=creator round=0
+🎮 [audit] component=transcript action=replay turnState=SPEAKING tts=on childName=creator round=0
+🎮 [audit] component=transcript action=accepted turnState=SPEAKING tts=on childName=creator round=0
+🎮 [audit] component=word_builder action=wire_corrected reason=session_already_active childName=Ila
+🎮 [audit] component=word_builder action=rejected error=Word Builder is already active. Call canvasClear first if you want to restart it. childName=Ila
+🎮 [audit] component=word_builder action=rejected error=Word Builder is already active. Call canvasClear first if you want to restart it. childName=Ila
+🎮 [audit] component=turn action=barge_in stateBefore=IDLE turnState=IDLE tts=on childName=Ila round=0
+🎮 [audit] component=transcript action=accepted turnState=IDLE tts=on childName=Ila round=0
+🎮 [audit] component=transcript action=queued turnState=PROCESSING tts=on childName=Ila round=0
+🎮 [audit] component=transcript action=replay turnState=IDLE tts=on childName=Ila round=0
+🎮 [audit] component=transcript action=accepted turnState=IDLE tts=on childName=Ila round=0
+🎮 [audit] component=transcript action=queued turnState=PROCESSING tts=off childName=Ila round=0
+🎮 [audit] component=transcript action=replay turnState=IDLE tts=off childName=Ila round=0
+🎮 [audit] component=transcript action=accepted turnState=IDLE tts=off childName=Ila round=0
+🎮 [audit] component=transcript action=queued turnState=PROCESSING tts=off childName=Ila round=0
+🎮 [audit] component=transcript action=replay turnState=IDLE tts=off childName=Ila round=0
+🎮 [audit] component=transcript action=accepted turnState=IDLE tts=off childName=Ila round=0
+🎮 [audit] component=transcript action=replay turnState=SPEAKING tts=on childName=creator round=0
+🎮 [audit] component=transcript action=accepted turnState=SPEAKING tts=on childName=creator round=0
+🎮 [audit] component=transcript action=replay turnState=LOADING tts=on childName=creator round=0
+🎮 [audit] component=transcript action=accepted turnState=LOADING tts=on childName=creator round=0
+🎮 [audit] component=transcript action=replay turnState=SPEAKING tts=on childName=creator round=0
+🎮 [audit] component=transcript action=accepted turnState=SPEAKING tts=on childName=creator round=0
+🎮 [audit] component=transcript action=replay turnState=IDLE tts=on childName=Ila round=0
+🎮 [audit] component=transcript action=accepted turnState=IDLE tts=on childName=Ila round=0
+🎮 [audit] component=transcript action=replay turnState=IDLE tts=on childName=Ila round=0
+🎮 [audit] component=transcript action=accepted turnState=IDLE tts=on childName=Ila round=0
+🎮 [audit] component=word_builder action=wire_corrected reason=session_already_active childName=Ila
+🎮 [audit] component=word_builder action=rejected error=Word Builder is already active. Call canvasClear first if you want to restart it. childName=Ila
+🎮 [audit] component=word_builder action=rejected error=Word Builder is already active. Call canvasClear first if you want to restart it. childName=Ila
+🎮 [audit] component=transcript action=replay turnState=SPEAKING tts=on childName=creator round=0
+🎮 [audit] component=transcript action=accepted turnState=SPEAKING tts=on childName=creator round=0
+🎮 [audit] component=transcript action=replay turnState=LOADING tts=on childName=creator round=0
+🎮 [audit] component=transcript action=accepted turnState=LOADING tts=on childName=creator round=0
+🎮 [audit] component=transcript action=replay turnState=SPEAKING tts=on childName=creator round=0
+🎮 [audit] component=transcript action=accepted turnState=SPEAKING tts=on childName=creator round=0
+🎮 [audit] component=transcript action=queued turnState=PROCESSING tts=on childName=Ila round=0
+🎮 [audit] component=transcript action=replay turnState=IDLE tts=on childName=Ila round=0
+🎮 [audit] component=transcript action=accepted turnState=IDLE tts=on childName=Ila round=0
+🎮 [audit] component=transcript action=queued turnState=PROCESSING tts=off childName=Ila round=0
+🎮 [audit] component=transcript action=replay turnState=IDLE tts=off childName=Ila round=0
+🎮 [audit] component=transcript action=accepted turnState=IDLE tts=off childName=Ila round=0
+🎮 [audit] component=transcript action=queued turnState=PROCESSING tts=off childName=Ila round=0
+🎮 [audit] component=transcript action=replay turnState=IDLE tts=off childName=Ila round=0
+🎮 [audit] component=transcript action=accepted turnState=IDLE tts=off childName=Ila round=0
+🎮 [audit] component=transcript action=replay turnState=IDLE tts=on childName=Ila round=0
+🎮 [audit] component=transcript action=accepted turnState=IDLE tts=on childName=Ila round=0
+🎮 [audit] component=transcript action=replay turnState=IDLE tts=on childName=Ila round=0
+🎮 [audit] component=transcript action=accepted turnState=IDLE tts=on childName=Ila round=0
+🎮 [audit] component=word_builder action=wire_corrected reason=session_already_active childName=Ila
+🎮 [audit] component=word_builder action=rejected error=Word Builder is already active. Call canvasClear first if you want to restart it. childName=Ila
+🎮 [audit] component=word_builder action=rejected error=Word Builder is already active. Call canvasClear first if you want to restart it. childName=Ila
+🎮 [audit] component=transcript action=accepted turnState=IDLE tts=on childName=Ila round=0
+🎮 [audit] component=turn action=barge_in stateBefore=SPEAKING turnState=IDLE tts=on childName=Ila round=1
+🎮 [audit] component=transcript action=replay turnState=SPEAKING tts=on childName=creator round=0
+🎮 [audit] component=transcript action=accepted turnState=SPEAKING tts=on childName=creator round=0
+🎮 [audit] component=transcript action=replay turnState=LOADING tts=on childName=creator round=0
+🎮 [audit] component=transcript action=accepted turnState=LOADING tts=on childName=creator round=0
+🎮 [audit] component=transcript action=replay turnState=SPEAKING tts=on childName=creator round=0
+🎮 [audit] component=transcript action=accepted turnState=SPEAKING tts=on childName=creator round=0
+🎮 [audit] component=transcript action=queued turnState=PROCESSING tts=on childName=Ila round=0
+🎮 [audit] component=transcript action=replay turnState=IDLE tts=on childName=Ila round=0
+🎮 [audit] component=transcript action=accepted turnState=IDLE tts=on childName=Ila round=0
+🎮 [audit] component=transcript action=queued turnState=PROCESSING tts=off childName=Ila round=0
+🎮 [audit] component=transcript action=replay turnState=IDLE tts=off childName=Ila round=0
+🎮 [audit] component=transcript action=accepted turnState=IDLE tts=off childName=Ila round=0
+🎮 [audit] component=transcript action=queued turnState=PROCESSING tts=off childName=Ila round=0
+🎮 [audit] component=transcript action=replay turnState=IDLE tts=off childName=Ila round=0
+🎮 [audit] component=transcript action=accepted turnState=IDLE tts=off childName=Ila round=0
+🎮 [audit] component=transcript action=replay turnState=IDLE tts=on childName=Ila round=0
+🎮 [audit] component=transcript action=accepted turnState=IDLE tts=on childName=Ila round=0
+🎮 [audit] component=transcript action=replay turnState=IDLE tts=on childName=Ila round=0
+🎮 [audit] component=transcript action=accepted turnState=IDLE tts=on childName=Ila round=0
+🎮 [audit] component=word_builder action=wire_corrected reason=session_already_active childName=Ila
+🎮 [audit] component=word_builder action=rejected error=Word Builder is already active. Call canvasClear first if you want to restart it. childName=Ila
+🎮 [audit] component=word_builder action=rejected error=Word Builder is already active. Call canvasClear first if you want to restart it. childName=Ila
+🎮 [audit] component=transcript action=replay turnState=SPEAKING tts=on childName=creator round=0
+🎮 [audit] component=transcript action=accepted turnState=SPEAKING tts=on childName=creator round=0
+🎮 [audit] component=transcript action=replay turnState=LOADING tts=on childName=creator round=0
+🎮 [audit] component=transcript action=accepted turnState=LOADING tts=on childName=creator round=0
+🎮 [audit] component=transcript action=replay turnState=SPEAKING tts=on childName=creator round=0
+🎮 [audit] component=transcript action=accepted turnState=SPEAKING tts=on childName=creator round=0
+🎮 [audit] component=transcript action=queued turnState=PROCESSING tts=on childName=Ila round=0
+🎮 [audit] component=transcript action=replay turnState=IDLE tts=on childName=Ila round=0
+🎮 [audit] component=transcript action=accepted turnState=IDLE tts=on childName=Ila round=0
+🎮 [audit] component=transcript action=queued turnState=PROCESSING tts=off childName=Ila round=0
+🎮 [audit] component=transcript action=replay turnState=IDLE tts=off childName=Ila round=0
+🎮 [audit] component=transcript action=accepted turnState=IDLE tts=off childName=Ila round=0
+🎮 [audit] component=transcript action=queued turnState=PROCESSING tts=off childName=Ila round=0
+🎮 [audit] component=transcript action=replay turnState=IDLE tts=off childName=Ila round=0
+🎮 [audit] component=transcript action=accepted turnState=IDLE tts=off childName=Ila round=0
+🎮 [audit] component=transcript action=replay turnState=IDLE tts=on childName=Ila round=0
+🎮 [audit] component=transcript action=accepted turnState=IDLE tts=on childName=Ila round=0
+🎮 [audit] component=transcript action=replay turnState=IDLE tts=on childName=Ila round=0
+🎮 [audit] component=transcript action=accepted turnState=IDLE tts=on childName=Ila round=0
+🎮 [audit] component=word_builder action=wire_corrected reason=session_already_active childName=Ila
+🎮 [audit] component=word_builder action=rejected error=Word Builder is already active. Call canvasClear first if you want to restart it. childName=Ila
+🎮 [audit] component=word_builder action=rejected error=Word Builder is already active. Call canvasClear first if you want to restart it. childName=Ila
+🎮 [audit] component=transcript action=replay turnState=IDLE tts=on childName=Ila round=0
+🎮 [audit] component=transcript action=accepted turnState=IDLE tts=on childName=Ila round=0
+🎮 [audit] component=transcript action=replay turnState=IDLE tts=on childName=Ila round=0
+🎮 [audit] component=transcript action=accepted turnState=IDLE tts=on childName=Ila round=0
+🎮 [audit] component=transcript action=replay turnState=SPEAKING tts=on childName=creator round=0
+🎮 [audit] component=transcript action=accepted turnState=SPEAKING tts=on childName=creator round=0
+🎮 [audit] component=transcript action=replay turnState=LOADING tts=on childName=creator round=0
+🎮 [audit] component=transcript action=accepted turnState=LOADING tts=on childName=creator round=0
+🎮 [audit] component=transcript action=replay turnState=SPEAKING tts=on childName=creator round=0
+🎮 [audit] component=transcript action=accepted turnState=SPEAKING tts=on childName=creator round=0
+🎮 [audit] component=transcript action=queued turnState=PROCESSING tts=on childName=Ila round=0
+🎮 [audit] component=transcript action=replay turnState=IDLE tts=on childName=Ila round=0
+🎮 [audit] component=transcript action=accepted turnState=IDLE tts=on childName=Ila round=0
+🎮 [audit] component=transcript action=queued turnState=PROCESSING tts=off childName=Ila round=0
+🎮 [audit] component=transcript action=replay turnState=IDLE tts=off childName=Ila round=0
+🎮 [audit] component=transcript action=accepted turnState=IDLE tts=off childName=Ila round=0
+🎮 [audit] component=transcript action=queued turnState=PROCESSING tts=off childName=Ila round=0
+🎮 [audit] component=transcript action=replay turnState=IDLE tts=off childName=Ila round=0
+🎮 [audit] component=transcript action=accepted turnState=IDLE tts=off childName=Ila round=0
+🎮 [audit] component=word_builder action=wire_corrected reason=session_already_active childName=Ila
+🎮 [audit] component=word_builder action=rejected error=Word Builder is already active. Call canvasClear first if you want to restart it. childName=Ila
+🎮 [audit] component=word_builder action=rejected error=Word Builder is already active. Call canvasClear first if you want to restart it. childName=Ila
+🎮 [audit] component=transcript action=queued turnState=PROCESSING tts=on childName=Ila round=0
+🎮 [audit] component=transcript action=replay turnState=IDLE tts=on childName=Ila round=0
+🎮 [audit] component=transcript action=accepted turnState=IDLE tts=on childName=Ila round=0
+🎮 [audit] component=transcript action=queued turnState=PROCESSING tts=off childName=Ila round=0
+🎮 [audit] component=transcript action=replay turnState=IDLE tts=off childName=Ila round=0
+🎮 [audit] component=transcript action=accepted turnState=IDLE tts=off childName=Ila round=0
+🎮 [audit] component=transcript action=queued turnState=PROCESSING tts=off childName=Ila round=0
+🎮 [audit] component=transcript action=replay turnState=IDLE tts=off childName=Ila round=0
+🎮 [audit] component=transcript action=accepted turnState=IDLE tts=off childName=Ila round=0
+🎮 [audit] component=transcript action=replay turnState=SPEAKING tts=on childName=creator round=0
+🎮 [audit] component=transcript action=accepted turnState=SPEAKING tts=on childName=creator round=0
+🎮 [audit] component=transcript action=replay turnState=LOADING tts=on childName=creator round=0
+🎮 [audit] component=transcript action=accepted turnState=LOADING tts=on childName=creator round=0
+🎮 [audit] component=transcript action=replay turnState=SPEAKING tts=on childName=creator round=0
+🎮 [audit] component=transcript action=accepted turnState=SPEAKING tts=on childName=creator round=0
+🎮 [audit] component=transcript action=replay turnState=IDLE tts=on childName=Ila round=0
+🎮 [audit] component=transcript action=accepted turnState=IDLE tts=on childName=Ila round=0
+🎮 [audit] component=transcript action=replay turnState=IDLE tts=on childName=Ila round=0
+🎮 [audit] component=transcript action=accepted turnState=IDLE tts=on childName=Ila round=0
+🎮 [audit] component=word_builder action=wire_corrected reason=session_already_active childName=Ila
+🎮 [audit] component=word_builder action=rejected error=Word Builder is already active. Call canvasClear first if you want to restart it. childName=Ila
+🎮 [audit] component=word_builder action=rejected error=Word Builder is already active. Call canvasClear first if you want to restart it. childName=Ila
+🎮 [audit] component=transcript action=queued turnState=PROCESSING tts=on childName=Ila round=0
+🎮 [audit] component=transcript action=replay turnState=IDLE tts=on childName=Ila round=0
+🎮 [audit] component=transcript action=accepted turnState=IDLE tts=on childName=Ila round=0
+🎮 [audit] component=transcript action=queued turnState=PROCESSING tts=off childName=Ila round=0
+🎮 [audit] component=transcript action=replay turnState=IDLE tts=off childName=Ila round=0
+🎮 [audit] component=transcript action=accepted turnState=IDLE tts=off childName=Ila round=0
+🎮 [audit] component=transcript action=queued turnState=PROCESSING tts=off childName=Ila round=0
+🎮 [audit] component=transcript action=replay turnState=IDLE tts=off childName=Ila round=0
+🎮 [audit] component=transcript action=accepted turnState=IDLE tts=off childName=Ila round=0
+🎮 [audit] component=transcript action=replay turnState=SPEAKING tts=on childName=creator round=0
+🎮 [audit] component=transcript action=accepted turnState=SPEAKING tts=on childName=creator round=0
+🎮 [audit] component=transcript action=replay turnState=LOADING tts=on childName=creator round=0
+🎮 [audit] component=transcript action=accepted turnState=LOADING tts=on childName=creator round=0
+🎮 [audit] component=transcript action=replay turnState=SPEAKING tts=on childName=creator round=0
+🎮 [audit] component=transcript action=accepted turnState=SPEAKING tts=on childName=creator round=0
+🎮 [audit] component=transcript action=replay turnState=IDLE tts=on childName=Ila round=0
+🎮 [audit] component=transcript action=accepted turnState=IDLE tts=on childName=Ila round=0
+🎮 [audit] component=transcript action=replay turnState=IDLE tts=on childName=Ila round=0
+🎮 [audit] component=transcript action=accepted turnState=IDLE tts=on childName=Ila round=0
+🎮 [audit] component=word_builder action=wire_corrected reason=session_already_active childName=Ila
+🎮 [audit] component=word_builder action=rejected error=Word Builder is already active. Call canvasClear first if you want to restart it. childName=Ila
+🎮 [audit] component=word_builder action=rejected error=Word Builder is already active. Call canvasClear first if you want to restart it. childName=Ila
+🎮 [audit] component=transcript action=replay turnState=SPEAKING tts=on childName=creator round=0
+🎮 [audit] component=transcript action=accepted turnState=SPEAKING tts=on childName=creator round=0
+🎮 [audit] component=transcript action=replay turnState=LOADING tts=on childName=creator round=0
+🎮 [audit] component=transcript action=accepted turnState=LOADING tts=on childName=creator round=0
+🎮 [audit] component=transcript action=replay turnState=SPEAKING tts=on childName=creator round=0
+🎮 [audit] component=transcript action=accepted turnState=SPEAKING tts=on childName=creator round=0
+🎮 [audit] component=transcript action=queued turnState=PROCESSING tts=on childName=Ila round=0
+🎮 [audit] component=transcript action=replay turnState=IDLE tts=on childName=Ila round=0
+🎮 [audit] component=transcript action=accepted turnState=IDLE tts=on childName=Ila round=0
+🎮 [audit] component=transcript action=queued turnState=PROCESSING tts=off childName=Ila round=0
+🎮 [audit] component=transcript action=replay turnState=IDLE tts=off childName=Ila round=0
+🎮 [audit] component=transcript action=accepted turnState=IDLE tts=off childName=Ila round=0
+🎮 [audit] component=transcript action=queued turnState=PROCESSING tts=off childName=Ila round=0
+🎮 [audit] component=transcript action=replay turnState=IDLE tts=off childName=Ila round=0
+🎮 [audit] component=transcript action=accepted turnState=IDLE tts=off childName=Ila round=0
+🎮 [audit] component=transcript action=replay turnState=IDLE tts=on childName=Ila round=0
+🎮 [audit] component=transcript action=accepted turnState=IDLE tts=on childName=Ila round=0
+🎮 [audit] component=transcript action=replay turnState=IDLE tts=on childName=Ila round=0
+🎮 [audit] component=transcript action=accepted turnState=IDLE tts=on childName=Ila round=0
+🎮 [audit] component=word_builder action=wire_corrected reason=session_already_active childName=Ila
+🎮 [audit] component=word_builder action=rejected error=Word Builder is already active. Call canvasClear first if you want to restart it. childName=Ila
+🎮 [audit] component=word_builder action=rejected error=Word Builder is already active. Call canvasClear first if you want to restart it. childName=Ila
+🎮 [audit] component=transcript action=replay turnState=SPEAKING tts=on childName=creator round=0
+🎮 [audit] component=transcript action=accepted turnState=SPEAKING tts=on childName=creator round=0
+🎮 [audit] component=transcript action=replay turnState=LOADING tts=on childName=creator round=0
+🎮 [audit] component=transcript action=accepted turnState=LOADING tts=on childName=creator round=0
+🎮 [audit] component=transcript action=replay turnState=SPEAKING tts=on childName=creator round=0
+🎮 [audit] component=transcript action=accepted turnState=SPEAKING tts=on childName=creator round=0
+🎮 [audit] component=transcript action=queued turnState=PROCESSING tts=on childName=Ila round=0
+🎮 [audit] component=transcript action=replay turnState=IDLE tts=on childName=Ila round=0
+🎮 [audit] component=transcript action=accepted turnState=IDLE tts=on childName=Ila round=0
+🎮 [audit] component=transcript action=queued turnState=PROCESSING tts=off childName=Ila round=0
+🎮 [audit] component=transcript action=replay turnState=IDLE tts=off childName=Ila round=0
+🎮 [audit] component=transcript action=accepted turnState=IDLE tts=off childName=Ila round=0
+🎮 [audit] component=transcript action=queued turnState=PROCESSING tts=off childName=Ila round=0
+🎮 [audit] component=transcript action=replay turnState=IDLE tts=off childName=Ila round=0
+🎮 [audit] component=transcript action=accepted turnState=IDLE tts=off childName=Ila round=0
+🎮 [audit] component=transcript action=replay turnState=IDLE tts=on childName=Ila round=0
+🎮 [audit] component=transcript action=accepted turnState=IDLE tts=on childName=Ila round=0
+🎮 [audit] component=transcript action=replay turnState=IDLE tts=on childName=Ila round=0
+🎮 [audit] component=transcript action=accepted turnState=IDLE tts=on childName=Ila round=0
+🎮 [audit] component=word_builder action=wire_corrected reason=session_already_active childName=Ila
+🎮 [audit] component=word_builder action=rejected error=Word Builder is already active. Call canvasClear first if you want to restart it. childName=Ila
+🎮 [audit] component=word_builder action=rejected error=Word Builder is already active. Call canvasClear first if you want to restart it. childName=Ila
+🎮 [audit] component=transcript action=replay turnState=SPEAKING tts=on childName=creator round=0
+🎮 [audit] component=transcript action=accepted turnState=SPEAKING tts=on childName=creator round=0
+🎮 [audit] component=transcript action=replay turnState=LOADING tts=on childName=creator round=0
+🎮 [audit] component=transcript action=accepted turnState=LOADING tts=on childName=creator round=0
+🎮 [audit] component=transcript action=replay turnState=SPEAKING tts=on childName=creator round=0
+🎮 [audit] component=transcript action=accepted turnState=SPEAKING tts=on childName=creator round=0
+🎮 [audit] component=transcript action=queued turnState=PROCESSING tts=on childName=Ila round=0
+🎮 [audit] component=transcript action=replay turnState=IDLE tts=on childName=Ila round=0
+🎮 [audit] component=transcript action=accepted turnState=IDLE tts=on childName=Ila round=0
+🎮 [audit] component=transcript action=queued turnState=PROCESSING tts=off childName=Ila round=0
+🎮 [audit] component=transcript action=replay turnState=IDLE tts=off childName=Ila round=0
+🎮 [audit] component=transcript action=accepted turnState=IDLE tts=off childName=Ila round=0
+🎮 [audit] component=transcript action=queued turnState=PROCESSING tts=off childName=Ila round=0
+🎮 [audit] component=transcript action=replay turnState=IDLE tts=off childName=Ila round=0
+🎮 [audit] component=transcript action=accepted turnState=IDLE tts=off childName=Ila round=0
+🎮 [audit] component=transcript action=replay turnState=IDLE tts=on childName=Ila round=0
+🎮 [audit] component=transcript action=accepted turnState=IDLE tts=on childName=Ila round=0
+🎮 [audit] component=transcript action=replay turnState=IDLE tts=on childName=Ila round=0
+🎮 [audit] component=transcript action=accepted turnState=IDLE tts=on childName=Ila round=0
+🎮 [audit] component=word_builder action=wire_corrected reason=session_already_active childName=Ila
+🎮 [audit] component=word_builder action=rejected error=Word Builder is already active. Call canvasClear first if you want to restart it. childName=Ila
+🎮 [audit] component=word_builder action=rejected error=Word Builder is already active. Call canvasClear first if you want to restart it. childName=Ila
+🎮 [audit] component=transcript action=queued turnState=PROCESSING tts=on childName=Ila round=0
+🎮 [audit] component=transcript action=replay turnState=IDLE tts=on childName=Ila round=0
+🎮 [audit] component=transcript action=accepted turnState=IDLE tts=on childName=Ila round=0
+🎮 [audit] component=transcript action=queued turnState=PROCESSING tts=off childName=Ila round=0
+🎮 [audit] component=transcript action=replay turnState=IDLE tts=off childName=Ila round=0
+🎮 [audit] component=transcript action=accepted turnState=IDLE tts=off childName=Ila round=0
+🎮 [audit] component=transcript action=queued turnState=PROCESSING tts=off childName=Ila round=0
+🎮 [audit] component=transcript action=replay turnState=IDLE tts=off childName=Ila round=0
+🎮 [audit] component=transcript action=accepted turnState=IDLE tts=off childName=Ila round=0
+🎮 [audit] component=transcript action=replay turnState=SPEAKING tts=on childName=creator round=0
+🎮 [audit] component=transcript action=accepted turnState=SPEAKING tts=on childName=creator round=0
+🎮 [audit] component=transcript action=replay turnState=LOADING tts=on childName=creator round=0
+🎮 [audit] component=transcript action=accepted turnState=LOADING tts=on childName=creator round=0
+🎮 [audit] component=transcript action=replay turnState=SPEAKING tts=on childName=creator round=0
+🎮 [audit] component=transcript action=accepted turnState=SPEAKING tts=on childName=creator round=0
+🎮 [audit] component=transcript action=replay turnState=IDLE tts=on childName=Ila round=0
+🎮 [audit] component=transcript action=accepted turnState=IDLE tts=on childName=Ila round=0
+🎮 [audit] component=transcript action=replay turnState=IDLE tts=on childName=Ila round=0
+🎮 [audit] component=transcript action=accepted turnState=IDLE tts=on childName=Ila round=0
+🎮 [audit] component=word_builder action=wire_corrected reason=session_already_active childName=Ila
+🎮 [audit] component=word_builder action=rejected error=Word Builder is already active. Call canvasClear first if you want to restart it. childName=Ila
+🎮 [audit] component=word_builder action=rejected error=Word Builder is already active. Call canvasClear first if you want to restart it. childName=Ila
+🎮 [audit] component=transcript action=queued turnState=PROCESSING tts=on childName=Ila round=0
+🎮 [audit] component=transcript action=replay turnState=IDLE tts=on childName=Ila round=0
+🎮 [audit] component=transcript action=accepted turnState=IDLE tts=on childName=Ila round=0
+🎮 [audit] component=transcript action=queued turnState=PROCESSING tts=off childName=Ila round=0
+🎮 [audit] component=transcript action=replay turnState=IDLE tts=off childName=Ila round=0
+🎮 [audit] component=transcript action=accepted turnState=IDLE tts=off childName=Ila round=0
+🎮 [audit] component=transcript action=queued turnState=PROCESSING tts=off childName=Ila round=0
+🎮 [audit] component=transcript action=replay turnState=IDLE tts=off childName=Ila round=0
+🎮 [audit] component=transcript action=accepted turnState=IDLE tts=off childName=Ila round=0
+🎮 [audit] component=transcript action=replay turnState=SPEAKING tts=on childName=creator round=0
+🎮 [audit] component=transcript action=accepted turnState=SPEAKING tts=on childName=creator round=0
+🎮 [audit] component=transcript action=replay turnState=LOADING tts=on childName=creator round=0
+🎮 [audit] component=transcript action=accepted turnState=LOADING tts=on childName=creator round=0
+🎮 [audit] component=transcript action=replay turnState=SPEAKING tts=on childName=creator round=0
+🎮 [audit] component=transcript action=accepted turnState=SPEAKING tts=on childName=creator round=0
+🎮 [audit] component=transcript action=replay turnState=IDLE tts=on childName=Ila round=0
+🎮 [audit] component=transcript action=accepted turnState=IDLE tts=on childName=Ila round=0
+🎮 [audit] component=transcript action=replay turnState=IDLE tts=on childName=Ila round=0
+🎮 [audit] component=transcript action=accepted turnState=IDLE tts=on childName=Ila round=0
+🎮 [audit] component=word_builder action=wire_corrected reason=session_already_active childName=Ila
+🎮 [audit] component=word_builder action=rejected error=Word Builder is already active. Call canvasClear first if you want to restart it. childName=Ila
+🎮 [audit] component=word_builder action=rejected error=Word Builder is already active. Call canvasClear first if you want to restart it. childName=Ila
+🎮 [audit] component=transcript action=replay turnState=IDLE tts=on childName=Ila round=0
+🎮 [audit] component=transcript action=accepted turnState=IDLE tts=on childName=Ila round=0
+🎮 [audit] component=transcript action=replay turnState=IDLE tts=on childName=Ila round=0
+🎮 [audit] component=transcript action=accepted turnState=IDLE tts=on childName=Ila round=0
+🎮 [audit] component=transcript action=replay turnState=SPEAKING tts=on childName=creator round=0
+🎮 [audit] component=transcript action=accepted turnState=SPEAKING tts=on childName=creator round=0
+🎮 [audit] component=transcript action=replay turnState=LOADING tts=on childName=creator round=0
+🎮 [audit] component=transcript action=accepted turnState=LOADING tts=on childName=creator round=0
+🎮 [audit] component=transcript action=replay turnState=SPEAKING tts=on childName=creator round=0
+🎮 [audit] component=transcript action=accepted turnState=SPEAKING tts=on childName=creator round=0
+🎮 [audit] component=transcript action=queued turnState=PROCESSING tts=on childName=Ila round=0
+🎮 [audit] component=transcript action=replay turnState=IDLE tts=on childName=Ila round=0
+🎮 [audit] component=transcript action=accepted turnState=IDLE tts=on childName=Ila round=0
+🎮 [audit] component=transcript action=queued turnState=PROCESSING tts=off childName=Ila round=0
+🎮 [audit] component=transcript action=replay turnState=IDLE tts=off childName=Ila round=0
+🎮 [audit] component=transcript action=accepted turnState=IDLE tts=off childName=Ila round=0
+🎮 [audit] component=transcript action=queued turnState=PROCESSING tts=off childName=Ila round=0
+🎮 [audit] component=transcript action=replay turnState=IDLE tts=off childName=Ila round=0
+🎮 [audit] component=transcript action=accepted turnState=IDLE tts=off childName=Ila round=0
+🎮 [audit] component=transcript action=replay turnState=IDLE tts=on childName=Ila round=0
+🎮 [audit] component=transcript action=accepted turnState=IDLE tts=on childName=Ila round=0
+🎮 [audit] component=transcript action=replay turnState=IDLE tts=on childName=Ila round=0
+🎮 [audit] component=transcript action=accepted turnState=IDLE tts=on childName=Ila round=0
+🎮 [audit] component=word_builder action=wire_corrected reason=session_already_active childName=Ila
+🎮 [audit] component=word_builder action=rejected error=Word Builder is already active. Call canvasClear first if you want to restart it. childName=Ila
+🎮 [audit] component=word_builder action=rejected error=Word Builder is already active. Call canvasClear first if you want to restart it. childName=Ila
+🎮 [audit] component=transcript action=replay turnState=IDLE tts=on childName=Ila round=0
+🎮 [audit] component=transcript action=accepted turnState=IDLE tts=on childName=Ila round=0
+🎮 [audit] component=transcript action=replay turnState=IDLE tts=on childName=Ila round=0
+🎮 [audit] component=transcript action=accepted turnState=IDLE tts=on childName=Ila round=0
+🎮 [audit] component=turn action=barge_in stateBefore=SPEAKING turnState=IDLE tts=on childName=Ila round=1
+🎮 [audit] component=transcript action=replay turnState=SPEAKING tts=on childName=creator round=0
+🎮 [audit] component=transcript action=accepted turnState=SPEAKING tts=on childName=creator round=0
+🎮 [audit] component=transcript action=replay turnState=LOADING tts=on childName=creator round=0
+🎮 [audit] component=transcript action=accepted turnState=LOADING tts=on childName=creator round=0
+🎮 [audit] component=transcript action=replay turnState=SPEAKING tts=on childName=creator round=0
+🎮 [audit] component=transcript action=accepted turnState=SPEAKING tts=on childName=creator round=0
+🎮 [audit] component=transcript action=queued turnState=PROCESSING tts=on childName=Ila round=0
+🎮 [audit] component=transcript action=replay turnState=IDLE tts=on childName=Ila round=0
+🎮 [audit] component=transcript action=accepted turnState=IDLE tts=on childName=Ila round=0
+🎮 [audit] component=transcript action=queued turnState=PROCESSING tts=off childName=Ila round=0
+🎮 [audit] component=transcript action=replay turnState=IDLE tts=off childName=Ila round=0
+🎮 [audit] component=transcript action=accepted turnState=IDLE tts=off childName=Ila round=0
+🎮 [audit] component=transcript action=queued turnState=PROCESSING tts=off childName=Ila round=0
+🎮 [audit] component=transcript action=replay turnState=IDLE tts=off childName=Ila round=0
+🎮 [audit] component=transcript action=accepted turnState=IDLE tts=off childName=Ila round=0
+🎮 [audit] component=transcript action=replay turnState=IDLE tts=on childName=Ila round=0
+🎮 [audit] component=transcript action=accepted turnState=IDLE tts=on childName=Ila round=0
+🎮 [audit] component=transcript action=replay turnState=IDLE tts=on childName=Ila round=0
+🎮 [audit] component=transcript action=accepted turnState=IDLE tts=on childName=Ila round=0
+🎮 [audit] component=word_builder action=wire_corrected reason=session_already_active childName=Ila
+🎮 [audit] component=word_builder action=rejected error=Word Builder is already active. Call canvasClear first if you want to restart it. childName=Ila
+🎮 [audit] component=word_builder action=rejected error=Word Builder is already active. Call canvasClear first if you want to restart it. childName=Ila
+🎮 [audit] component=transcript action=replay turnState=IDLE tts=on childName=Ila round=0
+🎮 [audit] component=transcript action=accepted turnState=IDLE tts=on childName=Ila round=0
+🎮 [audit] component=turn action=barge_in stateBefore=SPEAKING turnState=IDLE tts=on childName=Ila round=1
+🎮 [audit] component=transcript action=replay turnState=SPEAKING tts=on childName=creator round=0
+🎮 [audit] component=transcript action=accepted turnState=SPEAKING tts=on childName=creator round=0
+🎮 [audit] component=transcript action=replay turnState=LOADING tts=on childName=creator round=0
+🎮 [audit] component=transcript action=accepted turnState=LOADING tts=on childName=creator round=0
+🎮 [audit] component=transcript action=replay turnState=SPEAKING tts=on childName=creator round=0
+🎮 [audit] component=transcript action=accepted turnState=SPEAKING tts=on childName=creator round=0
+🎮 [audit] component=transcript action=queued turnState=PROCESSING tts=on childName=Ila round=0
+🎮 [audit] component=transcript action=replay turnState=IDLE tts=on childName=Ila round=0
+🎮 [audit] component=transcript action=accepted turnState=IDLE tts=on childName=Ila round=0
+🎮 [audit] component=transcript action=queued turnState=PROCESSING tts=off childName=Ila round=0
+🎮 [audit] component=transcript action=replay turnState=IDLE tts=off childName=Ila round=0
+🎮 [audit] component=transcript action=accepted turnState=IDLE tts=off childName=Ila round=0
+🎮 [audit] component=transcript action=queued turnState=PROCESSING tts=off childName=Ila round=0
+🎮 [audit] component=transcript action=replay turnState=IDLE tts=off childName=Ila round=0
+🎮 [audit] component=transcript action=accepted turnState=IDLE tts=off childName=Ila round=0
+🎮 [audit] component=transcript action=replay turnState=IDLE tts=on childName=Ila round=0
+🎮 [audit] component=transcript action=accepted turnState=IDLE tts=on childName=Ila round=0
+🎮 [audit] component=transcript action=replay turnState=IDLE tts=on childName=Ila round=0
+🎮 [audit] component=transcript action=accepted turnState=IDLE tts=on childName=Ila round=0
+🎮 [audit] component=word_builder action=wire_corrected reason=session_already_active childName=Ila
+🎮 [audit] component=word_builder action=rejected error=Word Builder is already active. Call canvasClear first if you want to restart it. childName=Ila
+🎮 [audit] component=word_builder action=rejected error=Word Builder is already active. Call canvasClear first if you want to restart it. childName=Ila
+🎮 [audit] component=transcript action=queued turnState=PROCESSING tts=on childName=Ila round=0
+🎮 [audit] component=transcript action=replay turnState=IDLE tts=on childName=Ila round=0
+🎮 [audit] component=transcript action=accepted turnState=IDLE tts=on childName=Ila round=0
+🎮 [audit] component=transcript action=queued turnState=PROCESSING tts=off childName=Ila round=0
+🎮 [audit] component=transcript action=replay turnState=IDLE tts=off childName=Ila round=0
+🎮 [audit] component=transcript action=accepted turnState=IDLE tts=off childName=Ila round=0
+🎮 [audit] component=transcript action=queued turnState=PROCESSING tts=off childName=Ila round=0
+🎮 [audit] component=transcript action=replay turnState=IDLE tts=off childName=Ila round=0
+🎮 [audit] component=transcript action=accepted turnState=IDLE tts=off childName=Ila round=0
+🎮 [audit] component=transcript action=replay turnState=SPEAKING tts=on childName=creator round=0
+🎮 [audit] component=transcript action=accepted turnState=SPEAKING tts=on childName=creator round=0
+🎮 [audit] component=transcript action=replay turnState=LOADING tts=on childName=creator round=0
+🎮 [audit] component=transcript action=accepted turnState=LOADING tts=on childName=creator round=0
+🎮 [audit] component=transcript action=replay turnState=SPEAKING tts=on childName=creator round=0
+🎮 [audit] component=transcript action=accepted turnState=SPEAKING tts=on childName=creator round=0
+🎮 [audit] component=transcript action=replay turnState=IDLE tts=on childName=Ila round=0
+🎮 [audit] component=transcript action=accepted turnState=IDLE tts=on childName=Ila round=0
+🎮 [audit] component=transcript action=replay turnState=IDLE tts=on childName=Ila round=0
+🎮 [audit] component=transcript action=accepted turnState=IDLE tts=on childName=Ila round=0
+🎮 [audit] component=word_builder action=wire_corrected reason=session_already_active childName=Ila
+🎮 [audit] component=word_builder action=rejected error=Word Builder is already active. Call canvasClear first if you want to restart it. childName=Ila
+🎮 [audit] component=word_builder action=rejected error=Word Builder is already active. Call canvasClear first if you want to restart it. childName=Ila
+🎮 [audit] component=transcript action=replay turnState=IDLE tts=on childName=Ila round=0
+🎮 [audit] component=transcript action=accepted turnState=IDLE tts=on childName=Ila round=0
+🎮 [audit] component=transcript action=accepted turnState=IDLE tts=on childName=Ila round=1
+🎮 [audit] component=transcript action=replay turnState=IDLE tts=on childName=Ila round=0
+🎮 [audit] component=transcript action=accepted turnState=IDLE tts=on childName=Ila round=0
+🎮 [audit] component=turn action=barge_in stateBefore=SPEAKING turnState=IDLE tts=on childName=Ila round=1
+🎮 [audit] component=transcript action=accepted turnState=IDLE tts=on childName=Ila round=1
+🎮 [audit] component=transcript action=accepted turnState=IDLE tts=on childName=Ila round=2
+🎮 [audit] component=transcript action=replay turnState=IDLE tts=on childName=Ila round=0
+🎮 [audit] component=transcript action=accepted turnState=IDLE tts=on childName=Ila round=0
+🎮 [audit] component=transcript action=replay turnState=IDLE tts=on childName=Ila round=0
+🎮 [audit] component=transcript action=accepted turnState=IDLE tts=on childName=Ila round=0
+🎮 [audit] component=transcript action=replay turnState=IDLE tts=on childName=Ila round=0
+🎮 [audit] component=transcript action=accepted turnState=IDLE tts=on childName=Ila round=0
+🎮 [audit] component=transcript action=accepted turnState=IDLE tts=on childName=creator round=0
+🎮 [audit] component=transcript action=accepted turnState=IDLE tts=on childName=creator round=1
+🎮 [audit] component=transcript action=accepted turnState=IDLE tts=on childName=creator round=2
+🎮 [audit] component=transcript action=accepted turnState=IDLE tts=on childName=creator round=3
+🎮 [audit] component=transcript action=accepted turnState=IDLE tts=on childName=creator round=4
+🎮 [audit] component=transcript action=duplicate_suppressed turnState=IDLE tts=on childName=creator round=5
+🎮 [audit] component=transcript action=accepted turnState=IDLE tts=on childName=creator round=5
+🎮 [audit] component=transcript action=replay turnState=IDLE tts=on childName=Ila round=0
+🎮 [audit] component=transcript action=accepted turnState=IDLE tts=on childName=Ila round=0
+🎮 [audit] component=transcript action=replay turnState=IDLE tts=on childName=Ila round=0
+🎮 [audit] component=transcript action=accepted turnState=IDLE tts=on childName=Ila round=0
+🎮 [audit] component=transcript action=accepted turnState=IDLE tts=on childName=Ila round=1
+🎮 [audit] component=transcript action=accepted turnState=IDLE tts=on childName=Ila round=2
+🎮 [audit] component=transcript action=replay turnState=SPEAKING tts=on childName=creator round=0
+🎮 [audit] component=transcript action=accepted turnState=SPEAKING tts=on childName=creator round=0
+🎮 [audit] component=transcript action=replay turnState=LOADING tts=on childName=creator round=0
+🎮 [audit] component=transcript action=accepted turnState=LOADING tts=on childName=creator round=0
+🎮 [audit] component=transcript action=replay turnState=SPEAKING tts=on childName=creator round=0
+🎮 [audit] component=transcript action=accepted turnState=SPEAKING tts=on childName=creator round=0
+🎮 [audit] component=transcript action=queued turnState=PROCESSING tts=on childName=Ila round=0
+🎮 [audit] component=transcript action=replay turnState=IDLE tts=on childName=Ila round=0
+🎮 [audit] component=transcript action=accepted turnState=IDLE tts=on childName=Ila round=0
+🎮 [audit] component=transcript action=queued turnState=PROCESSING tts=off childName=Ila round=0
+🎮 [audit] component=transcript action=replay turnState=IDLE tts=off childName=Ila round=0
+🎮 [audit] component=transcript action=accepted turnState=IDLE tts=off childName=Ila round=0
+🎮 [audit] component=transcript action=queued turnState=PROCESSING tts=off childName=Ila round=0
+🎮 [audit] component=transcript action=replay turnState=IDLE tts=off childName=Ila round=0
+🎮 [audit] component=transcript action=accepted turnState=IDLE tts=off childName=Ila round=0
+🎮 [audit] component=transcript action=replay turnState=IDLE tts=on childName=Ila round=0
+🎮 [audit] component=transcript action=accepted turnState=IDLE tts=on childName=Ila round=0
+🎮 [audit] component=transcript action=replay turnState=IDLE tts=on childName=Ila round=0
+🎮 [audit] component=transcript action=accepted turnState=IDLE tts=on childName=Ila round=0
+🎮 [audit] component=word_builder action=wire_corrected reason=session_already_active childName=Ila
+🎮 [audit] component=word_builder action=rejected error=Word Builder is already active. Call canvasClear first if you want to restart it. childName=Ila
+🎮 [audit] component=word_builder action=rejected error=Word Builder is already active. Call canvasClear first if you want to restart it. childName=Ila
+🎮 [audit] component=transcript action=replay turnState=IDLE tts=on childName=Ila round=0
+🎮 [audit] component=transcript action=accepted turnState=IDLE tts=on childName=Ila round=0
+🎮 [audit] component=transcript action=accepted turnState=IDLE tts=on childName=Ila round=1
+🎮 [audit] component=transcript action=accepted turnState=IDLE tts=on childName=Ila round=2
+🎮 [audit] component=turn action=barge_in stateBefore=SPEAKING turnState=IDLE tts=on childName=Ila round=3
+🎮 [audit] component=transcript action=accepted turnState=IDLE tts=on childName=Ila round=3
+🎮 [audit] component=transcript action=accepted turnState=IDLE tts=on childName=Ila round=4
+🎮 [audit] component=transcript action=replay turnState=IDLE tts=on childName=Ila round=0
+🎮 [audit] component=transcript action=accepted turnState=IDLE tts=on childName=Ila round=0
+🎮 [audit] component=transcript action=accepted turnState=IDLE tts=on childName=Ila round=1
+🎮 [audit] component=transcript action=accepted turnState=IDLE tts=on childName=Ila round=2
+🎮 [audit] component=transcript action=accepted turnState=IDLE tts=on childName=Ila round=3
+🎮 [audit] component=transcript action=accepted turnState=IDLE tts=on childName=Ila round=4
+🎮 [audit] component=transcript action=replay turnState=SPEAKING tts=on childName=creator round=0
+🎮 [audit] component=transcript action=accepted turnState=SPEAKING tts=on childName=creator round=0
+🎮 [audit] component=transcript action=replay turnState=LOADING tts=on childName=creator round=0
+🎮 [audit] component=transcript action=accepted turnState=LOADING tts=on childName=creator round=0
+🎮 [audit] component=transcript action=replay turnState=SPEAKING tts=on childName=creator round=0
+🎮 [audit] component=transcript action=accepted turnState=SPEAKING tts=on childName=creator round=0
+🎮 [audit] component=transcript action=queued turnState=PROCESSING tts=on childName=Ila round=0
+🎮 [audit] component=transcript action=replay turnState=IDLE tts=on childName=Ila round=0
+🎮 [audit] component=transcript action=accepted turnState=IDLE tts=on childName=Ila round=0
+🎮 [audit] component=transcript action=queued turnState=PROCESSING tts=off childName=Ila round=0
+🎮 [audit] component=transcript action=replay turnState=IDLE tts=off childName=Ila round=0
+🎮 [audit] component=transcript action=accepted turnState=IDLE tts=off childName=Ila round=0
+🎮 [audit] component=transcript action=queued turnState=PROCESSING tts=off childName=Ila round=0
+🎮 [audit] component=transcript action=replay turnState=IDLE tts=off childName=Ila round=0
+🎮 [audit] component=transcript action=accepted turnState=IDLE tts=off childName=Ila round=0
+🎮 [audit] component=transcript action=replay turnState=IDLE tts=on childName=Ila round=0
+🎮 [audit] component=transcript action=accepted turnState=IDLE tts=on childName=Ila round=0
+🎮 [audit] component=transcript action=replay turnState=IDLE tts=on childName=Ila round=0
+🎮 [audit] component=transcript action=accepted turnState=IDLE tts=on childName=Ila round=0
+🎮 [audit] component=word_builder action=wire_corrected reason=session_already_active childName=Ila
+🎮 [audit] component=word_builder action=rejected error=Word Builder is already active. Call canvasClear first if you want to restart it. childName=Ila
+🎮 [audit] component=word_builder action=rejected error=Word Builder is already active. Call canvasClear first if you want to restart it. childName=Ila
+🎮 [audit] component=transcript action=queued turnState=PROCESSING tts=on childName=Ila round=0
+🎮 [audit] component=transcript action=replay turnState=IDLE tts=on childName=Ila round=0
+🎮 [audit] component=transcript action=accepted turnState=IDLE tts=on childName=Ila round=0
+🎮 [audit] component=transcript action=queued turnState=PROCESSING tts=off childName=Ila round=0
+🎮 [audit] component=transcript action=replay turnState=IDLE tts=off childName=Ila round=0
+🎮 [audit] component=transcript action=accepted turnState=IDLE tts=off childName=Ila round=0
+🎮 [audit] component=transcript action=queued turnState=PROCESSING tts=off childName=Ila round=0
+🎮 [audit] component=transcript action=replay turnState=IDLE tts=off childName=Ila round=0
+🎮 [audit] component=transcript action=accepted turnState=IDLE tts=off childName=Ila round=0
+🎮 [audit] component=transcript action=replay turnState=SPEAKING tts=on childName=creator round=0
+🎮 [audit] component=transcript action=accepted turnState=SPEAKING tts=on childName=creator round=0
+🎮 [audit] component=transcript action=replay turnState=LOADING tts=on childName=creator round=0
+🎮 [audit] component=transcript action=accepted turnState=LOADING tts=on childName=creator round=0
+🎮 [audit] component=transcript action=replay turnState=SPEAKING tts=on childName=creator round=0
+🎮 [audit] component=transcript action=accepted turnState=SPEAKING tts=on childName=creator round=0
+🎮 [audit] component=transcript action=replay turnState=IDLE tts=on childName=Ila round=0
+🎮 [audit] component=transcript action=accepted turnState=IDLE tts=on childName=Ila round=0
+🎮 [audit] component=transcript action=replay turnState=IDLE tts=on childName=Ila round=0
+🎮 [audit] component=transcript action=accepted turnState=IDLE tts=on childName=Ila round=0
+🎮 [audit] component=word_builder action=wire_corrected reason=session_already_active childName=Ila
+🎮 [audit] component=word_builder action=rejected error=Word Builder is already active. Call canvasClear first if you want to restart it. childName=Ila
+🎮 [audit] component=word_builder action=rejected error=Word Builder is already active. Call canvasClear first if you want to restart it. childName=Ila
+🎮 [audit] component=transcript action=replay turnState=IDLE tts=on childName=Ila round=0
+🎮 [audit] component=transcript action=accepted turnState=IDLE tts=on childName=Ila round=0
+🎮 [audit] component=transcript action=accepted turnState=IDLE tts=on childName=Ila round=1
+🎮 [audit] component=transcript action=accepted turnState=IDLE tts=on childName=Ila round=2
+🎮 [audit] component=transcript action=queued turnState=PROCESSING tts=on childName=Ila round=3
+🎮 [audit] component=transcript action=queued turnState=PROCESSING tts=on childName=Ila round=3
+🎮 [audit] component=transcript action=replay turnState=IDLE tts=on childName=Ila round=3
+🎮 [audit] component=transcript action=accepted turnState=IDLE tts=on childName=Ila round=3
+🎮 [audit] component=turn action=barge_in stateBefore=SPEAKING turnState=IDLE tts=on childName=Ila round=4
+🎮 [audit] component=transcript action=accepted turnState=IDLE tts=on childName=Ila round=4

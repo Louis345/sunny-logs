@@ -1,0 +1,17 @@
+{
+  "turnState": "IDLE",
+  "roundNumber": 52,
+  "isEnding": true,
+  "childName": "Reina",
+  "sessionId": "bddc80e6-2bd7-40f0-bb16-ac61c570ec77",
+  "canvasMode": "idle",
+  "activeGame": null,
+  "pendingTranscript": false,
+  "pendingTranscriptLength": 0,
+  "wbActive": false,
+  "wbRound": 0,
+  "spellCheckSessionActive": false,
+  "activeSpellCheckWord": null,
+  "tts": "on",
+  "conversationTurns": 167
+}

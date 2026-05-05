@@ -1,0 +1,16 @@
+{
+  "sessionId": "3cc9ba35-c0c0-4f82-99f6-5132dc4a71dd",
+  "child": "Ila",
+  "subject": "spelling",
+  "mode": "as-child",
+  "startedAt": "2026-05-04T02:37:50.338Z",
+  "command": "npm run npx",
+  "gitCommit": "bf2c552",
+  "envFlags": {
+    "TTS_ENABLED": "false",
+    "SUNNY_MODE": "as-child",
+    "SUNNY_CHILD": "ila",
+    "SUNNY_SUBJECT": "onboarding",
+    "ADVENTURE_MAP": "true"
+  }
+}
