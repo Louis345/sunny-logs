@@ -1,3 +1,10 @@
 🎮 [audit] component=transcript action=accepted turnState=IDLE tts=on childName=Reina round=0
 🎮 [audit] component=transcript action=dropped reason=assistant_owns_turn turnState=SPEAKING tts=on childName=Reina round=1
 🎮 [audit] component=transcript action=accepted turnState=IDLE tts=on childName=Reina round=0
+🎮 [audit] component=transcript action=accepted turnState=IDLE tts=on childName=Reina round=0
+🎮 [audit] component=turn action=barge_in stateBefore=IDLE turnState=IDLE tts=on childName=Reina round=1
+🎮 [audit] component=turn action=barge_in stateBefore=IDLE turnState=IDLE tts=on childName=Reina round=1
+🎮 [audit] component=transcript action=accepted turnState=IDLE tts=on childName=Reina round=1
+🎮 [audit] component=turn action=barge_in stateBefore=SPEAKING turnState=IDLE tts=on childName=Reina round=2
+🎮 [audit] component=transcript action=accepted turnState=IDLE tts=on childName=Reina round=2
+🎮 [audit] component=transcript action=accepted turnState=IDLE tts=on childName=Reina round=3
