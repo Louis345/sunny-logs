@@ -1,0 +1,16 @@
+{
+  "sessionId": "626f60f2-b0c4-42bc-bdc1-ef028894ac5b",
+  "child": "Reina",
+  "subject": "homework",
+  "mode": "as-child",
+  "startedAt": "2026-05-11T22:43:06.441Z",
+  "command": "npm run npx",
+  "gitCommit": "7bbbafb",
+  "envFlags": {
+    "TTS_ENABLED": "true",
+    "SUNNY_MODE": "as-child",
+    "SUNNY_CHILD": "reina",
+    "SUNNY_SUBJECT": "homework",
+    "ADVENTURE_MAP": "true"
+  }
+}

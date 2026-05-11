@@ -25,3 +25,5 @@
 🎮 [audit] component=transcript action=accepted turnState=SPEAKING tts=on childName=creator round=0
 🎮 [audit] component=transcript action=accepted turnState=IDLE tts=on childName=Ila round=0
 🎮 [audit] component=transcript action=accepted turnState=IDLE tts=on childName=Ila round=0
+🎮 [audit] component=transcript action=accepted turnState=IDLE tts=on childName=Reina round=0
+🎮 [audit] component=transcript action=accepted turnState=IDLE tts=on childName=Reina round=1
