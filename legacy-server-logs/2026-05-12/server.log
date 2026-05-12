@@ -66,3 +66,5 @@
 🎮 [audit] component=transcript action=queued turnState=PROCESSING tts=on childName=Reina round=22
 🎮 [audit] component=turn action=barge_in stateBefore=SPEAKING turnState=IDLE tts=on childName=Reina round=22
 🎮 [audit] component=transcript action=accepted turnState=IDLE tts=on childName=Reina round=22
+🎮 [audit] component=transcript action=accepted turnState=IDLE tts=on childName=Reina round=0
+🎮 [audit] component=transcript action=accepted turnState=IDLE tts=on childName=Reina round=1
