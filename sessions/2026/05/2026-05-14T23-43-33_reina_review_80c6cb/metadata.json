@@ -1,0 +1,17 @@
+{
+  "sessionId": "80c6cbe0-b0b6-4506-84e5-0e22a14ffe8b",
+  "child": "Reina",
+  "subject": "review",
+  "mode": "real",
+  "startedAt": "2026-05-14T23:43:33.097Z",
+  "command": "npm run npx",
+  "gitCommit": "ec55b2b",
+  "envFlags": {
+    "TTS_ENABLED": "true",
+    "SUNNY_MODE": "real",
+    "SUNNY_CHILD": "",
+    "SUNNY_SUBJECT": "review",
+    "SUNNY_PREVIEW_MODE": "",
+    "ADVENTURE_MAP": "true"
+  }
+}
