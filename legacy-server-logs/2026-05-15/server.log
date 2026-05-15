@@ -46,3 +46,30 @@
 🎮 [audit] component=transcript action=duplicate_suppressed turnState=IDLE tts=on childName=Ila round=5
 🎮 [audit] component=transcript action=urgent_learning_support turnState=IDLE tts=on childName=Ila round=5
 🎮 [audit] component=transcript action=urgent_learning_support turnState=IDLE tts=on childName=Ila round=5
+🎮 [audit] component=transcript action=duplicate_suppressed turnState=IDLE tts=on childName=Ila round=0
+🎮 [audit] component=transcript action=accepted turnState=IDLE tts=on childName=Ila round=0
+🎮 [audit] component=transcript action=replay turnState=IDLE tts=on childName=Ila round=0
+🎮 [audit] component=transcript action=accepted turnState=IDLE tts=on childName=Ila round=0
+🎮 [audit] component=transcript action=replay turnState=IDLE tts=on childName=Reina round=0
+🎮 [audit] component=transcript action=accepted turnState=IDLE tts=on childName=Reina round=0
+🎮 [audit] component=transcript action=replay turnState=IDLE tts=on childName=Ila round=0
+🎮 [audit] component=transcript action=accepted turnState=IDLE tts=on childName=Ila round=0
+🎮 [audit] component=turn action=barge_in stateBefore=PROCESSING turnState=IDLE tts=on childName=Ila round=0
+🎮 [audit] component=transcript action=urgent_learning_support turnState=PROCESSING tts=on childName=Ila round=0
+🎮 [audit] component=transcript action=urgent_learning_support turnState=IDLE tts=on childName=Ila round=1
+🎮 [audit] component=transcript action=replay turnState=IDLE tts=on childName=Ila round=0
+🎮 [audit] component=transcript action=accepted turnState=IDLE tts=on childName=Ila round=0
+🎮 [audit] component=transcript action=replay turnState=IDLE tts=on childName=Reina round=0
+🎮 [audit] component=transcript action=accepted turnState=IDLE tts=on childName=Reina round=0
+🎮 [audit] component=transcript action=replay turnState=IDLE tts=on childName=Ila round=0
+🎮 [audit] component=transcript action=accepted turnState=IDLE tts=on childName=Ila round=0
+🎮 [audit] component=turn action=barge_in stateBefore=PROCESSING turnState=IDLE tts=on childName=Ila round=0
+🎮 [audit] component=transcript action=urgent_learning_support turnState=PROCESSING tts=on childName=Ila round=0
+🎮 [audit] component=transcript action=replay turnState=IDLE tts=on childName=Ila round=0
+🎮 [audit] component=transcript action=accepted turnState=IDLE tts=on childName=Ila round=0
+🎮 [audit] component=transcript action=replay turnState=IDLE tts=on childName=Reina round=0
+🎮 [audit] component=transcript action=accepted turnState=IDLE tts=on childName=Reina round=0
+🎮 [audit] component=transcript action=replay turnState=IDLE tts=on childName=Ila round=0
+🎮 [audit] component=transcript action=accepted turnState=IDLE tts=on childName=Ila round=0
+🎮 [audit] component=turn action=barge_in stateBefore=PROCESSING turnState=IDLE tts=on childName=Ila round=0
+🎮 [audit] component=transcript action=urgent_learning_support turnState=PROCESSING tts=on childName=Ila round=0

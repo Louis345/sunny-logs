@@ -1,0 +1,17 @@
+{
+  "sessionId": "bda3bda7-cd04-4574-8565-8d58ce1fc6a7",
+  "child": "Ila",
+  "subject": "review",
+  "mode": "real",
+  "startedAt": "2026-05-15T00:48:37.763Z",
+  "command": "npm run npx",
+  "gitCommit": "ec55b2b",
+  "envFlags": {
+    "TTS_ENABLED": "true",
+    "SUNNY_MODE": "real",
+    "SUNNY_CHILD": "",
+    "SUNNY_SUBJECT": "review",
+    "SUNNY_PREVIEW_MODE": "",
+    "ADVENTURE_MAP": "true"
+  }
+}
