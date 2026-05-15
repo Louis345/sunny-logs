@@ -99,3 +99,5 @@
 🎮 [audit] component=transcript action=accepted turnState=IDLE tts=on childName=Ila round=9
 🎮 [audit] component=transcript action=accepted turnState=IDLE tts=on childName=Ila round=10
 🎮 [audit] component=transcript action=accepted turnState=IDLE tts=on childName=Ila round=11
+🎮 [audit] component=transcript action=replay turnState=IDLE tts=on childName=Ila round=0
+🎮 [audit] component=transcript action=accepted turnState=IDLE tts=on childName=Ila round=0
