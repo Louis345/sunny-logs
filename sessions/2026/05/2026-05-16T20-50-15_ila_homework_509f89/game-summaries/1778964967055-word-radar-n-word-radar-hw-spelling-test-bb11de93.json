@@ -1,0 +1,43 @@
+{
+  "ts": "2026-05-16T20:56:07.055Z",
+  "sessionId": "509f8961-344c-4137-ac04-f933d9e865fb",
+  "child": "Ila",
+  "subject": "homework",
+  "game": "word-radar",
+  "nodeId": "n-word-radar-hw-spelling_test-bb11de93",
+  "activityId": "word-radar",
+  "activityIntent": null,
+  "targetSelectorDecision": null,
+  "targetLane": null,
+  "targetsShown": [
+    "machine",
+    "pair",
+    "quickly",
+    "scientist",
+    "thousand",
+    "understood",
+    "wait"
+  ],
+  "attempts": 7,
+  "correctWords": [
+    "machine",
+    "pair",
+    "quickly",
+    "wait"
+  ],
+  "missedWords": [
+    "scientist",
+    "thousand",
+    "understood"
+  ],
+  "recoveredWords": [],
+  "visibleScore": null,
+  "coinsEarned": null,
+  "answerVisibilityEvents": [
+    "visible"
+  ],
+  "helpRequests": [],
+  "completed": true,
+  "accuracy": 0.5714285714285714,
+  "timeSpent_ms": 129674
+}
