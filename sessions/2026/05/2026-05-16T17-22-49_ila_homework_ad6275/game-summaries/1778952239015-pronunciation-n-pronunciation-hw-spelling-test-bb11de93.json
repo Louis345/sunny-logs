@@ -1,0 +1,49 @@
+{
+  "ts": "2026-05-16T17:23:59.009Z",
+  "sessionId": "ad627521-09cc-47e0-a8c2-0d4fbf8df31b",
+  "child": "Ila",
+  "subject": "homework",
+  "game": "pronunciation",
+  "nodeId": "n-pronunciation-hw-spelling_test-bb11de93",
+  "activityId": "pronunciation",
+  "targetLane": null,
+  "targetsShown": [
+    "above",
+    "ago",
+    "about",
+    "ahead",
+    "away",
+    "alone",
+    "alike",
+    "awake",
+    "along",
+    "again",
+    "government",
+    "half"
+  ],
+  "attempts": 8,
+  "correctWords": [
+    "above",
+    "ago",
+    "about",
+    "ahead",
+    "away"
+  ],
+  "missedWords": [
+    "above",
+    "away"
+  ],
+  "recoveredWords": [
+    "above",
+    "away"
+  ],
+  "visibleScore": null,
+  "coinsEarned": null,
+  "answerVisibilityEvents": [
+    "visible"
+  ],
+  "helpRequests": [],
+  "completed": true,
+  "accuracy": 0.63,
+  "timeSpent_ms": 0
+}
