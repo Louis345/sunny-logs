@@ -74,3 +74,13 @@
 🎮 [audit] component=transcript action=accepted turnState=IDLE tts=on childName=Ila round=32
 🎮 [audit] component=transcript action=accepted turnState=IDLE tts=on childName=Ila round=33
 🎮 [audit] component=transcript action=accepted turnState=IDLE tts=on childName=Ila round=34
+🎮 [audit] component=transcript action=replay turnState=IDLE tts=on childName=Ila round=0
+🎮 [audit] component=transcript action=accepted turnState=IDLE tts=on childName=Ila round=0
+🎮 [audit] component=transcript action=accepted turnState=IDLE tts=on childName=Ila round=1
+🎮 [audit] component=transcript action=accepted turnState=IDLE tts=on childName=Ila round=2
+🎮 [audit] component=transcript action=accepted turnState=IDLE tts=on childName=Ila round=3
+🎮 [audit] component=transcript action=accepted turnState=IDLE tts=on childName=Ila round=4
+🎮 [audit] component=transcript action=accepted turnState=IDLE tts=on childName=Ila round=5
+🎮 [audit] component=transcript action=accepted turnState=IDLE tts=on childName=Ila round=6
+🎮 [audit] component=transcript action=accepted turnState=IDLE tts=on childName=Ila round=7
+🎮 [audit] component=transcript action=accepted turnState=IDLE tts=on childName=Ila round=8
