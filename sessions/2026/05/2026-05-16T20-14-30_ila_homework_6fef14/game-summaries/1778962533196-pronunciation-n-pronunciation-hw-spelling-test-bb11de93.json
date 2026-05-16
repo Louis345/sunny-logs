@@ -1,0 +1,49 @@
+{
+  "ts": "2026-05-16T20:15:33.196Z",
+  "sessionId": "6fef14c1-f55e-4fcb-a120-2d4e02d419ad",
+  "child": "Ila",
+  "subject": "homework",
+  "game": "pronunciation",
+  "nodeId": "n-pronunciation-hw-spelling_test-bb11de93",
+  "activityId": "pronunciation",
+  "activityIntent": null,
+  "targetSelectorDecision": null,
+  "targetLane": null,
+  "targetsShown": [
+    "ago",
+    "government",
+    "half",
+    "machine",
+    "pair",
+    "quickly",
+    "scientist",
+    "thousand",
+    "understood",
+    "wait"
+  ],
+  "attempts": 8,
+  "correctWords": [
+    "ago",
+    "government",
+    "half"
+  ],
+  "missedWords": [
+    "machine",
+    "pair",
+    "quickly",
+    "scientist",
+    "thousand",
+    "understood",
+    "wait"
+  ],
+  "recoveredWords": [],
+  "visibleScore": null,
+  "coinsEarned": null,
+  "answerVisibilityEvents": [
+    "visible"
+  ],
+  "helpRequests": [],
+  "completed": true,
+  "accuracy": 0.38,
+  "timeSpent_ms": 0
+}
