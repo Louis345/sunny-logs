@@ -158,3 +158,11 @@
 🎮 [audit] component=transcript action=accepted turnState=IDLE tts=on childName=Ila round=11
 🎮 [audit] component=transcript action=dropped reason=assistant_owns_turn turnState=SPEAKING tts=on childName=Ila round=12
 🎮 [audit] component=transcript action=accepted turnState=IDLE tts=on childName=Ila round=12
+🎮 [audit] component=transcript action=replay turnState=IDLE tts=on childName=Ila round=0
+🎮 [audit] component=transcript action=accepted turnState=IDLE tts=on childName=Ila round=0
+🎮 [audit] component=transcript action=urgent_learning_organic turnState=IDLE tts=on childName=Ila round=1
+🎮 [audit] component=transcript action=accepted turnState=IDLE tts=on childName=Ila round=1
+🎮 [audit] component=transcript action=accepted turnState=IDLE tts=on childName=Ila round=2
+🎮 [audit] component=transcript action=accepted turnState=IDLE tts=on childName=Ila round=3
+🎮 [audit] component=transcript action=accepted turnState=IDLE tts=on childName=Ila round=4
+🎮 [audit] component=transcript action=accepted turnState=IDLE tts=on childName=Ila round=5
