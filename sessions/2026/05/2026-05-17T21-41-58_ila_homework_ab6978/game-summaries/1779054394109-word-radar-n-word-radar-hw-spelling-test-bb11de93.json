@@ -1,0 +1,235 @@
+{
+  "ts": "2026-05-17T21:46:34.108Z",
+  "sessionId": "ab6978fa-8928-43fc-8766-8c617ac49acc",
+  "child": "Ila",
+  "subject": "homework",
+  "game": "word-radar",
+  "nodeId": "n-word-radar-hw-spelling_test-bb11de93",
+  "activityId": "word-radar",
+  "activityIntentId": "intent-ila-word-radar-n-word-radar-hw-spelling_test-bb11de93-2026-05-17T21-44-45-030Z",
+  "targetSelectorId": "selector-ila-word-radar-2026-05-17T21-44-45-031Z",
+  "activityIntent": {
+    "intentId": "intent-ila-word-radar-n-word-radar-hw-spelling_test-bb11de93-2026-05-17T21-44-45-030Z",
+    "activityId": "word-radar",
+    "nodeId": "n-word-radar-hw-spelling_test-bb11de93",
+    "purpose": "recognition_recall_scan",
+    "carePlanHypothesis": "Use chart evidence to choose a spelling instrument and update the next plan.",
+    "targetSelector": "due_or_fragile_recall",
+    "selectedTargets": [
+      {
+        "target": "machine",
+        "reasons": [
+          "recent miss",
+          "fragile target",
+          "spaced repetition due",
+          "care-plan priority",
+          "homework target",
+          "available in launched activity"
+        ],
+        "evidenceTypes": [
+          "recent_miss",
+          "fragile_target",
+          "sm2_due",
+          "care_plan_priority",
+          "homework_target",
+          "activity_target"
+        ],
+        "score": 305
+      },
+      {
+        "target": "pair",
+        "reasons": [
+          "recent miss",
+          "fragile target",
+          "spaced repetition due",
+          "care-plan priority",
+          "homework target",
+          "available in launched activity"
+        ],
+        "evidenceTypes": [
+          "recent_miss",
+          "fragile_target",
+          "sm2_due",
+          "care_plan_priority",
+          "homework_target",
+          "activity_target"
+        ],
+        "score": 305
+      },
+      {
+        "target": "quickly",
+        "reasons": [
+          "recent miss",
+          "fragile target",
+          "spaced repetition due",
+          "care-plan priority",
+          "homework target",
+          "available in launched activity"
+        ],
+        "evidenceTypes": [
+          "recent_miss",
+          "fragile_target",
+          "sm2_due",
+          "care_plan_priority",
+          "homework_target",
+          "activity_target"
+        ],
+        "score": 305
+      },
+      {
+        "target": "scientist",
+        "reasons": [
+          "recent miss",
+          "fragile target",
+          "spaced repetition due",
+          "care-plan priority",
+          "homework target",
+          "available in launched activity"
+        ],
+        "evidenceTypes": [
+          "recent_miss",
+          "fragile_target",
+          "sm2_due",
+          "care_plan_priority",
+          "homework_target",
+          "activity_target"
+        ],
+        "score": 305
+      },
+      {
+        "target": "thousand",
+        "reasons": [
+          "recent miss",
+          "fragile target",
+          "spaced repetition due",
+          "care-plan priority",
+          "homework target",
+          "available in launched activity"
+        ],
+        "evidenceTypes": [
+          "recent_miss",
+          "fragile_target",
+          "sm2_due",
+          "care_plan_priority",
+          "homework_target",
+          "activity_target"
+        ],
+        "score": 305
+      },
+      {
+        "target": "understood",
+        "reasons": [
+          "recent miss",
+          "fragile target",
+          "spaced repetition due",
+          "care-plan priority",
+          "homework target",
+          "available in launched activity"
+        ],
+        "evidenceTypes": [
+          "recent_miss",
+          "fragile_target",
+          "sm2_due",
+          "care_plan_priority",
+          "homework_target",
+          "activity_target"
+        ],
+        "score": 305
+      },
+      {
+        "target": "wait",
+        "reasons": [
+          "recent miss",
+          "fragile target",
+          "spaced repetition due",
+          "care-plan priority",
+          "homework target",
+          "available in launched activity"
+        ],
+        "evidenceTypes": [
+          "recent_miss",
+          "fragile_target",
+          "sm2_due",
+          "care_plan_priority",
+          "homework_target",
+          "activity_target"
+        ],
+        "score": 305
+      }
+    ],
+    "diagnosticQuestion": "Can the child recognize or recall due words under timed pressure?",
+    "expectedEvidence": [
+      "targetResults",
+      "responseTime_ms",
+      "missedWords",
+      "slowTargets",
+      "recallMode"
+    ],
+    "successCriteria": [
+      "fast accurate responses in hidden or captured recall mode"
+    ],
+    "reviseCriteria": [
+      "known words are slow",
+      "visual mode succeeds but hidden recall drops"
+    ],
+    "falsifyCriteria": [
+      "timer creates frustration before useful evidence"
+    ],
+    "evidenceTier": "clean_recall",
+    "masteryEligible": true,
+    "companionSpeechPolicy": {
+      "mentionOnlyCurrentSnapshot": true,
+      "answerVisibility": "visible",
+      "canSpeakTargetBeforeReveal": true
+    },
+    "createdAt": "2026-05-17T21:44:45.030Z"
+  },
+  "targetSelectorDecision": {
+    "selectorId": "selector-ila-word-radar-2026-05-17T21-44-45-031Z",
+    "activityId": "word-radar",
+    "nodeId": "n-word-radar-hw-spelling_test-bb11de93",
+    "targetSelector": "due_or_fragile_recall",
+    "selectedTargets": [
+      "machine",
+      "pair",
+      "quickly",
+      "scientist",
+      "thousand",
+      "understood",
+      "wait"
+    ],
+    "traceSummary": "Word Radar selected \"machine\", \"pair\", \"quickly\", \"scientist\", \"thousand\", \"understood\", \"wait\" because recent miss, fragile target, spaced repetition due, care-plan priority, homework target, available in launched activity."
+  },
+  "targetLane": null,
+  "targetsShown": [
+    "machine",
+    "pair",
+    "quickly",
+    "scientist",
+    "thousand",
+    "understood",
+    "wait"
+  ],
+  "attempts": 7,
+  "correctWords": [
+    "machine",
+    "pair",
+    "quickly",
+    "wait"
+  ],
+  "missedWords": [
+    "scientist",
+    "thousand",
+    "understood"
+  ],
+  "recoveredWords": [],
+  "visibleScore": null,
+  "coinsEarned": null,
+  "answerVisibilityEvents": [
+    "hidden"
+  ],
+  "helpRequests": [],
+  "completed": true,
+  "accuracy": 0.5714285714285714,
+  "timeSpent_ms": 107319
+}

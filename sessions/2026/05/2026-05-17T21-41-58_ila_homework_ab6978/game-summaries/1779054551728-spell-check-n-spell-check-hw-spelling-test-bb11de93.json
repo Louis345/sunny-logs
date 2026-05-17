@@ -1,0 +1,194 @@
+{
+  "ts": "2026-05-17T21:49:11.728Z",
+  "sessionId": "ab6978fa-8928-43fc-8766-8c617ac49acc",
+  "child": "Ila",
+  "subject": "homework",
+  "game": "spell-check",
+  "nodeId": "n-spell-check-hw-spelling_test-bb11de93",
+  "activityId": "spell-check",
+  "activityIntentId": "intent-ila-spell-check-n-spell-check-hw-spelling_test-bb11de93-2026-05-17T21-46-57-976Z",
+  "targetSelectorId": "selector-ila-spell-check-2026-05-17T21-46-57-977Z",
+  "activityIntent": {
+    "intentId": "intent-ila-spell-check-n-spell-check-hw-spelling_test-bb11de93-2026-05-17T21-46-57-976Z",
+    "activityId": "spell-check",
+    "nodeId": "n-spell-check-hw-spelling_test-bb11de93",
+    "purpose": "spelling_production_from_memory",
+    "carePlanHypothesis": "Use chart evidence to choose a spelling instrument and update the next plan.",
+    "targetSelector": "production_targets",
+    "selectedTargets": [
+      {
+        "target": "ago",
+        "reasons": [
+          "recent miss",
+          "fragile target",
+          "needed scaffold support",
+          "care-plan priority",
+          "spaced repetition due",
+          "homework target",
+          "available in launched activity"
+        ],
+        "evidenceTypes": [
+          "recent_miss",
+          "fragile_target",
+          "scaffold_use",
+          "care_plan_priority",
+          "sm2_due",
+          "homework_target",
+          "activity_target"
+        ],
+        "score": 375
+      },
+      {
+        "target": "above",
+        "reasons": [
+          "recent miss",
+          "fragile target",
+          "needed scaffold support",
+          "care-plan priority",
+          "spaced repetition due",
+          "homework target",
+          "available in launched activity"
+        ],
+        "evidenceTypes": [
+          "recent_miss",
+          "fragile_target",
+          "scaffold_use",
+          "care_plan_priority",
+          "sm2_due",
+          "homework_target",
+          "activity_target"
+        ],
+        "score": 375
+      },
+      {
+        "target": "away",
+        "reasons": [
+          "recent miss",
+          "fragile target",
+          "needed scaffold support",
+          "care-plan priority",
+          "spaced repetition due",
+          "homework target",
+          "available in launched activity"
+        ],
+        "evidenceTypes": [
+          "recent_miss",
+          "fragile_target",
+          "scaffold_use",
+          "care_plan_priority",
+          "sm2_due",
+          "homework_target",
+          "activity_target"
+        ],
+        "score": 375
+      },
+      {
+        "target": "about",
+        "reasons": [
+          "recent miss",
+          "fragile target",
+          "needed scaffold support",
+          "care-plan priority",
+          "spaced repetition due",
+          "homework target",
+          "available in launched activity"
+        ],
+        "evidenceTypes": [
+          "recent_miss",
+          "fragile_target",
+          "scaffold_use",
+          "care_plan_priority",
+          "sm2_due",
+          "homework_target",
+          "activity_target"
+        ],
+        "score": 375
+      },
+      {
+        "target": "ahead",
+        "reasons": [
+          "recent miss",
+          "fragile target",
+          "needed scaffold support",
+          "care-plan priority",
+          "spaced repetition due",
+          "homework target",
+          "available in launched activity"
+        ],
+        "evidenceTypes": [
+          "recent_miss",
+          "fragile_target",
+          "scaffold_use",
+          "care_plan_priority",
+          "sm2_due",
+          "homework_target",
+          "activity_target"
+        ],
+        "score": 375
+      }
+    ],
+    "diagnosticQuestion": "Can the child spell the target from memory with limited scaffold support?",
+    "expectedEvidence": [
+      "targetResults",
+      "attemptedValue",
+      "wrongLetters",
+      "scaffoldLevel",
+      "retries"
+    ],
+    "successCriteria": [
+      "80% or better with low scaffold support",
+      "misses recover after one cue"
+    ],
+    "reviseCriteria": [
+      "repeated letter-order errors",
+      "help request before attempting"
+    ],
+    "falsifyCriteria": [
+      "cannot attempt without full model",
+      "frustration or refusal during production"
+    ],
+    "evidenceTier": "practice",
+    "masteryEligible": false,
+    "companionSpeechPolicy": {
+      "mentionOnlyCurrentSnapshot": true,
+      "answerVisibility": "visible",
+      "canSpeakTargetBeforeReveal": true
+    },
+    "createdAt": "2026-05-17T21:46:57.976Z"
+  },
+  "targetSelectorDecision": {
+    "selectorId": "selector-ila-spell-check-2026-05-17T21-46-57-977Z",
+    "activityId": "spell-check",
+    "nodeId": "n-spell-check-hw-spelling_test-bb11de93",
+    "targetSelector": "production_targets",
+    "selectedTargets": [
+      "ago",
+      "above",
+      "away",
+      "about",
+      "ahead"
+    ],
+    "traceSummary": "Spell Check selected \"ago\", \"above\", \"away\", \"about\", \"ahead\" because recent miss, fragile target, needed scaffold support, care-plan priority, spaced repetition due, homework target, available in launched activity."
+  },
+  "targetLane": null,
+  "targetsShown": [
+    "ago",
+    "above",
+    "away",
+    "about",
+    "ahead"
+  ],
+  "attempts": 5,
+  "correctWords": [],
+  "missedWords": [],
+  "recoveredWords": [],
+  "visibleScore": null,
+  "coinsEarned": null,
+  "answerVisibilityEvents": [
+    "visible"
+  ],
+  "helpRequests": [],
+  "completed": true,
+  "accuracy": 0.8,
+  "timeSpent_ms": 132656
+}
