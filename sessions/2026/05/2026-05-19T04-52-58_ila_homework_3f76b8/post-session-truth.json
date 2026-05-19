@@ -1,0 +1,47 @@
+{
+  "packetVersion": 1,
+  "sessionDir": "/Users/jamaltaylor/Development/sunny/logs/sessions/2026/05/2026-05-19T04-52-58_ila_homework_3f76b8",
+  "generatedAt": "2026-05-19T04:54:36.382Z",
+  "evidenceInterpreted": {
+    "activities": [
+      "Spell Check",
+      "spell-check",
+      "word-radar"
+    ],
+    "targets": [
+      "again",
+      "alone",
+      "around",
+      "awake",
+      "away"
+    ],
+    "missedTargets": [],
+    "correctTargets": [
+      "again",
+      "alone",
+      "around",
+      "awake",
+      "away"
+    ],
+    "contaminatedTargets": []
+  },
+  "adaptationDecision": {
+    "status": "unchanged",
+    "reason": "no future retargetable practice nodes remained",
+    "source": {
+      "ts": "2026-05-19T04:53:43.703Z",
+      "sessionId": "3f76b8e9-2fed-4e4c-97ca-56897f7f6e91",
+      "child": "Ila",
+      "subject": "homework",
+      "type": "next_plan_unchanged",
+      "source": "map_coordinator",
+      "childId": "demo_adaptive",
+      "nodeId": "n-word-radar-hw-adapt-weak_performance",
+      "activityId": "word-radar",
+      "changedNodeIds": [],
+      "skippedPracticeNodeIds": [],
+      "nextTargets": [],
+      "reason": "no future retargetable practice nodes remained"
+    }
+  }
+}

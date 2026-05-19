@@ -1,0 +1,21 @@
+{
+  "adaptationDecision": {
+    "status": "unchanged",
+    "reason": "no future retargetable practice nodes remained",
+    "source": {
+      "ts": "2026-05-19T07:23:23.091Z",
+      "sessionId": "eb316a4d-d411-43cc-84bd-3370a79504c1",
+      "child": "Ila",
+      "subject": "homework",
+      "type": "next_plan_unchanged",
+      "source": "map_coordinator",
+      "childId": "demo_adaptive",
+      "nodeId": "n-pronunciation-hw-adapt-weak_performance",
+      "activityId": "pronunciation",
+      "changedNodeIds": [],
+      "skippedPracticeNodeIds": [],
+      "nextTargets": [],
+      "reason": "no future retargetable practice nodes remained"
+    }
+  }
+}

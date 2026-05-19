@@ -1,0 +1,17 @@
+{
+  "turnState": "IDLE",
+  "roundNumber": 1,
+  "isEnding": true,
+  "childName": "Ila",
+  "sessionId": "5042e96c-a6cc-4b83-ae85-5a30fe222882",
+  "canvasMode": "idle",
+  "activeGame": null,
+  "pendingTranscript": false,
+  "pendingTranscriptLength": 0,
+  "wbActive": false,
+  "wbRound": 0,
+  "spellCheckSessionActive": false,
+  "activeSpellCheckWord": null,
+  "tts": "off",
+  "conversationTurns": 39
+}

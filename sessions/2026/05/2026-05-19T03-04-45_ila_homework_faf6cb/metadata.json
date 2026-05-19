@@ -1,0 +1,17 @@
+{
+  "sessionId": "faf6cbd7-cd4b-4e2f-a5a9-d4d9e55c0326",
+  "child": "Ila",
+  "subject": "homework",
+  "mode": "real",
+  "startedAt": "2026-05-19T03:04:45.289Z",
+  "command": "npm run npx",
+  "gitCommit": "f2754be",
+  "envFlags": {
+    "TTS_ENABLED": "false",
+    "SUNNY_MODE": "real",
+    "SUNNY_CHILD": "demo_adaptive",
+    "SUNNY_SUBJECT": "homework",
+    "SUNNY_PREVIEW_MODE": "",
+    "ADVENTURE_MAP": "true"
+  }
+}

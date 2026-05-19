@@ -1,0 +1,382 @@
+{
+  "ts": "2026-05-19T07:07:26.342Z",
+  "sessionId": "78a7fba6-23bf-4fd1-8640-cb3550beda4d",
+  "child": "Ila",
+  "subject": "homework",
+  "game": "spell-check",
+  "nodeId": "n-spell-check-hw-adapt-weak_performance",
+  "activityId": "spell-check",
+  "activityIntentId": "intent-demo_adaptive-spell-check-n-spell-check-hw-adapt-weak_performance-2026-05-19T07-06-50-246Z",
+  "targetSelectorId": "selector-demo_adaptive-spell-check-2026-05-19T07-06-50-246Z",
+  "activityIntent": {
+    "intentId": "intent-demo_adaptive-spell-check-n-spell-check-hw-adapt-weak_performance-2026-05-19T07-06-50-246Z",
+    "activityId": "spell-check",
+    "nodeId": "n-spell-check-hw-adapt-weak_performance",
+    "purpose": "spelling_production_from_memory",
+    "carePlanHypothesis": "Use chart evidence to choose a spelling instrument and update the next plan.",
+    "targetSelector": "production_targets",
+    "acceptedTargetPurposes": [
+      "spell_from_memory",
+      "recall_from_memory",
+      "reinforce",
+      "unknown"
+    ],
+    "selectedTargets": [
+      {
+        "target": "again",
+        "targetPurpose": "reinforce",
+        "compatibleWithActivity": true,
+        "reasons": [
+          "recent miss",
+          "fragile target",
+          "needed scaffold support",
+          "care-plan priority",
+          "spaced repetition due",
+          "homework target",
+          "available in launched activity"
+        ],
+        "evidenceTypes": [
+          "recent_miss",
+          "fragile_target",
+          "scaffold_use",
+          "care_plan_priority",
+          "sm2_due",
+          "homework_target",
+          "activity_target"
+        ],
+        "score": 375
+      },
+      {
+        "target": "around",
+        "targetPurpose": "reinforce",
+        "compatibleWithActivity": true,
+        "reasons": [
+          "recent miss",
+          "fragile target",
+          "needed scaffold support",
+          "care-plan priority",
+          "spaced repetition due",
+          "homework target",
+          "available in launched activity"
+        ],
+        "evidenceTypes": [
+          "recent_miss",
+          "fragile_target",
+          "scaffold_use",
+          "care_plan_priority",
+          "sm2_due",
+          "homework_target",
+          "activity_target"
+        ],
+        "score": 375
+      },
+      {
+        "target": "away",
+        "targetPurpose": "reinforce",
+        "compatibleWithActivity": true,
+        "reasons": [
+          "recent miss",
+          "fragile target",
+          "needed scaffold support",
+          "care-plan priority",
+          "spaced repetition due",
+          "homework target",
+          "available in launched activity"
+        ],
+        "evidenceTypes": [
+          "recent_miss",
+          "fragile_target",
+          "scaffold_use",
+          "care_plan_priority",
+          "sm2_due",
+          "homework_target",
+          "activity_target"
+        ],
+        "score": 375
+      },
+      {
+        "target": "alone",
+        "targetPurpose": "reinforce",
+        "compatibleWithActivity": true,
+        "reasons": [
+          "recent miss",
+          "fragile target",
+          "needed scaffold support",
+          "care-plan priority",
+          "spaced repetition due",
+          "homework target",
+          "available in launched activity"
+        ],
+        "evidenceTypes": [
+          "recent_miss",
+          "fragile_target",
+          "scaffold_use",
+          "care_plan_priority",
+          "sm2_due",
+          "homework_target",
+          "activity_target"
+        ],
+        "score": 375
+      },
+      {
+        "target": "awake",
+        "targetPurpose": "reinforce",
+        "compatibleWithActivity": true,
+        "reasons": [
+          "recent miss",
+          "fragile target",
+          "needed scaffold support",
+          "care-plan priority",
+          "spaced repetition due",
+          "homework target",
+          "available in launched activity"
+        ],
+        "evidenceTypes": [
+          "recent_miss",
+          "fragile_target",
+          "scaffold_use",
+          "care_plan_priority",
+          "sm2_due",
+          "homework_target",
+          "activity_target"
+        ],
+        "score": 375
+      },
+      {
+        "target": "above",
+        "targetPurpose": "reinforce",
+        "compatibleWithActivity": true,
+        "reasons": [
+          "recent miss",
+          "fragile target",
+          "needed scaffold support",
+          "care-plan priority",
+          "spaced repetition due",
+          "homework target",
+          "available in launched activity"
+        ],
+        "evidenceTypes": [
+          "recent_miss",
+          "fragile_target",
+          "scaffold_use",
+          "care_plan_priority",
+          "sm2_due",
+          "homework_target",
+          "activity_target"
+        ],
+        "score": 375
+      }
+    ],
+    "diagnosticQuestion": "Can the child spell the target from memory with limited scaffold support?",
+    "expectedEvidence": [
+      "targetResults",
+      "attemptedValue",
+      "wrongLetters",
+      "scaffoldLevel",
+      "retries"
+    ],
+    "successCriteria": [
+      "80% or better with low scaffold support",
+      "misses recover after one cue"
+    ],
+    "reviseCriteria": [
+      "repeated letter-order errors",
+      "help request before attempting"
+    ],
+    "falsifyCriteria": [
+      "cannot attempt without full model",
+      "frustration or refusal during production"
+    ],
+    "evidenceTier": "practice",
+    "masteryEligible": false,
+    "companionSpeechPolicy": {
+      "mentionOnlyCurrentSnapshot": true,
+      "answerVisibility": "visible",
+      "canSpeakTargetBeforeReveal": true
+    },
+    "createdAt": "2026-05-19T07:06:50.246Z"
+  },
+  "targetSelectorDecision": {
+    "selectorId": "selector-demo_adaptive-spell-check-2026-05-19T07-06-50-246Z",
+    "activityId": "spell-check",
+    "nodeId": "n-spell-check-hw-adapt-weak_performance",
+    "targetSelector": "production_targets",
+    "selectedTargets": [
+      "again",
+      "around",
+      "away",
+      "alone",
+      "awake",
+      "above"
+    ],
+    "targetReasons": [
+      {
+        "target": "again",
+        "targetPurpose": "reinforce",
+        "compatibleWithActivity": true,
+        "reasons": [
+          "recent miss",
+          "fragile target",
+          "needed scaffold support",
+          "care-plan priority",
+          "spaced repetition due",
+          "homework target",
+          "available in launched activity"
+        ],
+        "evidenceTypes": [
+          "recent_miss",
+          "fragile_target",
+          "scaffold_use",
+          "care_plan_priority",
+          "sm2_due",
+          "homework_target",
+          "activity_target"
+        ],
+        "score": 375
+      },
+      {
+        "target": "around",
+        "targetPurpose": "reinforce",
+        "compatibleWithActivity": true,
+        "reasons": [
+          "recent miss",
+          "fragile target",
+          "needed scaffold support",
+          "care-plan priority",
+          "spaced repetition due",
+          "homework target",
+          "available in launched activity"
+        ],
+        "evidenceTypes": [
+          "recent_miss",
+          "fragile_target",
+          "scaffold_use",
+          "care_plan_priority",
+          "sm2_due",
+          "homework_target",
+          "activity_target"
+        ],
+        "score": 375
+      },
+      {
+        "target": "away",
+        "targetPurpose": "reinforce",
+        "compatibleWithActivity": true,
+        "reasons": [
+          "recent miss",
+          "fragile target",
+          "needed scaffold support",
+          "care-plan priority",
+          "spaced repetition due",
+          "homework target",
+          "available in launched activity"
+        ],
+        "evidenceTypes": [
+          "recent_miss",
+          "fragile_target",
+          "scaffold_use",
+          "care_plan_priority",
+          "sm2_due",
+          "homework_target",
+          "activity_target"
+        ],
+        "score": 375
+      },
+      {
+        "target": "alone",
+        "targetPurpose": "reinforce",
+        "compatibleWithActivity": true,
+        "reasons": [
+          "recent miss",
+          "fragile target",
+          "needed scaffold support",
+          "care-plan priority",
+          "spaced repetition due",
+          "homework target",
+          "available in launched activity"
+        ],
+        "evidenceTypes": [
+          "recent_miss",
+          "fragile_target",
+          "scaffold_use",
+          "care_plan_priority",
+          "sm2_due",
+          "homework_target",
+          "activity_target"
+        ],
+        "score": 375
+      },
+      {
+        "target": "awake",
+        "targetPurpose": "reinforce",
+        "compatibleWithActivity": true,
+        "reasons": [
+          "recent miss",
+          "fragile target",
+          "needed scaffold support",
+          "care-plan priority",
+          "spaced repetition due",
+          "homework target",
+          "available in launched activity"
+        ],
+        "evidenceTypes": [
+          "recent_miss",
+          "fragile_target",
+          "scaffold_use",
+          "care_plan_priority",
+          "sm2_due",
+          "homework_target",
+          "activity_target"
+        ],
+        "score": 375
+      },
+      {
+        "target": "above",
+        "targetPurpose": "reinforce",
+        "compatibleWithActivity": true,
+        "reasons": [
+          "recent miss",
+          "fragile target",
+          "needed scaffold support",
+          "care-plan priority",
+          "spaced repetition due",
+          "homework target",
+          "available in launched activity"
+        ],
+        "evidenceTypes": [
+          "recent_miss",
+          "fragile_target",
+          "scaffold_use",
+          "care_plan_priority",
+          "sm2_due",
+          "homework_target",
+          "activity_target"
+        ],
+        "score": 375
+      }
+    ],
+    "traceSummary": "Spell Check selected \"again\", \"around\", \"away\", \"alone\", \"awake\", \"above\" because recent miss, fragile target, needed scaffold support, care-plan priority, spaced repetition due, homework target, available in launched activity."
+  },
+  "targetLane": null,
+  "targetsShown": [
+    "again",
+    "around",
+    "away",
+    "alone",
+    "awake",
+    "above"
+  ],
+  "attempts": 5,
+  "correctWords": [],
+  "missedWords": [],
+  "recoveredWords": [],
+  "visibleScore": null,
+  "coinsEarned": null,
+  "answerVisibilityEvents": [
+    "visible"
+  ],
+  "helpRequests": [],
+  "completed": true,
+  "accuracy": 1,
+  "timeSpent_ms": 34373
+}

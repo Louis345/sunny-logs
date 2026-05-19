@@ -1,0 +1,23 @@
+{
+  "activities": [
+    "Spell Check",
+    "spell-check",
+    "word-radar"
+  ],
+  "targets": [
+    "above",
+    "again",
+    "alone",
+    "around",
+    "away"
+  ],
+  "missedTargets": [],
+  "correctTargets": [
+    "above",
+    "again",
+    "alone",
+    "around",
+    "away"
+  ],
+  "contaminatedTargets": []
+}

@@ -1,0 +1,28 @@
+{
+  "adaptationDecision": {
+    "status": "unchanged",
+    "reason": "no future retargetable practice nodes remained",
+    "source": {
+      "ts": "2026-05-19T05:33:32.148Z",
+      "sessionId": "7a20ef72-afa1-4ae3-95b7-421a5fe59053",
+      "child": "Ila",
+      "subject": "homework",
+      "type": "next_plan_unchanged",
+      "source": "map_coordinator",
+      "childId": "demo_adaptive",
+      "nodeId": "n-word-radar-hw-adapt-weak_performance",
+      "activityId": "word-radar",
+      "changedNodeIds": [],
+      "skippedPracticeNodeIds": [],
+      "nextTargets": [
+        "again",
+        "around",
+        "away",
+        "alone",
+        "awake",
+        "above"
+      ],
+      "reason": "no future retargetable practice nodes remained"
+    }
+  }
+}

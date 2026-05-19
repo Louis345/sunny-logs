@@ -1,0 +1,296 @@
+{
+  "ts": "2026-05-19T05:23:49.159Z",
+  "sessionId": "d17a49bd-273b-45f7-9261-76e2964b868f",
+  "child": "Ila",
+  "subject": "homework",
+  "game": "word-radar",
+  "nodeId": "n-word-radar-hw-adapt-weak_performance",
+  "activityId": "word-radar",
+  "activityIntentId": "intent-demo_adaptive-word-radar-n-word-radar-hw-adapt-weak_performance-2026-05-19T05-23-22-833Z",
+  "targetSelectorId": "selector-demo_adaptive-word-radar-2026-05-19T05-23-22-833Z",
+  "activityIntent": {
+    "intentId": "intent-demo_adaptive-word-radar-n-word-radar-hw-adapt-weak_performance-2026-05-19T05-23-22-833Z",
+    "activityId": "word-radar",
+    "nodeId": "n-word-radar-hw-adapt-weak_performance",
+    "purpose": "recognition_recall_scan",
+    "carePlanHypothesis": "Use chart evidence to choose a spelling instrument and update the next plan.",
+    "targetSelector": "due_or_fragile_recall",
+    "acceptedTargetPurposes": [
+      "spell_from_memory",
+      "recall_from_memory",
+      "reinforce",
+      "unknown"
+    ],
+    "selectedTargets": [
+      {
+        "target": "again",
+        "targetPurpose": "reinforce",
+        "compatibleWithActivity": true,
+        "reasons": [
+          "recent miss",
+          "fragile target",
+          "care-plan priority",
+          "homework target",
+          "available in launched activity"
+        ],
+        "evidenceTypes": [
+          "recent_miss",
+          "fragile_target",
+          "care_plan_priority",
+          "homework_target",
+          "activity_target"
+        ],
+        "score": 245
+      },
+      {
+        "target": "around",
+        "targetPurpose": "reinforce",
+        "compatibleWithActivity": true,
+        "reasons": [
+          "recent miss",
+          "fragile target",
+          "care-plan priority",
+          "homework target",
+          "available in launched activity"
+        ],
+        "evidenceTypes": [
+          "recent_miss",
+          "fragile_target",
+          "care_plan_priority",
+          "homework_target",
+          "activity_target"
+        ],
+        "score": 245
+      },
+      {
+        "target": "above",
+        "targetPurpose": "reinforce",
+        "compatibleWithActivity": true,
+        "reasons": [
+          "recent miss",
+          "fragile target",
+          "care-plan priority",
+          "homework target",
+          "available in launched activity"
+        ],
+        "evidenceTypes": [
+          "recent_miss",
+          "fragile_target",
+          "care_plan_priority",
+          "homework_target",
+          "activity_target"
+        ],
+        "score": 245
+      },
+      {
+        "target": "away",
+        "targetPurpose": "reinforce",
+        "compatibleWithActivity": true,
+        "reasons": [
+          "recent miss",
+          "fragile target",
+          "care-plan priority",
+          "homework target",
+          "available in launched activity"
+        ],
+        "evidenceTypes": [
+          "recent_miss",
+          "fragile_target",
+          "care_plan_priority",
+          "homework_target",
+          "activity_target"
+        ],
+        "score": 245
+      },
+      {
+        "target": "alone",
+        "targetPurpose": "reinforce",
+        "compatibleWithActivity": true,
+        "reasons": [
+          "recent miss",
+          "fragile target",
+          "care-plan priority",
+          "homework target",
+          "available in launched activity"
+        ],
+        "evidenceTypes": [
+          "recent_miss",
+          "fragile_target",
+          "care_plan_priority",
+          "homework_target",
+          "activity_target"
+        ],
+        "score": 245
+      }
+    ],
+    "diagnosticQuestion": "Can the child recognize or recall due words under timed pressure?",
+    "expectedEvidence": [
+      "targetResults",
+      "responseTime_ms",
+      "missedWords",
+      "slowTargets",
+      "recallMode"
+    ],
+    "successCriteria": [
+      "fast accurate responses in hidden or captured recall mode"
+    ],
+    "reviseCriteria": [
+      "known words are slow",
+      "visual mode succeeds but hidden recall drops"
+    ],
+    "falsifyCriteria": [
+      "timer creates frustration before useful evidence"
+    ],
+    "evidenceTier": "clean_recall",
+    "masteryEligible": true,
+    "companionSpeechPolicy": {
+      "mentionOnlyCurrentSnapshot": true,
+      "answerVisibility": "visible",
+      "canSpeakTargetBeforeReveal": true
+    },
+    "createdAt": "2026-05-19T05:23:22.833Z"
+  },
+  "targetSelectorDecision": {
+    "selectorId": "selector-demo_adaptive-word-radar-2026-05-19T05-23-22-833Z",
+    "activityId": "word-radar",
+    "nodeId": "n-word-radar-hw-adapt-weak_performance",
+    "targetSelector": "due_or_fragile_recall",
+    "selectedTargets": [
+      "again",
+      "around",
+      "above",
+      "away",
+      "alone"
+    ],
+    "targetReasons": [
+      {
+        "target": "again",
+        "targetPurpose": "reinforce",
+        "compatibleWithActivity": true,
+        "reasons": [
+          "recent miss",
+          "fragile target",
+          "care-plan priority",
+          "homework target",
+          "available in launched activity"
+        ],
+        "evidenceTypes": [
+          "recent_miss",
+          "fragile_target",
+          "care_plan_priority",
+          "homework_target",
+          "activity_target"
+        ],
+        "score": 245
+      },
+      {
+        "target": "around",
+        "targetPurpose": "reinforce",
+        "compatibleWithActivity": true,
+        "reasons": [
+          "recent miss",
+          "fragile target",
+          "care-plan priority",
+          "homework target",
+          "available in launched activity"
+        ],
+        "evidenceTypes": [
+          "recent_miss",
+          "fragile_target",
+          "care_plan_priority",
+          "homework_target",
+          "activity_target"
+        ],
+        "score": 245
+      },
+      {
+        "target": "above",
+        "targetPurpose": "reinforce",
+        "compatibleWithActivity": true,
+        "reasons": [
+          "recent miss",
+          "fragile target",
+          "care-plan priority",
+          "homework target",
+          "available in launched activity"
+        ],
+        "evidenceTypes": [
+          "recent_miss",
+          "fragile_target",
+          "care_plan_priority",
+          "homework_target",
+          "activity_target"
+        ],
+        "score": 245
+      },
+      {
+        "target": "away",
+        "targetPurpose": "reinforce",
+        "compatibleWithActivity": true,
+        "reasons": [
+          "recent miss",
+          "fragile target",
+          "care-plan priority",
+          "homework target",
+          "available in launched activity"
+        ],
+        "evidenceTypes": [
+          "recent_miss",
+          "fragile_target",
+          "care_plan_priority",
+          "homework_target",
+          "activity_target"
+        ],
+        "score": 245
+      },
+      {
+        "target": "alone",
+        "targetPurpose": "reinforce",
+        "compatibleWithActivity": true,
+        "reasons": [
+          "recent miss",
+          "fragile target",
+          "care-plan priority",
+          "homework target",
+          "available in launched activity"
+        ],
+        "evidenceTypes": [
+          "recent_miss",
+          "fragile_target",
+          "care_plan_priority",
+          "homework_target",
+          "activity_target"
+        ],
+        "score": 245
+      }
+    ],
+    "traceSummary": "Word Radar selected \"again\", \"around\", \"above\", \"away\", \"alone\" because recent miss, fragile target, care-plan priority, homework target, available in launched activity."
+  },
+  "targetLane": null,
+  "targetsShown": [
+    "again",
+    "around",
+    "above",
+    "away",
+    "alone"
+  ],
+  "attempts": 5,
+  "correctWords": [
+    "again",
+    "around",
+    "above",
+    "away",
+    "alone"
+  ],
+  "missedWords": [],
+  "recoveredWords": [],
+  "visibleScore": null,
+  "coinsEarned": null,
+  "answerVisibilityEvents": [
+    "hidden"
+  ],
+  "helpRequests": [],
+  "completed": true,
+  "accuracy": 1,
+  "timeSpent_ms": 24112
+}

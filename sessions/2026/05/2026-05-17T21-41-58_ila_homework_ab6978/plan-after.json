@@ -1,0 +1,25 @@
+{
+  "adaptationDecision": {
+    "status": "changed",
+    "reason": "future practice retargeted from spell-check evidence",
+    "source": {
+      "ts": "2026-05-17T21:49:11.727Z",
+      "sessionId": "ab6978fa-8928-43fc-8766-8c617ac49acc",
+      "child": "Ila",
+      "subject": "homework",
+      "type": "next_plan_changed",
+      "source": "map_coordinator",
+      "childId": "ila",
+      "nodeId": "n-spell-check-hw-spelling_test-bb11de93",
+      "activityId": "spell-check",
+      "changedNodeIds": [
+        "n-monster-stampede-hw-spelling_test-bb11de93"
+      ],
+      "skippedPracticeNodeIds": [
+        "n-monster-stampede-hw-spelling_test-bb11de93"
+      ],
+      "nextTargets": [],
+      "reason": "future practice retargeted from spell-check evidence"
+    }
+  }
+}

@@ -1,0 +1,79 @@
+{
+  "packetVersion": 1,
+  "sessionDir": "/Users/jamaltaylor/Development/sunny/logs/sessions/2026/05/2026-05-17T21-41-58_ila_homework_ab6978",
+  "generatedAt": "2026-05-18T14:00:00.000Z",
+  "evidenceInterpreted": {
+    "activities": [
+      "Spell Check",
+      "monster-stampede",
+      "mystery",
+      "pronunciation",
+      "spell-check",
+      "word-radar"
+    ],
+    "targets": [
+      "about",
+      "above",
+      "ago",
+      "ahead",
+      "away",
+      "government",
+      "half",
+      "machine",
+      "pair",
+      "quickly",
+      "scientist",
+      "thousand",
+      "understood",
+      "wait"
+    ],
+    "missedTargets": [
+      "machine",
+      "pair",
+      "quickly",
+      "scientist",
+      "thousand",
+      "understood",
+      "wait"
+    ],
+    "correctTargets": [
+      "about",
+      "above",
+      "ago",
+      "ahead",
+      "away",
+      "government",
+      "half",
+      "machine",
+      "pair",
+      "quickly",
+      "wait"
+    ],
+    "contaminatedTargets": [
+      "wait"
+    ]
+  },
+  "adaptationDecision": {
+    "status": "changed",
+    "reason": "future practice retargeted from spell-check evidence",
+    "source": {
+      "ts": "2026-05-17T21:49:11.727Z",
+      "sessionId": "ab6978fa-8928-43fc-8766-8c617ac49acc",
+      "child": "Ila",
+      "subject": "homework",
+      "type": "next_plan_changed",
+      "source": "map_coordinator",
+      "childId": "ila",
+      "nodeId": "n-spell-check-hw-spelling_test-bb11de93",
+      "activityId": "spell-check",
+      "changedNodeIds": [
+        "n-monster-stampede-hw-spelling_test-bb11de93"
+      ],
+      "skippedPracticeNodeIds": [
+        "n-monster-stampede-hw-spelling_test-bb11de93"
+      ],
+      "nextTargets": [],
+      "reason": "future practice retargeted from spell-check evidence"
+    }
+  }
+}

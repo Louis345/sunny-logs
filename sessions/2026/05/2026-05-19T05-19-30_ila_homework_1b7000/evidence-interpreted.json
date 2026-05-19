@@ -1,0 +1,15 @@
+{
+  "activities": [
+    "word-radar"
+  ],
+  "targets": [
+    "again",
+    "alone",
+    "around",
+    "awake",
+    "away"
+  ],
+  "missedTargets": [],
+  "correctTargets": [],
+  "contaminatedTargets": []
+}

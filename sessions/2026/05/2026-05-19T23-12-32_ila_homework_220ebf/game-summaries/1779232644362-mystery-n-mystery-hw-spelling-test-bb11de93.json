@@ -1,0 +1,316 @@
+{
+  "ts": "2026-05-19T23:17:24.361Z",
+  "sessionId": "220ebffe-30bf-4a5a-99bd-a274bd0755aa",
+  "child": "Ila",
+  "subject": "homework",
+  "game": "mystery",
+  "nodeId": "n-mystery-hw-spelling_test-bb11de93",
+  "activityId": "pronunciation",
+  "activityIntentId": "intent-ila-mystery-n-mystery-hw-spelling_test-bb11de93-2026-05-19T23-17-12-457Z",
+  "targetSelectorId": "selector-ila-mystery-2026-05-19T23-17-12-458Z",
+  "activityIntent": {
+    "intentId": "intent-ila-mystery-n-mystery-hw-spelling_test-bb11de93-2026-05-19T23-17-12-457Z",
+    "activityId": "mystery",
+    "nodeId": "n-mystery-hw-spelling_test-bb11de93",
+    "purpose": "generated_hypothesis_intervention",
+    "carePlanHypothesis": "Use chart evidence to choose a spelling instrument and update the next plan.",
+    "targetSelector": "quest_ready_targets",
+    "acceptedTargetPurposes": [
+      "spell_from_memory",
+      "recall_from_memory",
+      "recognize",
+      "read_fluently",
+      "pronounce",
+      "reinforce",
+      "unknown"
+    ],
+    "selectedTargets": [
+      {
+        "target": "ago",
+        "targetPurpose": "reinforce",
+        "compatibleWithActivity": true,
+        "reasons": [
+          "recent miss",
+          "fragile target",
+          "spaced repetition due",
+          "care-plan priority",
+          "homework target",
+          "available in launched activity"
+        ],
+        "evidenceTypes": [
+          "recent_miss",
+          "fragile_target",
+          "sm2_due",
+          "care_plan_priority",
+          "homework_target",
+          "activity_target"
+        ],
+        "score": 305
+      },
+      {
+        "target": "above",
+        "targetPurpose": "reinforce",
+        "compatibleWithActivity": true,
+        "reasons": [
+          "recent miss",
+          "fragile target",
+          "spaced repetition due",
+          "care-plan priority",
+          "homework target",
+          "available in launched activity"
+        ],
+        "evidenceTypes": [
+          "recent_miss",
+          "fragile_target",
+          "sm2_due",
+          "care_plan_priority",
+          "homework_target",
+          "activity_target"
+        ],
+        "score": 305
+      },
+      {
+        "target": "away",
+        "targetPurpose": "reinforce",
+        "compatibleWithActivity": true,
+        "reasons": [
+          "recent miss",
+          "fragile target",
+          "spaced repetition due",
+          "care-plan priority",
+          "homework target",
+          "available in launched activity"
+        ],
+        "evidenceTypes": [
+          "recent_miss",
+          "fragile_target",
+          "sm2_due",
+          "care_plan_priority",
+          "homework_target",
+          "activity_target"
+        ],
+        "score": 305
+      },
+      {
+        "target": "about",
+        "targetPurpose": "reinforce",
+        "compatibleWithActivity": true,
+        "reasons": [
+          "recent miss",
+          "fragile target",
+          "spaced repetition due",
+          "care-plan priority",
+          "homework target",
+          "available in launched activity"
+        ],
+        "evidenceTypes": [
+          "recent_miss",
+          "fragile_target",
+          "sm2_due",
+          "care_plan_priority",
+          "homework_target",
+          "activity_target"
+        ],
+        "score": 305
+      },
+      {
+        "target": "ahead",
+        "targetPurpose": "reinforce",
+        "compatibleWithActivity": true,
+        "reasons": [
+          "recent miss",
+          "fragile target",
+          "spaced repetition due",
+          "care-plan priority",
+          "homework target",
+          "available in launched activity"
+        ],
+        "evidenceTypes": [
+          "recent_miss",
+          "fragile_target",
+          "sm2_due",
+          "care_plan_priority",
+          "homework_target",
+          "activity_target"
+        ],
+        "score": 305
+      }
+    ],
+    "diagnosticQuestion": "Does this activity test the active care-plan hypothesis?",
+    "expectedEvidence": [
+      "targetResults",
+      "completionEvidence",
+      "vitalSigns"
+    ],
+    "successCriteria": [
+      "evidence supports the active care-plan hypothesis"
+    ],
+    "reviseCriteria": [
+      "evidence is incomplete or contradicts the hypothesis"
+    ],
+    "falsifyCriteria": [
+      "activity cannot produce interpretable learning evidence"
+    ],
+    "evidenceTier": "calibration_required",
+    "masteryEligible": false,
+    "companionSpeechPolicy": {
+      "mentionOnlyCurrentSnapshot": true,
+      "answerVisibility": "visible",
+      "canSpeakTargetBeforeReveal": true
+    },
+    "createdAt": "2026-05-19T23:17:12.457Z"
+  },
+  "targetSelectorDecision": {
+    "selectorId": "selector-ila-mystery-2026-05-19T23-17-12-458Z",
+    "activityId": "mystery",
+    "nodeId": "n-mystery-hw-spelling_test-bb11de93",
+    "targetSelector": "quest_ready_targets",
+    "selectedTargets": [
+      "ago",
+      "above",
+      "away",
+      "about",
+      "ahead"
+    ],
+    "targetReasons": [
+      {
+        "target": "ago",
+        "targetPurpose": "reinforce",
+        "compatibleWithActivity": true,
+        "reasons": [
+          "recent miss",
+          "fragile target",
+          "spaced repetition due",
+          "care-plan priority",
+          "homework target",
+          "available in launched activity"
+        ],
+        "evidenceTypes": [
+          "recent_miss",
+          "fragile_target",
+          "sm2_due",
+          "care_plan_priority",
+          "homework_target",
+          "activity_target"
+        ],
+        "score": 305
+      },
+      {
+        "target": "above",
+        "targetPurpose": "reinforce",
+        "compatibleWithActivity": true,
+        "reasons": [
+          "recent miss",
+          "fragile target",
+          "spaced repetition due",
+          "care-plan priority",
+          "homework target",
+          "available in launched activity"
+        ],
+        "evidenceTypes": [
+          "recent_miss",
+          "fragile_target",
+          "sm2_due",
+          "care_plan_priority",
+          "homework_target",
+          "activity_target"
+        ],
+        "score": 305
+      },
+      {
+        "target": "away",
+        "targetPurpose": "reinforce",
+        "compatibleWithActivity": true,
+        "reasons": [
+          "recent miss",
+          "fragile target",
+          "spaced repetition due",
+          "care-plan priority",
+          "homework target",
+          "available in launched activity"
+        ],
+        "evidenceTypes": [
+          "recent_miss",
+          "fragile_target",
+          "sm2_due",
+          "care_plan_priority",
+          "homework_target",
+          "activity_target"
+        ],
+        "score": 305
+      },
+      {
+        "target": "about",
+        "targetPurpose": "reinforce",
+        "compatibleWithActivity": true,
+        "reasons": [
+          "recent miss",
+          "fragile target",
+          "spaced repetition due",
+          "care-plan priority",
+          "homework target",
+          "available in launched activity"
+        ],
+        "evidenceTypes": [
+          "recent_miss",
+          "fragile_target",
+          "sm2_due",
+          "care_plan_priority",
+          "homework_target",
+          "activity_target"
+        ],
+        "score": 305
+      },
+      {
+        "target": "ahead",
+        "targetPurpose": "reinforce",
+        "compatibleWithActivity": true,
+        "reasons": [
+          "recent miss",
+          "fragile target",
+          "spaced repetition due",
+          "care-plan priority",
+          "homework target",
+          "available in launched activity"
+        ],
+        "evidenceTypes": [
+          "recent_miss",
+          "fragile_target",
+          "sm2_due",
+          "care_plan_priority",
+          "homework_target",
+          "activity_target"
+        ],
+        "score": 305
+      }
+    ],
+    "traceSummary": "Mystery selected \"ago\", \"above\", \"away\", \"about\", \"ahead\" because recent miss, fragile target, spaced repetition due, care-plan priority, homework target, available in launched activity."
+  },
+  "targetLane": null,
+  "targetsShown": [
+    "ago",
+    "above",
+    "away",
+    "about",
+    "ahead"
+  ],
+  "attempts": 5,
+  "correctWords": [
+    "ago",
+    "above",
+    "away",
+    "about",
+    "ahead"
+  ],
+  "missedWords": [],
+  "recoveredWords": [],
+  "visibleScore": null,
+  "coinsEarned": null,
+  "answerVisibilityEvents": [
+    "hidden"
+  ],
+  "helpRequests": [],
+  "completed": true,
+  "accuracy": 1,
+  "timeSpent_ms": 0
+}

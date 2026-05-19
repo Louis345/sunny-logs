@@ -1,0 +1,24 @@
+{
+  "packetVersion": 1,
+  "sessionDir": "/Users/jamaltaylor/Development/sunny/logs/sessions/2026/05/2026-05-19T05-19-30_ila_homework_1b7000",
+  "generatedAt": "2026-05-19T05:20:13.768Z",
+  "evidenceInterpreted": {
+    "activities": [
+      "word-radar"
+    ],
+    "targets": [
+      "again",
+      "alone",
+      "around",
+      "awake",
+      "away"
+    ],
+    "missedTargets": [],
+    "correctTargets": [],
+    "contaminatedTargets": []
+  },
+  "adaptationDecision": {
+    "status": "missing",
+    "reason": "No next-plan decision was written after interpreted activity evidence."
+  }
+}

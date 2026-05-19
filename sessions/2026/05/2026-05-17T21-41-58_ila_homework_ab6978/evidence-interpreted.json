@@ -1,0 +1,51 @@
+{
+  "activities": [
+    "Spell Check",
+    "monster-stampede",
+    "mystery",
+    "pronunciation",
+    "spell-check",
+    "word-radar"
+  ],
+  "targets": [
+    "about",
+    "above",
+    "ago",
+    "ahead",
+    "away",
+    "government",
+    "half",
+    "machine",
+    "pair",
+    "quickly",
+    "scientist",
+    "thousand",
+    "understood",
+    "wait"
+  ],
+  "missedTargets": [
+    "machine",
+    "pair",
+    "quickly",
+    "scientist",
+    "thousand",
+    "understood",
+    "wait"
+  ],
+  "correctTargets": [
+    "about",
+    "above",
+    "ago",
+    "ahead",
+    "away",
+    "government",
+    "half",
+    "machine",
+    "pair",
+    "quickly",
+    "wait"
+  ],
+  "contaminatedTargets": [
+    "wait"
+  ]
+}
