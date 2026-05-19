@@ -1,0 +1,32 @@
+{
+  "adaptationDecision": {
+    "status": "changed",
+    "reason": "future practice retargeted from word-radar evidence",
+    "source": {
+      "ts": "2026-05-19T23:33:11.785Z",
+      "sessionId": "a8126824-11ad-4bfc-8d5f-1ed924d127ed",
+      "child": "Reina",
+      "subject": "homework",
+      "type": "next_plan_changed",
+      "source": "map_coordinator",
+      "childId": "reina",
+      "nodeId": "n-word-radar-hw-spelling_test-5a49d659",
+      "activityId": "word-radar",
+      "changedNodeIds": [
+        "n-monster-stampede-hw-spelling_test-5a49d659"
+      ],
+      "skippedPracticeNodeIds": [],
+      "nextTargets": [
+        "know",
+        "write",
+        "thumb",
+        "comb",
+        "gnat",
+        "knock",
+        "knife",
+        "climb"
+      ],
+      "reason": "future practice retargeted from word-radar evidence"
+    }
+  }
+}

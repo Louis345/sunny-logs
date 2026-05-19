@@ -1,0 +1,44 @@
+{
+  "activities": [
+    "Project Sunny — Wheel of Fortune",
+    "Spell Check",
+    "Wheel of Fortune",
+    "monster-stampede",
+    "mystery",
+    "spell-check",
+    "wheel-of-fortune",
+    "word-radar"
+  ],
+  "targets": [
+    "among",
+    "climb",
+    "comb",
+    "gnat",
+    "knife",
+    "knock",
+    "know",
+    "thumb",
+    "write",
+    "wrong"
+  ],
+  "missedTargets": [
+    "climb",
+    "gnat",
+    "knock",
+    "know",
+    "write"
+  ],
+  "correctTargets": [
+    "among",
+    "climb",
+    "comb",
+    "gnat",
+    "knife",
+    "knock",
+    "know",
+    "thumb",
+    "write",
+    "wrong"
+  ],
+  "contaminatedTargets": []
+}

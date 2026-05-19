@@ -1,0 +1,448 @@
+{
+  "ts": "2026-05-19T23:35:00.903Z",
+  "sessionId": "a8126824-11ad-4bfc-8d5f-1ed924d127ed",
+  "child": "Reina",
+  "subject": "homework",
+  "game": "monster-stampede",
+  "nodeId": "n-monster-stampede-hw-spelling_test-5a49d659",
+  "activityId": "monster-stampede",
+  "activityIntentId": "intent-reina-monster-stampede-n-monster-stampede-hw-spelling_test-5a49d659-2026-05-19T23-33-15-988Z",
+  "targetSelectorId": "selector-reina-monster-stampede-2026-05-19T23-33-15-989Z",
+  "activityIntent": {
+    "intentId": "intent-reina-monster-stampede-n-monster-stampede-hw-spelling_test-5a49d659-2026-05-19T23-33-15-988Z",
+    "activityId": "monster-stampede",
+    "nodeId": "n-monster-stampede-hw-spelling_test-5a49d659",
+    "purpose": "high_energy_reinforcement",
+    "carePlanHypothesis": "Use chart evidence to choose a spelling instrument and update the next plan.",
+    "targetSelector": "fragile_reinforcement",
+    "acceptedTargetPurposes": [
+      "spell_from_memory",
+      "recall_from_memory",
+      "reinforce",
+      "unknown"
+    ],
+    "selectedTargets": [
+      {
+        "target": "know",
+        "targetPurpose": "reinforce",
+        "compatibleWithActivity": true,
+        "reasons": [
+          "recent miss",
+          "fragile target",
+          "spaced repetition due",
+          "care-plan priority",
+          "homework target",
+          "available in launched activity"
+        ],
+        "evidenceTypes": [
+          "recent_miss",
+          "fragile_target",
+          "sm2_due",
+          "care_plan_priority",
+          "homework_target",
+          "activity_target"
+        ],
+        "score": 305
+      },
+      {
+        "target": "write",
+        "targetPurpose": "reinforce",
+        "compatibleWithActivity": true,
+        "reasons": [
+          "recent miss",
+          "fragile target",
+          "spaced repetition due",
+          "care-plan priority",
+          "homework target",
+          "available in launched activity"
+        ],
+        "evidenceTypes": [
+          "recent_miss",
+          "fragile_target",
+          "sm2_due",
+          "care_plan_priority",
+          "homework_target",
+          "activity_target"
+        ],
+        "score": 305
+      },
+      {
+        "target": "thumb",
+        "targetPurpose": "reinforce",
+        "compatibleWithActivity": true,
+        "reasons": [
+          "recent miss",
+          "fragile target",
+          "spaced repetition due",
+          "care-plan priority",
+          "homework target",
+          "available in launched activity"
+        ],
+        "evidenceTypes": [
+          "recent_miss",
+          "fragile_target",
+          "sm2_due",
+          "care_plan_priority",
+          "homework_target",
+          "activity_target"
+        ],
+        "score": 305
+      },
+      {
+        "target": "comb",
+        "targetPurpose": "reinforce",
+        "compatibleWithActivity": true,
+        "reasons": [
+          "recent miss",
+          "fragile target",
+          "spaced repetition due",
+          "care-plan priority",
+          "homework target",
+          "available in launched activity"
+        ],
+        "evidenceTypes": [
+          "recent_miss",
+          "fragile_target",
+          "sm2_due",
+          "care_plan_priority",
+          "homework_target",
+          "activity_target"
+        ],
+        "score": 305
+      },
+      {
+        "target": "gnat",
+        "targetPurpose": "reinforce",
+        "compatibleWithActivity": true,
+        "reasons": [
+          "recent miss",
+          "fragile target",
+          "spaced repetition due",
+          "care-plan priority",
+          "homework target",
+          "available in launched activity"
+        ],
+        "evidenceTypes": [
+          "recent_miss",
+          "fragile_target",
+          "sm2_due",
+          "care_plan_priority",
+          "homework_target",
+          "activity_target"
+        ],
+        "score": 305
+      },
+      {
+        "target": "knock",
+        "targetPurpose": "reinforce",
+        "compatibleWithActivity": true,
+        "reasons": [
+          "recent miss",
+          "fragile target",
+          "spaced repetition due",
+          "care-plan priority",
+          "homework target",
+          "available in launched activity"
+        ],
+        "evidenceTypes": [
+          "recent_miss",
+          "fragile_target",
+          "sm2_due",
+          "care_plan_priority",
+          "homework_target",
+          "activity_target"
+        ],
+        "score": 305
+      },
+      {
+        "target": "knife",
+        "targetPurpose": "reinforce",
+        "compatibleWithActivity": true,
+        "reasons": [
+          "recent miss",
+          "fragile target",
+          "spaced repetition due",
+          "care-plan priority",
+          "homework target",
+          "available in launched activity"
+        ],
+        "evidenceTypes": [
+          "recent_miss",
+          "fragile_target",
+          "sm2_due",
+          "care_plan_priority",
+          "homework_target",
+          "activity_target"
+        ],
+        "score": 305
+      },
+      {
+        "target": "climb",
+        "targetPurpose": "reinforce",
+        "compatibleWithActivity": true,
+        "reasons": [
+          "recent miss",
+          "fragile target",
+          "spaced repetition due",
+          "care-plan priority",
+          "homework target",
+          "available in launched activity"
+        ],
+        "evidenceTypes": [
+          "recent_miss",
+          "fragile_target",
+          "sm2_due",
+          "care_plan_priority",
+          "homework_target",
+          "activity_target"
+        ],
+        "score": 305
+      }
+    ],
+    "diagnosticQuestion": "Can the child keep practicing fragile words without heavy writing load?",
+    "expectedEvidence": [
+      "targetResults",
+      "wrongTiles",
+      "hints",
+      "persistence",
+      "flowState"
+    ],
+    "successCriteria": [
+      "high engagement with improving accuracy"
+    ],
+    "reviseCriteria": [
+      "repeated wrong tile pattern",
+      "engagement without accuracy"
+    ],
+    "falsifyCriteria": [
+      "energy format masks actual spelling weakness"
+    ],
+    "evidenceTier": "practice",
+    "masteryEligible": false,
+    "companionSpeechPolicy": {
+      "mentionOnlyCurrentSnapshot": true,
+      "answerVisibility": "visible",
+      "canSpeakTargetBeforeReveal": true
+    },
+    "createdAt": "2026-05-19T23:33:15.988Z"
+  },
+  "targetSelectorDecision": {
+    "selectorId": "selector-reina-monster-stampede-2026-05-19T23-33-15-989Z",
+    "activityId": "monster-stampede",
+    "nodeId": "n-monster-stampede-hw-spelling_test-5a49d659",
+    "targetSelector": "fragile_reinforcement",
+    "selectedTargets": [
+      "know",
+      "write",
+      "thumb",
+      "comb",
+      "gnat",
+      "knock",
+      "knife",
+      "climb"
+    ],
+    "targetReasons": [
+      {
+        "target": "know",
+        "targetPurpose": "reinforce",
+        "compatibleWithActivity": true,
+        "reasons": [
+          "recent miss",
+          "fragile target",
+          "spaced repetition due",
+          "care-plan priority",
+          "homework target",
+          "available in launched activity"
+        ],
+        "evidenceTypes": [
+          "recent_miss",
+          "fragile_target",
+          "sm2_due",
+          "care_plan_priority",
+          "homework_target",
+          "activity_target"
+        ],
+        "score": 305
+      },
+      {
+        "target": "write",
+        "targetPurpose": "reinforce",
+        "compatibleWithActivity": true,
+        "reasons": [
+          "recent miss",
+          "fragile target",
+          "spaced repetition due",
+          "care-plan priority",
+          "homework target",
+          "available in launched activity"
+        ],
+        "evidenceTypes": [
+          "recent_miss",
+          "fragile_target",
+          "sm2_due",
+          "care_plan_priority",
+          "homework_target",
+          "activity_target"
+        ],
+        "score": 305
+      },
+      {
+        "target": "thumb",
+        "targetPurpose": "reinforce",
+        "compatibleWithActivity": true,
+        "reasons": [
+          "recent miss",
+          "fragile target",
+          "spaced repetition due",
+          "care-plan priority",
+          "homework target",
+          "available in launched activity"
+        ],
+        "evidenceTypes": [
+          "recent_miss",
+          "fragile_target",
+          "sm2_due",
+          "care_plan_priority",
+          "homework_target",
+          "activity_target"
+        ],
+        "score": 305
+      },
+      {
+        "target": "comb",
+        "targetPurpose": "reinforce",
+        "compatibleWithActivity": true,
+        "reasons": [
+          "recent miss",
+          "fragile target",
+          "spaced repetition due",
+          "care-plan priority",
+          "homework target",
+          "available in launched activity"
+        ],
+        "evidenceTypes": [
+          "recent_miss",
+          "fragile_target",
+          "sm2_due",
+          "care_plan_priority",
+          "homework_target",
+          "activity_target"
+        ],
+        "score": 305
+      },
+      {
+        "target": "gnat",
+        "targetPurpose": "reinforce",
+        "compatibleWithActivity": true,
+        "reasons": [
+          "recent miss",
+          "fragile target",
+          "spaced repetition due",
+          "care-plan priority",
+          "homework target",
+          "available in launched activity"
+        ],
+        "evidenceTypes": [
+          "recent_miss",
+          "fragile_target",
+          "sm2_due",
+          "care_plan_priority",
+          "homework_target",
+          "activity_target"
+        ],
+        "score": 305
+      },
+      {
+        "target": "knock",
+        "targetPurpose": "reinforce",
+        "compatibleWithActivity": true,
+        "reasons": [
+          "recent miss",
+          "fragile target",
+          "spaced repetition due",
+          "care-plan priority",
+          "homework target",
+          "available in launched activity"
+        ],
+        "evidenceTypes": [
+          "recent_miss",
+          "fragile_target",
+          "sm2_due",
+          "care_plan_priority",
+          "homework_target",
+          "activity_target"
+        ],
+        "score": 305
+      },
+      {
+        "target": "knife",
+        "targetPurpose": "reinforce",
+        "compatibleWithActivity": true,
+        "reasons": [
+          "recent miss",
+          "fragile target",
+          "spaced repetition due",
+          "care-plan priority",
+          "homework target",
+          "available in launched activity"
+        ],
+        "evidenceTypes": [
+          "recent_miss",
+          "fragile_target",
+          "sm2_due",
+          "care_plan_priority",
+          "homework_target",
+          "activity_target"
+        ],
+        "score": 305
+      },
+      {
+        "target": "climb",
+        "targetPurpose": "reinforce",
+        "compatibleWithActivity": true,
+        "reasons": [
+          "recent miss",
+          "fragile target",
+          "spaced repetition due",
+          "care-plan priority",
+          "homework target",
+          "available in launched activity"
+        ],
+        "evidenceTypes": [
+          "recent_miss",
+          "fragile_target",
+          "sm2_due",
+          "care_plan_priority",
+          "homework_target",
+          "activity_target"
+        ],
+        "score": 305
+      }
+    ],
+    "traceSummary": "Monster Stampede selected \"know\", \"write\", \"thumb\", \"comb\", \"gnat\", \"knock\", \"knife\", \"climb\" because recent miss, fragile target, spaced repetition due, care-plan priority, homework target, available in launched activity."
+  },
+  "targetLane": null,
+  "targetsShown": [
+    "know",
+    "write",
+    "thumb",
+    "comb",
+    "gnat",
+    "knock",
+    "knife",
+    "climb"
+  ],
+  "attempts": 8,
+  "correctWords": [],
+  "missedWords": [],
+  "recoveredWords": [],
+  "visibleScore": null,
+  "coinsEarned": null,
+  "answerVisibilityEvents": [
+    "visible"
+  ],
+  "helpRequests": [],
+  "completed": true,
+  "accuracy": 1,
+  "timeSpent_ms": 101242
+}
