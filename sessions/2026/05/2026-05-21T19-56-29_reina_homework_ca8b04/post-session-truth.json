@@ -1,0 +1,451 @@
+{
+  "packetVersion": 1,
+  "sessionDir": "/Users/jamaltaylor/Development/sunny/logs/sessions/2026/05/2026-05-21T19-56-29_reina_homework_ca8b04",
+  "generatedAt": "2026-05-21T20:01:38.276Z",
+  "sessionSummary": {
+    "childId": "Reina",
+    "subject": "homework",
+    "activityCount": 3,
+    "readingCount": 61,
+    "targetCount": 15,
+    "sourceFiles": [
+      "system-log.ndjson",
+      "adventure-log.ndjson",
+      "game-traces.ndjson",
+      "activities/"
+    ]
+  },
+  "assignmentSourceSummary": {
+    "homeworkIds": [],
+    "targetGroups": [],
+    "targetPurposes": []
+  },
+  "activityReports": [
+    {
+      "activityId": "pronunciation",
+      "readings": 32,
+      "targets": [
+        "among",
+        "building",
+        "circle",
+        "decided",
+        "finally",
+        "heavy",
+        "include",
+        "nothing",
+        "special",
+        "wheel"
+      ],
+      "correctTargets": [
+        "among",
+        "building",
+        "circle",
+        "decided",
+        "finally",
+        "heavy",
+        "include",
+        "nothing",
+        "special",
+        "wheel"
+      ],
+      "missedTargets": [],
+      "recoveredTargets": [],
+      "contaminatedTargets": [],
+      "evidenceTiers": [
+        "practice"
+      ],
+      "helpRequests": 0,
+      "skips": 0,
+      "accuracy": 50.5,
+      "interpretation": [
+        "activity reading captured for psychologist interpretation"
+      ]
+    },
+    {
+      "activityId": "Spell Check",
+      "readings": 24,
+      "targets": [
+        "comb",
+        "know",
+        "sign",
+        "thumb",
+        "write"
+      ],
+      "correctTargets": [
+        "comb",
+        "know",
+        "sign",
+        "thumb",
+        "write"
+      ],
+      "missedTargets": [
+        "comb",
+        "sign"
+      ],
+      "recoveredTargets": [],
+      "contaminatedTargets": [],
+      "evidenceTiers": [],
+      "helpRequests": 0,
+      "skips": 0,
+      "accuracy": null,
+      "interpretation": [
+        "activity reading captured for psychologist interpretation"
+      ]
+    },
+    {
+      "activityId": "spell-check",
+      "readings": 5,
+      "targets": [
+        "comb",
+        "know",
+        "sign",
+        "thumb",
+        "write"
+      ],
+      "correctTargets": [
+        "comb",
+        "know",
+        "sign",
+        "thumb",
+        "write"
+      ],
+      "missedTargets": [],
+      "recoveredTargets": [],
+      "contaminatedTargets": [],
+      "evidenceTiers": [
+        "practice"
+      ],
+      "helpRequests": 0,
+      "skips": 0,
+      "accuracy": 0.867,
+      "interpretation": [
+        "activity reading captured for psychologist interpretation"
+      ]
+    }
+  ],
+  "targetEvidence": [
+    {
+      "target": "among",
+      "activities": [
+        "pronunciation"
+      ],
+      "correctCount": 3,
+      "missedCount": 0,
+      "recoveredCount": 0,
+      "contaminatedCount": 0,
+      "lastStatus": "correct",
+      "lastQuality": "clean",
+      "evidenceTiers": [
+        "practice"
+      ]
+    },
+    {
+      "target": "building",
+      "activities": [
+        "pronunciation"
+      ],
+      "correctCount": 3,
+      "missedCount": 0,
+      "recoveredCount": 0,
+      "contaminatedCount": 0,
+      "lastStatus": "correct",
+      "lastQuality": "clean",
+      "evidenceTiers": [
+        "practice"
+      ]
+    },
+    {
+      "target": "circle",
+      "activities": [
+        "pronunciation"
+      ],
+      "correctCount": 3,
+      "missedCount": 0,
+      "recoveredCount": 0,
+      "contaminatedCount": 0,
+      "lastStatus": "correct",
+      "lastQuality": "clean",
+      "evidenceTiers": [
+        "practice"
+      ]
+    },
+    {
+      "target": "comb",
+      "activities": [
+        "Spell Check",
+        "spell-check"
+      ],
+      "correctCount": 5,
+      "missedCount": 1,
+      "recoveredCount": 0,
+      "contaminatedCount": 0,
+      "lastStatus": "correct",
+      "lastQuality": "clean",
+      "evidenceTiers": [
+        "practice"
+      ]
+    },
+    {
+      "target": "decided",
+      "activities": [
+        "pronunciation"
+      ],
+      "correctCount": 3,
+      "missedCount": 0,
+      "recoveredCount": 0,
+      "contaminatedCount": 0,
+      "lastStatus": "correct",
+      "lastQuality": "clean",
+      "evidenceTiers": [
+        "practice"
+      ]
+    },
+    {
+      "target": "finally",
+      "activities": [
+        "pronunciation"
+      ],
+      "correctCount": 3,
+      "missedCount": 0,
+      "recoveredCount": 0,
+      "contaminatedCount": 0,
+      "lastStatus": "correct",
+      "lastQuality": "clean",
+      "evidenceTiers": [
+        "practice"
+      ]
+    },
+    {
+      "target": "heavy",
+      "activities": [
+        "pronunciation"
+      ],
+      "correctCount": 3,
+      "missedCount": 0,
+      "recoveredCount": 0,
+      "contaminatedCount": 0,
+      "lastStatus": "correct",
+      "lastQuality": "clean",
+      "evidenceTiers": [
+        "practice"
+      ]
+    },
+    {
+      "target": "include",
+      "activities": [
+        "pronunciation"
+      ],
+      "correctCount": 3,
+      "missedCount": 0,
+      "recoveredCount": 0,
+      "contaminatedCount": 0,
+      "lastStatus": "correct",
+      "lastQuality": "clean",
+      "evidenceTiers": [
+        "practice"
+      ]
+    },
+    {
+      "target": "know",
+      "activities": [
+        "Spell Check",
+        "spell-check"
+      ],
+      "correctCount": 5,
+      "missedCount": 0,
+      "recoveredCount": 0,
+      "contaminatedCount": 0,
+      "lastStatus": "correct",
+      "lastQuality": "clean",
+      "evidenceTiers": [
+        "practice"
+      ]
+    },
+    {
+      "target": "nothing",
+      "activities": [
+        "pronunciation"
+      ],
+      "correctCount": 3,
+      "missedCount": 0,
+      "recoveredCount": 0,
+      "contaminatedCount": 0,
+      "lastStatus": "correct",
+      "lastQuality": "clean",
+      "evidenceTiers": [
+        "practice"
+      ]
+    },
+    {
+      "target": "sign",
+      "activities": [
+        "Spell Check",
+        "spell-check"
+      ],
+      "correctCount": 5,
+      "missedCount": 1,
+      "recoveredCount": 0,
+      "contaminatedCount": 0,
+      "lastStatus": "correct",
+      "lastQuality": "clean",
+      "evidenceTiers": [
+        "practice"
+      ]
+    },
+    {
+      "target": "special",
+      "activities": [
+        "pronunciation"
+      ],
+      "correctCount": 3,
+      "missedCount": 0,
+      "recoveredCount": 0,
+      "contaminatedCount": 0,
+      "lastStatus": "correct",
+      "lastQuality": "clean",
+      "evidenceTiers": [
+        "practice"
+      ]
+    },
+    {
+      "target": "thumb",
+      "activities": [
+        "Spell Check",
+        "spell-check"
+      ],
+      "correctCount": 6,
+      "missedCount": 0,
+      "recoveredCount": 0,
+      "contaminatedCount": 0,
+      "lastStatus": "correct",
+      "lastQuality": "clean",
+      "evidenceTiers": [
+        "practice"
+      ]
+    },
+    {
+      "target": "wheel",
+      "activities": [
+        "pronunciation"
+      ],
+      "correctCount": 3,
+      "missedCount": 0,
+      "recoveredCount": 0,
+      "contaminatedCount": 0,
+      "lastStatus": "correct",
+      "lastQuality": "clean",
+      "evidenceTiers": [
+        "practice"
+      ]
+    },
+    {
+      "target": "write",
+      "activities": [
+        "Spell Check",
+        "spell-check"
+      ],
+      "correctCount": 6,
+      "missedCount": 0,
+      "recoveredCount": 0,
+      "contaminatedCount": 0,
+      "lastStatus": "correct",
+      "lastQuality": "clean",
+      "evidenceTiers": [
+        "practice"
+      ]
+    }
+  ],
+  "flowAndPreferenceSignals": {
+    "helpRequests": 0,
+    "skips": 0,
+    "replays": 0,
+    "frustrationSignals": 0
+  },
+  "contradictions": [
+    "companion truth contradiction"
+  ],
+  "contaminationWarnings": [],
+  "questBossReadiness": {
+    "quest": {
+      "status": "locked",
+      "evidenceSeen": false
+    },
+    "boss": {
+      "status": "locked",
+      "evidenceSeen": false
+    }
+  },
+  "trustworthiness": {
+    "trustworthyTargets": [
+      "among",
+      "building",
+      "circle",
+      "decided",
+      "finally",
+      "heavy",
+      "include",
+      "know",
+      "nothing",
+      "special",
+      "thumb",
+      "wheel",
+      "write"
+    ],
+    "weakTargets": [
+      "comb",
+      "sign"
+    ],
+    "contaminatedTargets": [],
+    "missingEvidence": []
+  },
+  "evidenceInterpreted": {
+    "activities": [
+      "Spell Check",
+      "pronunciation",
+      "spell-check"
+    ],
+    "targets": [
+      "among",
+      "building",
+      "circle",
+      "comb",
+      "decided",
+      "finally",
+      "heavy",
+      "include",
+      "know",
+      "nothing",
+      "sign",
+      "special",
+      "thumb",
+      "wheel",
+      "write"
+    ],
+    "missedTargets": [
+      "comb",
+      "sign"
+    ],
+    "correctTargets": [
+      "among",
+      "building",
+      "circle",
+      "comb",
+      "decided",
+      "finally",
+      "heavy",
+      "include",
+      "know",
+      "nothing",
+      "sign",
+      "special",
+      "thumb",
+      "wheel",
+      "write"
+    ],
+    "contaminatedTargets": []
+  },
+  "adaptationDecision": {
+    "status": "missing",
+    "reason": "No next-plan decision was written after interpreted activity evidence."
+  }
+}

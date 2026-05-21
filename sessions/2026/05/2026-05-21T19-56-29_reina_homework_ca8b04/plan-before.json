@@ -1,0 +1,49 @@
+{
+  "source": "session_folder",
+  "sessionDir": "/Users/jamaltaylor/Development/sunny/logs/sessions/2026/05/2026-05-21T19-56-29_reina_homework_ca8b04",
+  "generatedAt": "2026-05-21T20:01:38.276Z",
+  "activityReports": [
+    {
+      "activityId": "pronunciation",
+      "targets": [
+        "among",
+        "building",
+        "circle",
+        "decided",
+        "finally",
+        "heavy",
+        "include",
+        "nothing",
+        "special",
+        "wheel"
+      ],
+      "evidenceTiers": [
+        "practice"
+      ]
+    },
+    {
+      "activityId": "Spell Check",
+      "targets": [
+        "comb",
+        "know",
+        "sign",
+        "thumb",
+        "write"
+      ],
+      "evidenceTiers": []
+    },
+    {
+      "activityId": "spell-check",
+      "targets": [
+        "comb",
+        "know",
+        "sign",
+        "thumb",
+        "write"
+      ],
+      "evidenceTiers": [
+        "practice"
+      ]
+    }
+  ]
+}

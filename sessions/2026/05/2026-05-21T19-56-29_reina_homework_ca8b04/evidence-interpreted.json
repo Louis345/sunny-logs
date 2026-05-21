@@ -1,0 +1,46 @@
+{
+  "activities": [
+    "Spell Check",
+    "pronunciation",
+    "spell-check"
+  ],
+  "targets": [
+    "among",
+    "building",
+    "circle",
+    "comb",
+    "decided",
+    "finally",
+    "heavy",
+    "include",
+    "know",
+    "nothing",
+    "sign",
+    "special",
+    "thumb",
+    "wheel",
+    "write"
+  ],
+  "missedTargets": [
+    "comb",
+    "sign"
+  ],
+  "correctTargets": [
+    "among",
+    "building",
+    "circle",
+    "comb",
+    "decided",
+    "finally",
+    "heavy",
+    "include",
+    "know",
+    "nothing",
+    "sign",
+    "special",
+    "thumb",
+    "wheel",
+    "write"
+  ],
+  "contaminatedTargets": []
+}

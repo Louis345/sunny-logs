@@ -1,0 +1,29 @@
+{
+  "adaptationDecision": {
+    "status": "missing",
+    "reason": "No next-plan decision was written after interpreted activity evidence."
+  },
+  "nextBoardEvidence": [
+    {
+      "activityId": "pronunciation",
+      "missedTargets": [],
+      "recoveredTargets": [],
+      "contaminatedTargets": []
+    },
+    {
+      "activityId": "Spell Check",
+      "missedTargets": [
+        "comb",
+        "sign"
+      ],
+      "recoveredTargets": [],
+      "contaminatedTargets": []
+    },
+    {
+      "activityId": "spell-check",
+      "missedTargets": [],
+      "recoveredTargets": [],
+      "contaminatedTargets": []
+    }
+  ]
+}
