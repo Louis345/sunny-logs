@@ -1,0 +1,11 @@
+{
+  "activities": [
+    "word-radar"
+  ],
+  "targets": [
+    "among"
+  ],
+  "missedTargets": [],
+  "correctTargets": [],
+  "contaminatedTargets": []
+}
