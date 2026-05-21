@@ -270,3 +270,5 @@
 🎮 [audit] component=word_builder action=rejected error=Word Builder is already active. Call canvasClear first if you want to restart it. childName=Ila
 🎮 [audit] component=transcript action=replay turnState=IDLE tts=on childName=Reina round=0
 🎮 [audit] component=transcript action=accepted turnState=IDLE tts=on childName=Reina round=0
+🎮 [audit] component=transcript action=replay turnState=IDLE tts=on childName=Reina round=0
+🎮 [audit] component=transcript action=accepted turnState=IDLE tts=on childName=Reina round=0
