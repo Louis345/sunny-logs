@@ -1,0 +1,15 @@
+{
+  "activities": [
+    "Spell Check"
+  ],
+  "targets": [
+    "sign"
+  ],
+  "missedTargets": [
+    "sign"
+  ],
+  "correctTargets": [
+    "sign"
+  ],
+  "contaminatedTargets": []
+}
