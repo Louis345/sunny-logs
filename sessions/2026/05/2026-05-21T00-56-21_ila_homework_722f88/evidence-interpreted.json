@@ -1,0 +1,38 @@
+{
+  "activities": [
+    "pronunciation"
+  ],
+  "targets": [
+    "ago",
+    "government",
+    "half",
+    "machine",
+    "pair",
+    "quickly",
+    "scientist",
+    "thousand",
+    "understood",
+    "wait"
+  ],
+  "missedTargets": [
+    "ago",
+    "pair",
+    "quickly",
+    "scientist",
+    "thousand",
+    "understood",
+    "wait"
+  ],
+  "correctTargets": [
+    "ago",
+    "government",
+    "half",
+    "machine",
+    "pair",
+    "quickly",
+    "scientist",
+    "thousand",
+    "understood"
+  ],
+  "contaminatedTargets": []
+}

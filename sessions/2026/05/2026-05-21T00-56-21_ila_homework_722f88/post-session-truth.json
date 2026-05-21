@@ -1,0 +1,306 @@
+{
+  "packetVersion": 1,
+  "sessionDir": "/Users/jamaltaylor/Development/sunny/logs/sessions/2026/05/2026-05-21T00-56-21_ila_homework_722f88",
+  "generatedAt": "2026-05-21T00:58:43.767Z",
+  "sessionSummary": {
+    "childId": "Ila",
+    "subject": "homework",
+    "activityCount": 1,
+    "readingCount": 65,
+    "targetCount": 10,
+    "sourceFiles": [
+      "system-log.ndjson",
+      "adventure-log.ndjson",
+      "game-traces.ndjson",
+      "activities/",
+      "game-summaries/"
+    ]
+  },
+  "assignmentSourceSummary": {
+    "homeworkIds": [],
+    "targetGroups": [
+      "high_frequency_words"
+    ],
+    "targetPurposes": []
+  },
+  "activityReports": [
+    {
+      "activityId": "pronunciation",
+      "readings": 65,
+      "targets": [
+        "ago",
+        "government",
+        "half",
+        "machine",
+        "pair",
+        "quickly",
+        "scientist",
+        "thousand",
+        "understood",
+        "wait"
+      ],
+      "correctTargets": [
+        "ago",
+        "government",
+        "half",
+        "machine",
+        "pair",
+        "quickly",
+        "scientist",
+        "thousand",
+        "understood"
+      ],
+      "missedTargets": [
+        "ago",
+        "pair",
+        "quickly",
+        "scientist",
+        "thousand",
+        "understood",
+        "wait"
+      ],
+      "recoveredTargets": [],
+      "contaminatedTargets": [],
+      "evidenceTiers": [
+        "practice"
+      ],
+      "helpRequests": 0,
+      "skips": 0,
+      "accuracy": 23.906,
+      "interpretation": [
+        "activity reading captured for psychologist interpretation",
+        "target evidence available for retargeting"
+      ]
+    }
+  ],
+  "targetEvidence": [
+    {
+      "target": "ago",
+      "activities": [
+        "pronunciation"
+      ],
+      "correctCount": 6,
+      "missedCount": 1,
+      "recoveredCount": 0,
+      "contaminatedCount": 0,
+      "lastStatus": "correct",
+      "lastQuality": "clean",
+      "evidenceTiers": [
+        "practice"
+      ]
+    },
+    {
+      "target": "government",
+      "activities": [
+        "pronunciation"
+      ],
+      "correctCount": 6,
+      "missedCount": 0,
+      "recoveredCount": 0,
+      "contaminatedCount": 0,
+      "lastStatus": "correct",
+      "lastQuality": "clean",
+      "evidenceTiers": [
+        "practice"
+      ]
+    },
+    {
+      "target": "half",
+      "activities": [
+        "pronunciation"
+      ],
+      "correctCount": 6,
+      "missedCount": 0,
+      "recoveredCount": 0,
+      "contaminatedCount": 0,
+      "lastStatus": "correct",
+      "lastQuality": "clean",
+      "evidenceTiers": [
+        "practice"
+      ]
+    },
+    {
+      "target": "machine",
+      "activities": [
+        "pronunciation"
+      ],
+      "correctCount": 6,
+      "missedCount": 0,
+      "recoveredCount": 0,
+      "contaminatedCount": 0,
+      "lastStatus": "correct",
+      "lastQuality": "clean",
+      "evidenceTiers": [
+        "practice"
+      ]
+    },
+    {
+      "target": "pair",
+      "activities": [
+        "pronunciation"
+      ],
+      "correctCount": 6,
+      "missedCount": 1,
+      "recoveredCount": 0,
+      "contaminatedCount": 0,
+      "lastStatus": "correct",
+      "lastQuality": "scaffolded",
+      "evidenceTiers": [
+        "practice"
+      ]
+    },
+    {
+      "target": "quickly",
+      "activities": [
+        "pronunciation"
+      ],
+      "correctCount": 6,
+      "missedCount": 1,
+      "recoveredCount": 0,
+      "contaminatedCount": 0,
+      "lastStatus": "correct",
+      "lastQuality": "clean",
+      "evidenceTiers": [
+        "practice"
+      ]
+    },
+    {
+      "target": "scientist",
+      "activities": [
+        "pronunciation"
+      ],
+      "correctCount": 4,
+      "missedCount": 5,
+      "recoveredCount": 0,
+      "contaminatedCount": 0,
+      "lastStatus": "missed",
+      "lastQuality": "scaffolded",
+      "evidenceTiers": [
+        "practice"
+      ]
+    },
+    {
+      "target": "thousand",
+      "activities": [
+        "pronunciation"
+      ],
+      "correctCount": 4,
+      "missedCount": 1,
+      "recoveredCount": 0,
+      "contaminatedCount": 0,
+      "lastStatus": "missed",
+      "lastQuality": "clean",
+      "evidenceTiers": [
+        "practice"
+      ]
+    },
+    {
+      "target": "understood",
+      "activities": [
+        "pronunciation"
+      ],
+      "correctCount": 4,
+      "missedCount": 1,
+      "recoveredCount": 0,
+      "contaminatedCount": 0,
+      "lastStatus": "missed",
+      "lastQuality": "clean",
+      "evidenceTiers": [
+        "practice"
+      ]
+    },
+    {
+      "target": "wait",
+      "activities": [
+        "pronunciation"
+      ],
+      "correctCount": 0,
+      "missedCount": 4,
+      "recoveredCount": 0,
+      "contaminatedCount": 0,
+      "lastStatus": "missed",
+      "lastQuality": "clean",
+      "evidenceTiers": [
+        "practice"
+      ]
+    }
+  ],
+  "flowAndPreferenceSignals": {
+    "helpRequests": 0,
+    "skips": 0,
+    "replays": 0,
+    "frustrationSignals": 0
+  },
+  "contradictions": [],
+  "contaminationWarnings": [],
+  "questBossReadiness": {
+    "quest": {
+      "status": "locked",
+      "evidenceSeen": false
+    },
+    "boss": {
+      "status": "locked",
+      "evidenceSeen": false
+    }
+  },
+  "trustworthiness": {
+    "trustworthyTargets": [
+      "government",
+      "half",
+      "machine"
+    ],
+    "weakTargets": [
+      "ago",
+      "pair",
+      "quickly",
+      "scientist",
+      "thousand",
+      "understood",
+      "wait"
+    ],
+    "contaminatedTargets": [],
+    "missingEvidence": []
+  },
+  "evidenceInterpreted": {
+    "activities": [
+      "pronunciation"
+    ],
+    "targets": [
+      "ago",
+      "government",
+      "half",
+      "machine",
+      "pair",
+      "quickly",
+      "scientist",
+      "thousand",
+      "understood",
+      "wait"
+    ],
+    "missedTargets": [
+      "ago",
+      "pair",
+      "quickly",
+      "scientist",
+      "thousand",
+      "understood",
+      "wait"
+    ],
+    "correctTargets": [
+      "ago",
+      "government",
+      "half",
+      "machine",
+      "pair",
+      "quickly",
+      "scientist",
+      "thousand",
+      "understood"
+    ],
+    "contaminatedTargets": []
+  },
+  "adaptationDecision": {
+    "status": "missing",
+    "reason": "No next-plan decision was written after interpreted activity evidence."
+  }
+}
