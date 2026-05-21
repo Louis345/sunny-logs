@@ -1,0 +1,514 @@
+{
+  "packetVersion": 1,
+  "sessionDir": "/Users/jamaltaylor/Development/sunny/logs/sessions/2026/05/2026-05-21T00-36-54_ila_homework_fea57e",
+  "generatedAt": "2026-05-21T00:45:26.718Z",
+  "sessionSummary": {
+    "childId": "Ila",
+    "subject": "homework",
+    "activityCount": 5,
+    "readingCount": 173,
+    "targetCount": 14,
+    "sourceFiles": [
+      "system-log.ndjson",
+      "adventure-log.ndjson",
+      "game-traces.ndjson",
+      "activities/",
+      "game-summaries/"
+    ]
+  },
+  "assignmentSourceSummary": {
+    "homeworkIds": [],
+    "targetGroups": [
+      "high_frequency_words",
+      "spell_from_memory"
+    ],
+    "targetPurposes": []
+  },
+  "activityReports": [
+    {
+      "activityId": "mystery",
+      "readings": 1,
+      "targets": [],
+      "correctTargets": [],
+      "missedTargets": [],
+      "recoveredTargets": [],
+      "contaminatedTargets": [],
+      "evidenceTiers": [],
+      "helpRequests": 0,
+      "skips": 0,
+      "accuracy": 0.71,
+      "interpretation": [
+        "activity reading captured for psychologist interpretation"
+      ]
+    },
+    {
+      "activityId": "pronunciation",
+      "readings": 103,
+      "targets": [
+        "about",
+        "above",
+        "ago",
+        "ahead",
+        "away",
+        "government",
+        "half",
+        "machine",
+        "pair",
+        "quickly",
+        "scientist",
+        "thousand",
+        "understood",
+        "wait"
+      ],
+      "correctTargets": [
+        "about",
+        "above",
+        "ago",
+        "ahead",
+        "away",
+        "government",
+        "half",
+        "machine",
+        "pair",
+        "quickly",
+        "scientist",
+        "thousand",
+        "understood"
+      ],
+      "missedTargets": [
+        "about",
+        "ahead",
+        "machine",
+        "pair",
+        "quickly",
+        "scientist",
+        "thousand",
+        "understood",
+        "wait"
+      ],
+      "recoveredTargets": [],
+      "contaminatedTargets": [],
+      "evidenceTiers": [
+        "practice"
+      ],
+      "helpRequests": 0,
+      "skips": 0,
+      "accuracy": 24.987,
+      "interpretation": [
+        "activity reading captured for psychologist interpretation",
+        "target evidence available for retargeting"
+      ]
+    },
+    {
+      "activityId": "Spell Check",
+      "readings": 44,
+      "targets": [
+        "about",
+        "above",
+        "ago",
+        "ahead",
+        "away"
+      ],
+      "correctTargets": [
+        "about",
+        "above",
+        "ago",
+        "ahead",
+        "away"
+      ],
+      "missedTargets": [
+        "ahead"
+      ],
+      "recoveredTargets": [],
+      "contaminatedTargets": [],
+      "evidenceTiers": [],
+      "helpRequests": 0,
+      "skips": 0,
+      "accuracy": null,
+      "interpretation": [
+        "activity reading captured for psychologist interpretation"
+      ]
+    },
+    {
+      "activityId": "spell-check",
+      "readings": 12,
+      "targets": [
+        "about",
+        "above",
+        "ago",
+        "ahead",
+        "away"
+      ],
+      "correctTargets": [
+        "about",
+        "above",
+        "ago",
+        "ahead",
+        "away"
+      ],
+      "missedTargets": [],
+      "recoveredTargets": [],
+      "contaminatedTargets": [],
+      "evidenceTiers": [
+        "practice"
+      ],
+      "helpRequests": 0,
+      "skips": 0,
+      "accuracy": 0.867,
+      "interpretation": [
+        "activity reading captured for psychologist interpretation",
+        "target evidence available for retargeting"
+      ]
+    },
+    {
+      "activityId": "word-radar",
+      "readings": 13,
+      "targets": [
+        "pair",
+        "understood",
+        "wait"
+      ],
+      "correctTargets": [
+        "wait"
+      ],
+      "missedTargets": [
+        "pair",
+        "understood"
+      ],
+      "recoveredTargets": [],
+      "contaminatedTargets": [],
+      "evidenceTiers": [
+        "practice"
+      ],
+      "helpRequests": 0,
+      "skips": 0,
+      "accuracy": 0.333,
+      "interpretation": [
+        "activity reading captured for psychologist interpretation",
+        "target evidence available for retargeting"
+      ]
+    }
+  ],
+  "targetEvidence": [
+    {
+      "target": "about",
+      "activities": [
+        "Spell Check",
+        "pronunciation",
+        "spell-check"
+      ],
+      "correctCount": 19,
+      "missedCount": 2,
+      "recoveredCount": 0,
+      "contaminatedCount": 0,
+      "lastStatus": "correct",
+      "lastQuality": "clean",
+      "evidenceTiers": [
+        "practice"
+      ]
+    },
+    {
+      "target": "above",
+      "activities": [
+        "Spell Check",
+        "pronunciation",
+        "spell-check"
+      ],
+      "correctCount": 19,
+      "missedCount": 0,
+      "recoveredCount": 0,
+      "contaminatedCount": 0,
+      "lastStatus": "correct",
+      "lastQuality": "clean",
+      "evidenceTiers": [
+        "practice"
+      ]
+    },
+    {
+      "target": "ago",
+      "activities": [
+        "Spell Check",
+        "pronunciation",
+        "spell-check"
+      ],
+      "correctCount": 19,
+      "missedCount": 0,
+      "recoveredCount": 0,
+      "contaminatedCount": 0,
+      "lastStatus": "correct",
+      "lastQuality": "clean",
+      "evidenceTiers": [
+        "practice"
+      ]
+    },
+    {
+      "target": "ahead",
+      "activities": [
+        "Spell Check",
+        "pronunciation",
+        "spell-check"
+      ],
+      "correctCount": 16,
+      "missedCount": 7,
+      "recoveredCount": 0,
+      "contaminatedCount": 0,
+      "lastStatus": "correct",
+      "lastQuality": "clean",
+      "evidenceTiers": [
+        "practice"
+      ]
+    },
+    {
+      "target": "away",
+      "activities": [
+        "Spell Check",
+        "pronunciation",
+        "spell-check"
+      ],
+      "correctCount": 15,
+      "missedCount": 0,
+      "recoveredCount": 0,
+      "contaminatedCount": 0,
+      "lastStatus": "correct",
+      "lastQuality": "clean",
+      "evidenceTiers": [
+        "practice"
+      ]
+    },
+    {
+      "target": "government",
+      "activities": [
+        "pronunciation"
+      ],
+      "correctCount": 6,
+      "missedCount": 0,
+      "recoveredCount": 0,
+      "contaminatedCount": 0,
+      "lastStatus": "correct",
+      "lastQuality": "clean",
+      "evidenceTiers": [
+        "practice"
+      ]
+    },
+    {
+      "target": "half",
+      "activities": [
+        "pronunciation"
+      ],
+      "correctCount": 6,
+      "missedCount": 0,
+      "recoveredCount": 0,
+      "contaminatedCount": 0,
+      "lastStatus": "correct",
+      "lastQuality": "clean",
+      "evidenceTiers": [
+        "practice"
+      ]
+    },
+    {
+      "target": "machine",
+      "activities": [
+        "pronunciation"
+      ],
+      "correctCount": 6,
+      "missedCount": 1,
+      "recoveredCount": 0,
+      "contaminatedCount": 0,
+      "lastStatus": "correct",
+      "lastQuality": "scaffolded",
+      "evidenceTiers": [
+        "practice"
+      ]
+    },
+    {
+      "target": "pair",
+      "activities": [
+        "pronunciation",
+        "word-radar"
+      ],
+      "correctCount": 6,
+      "missedCount": 4,
+      "recoveredCount": 0,
+      "contaminatedCount": 0,
+      "lastStatus": "missed",
+      "lastQuality": "clean",
+      "evidenceTiers": [
+        "practice"
+      ]
+    },
+    {
+      "target": "quickly",
+      "activities": [
+        "pronunciation"
+      ],
+      "correctCount": 4,
+      "missedCount": 2,
+      "recoveredCount": 0,
+      "contaminatedCount": 0,
+      "lastStatus": "missed",
+      "lastQuality": "scaffolded",
+      "evidenceTiers": [
+        "practice"
+      ]
+    },
+    {
+      "target": "scientist",
+      "activities": [
+        "pronunciation"
+      ],
+      "correctCount": 4,
+      "missedCount": 1,
+      "recoveredCount": 0,
+      "contaminatedCount": 0,
+      "lastStatus": "missed",
+      "lastQuality": "clean",
+      "evidenceTiers": [
+        "practice"
+      ]
+    },
+    {
+      "target": "thousand",
+      "activities": [
+        "pronunciation"
+      ],
+      "correctCount": 4,
+      "missedCount": 1,
+      "recoveredCount": 0,
+      "contaminatedCount": 0,
+      "lastStatus": "missed",
+      "lastQuality": "clean",
+      "evidenceTiers": [
+        "practice"
+      ]
+    },
+    {
+      "target": "understood",
+      "activities": [
+        "pronunciation",
+        "word-radar"
+      ],
+      "correctCount": 4,
+      "missedCount": 4,
+      "recoveredCount": 0,
+      "contaminatedCount": 0,
+      "lastStatus": "missed",
+      "lastQuality": "clean",
+      "evidenceTiers": [
+        "practice"
+      ]
+    },
+    {
+      "target": "wait",
+      "activities": [
+        "pronunciation",
+        "word-radar"
+      ],
+      "correctCount": 2,
+      "missedCount": 4,
+      "recoveredCount": 0,
+      "contaminatedCount": 0,
+      "lastStatus": "correct",
+      "lastQuality": "clean",
+      "evidenceTiers": [
+        "practice"
+      ]
+    }
+  ],
+  "flowAndPreferenceSignals": {
+    "helpRequests": 0,
+    "skips": 0,
+    "replays": 0,
+    "frustrationSignals": 0
+  },
+  "contradictions": [],
+  "contaminationWarnings": [],
+  "questBossReadiness": {
+    "quest": {
+      "status": "locked",
+      "evidenceSeen": false
+    },
+    "boss": {
+      "status": "locked",
+      "evidenceSeen": false
+    }
+  },
+  "trustworthiness": {
+    "trustworthyTargets": [
+      "above",
+      "ago",
+      "away",
+      "government",
+      "half"
+    ],
+    "weakTargets": [
+      "about",
+      "ahead",
+      "machine",
+      "pair",
+      "quickly",
+      "scientist",
+      "thousand",
+      "understood",
+      "wait"
+    ],
+    "contaminatedTargets": [],
+    "missingEvidence": []
+  },
+  "evidenceInterpreted": {
+    "activities": [
+      "Spell Check",
+      "mystery",
+      "pronunciation",
+      "spell-check",
+      "word-radar"
+    ],
+    "targets": [
+      "about",
+      "above",
+      "ago",
+      "ahead",
+      "away",
+      "government",
+      "half",
+      "machine",
+      "pair",
+      "quickly",
+      "scientist",
+      "thousand",
+      "understood",
+      "wait"
+    ],
+    "missedTargets": [
+      "about",
+      "ahead",
+      "machine",
+      "pair",
+      "quickly",
+      "scientist",
+      "thousand",
+      "understood",
+      "wait"
+    ],
+    "correctTargets": [
+      "about",
+      "above",
+      "ago",
+      "ahead",
+      "away",
+      "government",
+      "half",
+      "machine",
+      "pair",
+      "quickly",
+      "scientist",
+      "thousand",
+      "understood",
+      "wait"
+    ],
+    "contaminatedTargets": []
+  },
+  "adaptationDecision": {
+    "status": "missing",
+    "reason": "No next-plan decision was written after interpreted activity evidence."
+  }
+}

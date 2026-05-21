@@ -1,0 +1,69 @@
+{
+  "source": "session_folder",
+  "sessionDir": "/Users/jamaltaylor/Development/sunny/logs/sessions/2026/05/2026-05-21T00-36-54_ila_homework_fea57e",
+  "generatedAt": "2026-05-21T00:45:26.718Z",
+  "activityReports": [
+    {
+      "activityId": "mystery",
+      "targets": [],
+      "evidenceTiers": []
+    },
+    {
+      "activityId": "pronunciation",
+      "targets": [
+        "about",
+        "above",
+        "ago",
+        "ahead",
+        "away",
+        "government",
+        "half",
+        "machine",
+        "pair",
+        "quickly",
+        "scientist",
+        "thousand",
+        "understood",
+        "wait"
+      ],
+      "evidenceTiers": [
+        "practice"
+      ]
+    },
+    {
+      "activityId": "Spell Check",
+      "targets": [
+        "about",
+        "above",
+        "ago",
+        "ahead",
+        "away"
+      ],
+      "evidenceTiers": []
+    },
+    {
+      "activityId": "spell-check",
+      "targets": [
+        "about",
+        "above",
+        "ago",
+        "ahead",
+        "away"
+      ],
+      "evidenceTiers": [
+        "practice"
+      ]
+    },
+    {
+      "activityId": "word-radar",
+      "targets": [
+        "pair",
+        "understood",
+        "wait"
+      ],
+      "evidenceTiers": [
+        "practice"
+      ]
+    }
+  ]
+}

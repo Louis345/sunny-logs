@@ -1,0 +1,525 @@
+{
+  "ts": "2026-05-21T00:38:06.047Z",
+  "sessionId": "fea57e10-1657-43f4-a7cb-08f9c130a35e",
+  "child": "Ila",
+  "subject": "homework",
+  "game": "pronunciation",
+  "nodeId": "n-pronunciation-hw-spelling_test-bb11de93",
+  "activityId": "pronunciation",
+  "activityIntentId": "intent-ila-pronunciation-n-pronunciation-hw-spelling_test-bb11de93-2026-05-21T00-37-25-119Z",
+  "targetSelectorId": "selector-ila-pronunciation-2026-05-21T00-37-25-120Z",
+  "activityIntent": {
+    "intentId": "intent-ila-pronunciation-n-pronunciation-hw-spelling_test-bb11de93-2026-05-21T00-37-25-119Z",
+    "activityId": "pronunciation",
+    "nodeId": "n-pronunciation-hw-spelling_test-bb11de93",
+    "purpose": "fluency_auditory_discrimination_probe",
+    "carePlanHypothesis": "Use chart evidence to choose a spelling instrument and update the next plan.",
+    "targetSelector": "high_frequency_or_confusion",
+    "acceptedTargetPurposes": [
+      "recognize",
+      "read_fluently",
+      "pronounce",
+      "spell_from_memory",
+      "unknown"
+    ],
+    "selectedTargets": [
+      {
+        "target": "ago",
+        "targetPurpose": "recognize",
+        "compatibleWithActivity": true,
+        "reasons": [
+          "high-frequency word target",
+          "pronunciation confusion",
+          "recent miss",
+          "fragile target",
+          "homework target",
+          "available in launched activity"
+        ],
+        "evidenceTypes": [
+          "high_frequency_word",
+          "pronunciation_confusion",
+          "recent_miss",
+          "fragile_target",
+          "homework_target",
+          "activity_target"
+        ],
+        "score": 350
+      },
+      {
+        "target": "government",
+        "targetPurpose": "recognize",
+        "compatibleWithActivity": true,
+        "reasons": [
+          "high-frequency word target",
+          "pronunciation confusion",
+          "recent miss",
+          "fragile target",
+          "available in launched activity"
+        ],
+        "evidenceTypes": [
+          "high_frequency_word",
+          "pronunciation_confusion",
+          "recent_miss",
+          "fragile_target",
+          "activity_target"
+        ],
+        "score": 330
+      },
+      {
+        "target": "half",
+        "targetPurpose": "recognize",
+        "compatibleWithActivity": true,
+        "reasons": [
+          "high-frequency word target",
+          "pronunciation confusion",
+          "recent miss",
+          "fragile target",
+          "available in launched activity"
+        ],
+        "evidenceTypes": [
+          "high_frequency_word",
+          "pronunciation_confusion",
+          "recent_miss",
+          "fragile_target",
+          "activity_target"
+        ],
+        "score": 330
+      },
+      {
+        "target": "machine",
+        "targetPurpose": "recognize",
+        "compatibleWithActivity": true,
+        "reasons": [
+          "high-frequency word target",
+          "pronunciation confusion",
+          "recent miss",
+          "fragile target",
+          "available in launched activity"
+        ],
+        "evidenceTypes": [
+          "high_frequency_word",
+          "pronunciation_confusion",
+          "recent_miss",
+          "fragile_target",
+          "activity_target"
+        ],
+        "score": 330
+      },
+      {
+        "target": "pair",
+        "targetPurpose": "recognize",
+        "compatibleWithActivity": true,
+        "reasons": [
+          "high-frequency word target",
+          "pronunciation confusion",
+          "recent miss",
+          "fragile target",
+          "available in launched activity"
+        ],
+        "evidenceTypes": [
+          "high_frequency_word",
+          "pronunciation_confusion",
+          "recent_miss",
+          "fragile_target",
+          "activity_target"
+        ],
+        "score": 330
+      },
+      {
+        "target": "quickly",
+        "targetPurpose": "recognize",
+        "compatibleWithActivity": true,
+        "reasons": [
+          "high-frequency word target",
+          "pronunciation confusion",
+          "recent miss",
+          "fragile target",
+          "available in launched activity"
+        ],
+        "evidenceTypes": [
+          "high_frequency_word",
+          "pronunciation_confusion",
+          "recent_miss",
+          "fragile_target",
+          "activity_target"
+        ],
+        "score": 330
+      },
+      {
+        "target": "scientist",
+        "targetPurpose": "recognize",
+        "compatibleWithActivity": true,
+        "reasons": [
+          "high-frequency word target",
+          "pronunciation confusion",
+          "recent miss",
+          "fragile target",
+          "available in launched activity"
+        ],
+        "evidenceTypes": [
+          "high_frequency_word",
+          "pronunciation_confusion",
+          "recent_miss",
+          "fragile_target",
+          "activity_target"
+        ],
+        "score": 330
+      },
+      {
+        "target": "thousand",
+        "targetPurpose": "recognize",
+        "compatibleWithActivity": true,
+        "reasons": [
+          "high-frequency word target",
+          "pronunciation confusion",
+          "recent miss",
+          "fragile target",
+          "available in launched activity"
+        ],
+        "evidenceTypes": [
+          "high_frequency_word",
+          "pronunciation_confusion",
+          "recent_miss",
+          "fragile_target",
+          "activity_target"
+        ],
+        "score": 330
+      },
+      {
+        "target": "understood",
+        "targetPurpose": "recognize",
+        "compatibleWithActivity": true,
+        "reasons": [
+          "high-frequency word target",
+          "pronunciation confusion",
+          "recent miss",
+          "fragile target",
+          "available in launched activity"
+        ],
+        "evidenceTypes": [
+          "high_frequency_word",
+          "pronunciation_confusion",
+          "recent_miss",
+          "fragile_target",
+          "activity_target"
+        ],
+        "score": 330
+      },
+      {
+        "target": "wait",
+        "targetPurpose": "recognize",
+        "compatibleWithActivity": true,
+        "reasons": [
+          "high-frequency word target",
+          "pronunciation confusion",
+          "recent miss",
+          "fragile target",
+          "available in launched activity"
+        ],
+        "evidenceTypes": [
+          "high_frequency_word",
+          "pronunciation_confusion",
+          "recent_miss",
+          "fragile_target",
+          "activity_target"
+        ],
+        "score": 330
+      }
+    ],
+    "diagnosticQuestion": "Can the child read and say the target clearly, and recover after a model?",
+    "expectedEvidence": [
+      "targetResults",
+      "misses",
+      "recoveryAfterModel",
+      "retries",
+      "heatModeVitals"
+    ],
+    "successCriteria": [
+      "target is read accurately after low support"
+    ],
+    "reviseCriteria": [
+      "same target needs repeated model",
+      "confuses nearby sounds or words"
+    ],
+    "falsifyCriteria": [
+      "speech recognition is too noisy to trust for the target"
+    ],
+    "evidenceTier": "practice",
+    "masteryEligible": false,
+    "companionSpeechPolicy": {
+      "mentionOnlyCurrentSnapshot": true,
+      "answerVisibility": "visible",
+      "canSpeakTargetBeforeReveal": true
+    },
+    "createdAt": "2026-05-21T00:37:25.119Z"
+  },
+  "targetSelectorDecision": {
+    "selectorId": "selector-ila-pronunciation-2026-05-21T00-37-25-120Z",
+    "activityId": "pronunciation",
+    "nodeId": "n-pronunciation-hw-spelling_test-bb11de93",
+    "targetSelector": "high_frequency_or_confusion",
+    "selectedTargets": [
+      "ago",
+      "government",
+      "half",
+      "machine",
+      "pair",
+      "quickly",
+      "scientist",
+      "thousand",
+      "understood",
+      "wait"
+    ],
+    "targetReasons": [
+      {
+        "target": "ago",
+        "targetPurpose": "recognize",
+        "compatibleWithActivity": true,
+        "reasons": [
+          "high-frequency word target",
+          "pronunciation confusion",
+          "recent miss",
+          "fragile target",
+          "homework target",
+          "available in launched activity"
+        ],
+        "evidenceTypes": [
+          "high_frequency_word",
+          "pronunciation_confusion",
+          "recent_miss",
+          "fragile_target",
+          "homework_target",
+          "activity_target"
+        ],
+        "score": 350
+      },
+      {
+        "target": "government",
+        "targetPurpose": "recognize",
+        "compatibleWithActivity": true,
+        "reasons": [
+          "high-frequency word target",
+          "pronunciation confusion",
+          "recent miss",
+          "fragile target",
+          "available in launched activity"
+        ],
+        "evidenceTypes": [
+          "high_frequency_word",
+          "pronunciation_confusion",
+          "recent_miss",
+          "fragile_target",
+          "activity_target"
+        ],
+        "score": 330
+      },
+      {
+        "target": "half",
+        "targetPurpose": "recognize",
+        "compatibleWithActivity": true,
+        "reasons": [
+          "high-frequency word target",
+          "pronunciation confusion",
+          "recent miss",
+          "fragile target",
+          "available in launched activity"
+        ],
+        "evidenceTypes": [
+          "high_frequency_word",
+          "pronunciation_confusion",
+          "recent_miss",
+          "fragile_target",
+          "activity_target"
+        ],
+        "score": 330
+      },
+      {
+        "target": "machine",
+        "targetPurpose": "recognize",
+        "compatibleWithActivity": true,
+        "reasons": [
+          "high-frequency word target",
+          "pronunciation confusion",
+          "recent miss",
+          "fragile target",
+          "available in launched activity"
+        ],
+        "evidenceTypes": [
+          "high_frequency_word",
+          "pronunciation_confusion",
+          "recent_miss",
+          "fragile_target",
+          "activity_target"
+        ],
+        "score": 330
+      },
+      {
+        "target": "pair",
+        "targetPurpose": "recognize",
+        "compatibleWithActivity": true,
+        "reasons": [
+          "high-frequency word target",
+          "pronunciation confusion",
+          "recent miss",
+          "fragile target",
+          "available in launched activity"
+        ],
+        "evidenceTypes": [
+          "high_frequency_word",
+          "pronunciation_confusion",
+          "recent_miss",
+          "fragile_target",
+          "activity_target"
+        ],
+        "score": 330
+      },
+      {
+        "target": "quickly",
+        "targetPurpose": "recognize",
+        "compatibleWithActivity": true,
+        "reasons": [
+          "high-frequency word target",
+          "pronunciation confusion",
+          "recent miss",
+          "fragile target",
+          "available in launched activity"
+        ],
+        "evidenceTypes": [
+          "high_frequency_word",
+          "pronunciation_confusion",
+          "recent_miss",
+          "fragile_target",
+          "activity_target"
+        ],
+        "score": 330
+      },
+      {
+        "target": "scientist",
+        "targetPurpose": "recognize",
+        "compatibleWithActivity": true,
+        "reasons": [
+          "high-frequency word target",
+          "pronunciation confusion",
+          "recent miss",
+          "fragile target",
+          "available in launched activity"
+        ],
+        "evidenceTypes": [
+          "high_frequency_word",
+          "pronunciation_confusion",
+          "recent_miss",
+          "fragile_target",
+          "activity_target"
+        ],
+        "score": 330
+      },
+      {
+        "target": "thousand",
+        "targetPurpose": "recognize",
+        "compatibleWithActivity": true,
+        "reasons": [
+          "high-frequency word target",
+          "pronunciation confusion",
+          "recent miss",
+          "fragile target",
+          "available in launched activity"
+        ],
+        "evidenceTypes": [
+          "high_frequency_word",
+          "pronunciation_confusion",
+          "recent_miss",
+          "fragile_target",
+          "activity_target"
+        ],
+        "score": 330
+      },
+      {
+        "target": "understood",
+        "targetPurpose": "recognize",
+        "compatibleWithActivity": true,
+        "reasons": [
+          "high-frequency word target",
+          "pronunciation confusion",
+          "recent miss",
+          "fragile target",
+          "available in launched activity"
+        ],
+        "evidenceTypes": [
+          "high_frequency_word",
+          "pronunciation_confusion",
+          "recent_miss",
+          "fragile_target",
+          "activity_target"
+        ],
+        "score": 330
+      },
+      {
+        "target": "wait",
+        "targetPurpose": "recognize",
+        "compatibleWithActivity": true,
+        "reasons": [
+          "high-frequency word target",
+          "pronunciation confusion",
+          "recent miss",
+          "fragile target",
+          "available in launched activity"
+        ],
+        "evidenceTypes": [
+          "high_frequency_word",
+          "pronunciation_confusion",
+          "recent_miss",
+          "fragile_target",
+          "activity_target"
+        ],
+        "score": 330
+      }
+    ],
+    "traceSummary": "Pronunciation selected \"ago\", \"government\", \"half\", \"machine\", \"pair\", \"quickly\", \"scientist\", \"thousand\", \"understood\", \"wait\" because high-frequency word target, pronunciation confusion, recent miss, fragile target, homework target, available in launched activity."
+  },
+  "targetLane": "high_frequency_words",
+  "targetsShown": [
+    "ago",
+    "government",
+    "half",
+    "machine",
+    "pair",
+    "quickly",
+    "scientist",
+    "thousand",
+    "understood",
+    "wait"
+  ],
+  "attempts": 11,
+  "correctWords": [
+    "ago",
+    "government",
+    "half",
+    "machine",
+    "pair",
+    "quickly",
+    "scientist",
+    "thousand",
+    "understood"
+  ],
+  "missedWords": [
+    "ago",
+    "government",
+    "pair",
+    "quickly",
+    "understood",
+    "wait"
+  ],
+  "recoveredWords": [
+    "pair",
+    "understood"
+  ],
+  "visibleScore": null,
+  "coinsEarned": null,
+  "answerVisibilityEvents": [
+    "visible"
+  ],
+  "helpRequests": [],
+  "completed": true,
+  "accuracy": 0.82,
+  "timeSpent_ms": 0
+}

@@ -1,0 +1,53 @@
+{
+  "activities": [
+    "Spell Check",
+    "mystery",
+    "pronunciation",
+    "spell-check",
+    "word-radar"
+  ],
+  "targets": [
+    "about",
+    "above",
+    "ago",
+    "ahead",
+    "away",
+    "government",
+    "half",
+    "machine",
+    "pair",
+    "quickly",
+    "scientist",
+    "thousand",
+    "understood",
+    "wait"
+  ],
+  "missedTargets": [
+    "about",
+    "ahead",
+    "machine",
+    "pair",
+    "quickly",
+    "scientist",
+    "thousand",
+    "understood",
+    "wait"
+  ],
+  "correctTargets": [
+    "about",
+    "above",
+    "ago",
+    "ahead",
+    "away",
+    "government",
+    "half",
+    "machine",
+    "pair",
+    "quickly",
+    "scientist",
+    "thousand",
+    "understood",
+    "wait"
+  ],
+  "contaminatedTargets": []
+}
