@@ -19,3 +19,7 @@ concepts: Silent consonants (kn-, -mb, wr-, gn-), High-frequency word automatici
 First map node: word-radar
 First node words: among, decided, wrong, climb, sign, know (+4 more)
 Invite the child to start the first map node when ready.
+
+### 2026-05-21T23:29:40.828Z
+
+**assistant:** Hey Ray-nah, ready to tackle some tricky spelling words? Let's start with Word Radar and see how those silent letters behave!
