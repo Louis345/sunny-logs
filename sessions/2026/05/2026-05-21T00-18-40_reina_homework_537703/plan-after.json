@@ -1,0 +1,67 @@
+{
+  "adaptationDecision": {
+    "status": "missing",
+    "reason": "No next-plan decision was written after interpreted activity evidence."
+  },
+  "nextBoardEvidence": [
+    {
+      "activityId": "monster-stampede",
+      "missedTargets": [
+        "building",
+        "decided",
+        "finally"
+      ],
+      "recoveredTargets": [],
+      "contaminatedTargets": []
+    },
+    {
+      "activityId": "mystery",
+      "missedTargets": [],
+      "recoveredTargets": [],
+      "contaminatedTargets": []
+    },
+    {
+      "activityId": "Project Sunny — Wheel of Fortune",
+      "missedTargets": [],
+      "recoveredTargets": [],
+      "contaminatedTargets": []
+    },
+    {
+      "activityId": "Spell Check",
+      "missedTargets": [
+        "knock",
+        "write"
+      ],
+      "recoveredTargets": [],
+      "contaminatedTargets": []
+    },
+    {
+      "activityId": "spell-check",
+      "missedTargets": [],
+      "recoveredTargets": [],
+      "contaminatedTargets": []
+    },
+    {
+      "activityId": "Wheel of Fortune",
+      "missedTargets": [],
+      "recoveredTargets": [],
+      "contaminatedTargets": []
+    },
+    {
+      "activityId": "wheel-of-fortune",
+      "missedTargets": [],
+      "recoveredTargets": [],
+      "contaminatedTargets": []
+    },
+    {
+      "activityId": "word-radar",
+      "missedTargets": [
+        "decided",
+        "finally",
+        "gnat"
+      ],
+      "recoveredTargets": [],
+      "contaminatedTargets": []
+    }
+  ]
+}

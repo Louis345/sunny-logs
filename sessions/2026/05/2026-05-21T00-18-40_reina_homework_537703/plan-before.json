@@ -1,0 +1,90 @@
+{
+  "source": "session_folder",
+  "sessionDir": "/Users/jamaltaylor/Development/sunny/logs/sessions/2026/05/2026-05-21T00-18-40_reina_homework_537703",
+  "generatedAt": "2026-05-21T00:30:13.027Z",
+  "activityReports": [
+    {
+      "activityId": "monster-stampede",
+      "targets": [
+        "among",
+        "building",
+        "decided",
+        "finally",
+        "gnat",
+        "know",
+        "write"
+      ],
+      "evidenceTiers": [
+        "practice"
+      ]
+    },
+    {
+      "activityId": "mystery",
+      "targets": [],
+      "evidenceTiers": []
+    },
+    {
+      "activityId": "Project Sunny — Wheel of Fortune",
+      "targets": [
+        "know"
+      ],
+      "evidenceTiers": []
+    },
+    {
+      "activityId": "Spell Check",
+      "targets": [
+        "climb",
+        "gnat",
+        "knock",
+        "know",
+        "write"
+      ],
+      "evidenceTiers": []
+    },
+    {
+      "activityId": "spell-check",
+      "targets": [
+        "climb",
+        "gnat",
+        "knock",
+        "know",
+        "write"
+      ],
+      "evidenceTiers": [
+        "practice"
+      ]
+    },
+    {
+      "activityId": "Wheel of Fortune",
+      "targets": [],
+      "evidenceTiers": []
+    },
+    {
+      "activityId": "wheel-of-fortune",
+      "targets": [
+        "know"
+      ],
+      "evidenceTiers": [
+        "practice"
+      ]
+    },
+    {
+      "activityId": "word-radar",
+      "targets": [
+        "among",
+        "building",
+        "circle",
+        "climb",
+        "decided",
+        "finally",
+        "gnat",
+        "knock",
+        "know",
+        "write"
+      ],
+      "evidenceTiers": [
+        "practice"
+      ]
+    }
+  ]
+}

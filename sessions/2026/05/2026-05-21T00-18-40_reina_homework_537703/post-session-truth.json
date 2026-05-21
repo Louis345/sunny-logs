@@ -1,0 +1,502 @@
+{
+  "packetVersion": 1,
+  "sessionDir": "/Users/jamaltaylor/Development/sunny/logs/sessions/2026/05/2026-05-21T00-18-40_reina_homework_537703",
+  "generatedAt": "2026-05-21T00:30:13.027Z",
+  "sessionSummary": {
+    "childId": "Reina",
+    "subject": "homework",
+    "activityCount": 8,
+    "readingCount": 167,
+    "targetCount": 10,
+    "sourceFiles": [
+      "system-log.ndjson",
+      "adventure-log.ndjson",
+      "game-traces.ndjson",
+      "activities/",
+      "game-summaries/"
+    ]
+  },
+  "assignmentSourceSummary": {
+    "homeworkIds": [],
+    "targetGroups": [],
+    "targetPurposes": []
+  },
+  "activityReports": [
+    {
+      "activityId": "monster-stampede",
+      "readings": 56,
+      "targets": [
+        "among",
+        "building",
+        "decided",
+        "finally",
+        "gnat",
+        "know",
+        "write"
+      ],
+      "correctTargets": [
+        "among",
+        "building",
+        "decided",
+        "finally",
+        "gnat",
+        "know",
+        "write"
+      ],
+      "missedTargets": [
+        "building",
+        "decided",
+        "finally"
+      ],
+      "recoveredTargets": [],
+      "contaminatedTargets": [],
+      "evidenceTiers": [
+        "practice"
+      ],
+      "helpRequests": 0,
+      "skips": 0,
+      "accuracy": 1,
+      "interpretation": [
+        "activity reading captured for psychologist interpretation",
+        "target evidence available for retargeting"
+      ]
+    },
+    {
+      "activityId": "mystery",
+      "readings": 1,
+      "targets": [],
+      "correctTargets": [],
+      "missedTargets": [],
+      "recoveredTargets": [],
+      "contaminatedTargets": [],
+      "evidenceTiers": [],
+      "helpRequests": 0,
+      "skips": 0,
+      "accuracy": 0.833,
+      "interpretation": [
+        "activity reading captured for psychologist interpretation"
+      ]
+    },
+    {
+      "activityId": "Project Sunny — Wheel of Fortune",
+      "readings": 2,
+      "targets": [
+        "know"
+      ],
+      "correctTargets": [
+        "know"
+      ],
+      "missedTargets": [],
+      "recoveredTargets": [],
+      "contaminatedTargets": [],
+      "evidenceTiers": [],
+      "helpRequests": 0,
+      "skips": 0,
+      "accuracy": null,
+      "interpretation": [
+        "activity reading captured for psychologist interpretation"
+      ]
+    },
+    {
+      "activityId": "Spell Check",
+      "readings": 46,
+      "targets": [
+        "climb",
+        "gnat",
+        "knock",
+        "know",
+        "write"
+      ],
+      "correctTargets": [
+        "climb",
+        "gnat",
+        "knock",
+        "know",
+        "write"
+      ],
+      "missedTargets": [
+        "knock",
+        "write"
+      ],
+      "recoveredTargets": [],
+      "contaminatedTargets": [],
+      "evidenceTiers": [],
+      "helpRequests": 0,
+      "skips": 0,
+      "accuracy": null,
+      "interpretation": [
+        "activity reading captured for psychologist interpretation"
+      ]
+    },
+    {
+      "activityId": "spell-check",
+      "readings": 12,
+      "targets": [
+        "climb",
+        "gnat",
+        "knock",
+        "know",
+        "write"
+      ],
+      "correctTargets": [
+        "climb",
+        "gnat",
+        "knock",
+        "know",
+        "write"
+      ],
+      "missedTargets": [],
+      "recoveredTargets": [],
+      "contaminatedTargets": [],
+      "evidenceTiers": [
+        "practice"
+      ],
+      "helpRequests": 0,
+      "skips": 0,
+      "accuracy": 0.867,
+      "interpretation": [
+        "activity reading captured for psychologist interpretation",
+        "target evidence available for retargeting"
+      ]
+    },
+    {
+      "activityId": "Wheel of Fortune",
+      "readings": 10,
+      "targets": [],
+      "correctTargets": [],
+      "missedTargets": [],
+      "recoveredTargets": [],
+      "contaminatedTargets": [],
+      "evidenceTiers": [],
+      "helpRequests": 0,
+      "skips": 0,
+      "accuracy": null,
+      "interpretation": [
+        "activity reading captured for psychologist interpretation"
+      ]
+    },
+    {
+      "activityId": "wheel-of-fortune",
+      "readings": 3,
+      "targets": [
+        "know"
+      ],
+      "correctTargets": [
+        "know"
+      ],
+      "missedTargets": [],
+      "recoveredTargets": [],
+      "contaminatedTargets": [],
+      "evidenceTiers": [
+        "practice"
+      ],
+      "helpRequests": 0,
+      "skips": 0,
+      "accuracy": 0.833,
+      "interpretation": [
+        "activity reading captured for psychologist interpretation",
+        "target evidence available for retargeting"
+      ]
+    },
+    {
+      "activityId": "word-radar",
+      "readings": 37,
+      "targets": [
+        "among",
+        "building",
+        "circle",
+        "climb",
+        "decided",
+        "finally",
+        "gnat",
+        "knock",
+        "know",
+        "write"
+      ],
+      "correctTargets": [
+        "among",
+        "building",
+        "circle",
+        "climb",
+        "knock",
+        "know",
+        "write"
+      ],
+      "missedTargets": [
+        "decided",
+        "finally",
+        "gnat"
+      ],
+      "recoveredTargets": [],
+      "contaminatedTargets": [],
+      "evidenceTiers": [
+        "practice"
+      ],
+      "helpRequests": 0,
+      "skips": 0,
+      "accuracy": 0.7,
+      "interpretation": [
+        "activity reading captured for psychologist interpretation",
+        "target evidence available for retargeting"
+      ]
+    }
+  ],
+  "targetEvidence": [
+    {
+      "target": "among",
+      "activities": [
+        "monster-stampede",
+        "word-radar"
+      ],
+      "correctCount": 8,
+      "missedCount": 0,
+      "recoveredCount": 0,
+      "contaminatedCount": 0,
+      "lastStatus": "correct",
+      "lastQuality": "clean",
+      "evidenceTiers": [
+        "practice"
+      ]
+    },
+    {
+      "target": "building",
+      "activities": [
+        "monster-stampede",
+        "word-radar"
+      ],
+      "correctCount": 8,
+      "missedCount": 2,
+      "recoveredCount": 0,
+      "contaminatedCount": 0,
+      "lastStatus": "correct",
+      "lastQuality": "clean",
+      "evidenceTiers": [
+        "practice"
+      ]
+    },
+    {
+      "target": "circle",
+      "activities": [
+        "word-radar"
+      ],
+      "correctCount": 2,
+      "missedCount": 0,
+      "recoveredCount": 0,
+      "contaminatedCount": 0,
+      "lastStatus": "correct",
+      "lastQuality": "clean",
+      "evidenceTiers": [
+        "practice"
+      ]
+    },
+    {
+      "target": "climb",
+      "activities": [
+        "Spell Check",
+        "spell-check",
+        "word-radar"
+      ],
+      "correctCount": 14,
+      "missedCount": 0,
+      "recoveredCount": 0,
+      "contaminatedCount": 0,
+      "lastStatus": "correct",
+      "lastQuality": "clean",
+      "evidenceTiers": [
+        "practice"
+      ]
+    },
+    {
+      "target": "decided",
+      "activities": [
+        "monster-stampede",
+        "word-radar"
+      ],
+      "correctCount": 6,
+      "missedCount": 6,
+      "recoveredCount": 0,
+      "contaminatedCount": 0,
+      "lastStatus": "missed",
+      "lastQuality": "clean",
+      "evidenceTiers": [
+        "practice"
+      ]
+    },
+    {
+      "target": "finally",
+      "activities": [
+        "monster-stampede",
+        "word-radar"
+      ],
+      "correctCount": 6,
+      "missedCount": 8,
+      "recoveredCount": 0,
+      "contaminatedCount": 0,
+      "lastStatus": "missed",
+      "lastQuality": "clean",
+      "evidenceTiers": [
+        "practice"
+      ]
+    },
+    {
+      "target": "gnat",
+      "activities": [
+        "Spell Check",
+        "monster-stampede",
+        "spell-check",
+        "word-radar"
+      ],
+      "correctCount": 14,
+      "missedCount": 2,
+      "recoveredCount": 0,
+      "contaminatedCount": 0,
+      "lastStatus": "missed",
+      "lastQuality": "clean",
+      "evidenceTiers": [
+        "practice"
+      ]
+    },
+    {
+      "target": "knock",
+      "activities": [
+        "Spell Check",
+        "spell-check",
+        "word-radar"
+      ],
+      "correctCount": 14,
+      "missedCount": 2,
+      "recoveredCount": 0,
+      "contaminatedCount": 0,
+      "lastStatus": "correct",
+      "lastQuality": "clean",
+      "evidenceTiers": [
+        "practice"
+      ]
+    },
+    {
+      "target": "know",
+      "activities": [
+        "Project Sunny — Wheel of Fortune",
+        "Spell Check",
+        "monster-stampede",
+        "spell-check",
+        "wheel-of-fortune",
+        "word-radar"
+      ],
+      "correctCount": 20,
+      "missedCount": 0,
+      "recoveredCount": 0,
+      "contaminatedCount": 0,
+      "lastStatus": "correct",
+      "lastQuality": "clean",
+      "evidenceTiers": [
+        "practice"
+      ]
+    },
+    {
+      "target": "write",
+      "activities": [
+        "Spell Check",
+        "monster-stampede",
+        "spell-check",
+        "word-radar"
+      ],
+      "correctCount": 20,
+      "missedCount": 2,
+      "recoveredCount": 0,
+      "contaminatedCount": 0,
+      "lastStatus": "correct",
+      "lastQuality": "clean",
+      "evidenceTiers": [
+        "practice"
+      ]
+    }
+  ],
+  "flowAndPreferenceSignals": {
+    "helpRequests": 0,
+    "skips": 0,
+    "replays": 0,
+    "frustrationSignals": 0
+  },
+  "contradictions": [
+    "companion truth contradiction"
+  ],
+  "contaminationWarnings": [],
+  "questBossReadiness": {
+    "quest": {
+      "status": "locked",
+      "evidenceSeen": false
+    },
+    "boss": {
+      "status": "locked",
+      "evidenceSeen": false
+    }
+  },
+  "trustworthiness": {
+    "trustworthyTargets": [
+      "among",
+      "circle",
+      "climb",
+      "know"
+    ],
+    "weakTargets": [
+      "building",
+      "decided",
+      "finally",
+      "gnat",
+      "knock",
+      "write"
+    ],
+    "contaminatedTargets": [],
+    "missingEvidence": []
+  },
+  "evidenceInterpreted": {
+    "activities": [
+      "Project Sunny — Wheel of Fortune",
+      "Spell Check",
+      "Wheel of Fortune",
+      "monster-stampede",
+      "mystery",
+      "spell-check",
+      "wheel-of-fortune",
+      "word-radar"
+    ],
+    "targets": [
+      "among",
+      "building",
+      "circle",
+      "climb",
+      "decided",
+      "finally",
+      "gnat",
+      "knock",
+      "know",
+      "write"
+    ],
+    "missedTargets": [
+      "building",
+      "decided",
+      "finally",
+      "gnat",
+      "knock",
+      "write"
+    ],
+    "correctTargets": [
+      "among",
+      "building",
+      "circle",
+      "climb",
+      "decided",
+      "finally",
+      "gnat",
+      "knock",
+      "know",
+      "write"
+    ],
+    "contaminatedTargets": []
+  },
+  "adaptationDecision": {
+    "status": "missing",
+    "reason": "No next-plan decision was written after interpreted activity evidence."
+  }
+}
