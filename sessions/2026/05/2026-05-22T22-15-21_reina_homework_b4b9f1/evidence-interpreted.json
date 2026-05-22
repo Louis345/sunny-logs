@@ -1,0 +1,18 @@
+{
+  "activities": [
+    "word-radar"
+  ],
+  "targets": [
+    "among",
+    "building",
+    "circle",
+    "decided",
+    "finally",
+    "include",
+    "nothing",
+    "special"
+  ],
+  "missedTargets": [],
+  "correctTargets": [],
+  "contaminatedTargets": []
+}

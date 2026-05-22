@@ -88,3 +88,32 @@
 🎮 [audit] component=transcript action=queued turnState=PROCESSING tts=on childName=Reina round=33
 🎮 [audit] component=turn action=barge_in stateBefore=SPEAKING turnState=IDLE tts=on childName=Reina round=33
 🎮 [audit] component=transcript action=accepted turnState=IDLE tts=on childName=Reina round=33
+🎮 [audit] component=transcript action=replay turnState=IDLE tts=on childName=Reina round=0
+🎮 [audit] component=transcript action=accepted turnState=IDLE tts=on childName=Reina round=0
+🎮 [audit] component=transcript action=accepted turnState=IDLE tts=on childName=Reina round=0
+🎮 [audit] component=transcript action=accepted turnState=IDLE tts=on childName=Reina round=1
+🎮 [audit] component=transcript action=queued turnState=PROCESSING tts=on childName=Reina round=2
+🎮 [audit] component=spell_check action=rejected error=Word "include" is not on today's extracted spelling homework list. Use only homework words. childName=Reina
+🎮 [audit] component=spell_check action=rejected error=Word "among" is not on today's extracted spelling homework list. Use only homework words. childName=Reina
+🎮 [audit] component=transcript action=replay turnState=PROCESSING tts=on childName=Reina round=2
+🎮 [audit] component=transcript action=queued turnState=PROCESSING tts=on childName=Reina round=2
+🎮 [audit] component=transcript action=replay turnState=IDLE tts=on childName=Reina round=2
+🎮 [audit] component=transcript action=accepted turnState=IDLE tts=on childName=Reina round=2
+🎮 [audit] component=transcript action=accepted turnState=IDLE tts=on childName=Reina round=3
+🎮 [audit] component=transcript action=queued turnState=PROCESSING tts=on childName=Reina round=4
+🎮 [audit] component=transcript action=replay turnState=IDLE tts=on childName=Reina round=4
+🎮 [audit] component=transcript action=accepted turnState=IDLE tts=on childName=Reina round=4
+🎮 [audit] component=transcript action=queued turnState=PROCESSING tts=on childName=Reina round=5
+🎮 [audit] component=transcript action=dropped reason=assistant_owns_turn turnState=SPEAKING tts=on childName=Reina round=5
+🎮 [audit] component=transcript action=replay turnState=IDLE tts=on childName=Reina round=5
+🎮 [audit] component=transcript action=accepted turnState=IDLE tts=on childName=Reina round=5
+🎮 [audit] component=transcript action=accepted turnState=IDLE tts=on childName=Reina round=6
+🎮 [audit] component=transcript action=queued turnState=PROCESSING tts=on childName=Reina round=7
+🎮 [audit] component=transcript action=replay turnState=IDLE tts=on childName=Reina round=7
+🎮 [audit] component=transcript action=accepted turnState=IDLE tts=on childName=Reina round=7
+🎮 [audit] component=transcript action=queued turnState=PROCESSING tts=on childName=Reina round=8
+🎮 [audit] component=transcript action=replay turnState=IDLE tts=on childName=Reina round=8
+🎮 [audit] component=transcript action=accepted turnState=IDLE tts=on childName=Reina round=8
+🎮 [audit] component=transcript action=queued turnState=PROCESSING tts=on childName=Reina round=9
+🎮 [audit] component=turn action=barge_in stateBefore=SPEAKING turnState=IDLE tts=on childName=Reina round=9
+🎮 [audit] component=transcript action=accepted turnState=IDLE tts=on childName=Reina round=9

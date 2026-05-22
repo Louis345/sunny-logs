@@ -1,0 +1,21 @@
+{
+  "source": "session_folder",
+  "sessionDir": "/Users/jamaltaylor/Development/sunny/logs/sessions/2026/05/2026-05-22T22-15-21_reina_homework_b4b9f1",
+  "generatedAt": "2026-05-22T22:18:05.171Z",
+  "activityReports": [
+    {
+      "activityId": "word-radar",
+      "targets": [
+        "among",
+        "building",
+        "circle",
+        "decided",
+        "finally",
+        "include",
+        "nothing",
+        "special"
+      ],
+      "evidenceTiers": []
+    }
+  ]
+}
