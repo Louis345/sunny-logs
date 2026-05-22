@@ -1,0 +1,52 @@
+{
+  "activities": [
+    "letter-rush",
+    "monster-stampede",
+    "pronunciation",
+    "spell-check",
+    "word-radar"
+  ],
+  "targets": [
+    "among",
+    "building",
+    "circle",
+    "comb",
+    "decided",
+    "finally",
+    "heavy",
+    "include",
+    "know",
+    "nothing",
+    "sign",
+    "special",
+    "thumb",
+    "wheel",
+    "write"
+  ],
+  "missedTargets": [
+    "among",
+    "building",
+    "include",
+    "sign",
+    "special",
+    "wheel"
+  ],
+  "correctTargets": [
+    "among",
+    "building",
+    "circle",
+    "comb",
+    "decided",
+    "finally",
+    "heavy",
+    "include",
+    "know",
+    "nothing",
+    "sign",
+    "special",
+    "thumb",
+    "wheel",
+    "write"
+  ],
+  "contaminatedTargets": []
+}

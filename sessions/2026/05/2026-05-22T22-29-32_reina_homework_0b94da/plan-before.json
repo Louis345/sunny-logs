@@ -1,0 +1,79 @@
+{
+  "source": "session_folder",
+  "sessionDir": "/Users/jamaltaylor/Development/sunny/logs/sessions/2026/05/2026-05-22T22-29-32_reina_homework_0b94da",
+  "generatedAt": "2026-05-22T22:39:07.093Z",
+  "activityReports": [
+    {
+      "activityId": "letter-rush",
+      "targets": [],
+      "evidenceTiers": []
+    },
+    {
+      "activityId": "monster-stampede",
+      "targets": [
+        "among",
+        "building",
+        "circle",
+        "decided",
+        "finally",
+        "heavy",
+        "include",
+        "nothing",
+        "special",
+        "wheel"
+      ],
+      "evidenceTiers": [
+        "practice"
+      ]
+    },
+    {
+      "activityId": "pronunciation",
+      "targets": [
+        "among",
+        "building",
+        "circle",
+        "decided",
+        "finally",
+        "heavy",
+        "include",
+        "nothing",
+        "special",
+        "wheel"
+      ],
+      "evidenceTiers": [
+        "practice"
+      ]
+    },
+    {
+      "activityId": "spell-check",
+      "targets": [
+        "comb",
+        "know",
+        "sign",
+        "thumb",
+        "write"
+      ],
+      "evidenceTiers": [
+        "practice"
+      ]
+    },
+    {
+      "activityId": "word-radar",
+      "targets": [
+        "among",
+        "building",
+        "circle",
+        "decided",
+        "finally",
+        "heavy",
+        "include",
+        "nothing",
+        "special",
+        "wheel"
+      ],
+      "evidenceTiers": [
+        "practice"
+      ]
+    }
+  ]
+}
