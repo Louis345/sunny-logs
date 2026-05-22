@@ -1,0 +1,487 @@
+{
+  "ts": "2026-05-22T12:00:18.924Z",
+  "sessionId": "3c4eceae-6435-4e0d-b8f7-d2c91bbe85f2",
+  "child": "Reina",
+  "subject": "homework",
+  "game": "pronunciation",
+  "nodeId": "node-4-highfreq-fluency",
+  "activityId": "pronunciation",
+  "activityIntentId": "intent-reina-pronunciation-node-4-highfreq-fluency-2026-05-22T11-59-44-092Z",
+  "targetSelectorId": "selector-reina-pronunciation-2026-05-22T11-59-44-093Z",
+  "activityIntent": {
+    "intentId": "intent-reina-pronunciation-node-4-highfreq-fluency-2026-05-22T11-59-44-092Z",
+    "activityId": "pronunciation",
+    "nodeId": "node-4-highfreq-fluency",
+    "purpose": "fluency_auditory_discrimination_probe",
+    "carePlanHypothesis": "Use chart evidence to choose a spelling instrument and update the next plan.",
+    "targetSelector": "high_frequency_or_confusion",
+    "acceptedTargetPurposes": [
+      "recognize",
+      "read_fluently",
+      "pronounce",
+      "spell_from_memory",
+      "unknown"
+    ],
+    "selectedTargets": [
+      {
+        "target": "wrong",
+        "targetPurpose": "pronounce",
+        "compatibleWithActivity": true,
+        "reasons": [
+          "pronunciation confusion",
+          "recent miss",
+          "fragile target",
+          "homework target",
+          "available in launched activity"
+        ],
+        "evidenceTypes": [
+          "pronunciation_confusion",
+          "recent_miss",
+          "fragile_target",
+          "homework_target",
+          "activity_target"
+        ],
+        "score": 250
+      },
+      {
+        "target": "climb",
+        "targetPurpose": "pronounce",
+        "compatibleWithActivity": true,
+        "reasons": [
+          "pronunciation confusion",
+          "recent miss",
+          "fragile target",
+          "homework target",
+          "available in launched activity"
+        ],
+        "evidenceTypes": [
+          "pronunciation_confusion",
+          "recent_miss",
+          "fragile_target",
+          "homework_target",
+          "activity_target"
+        ],
+        "score": 250
+      },
+      {
+        "target": "sign",
+        "targetPurpose": "pronounce",
+        "compatibleWithActivity": true,
+        "reasons": [
+          "pronunciation confusion",
+          "recent miss",
+          "fragile target",
+          "homework target",
+          "available in launched activity"
+        ],
+        "evidenceTypes": [
+          "pronunciation_confusion",
+          "recent_miss",
+          "fragile_target",
+          "homework_target",
+          "activity_target"
+        ],
+        "score": 250
+      },
+      {
+        "target": "know",
+        "targetPurpose": "pronounce",
+        "compatibleWithActivity": true,
+        "reasons": [
+          "pronunciation confusion",
+          "recent miss",
+          "fragile target",
+          "homework target",
+          "available in launched activity"
+        ],
+        "evidenceTypes": [
+          "pronunciation_confusion",
+          "recent_miss",
+          "fragile_target",
+          "homework_target",
+          "activity_target"
+        ],
+        "score": 250
+      },
+      {
+        "target": "write",
+        "targetPurpose": "pronounce",
+        "compatibleWithActivity": true,
+        "reasons": [
+          "pronunciation confusion",
+          "recent miss",
+          "fragile target",
+          "homework target",
+          "available in launched activity"
+        ],
+        "evidenceTypes": [
+          "pronunciation_confusion",
+          "recent_miss",
+          "fragile_target",
+          "homework_target",
+          "activity_target"
+        ],
+        "score": 250
+      },
+      {
+        "target": "thumb",
+        "targetPurpose": "pronounce",
+        "compatibleWithActivity": true,
+        "reasons": [
+          "pronunciation confusion",
+          "recent miss",
+          "fragile target",
+          "homework target",
+          "available in launched activity"
+        ],
+        "evidenceTypes": [
+          "pronunciation_confusion",
+          "recent_miss",
+          "fragile_target",
+          "homework_target",
+          "activity_target"
+        ],
+        "score": 250
+      },
+      {
+        "target": "comb",
+        "targetPurpose": "pronounce",
+        "compatibleWithActivity": true,
+        "reasons": [
+          "pronunciation confusion",
+          "recent miss",
+          "fragile target",
+          "homework target",
+          "available in launched activity"
+        ],
+        "evidenceTypes": [
+          "pronunciation_confusion",
+          "recent_miss",
+          "fragile_target",
+          "homework_target",
+          "activity_target"
+        ],
+        "score": 250
+      },
+      {
+        "target": "gnat",
+        "targetPurpose": "pronounce",
+        "compatibleWithActivity": true,
+        "reasons": [
+          "pronunciation confusion",
+          "recent miss",
+          "fragile target",
+          "homework target",
+          "available in launched activity"
+        ],
+        "evidenceTypes": [
+          "pronunciation_confusion",
+          "recent_miss",
+          "fragile_target",
+          "homework_target",
+          "activity_target"
+        ],
+        "score": 250
+      },
+      {
+        "target": "knock",
+        "targetPurpose": "unknown",
+        "compatibleWithActivity": true,
+        "reasons": [
+          "homework target"
+        ],
+        "evidenceTypes": [
+          "homework_target"
+        ],
+        "score": 20
+      },
+      {
+        "target": "knife",
+        "targetPurpose": "unknown",
+        "compatibleWithActivity": true,
+        "reasons": [
+          "homework target"
+        ],
+        "evidenceTypes": [
+          "homework_target"
+        ],
+        "score": 20
+      }
+    ],
+    "diagnosticQuestion": "Can the child read and say the target clearly, and recover after a model?",
+    "expectedEvidence": [
+      "targetResults",
+      "misses",
+      "recoveryAfterModel",
+      "retries",
+      "heatModeVitals"
+    ],
+    "successCriteria": [
+      "target is read accurately after low support"
+    ],
+    "reviseCriteria": [
+      "same target needs repeated model",
+      "confuses nearby sounds or words"
+    ],
+    "falsifyCriteria": [
+      "speech recognition is too noisy to trust for the target"
+    ],
+    "evidenceTier": "practice",
+    "masteryEligible": false,
+    "companionSpeechPolicy": {
+      "mentionOnlyCurrentSnapshot": true,
+      "answerVisibility": "visible",
+      "canSpeakTargetBeforeReveal": true
+    },
+    "createdAt": "2026-05-22T11:59:44.092Z"
+  },
+  "targetSelectorDecision": {
+    "selectorId": "selector-reina-pronunciation-2026-05-22T11-59-44-093Z",
+    "activityId": "pronunciation",
+    "nodeId": "node-4-highfreq-fluency",
+    "targetSelector": "high_frequency_or_confusion",
+    "selectedTargets": [
+      "wrong",
+      "climb",
+      "sign",
+      "know",
+      "write",
+      "thumb",
+      "comb",
+      "gnat",
+      "knock",
+      "knife"
+    ],
+    "targetReasons": [
+      {
+        "target": "wrong",
+        "targetPurpose": "pronounce",
+        "compatibleWithActivity": true,
+        "reasons": [
+          "pronunciation confusion",
+          "recent miss",
+          "fragile target",
+          "homework target",
+          "available in launched activity"
+        ],
+        "evidenceTypes": [
+          "pronunciation_confusion",
+          "recent_miss",
+          "fragile_target",
+          "homework_target",
+          "activity_target"
+        ],
+        "score": 250
+      },
+      {
+        "target": "climb",
+        "targetPurpose": "pronounce",
+        "compatibleWithActivity": true,
+        "reasons": [
+          "pronunciation confusion",
+          "recent miss",
+          "fragile target",
+          "homework target",
+          "available in launched activity"
+        ],
+        "evidenceTypes": [
+          "pronunciation_confusion",
+          "recent_miss",
+          "fragile_target",
+          "homework_target",
+          "activity_target"
+        ],
+        "score": 250
+      },
+      {
+        "target": "sign",
+        "targetPurpose": "pronounce",
+        "compatibleWithActivity": true,
+        "reasons": [
+          "pronunciation confusion",
+          "recent miss",
+          "fragile target",
+          "homework target",
+          "available in launched activity"
+        ],
+        "evidenceTypes": [
+          "pronunciation_confusion",
+          "recent_miss",
+          "fragile_target",
+          "homework_target",
+          "activity_target"
+        ],
+        "score": 250
+      },
+      {
+        "target": "know",
+        "targetPurpose": "pronounce",
+        "compatibleWithActivity": true,
+        "reasons": [
+          "pronunciation confusion",
+          "recent miss",
+          "fragile target",
+          "homework target",
+          "available in launched activity"
+        ],
+        "evidenceTypes": [
+          "pronunciation_confusion",
+          "recent_miss",
+          "fragile_target",
+          "homework_target",
+          "activity_target"
+        ],
+        "score": 250
+      },
+      {
+        "target": "write",
+        "targetPurpose": "pronounce",
+        "compatibleWithActivity": true,
+        "reasons": [
+          "pronunciation confusion",
+          "recent miss",
+          "fragile target",
+          "homework target",
+          "available in launched activity"
+        ],
+        "evidenceTypes": [
+          "pronunciation_confusion",
+          "recent_miss",
+          "fragile_target",
+          "homework_target",
+          "activity_target"
+        ],
+        "score": 250
+      },
+      {
+        "target": "thumb",
+        "targetPurpose": "pronounce",
+        "compatibleWithActivity": true,
+        "reasons": [
+          "pronunciation confusion",
+          "recent miss",
+          "fragile target",
+          "homework target",
+          "available in launched activity"
+        ],
+        "evidenceTypes": [
+          "pronunciation_confusion",
+          "recent_miss",
+          "fragile_target",
+          "homework_target",
+          "activity_target"
+        ],
+        "score": 250
+      },
+      {
+        "target": "comb",
+        "targetPurpose": "pronounce",
+        "compatibleWithActivity": true,
+        "reasons": [
+          "pronunciation confusion",
+          "recent miss",
+          "fragile target",
+          "homework target",
+          "available in launched activity"
+        ],
+        "evidenceTypes": [
+          "pronunciation_confusion",
+          "recent_miss",
+          "fragile_target",
+          "homework_target",
+          "activity_target"
+        ],
+        "score": 250
+      },
+      {
+        "target": "gnat",
+        "targetPurpose": "pronounce",
+        "compatibleWithActivity": true,
+        "reasons": [
+          "pronunciation confusion",
+          "recent miss",
+          "fragile target",
+          "homework target",
+          "available in launched activity"
+        ],
+        "evidenceTypes": [
+          "pronunciation_confusion",
+          "recent_miss",
+          "fragile_target",
+          "homework_target",
+          "activity_target"
+        ],
+        "score": 250
+      },
+      {
+        "target": "knock",
+        "targetPurpose": "unknown",
+        "compatibleWithActivity": true,
+        "reasons": [
+          "homework target"
+        ],
+        "evidenceTypes": [
+          "homework_target"
+        ],
+        "score": 20
+      },
+      {
+        "target": "knife",
+        "targetPurpose": "unknown",
+        "compatibleWithActivity": true,
+        "reasons": [
+          "homework target"
+        ],
+        "evidenceTypes": [
+          "homework_target"
+        ],
+        "score": 20
+      }
+    ],
+    "traceSummary": "Pronunciation selected \"wrong\", \"climb\", \"sign\", \"know\", \"write\", \"thumb\", \"comb\", \"gnat\", \"knock\", \"knife\" because pronunciation confusion, recent miss, fragile target, homework target, available in launched activity."
+  },
+  "targetLane": null,
+  "targetsShown": [
+    "wrong",
+    "climb",
+    "sign",
+    "know",
+    "write",
+    "thumb",
+    "comb",
+    "gnat",
+    "knock",
+    "knife"
+  ],
+  "attempts": 7,
+  "correctWords": [
+    "among",
+    "decided",
+    "wrong",
+    "climb",
+    "sign",
+    "know"
+  ],
+  "missedWords": [
+    "among",
+    "climb",
+    "sign",
+    "know",
+    "write",
+    "thumb",
+    "comb",
+    "gnat"
+  ],
+  "recoveredWords": [
+    "climb"
+  ],
+  "visibleScore": null,
+  "coinsEarned": null,
+  "answerVisibilityEvents": [
+    "visible"
+  ],
+  "helpRequests": [],
+  "completed": true,
+  "accuracy": 0.6,
+  "timeSpent_ms": 0
+}

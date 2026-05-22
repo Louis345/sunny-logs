@@ -1,0 +1,43 @@
+{
+  "activities": [
+    "letter-rush",
+    "monster-stampede",
+    "pronunciation",
+    "spell-check",
+    "word-radar"
+  ],
+  "targets": [
+    "among",
+    "climb",
+    "comb",
+    "decided",
+    "farmer",
+    "gnat",
+    "know",
+    "sign",
+    "thumb",
+    "write",
+    "wrong"
+  ],
+  "missedTargets": [
+    "climb",
+    "comb",
+    "decided",
+    "gnat",
+    "thumb",
+    "write"
+  ],
+  "correctTargets": [
+    "among",
+    "climb",
+    "comb",
+    "decided",
+    "gnat",
+    "know",
+    "sign",
+    "thumb",
+    "write",
+    "wrong"
+  ],
+  "contaminatedTargets": []
+}

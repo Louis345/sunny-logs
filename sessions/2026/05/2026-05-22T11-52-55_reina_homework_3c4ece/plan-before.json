@@ -1,0 +1,81 @@
+{
+  "source": "session_folder",
+  "sessionDir": "/Users/jamaltaylor/Development/sunny/logs/sessions/2026/05/2026-05-22T11-52-55_reina_homework_3c4ece",
+  "generatedAt": "2026-05-22T12:03:34.499Z",
+  "activityReports": [
+    {
+      "activityId": "letter-rush",
+      "targets": [
+        "farmer"
+      ],
+      "evidenceTiers": []
+    },
+    {
+      "activityId": "monster-stampede",
+      "targets": [
+        "among",
+        "climb",
+        "comb",
+        "decided",
+        "gnat",
+        "know",
+        "sign",
+        "thumb",
+        "write",
+        "wrong"
+      ],
+      "evidenceTiers": [
+        "practice"
+      ]
+    },
+    {
+      "activityId": "pronunciation",
+      "targets": [
+        "among",
+        "climb",
+        "comb",
+        "decided",
+        "gnat",
+        "know",
+        "sign",
+        "thumb",
+        "write",
+        "wrong"
+      ],
+      "evidenceTiers": [
+        "practice"
+      ]
+    },
+    {
+      "activityId": "spell-check",
+      "targets": [
+        "among",
+        "climb",
+        "decided",
+        "sign",
+        "wrong"
+      ],
+      "evidenceTiers": [
+        "practice"
+      ]
+    },
+    {
+      "activityId": "word-radar",
+      "targets": [
+        "among",
+        "climb",
+        "comb",
+        "decided",
+        "gnat",
+        "know",
+        "sign",
+        "thumb",
+        "write",
+        "wrong"
+      ],
+      "evidenceTiers": [
+        "practice"
+      ]
+    }
+  ]
+}
