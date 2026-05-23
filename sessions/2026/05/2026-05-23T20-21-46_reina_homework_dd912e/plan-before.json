@@ -1,0 +1,39 @@
+{
+  "source": "session_folder",
+  "sessionDir": "/Users/jamaltaylor/Development/sunny/logs/sessions/2026/05/2026-05-23T20-21-46_reina_homework_dd912e",
+  "generatedAt": "2026-05-23T20:27:02.828Z",
+  "activityReports": [
+    {
+      "activityId": "spell-check",
+      "targets": [
+        "comb",
+        "know",
+        "sign",
+        "thumb",
+        "write"
+      ],
+      "evidenceTiers": [
+        "practice"
+      ]
+    },
+    {
+      "activityId": "word-radar",
+      "targets": [
+        "among",
+        "climb",
+        "comb",
+        "gnat",
+        "knife",
+        "knock",
+        "know",
+        "sign",
+        "thumb",
+        "write",
+        "wrong"
+      ],
+      "evidenceTiers": [
+        "practice"
+      ]
+    }
+  ]
+}

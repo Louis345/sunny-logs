@@ -1,0 +1,36 @@
+{
+  "activities": [
+    "spell-check",
+    "word-radar"
+  ],
+  "targets": [
+    "among",
+    "climb",
+    "comb",
+    "gnat",
+    "knife",
+    "knock",
+    "know",
+    "sign",
+    "thumb",
+    "write",
+    "wrong"
+  ],
+  "missedTargets": [
+    "among",
+    "thumb"
+  ],
+  "correctTargets": [
+    "climb",
+    "comb",
+    "gnat",
+    "knife",
+    "knock",
+    "know",
+    "sign",
+    "thumb",
+    "write",
+    "wrong"
+  ],
+  "contaminatedTargets": []
+}

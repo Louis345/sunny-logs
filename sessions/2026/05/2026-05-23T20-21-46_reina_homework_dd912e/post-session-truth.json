@@ -1,0 +1,350 @@
+{
+  "packetVersion": 1,
+  "sessionDir": "/Users/jamaltaylor/Development/sunny/logs/sessions/2026/05/2026-05-23T20-21-46_reina_homework_dd912e",
+  "generatedAt": "2026-05-23T20:27:02.828Z",
+  "sessionSummary": {
+    "childId": "Reina",
+    "subject": "homework",
+    "activityCount": 2,
+    "readingCount": 107,
+    "targetCount": 11,
+    "sourceFiles": [
+      "system-log.ndjson",
+      "adventure-log.ndjson",
+      "game-traces.ndjson",
+      "activities/",
+      "game-summaries/"
+    ]
+  },
+  "assignmentSourceSummary": {
+    "homeworkIds": [],
+    "targetGroups": [
+      "silent_letters"
+    ],
+    "targetPurposes": []
+  },
+  "activityReports": [
+    {
+      "activityId": "spell-check",
+      "readings": 60,
+      "targets": [
+        "comb",
+        "know",
+        "sign",
+        "thumb",
+        "write"
+      ],
+      "correctTargets": [
+        "comb",
+        "know",
+        "sign",
+        "thumb",
+        "write"
+      ],
+      "missedTargets": [],
+      "recoveredTargets": [],
+      "contaminatedTargets": [],
+      "evidenceTiers": [
+        "practice"
+      ],
+      "helpRequests": 0,
+      "skips": 0,
+      "accuracy": 0.933,
+      "interpretation": [
+        "activity reading captured for psychologist interpretation",
+        "target evidence available for retargeting"
+      ]
+    },
+    {
+      "activityId": "word-radar",
+      "readings": 47,
+      "targets": [
+        "among",
+        "climb",
+        "comb",
+        "gnat",
+        "knife",
+        "knock",
+        "know",
+        "sign",
+        "thumb",
+        "write",
+        "wrong"
+      ],
+      "correctTargets": [
+        "climb",
+        "comb",
+        "gnat",
+        "knife",
+        "knock",
+        "know",
+        "sign",
+        "thumb",
+        "write",
+        "wrong"
+      ],
+      "missedTargets": [
+        "among"
+      ],
+      "recoveredTargets": [],
+      "contaminatedTargets": [],
+      "evidenceTiers": [
+        "practice"
+      ],
+      "helpRequests": 0,
+      "skips": 0,
+      "accuracy": 1,
+      "interpretation": [
+        "activity reading captured for psychologist interpretation",
+        "target evidence available for retargeting"
+      ]
+    }
+  ],
+  "targetEvidence": [
+    {
+      "target": "among",
+      "activities": [
+        "word-radar"
+      ],
+      "correctCount": 0,
+      "missedCount": 1,
+      "recoveredCount": 0,
+      "contaminatedCount": 0,
+      "lastStatus": "missed",
+      "lastQuality": "clean",
+      "evidenceTiers": []
+    },
+    {
+      "target": "climb",
+      "activities": [
+        "word-radar"
+      ],
+      "correctCount": 3,
+      "missedCount": 0,
+      "recoveredCount": 0,
+      "contaminatedCount": 0,
+      "lastStatus": "correct",
+      "lastQuality": "clean",
+      "evidenceTiers": [
+        "practice"
+      ]
+    },
+    {
+      "target": "comb",
+      "activities": [
+        "spell-check",
+        "word-radar"
+      ],
+      "correctCount": 13,
+      "missedCount": 0,
+      "recoveredCount": 0,
+      "contaminatedCount": 0,
+      "lastStatus": "correct",
+      "lastQuality": "clean",
+      "evidenceTiers": [
+        "practice"
+      ]
+    },
+    {
+      "target": "gnat",
+      "activities": [
+        "word-radar"
+      ],
+      "correctCount": 3,
+      "missedCount": 0,
+      "recoveredCount": 0,
+      "contaminatedCount": 0,
+      "lastStatus": "correct",
+      "lastQuality": "clean",
+      "evidenceTiers": [
+        "practice"
+      ]
+    },
+    {
+      "target": "knife",
+      "activities": [
+        "word-radar"
+      ],
+      "correctCount": 3,
+      "missedCount": 0,
+      "recoveredCount": 0,
+      "contaminatedCount": 0,
+      "lastStatus": "correct",
+      "lastQuality": "clean",
+      "evidenceTiers": [
+        "practice"
+      ]
+    },
+    {
+      "target": "knock",
+      "activities": [
+        "word-radar"
+      ],
+      "correctCount": 3,
+      "missedCount": 0,
+      "recoveredCount": 0,
+      "contaminatedCount": 0,
+      "lastStatus": "correct",
+      "lastQuality": "clean",
+      "evidenceTiers": [
+        "practice"
+      ]
+    },
+    {
+      "target": "know",
+      "activities": [
+        "spell-check",
+        "word-radar"
+      ],
+      "correctCount": 13,
+      "missedCount": 0,
+      "recoveredCount": 0,
+      "contaminatedCount": 0,
+      "lastStatus": "correct",
+      "lastQuality": "clean",
+      "evidenceTiers": [
+        "practice"
+      ]
+    },
+    {
+      "target": "sign",
+      "activities": [
+        "spell-check",
+        "word-radar"
+      ],
+      "correctCount": 13,
+      "missedCount": 0,
+      "recoveredCount": 0,
+      "contaminatedCount": 0,
+      "lastStatus": "correct",
+      "lastQuality": "clean",
+      "evidenceTiers": [
+        "practice"
+      ]
+    },
+    {
+      "target": "thumb",
+      "activities": [
+        "spell-check",
+        "word-radar"
+      ],
+      "correctCount": 15,
+      "missedCount": 4,
+      "recoveredCount": 0,
+      "contaminatedCount": 0,
+      "lastStatus": "correct",
+      "lastQuality": "clean",
+      "evidenceTiers": [
+        "practice"
+      ]
+    },
+    {
+      "target": "write",
+      "activities": [
+        "spell-check",
+        "word-radar"
+      ],
+      "correctCount": 15,
+      "missedCount": 0,
+      "recoveredCount": 0,
+      "contaminatedCount": 0,
+      "lastStatus": "correct",
+      "lastQuality": "clean",
+      "evidenceTiers": [
+        "practice"
+      ]
+    },
+    {
+      "target": "wrong",
+      "activities": [
+        "word-radar"
+      ],
+      "correctCount": 3,
+      "missedCount": 0,
+      "recoveredCount": 0,
+      "contaminatedCount": 0,
+      "lastStatus": "correct",
+      "lastQuality": "clean",
+      "evidenceTiers": [
+        "practice"
+      ]
+    }
+  ],
+  "flowAndPreferenceSignals": {
+    "helpRequests": 0,
+    "skips": 0,
+    "replays": 0,
+    "frustrationSignals": 0
+  },
+  "contradictions": [],
+  "contaminationWarnings": [],
+  "questBossReadiness": {
+    "quest": {
+      "status": "locked",
+      "evidenceSeen": false
+    },
+    "boss": {
+      "status": "locked",
+      "evidenceSeen": false
+    }
+  },
+  "trustworthiness": {
+    "trustworthyTargets": [
+      "climb",
+      "comb",
+      "gnat",
+      "knife",
+      "knock",
+      "know",
+      "sign",
+      "write",
+      "wrong"
+    ],
+    "weakTargets": [
+      "among",
+      "thumb"
+    ],
+    "contaminatedTargets": [],
+    "missingEvidence": []
+  },
+  "evidenceInterpreted": {
+    "activities": [
+      "spell-check",
+      "word-radar"
+    ],
+    "targets": [
+      "among",
+      "climb",
+      "comb",
+      "gnat",
+      "knife",
+      "knock",
+      "know",
+      "sign",
+      "thumb",
+      "write",
+      "wrong"
+    ],
+    "missedTargets": [
+      "among",
+      "thumb"
+    ],
+    "correctTargets": [
+      "climb",
+      "comb",
+      "gnat",
+      "knife",
+      "knock",
+      "know",
+      "sign",
+      "thumb",
+      "write",
+      "wrong"
+    ],
+    "contaminatedTargets": []
+  },
+  "adaptationDecision": {
+    "status": "missing",
+    "reason": "No next-plan decision was written after interpreted activity evidence."
+  }
+}
