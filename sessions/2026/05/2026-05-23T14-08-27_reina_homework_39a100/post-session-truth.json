@@ -1,0 +1,79 @@
+{
+  "packetVersion": 1,
+  "sessionDir": "/Users/jamaltaylor/Development/sunny/logs/sessions/2026/05/2026-05-23T14-08-27_reina_homework_39a100",
+  "generatedAt": "2026-05-23T14:09:22.672Z",
+  "sessionSummary": {
+    "childId": "Reina",
+    "subject": "homework",
+    "activityCount": 1,
+    "readingCount": 1,
+    "targetCount": 0,
+    "sourceFiles": [
+      "system-log.ndjson",
+      "adventure-log.ndjson",
+      "game-traces.ndjson",
+      "activities/"
+    ]
+  },
+  "assignmentSourceSummary": {
+    "homeworkIds": [],
+    "targetGroups": [],
+    "targetPurposes": []
+  },
+  "activityReports": [
+    {
+      "activityId": "word-radar",
+      "readings": 1,
+      "targets": [],
+      "correctTargets": [],
+      "missedTargets": [],
+      "recoveredTargets": [],
+      "contaminatedTargets": [],
+      "evidenceTiers": [],
+      "helpRequests": 0,
+      "skips": 0,
+      "accuracy": null,
+      "interpretation": [
+        "activity reading captured for psychologist interpretation"
+      ]
+    }
+  ],
+  "targetEvidence": [],
+  "flowAndPreferenceSignals": {
+    "helpRequests": 0,
+    "skips": 0,
+    "replays": 0,
+    "frustrationSignals": 0
+  },
+  "contradictions": [],
+  "contaminationWarnings": [],
+  "questBossReadiness": {
+    "quest": {
+      "status": "locked",
+      "evidenceSeen": false
+    },
+    "boss": {
+      "status": "locked",
+      "evidenceSeen": false
+    }
+  },
+  "trustworthiness": {
+    "trustworthyTargets": [],
+    "weakTargets": [],
+    "contaminatedTargets": [],
+    "missingEvidence": []
+  },
+  "evidenceInterpreted": {
+    "activities": [
+      "word-radar"
+    ],
+    "targets": [],
+    "missedTargets": [],
+    "correctTargets": [],
+    "contaminatedTargets": []
+  },
+  "adaptationDecision": {
+    "status": "missing",
+    "reason": "No next-plan decision was written after interpreted activity evidence."
+  }
+}
