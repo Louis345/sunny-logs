@@ -1,0 +1,12 @@
+{
+  "sessionId": "76ecd2c7-9945-43ed-94f5-1b77e67dcd38",
+  "child": "Reina",
+  "subject": "spelling",
+  "mode": "default",
+  "startedAt": "2026-05-30T19:32:07.867Z",
+  "command": "/Users/jamaltaylor/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/bin/node /Users/jamaltaylor/Development/sunny/src/server.ts --serve-static",
+  "gitCommit": "034f2a3",
+  "envFlags": {
+    "TTS_ENABLED": "false"
+  }
+}

@@ -1,0 +1,12 @@
+[2026-05-30T20:08:52.756Z] Post-session chain error
+AI_APICallError: messages: text content blocks must be non-empty
+    at <anonymous> (/Users/jamaltaylor/Development/sunny/node_modules/@ai-sdk/provider-utils/src/response-handler.ts:56:16)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async postToApi (/Users/jamaltaylor/Development/sunny/node_modules/@ai-sdk/provider-utils/src/post-to-api.ts:118:28)
+    at async AnthropicMessagesLanguageModel.doGenerate (/Users/jamaltaylor/Development/sunny/node_modules/@ai-sdk/anthropic/src/anthropic-messages-language-model.ts:770:9)
+    at async fn (/Users/jamaltaylor/Development/sunny/node_modules/ai/src/generate-text/generate-text.ts:810:34)
+    at async <anonymous> (/Users/jamaltaylor/Development/sunny/node_modules/ai/src/telemetry/record-span.ts:32:24)
+    at async _retryWithExponentialBackoff (/Users/jamaltaylor/Development/sunny/node_modules/ai/src/util/retry-with-exponential-backoff.ts:96:12)
+    at async fn (/Users/jamaltaylor/Development/sunny/node_modules/ai/src/generate-text/generate-text.ts:765:36)
+    at async <anonymous> (/Users/jamaltaylor/Development/sunny/node_modules/ai/src/telemetry/record-span.ts:32:24)
+    at async generateText (/Users/jamaltaylor/Development/sunny/node_modules/ai/src/generate-text/generate-text.ts:527:12)

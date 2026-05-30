@@ -1,0 +1,62 @@
+{
+  "packetVersion": 1,
+  "sessionDir": "/Users/jamaltaylor/Development/sunny/logs/sessions/2026/05/2026-05-30T19-34-52_reina_spelling_1564ac",
+  "generatedAt": "2026-05-30T19:38:04.496Z",
+  "sessionSummary": {
+    "childId": null,
+    "subject": null,
+    "activityCount": 0,
+    "readingCount": 0,
+    "targetCount": 0,
+    "sourceFiles": [
+      "system-log.ndjson",
+      "adventure-log.ndjson",
+      "game-traces.ndjson",
+      "activities/"
+    ]
+  },
+  "assignmentSourceSummary": {
+    "homeworkIds": [],
+    "targetGroups": [],
+    "targetPurposes": []
+  },
+  "activityReports": [],
+  "targetEvidence": [],
+  "flowAndPreferenceSignals": {
+    "helpRequests": 0,
+    "skips": 0,
+    "replays": 0,
+    "frustrationSignals": 0
+  },
+  "contradictions": [],
+  "contaminationWarnings": [],
+  "questBossReadiness": {
+    "quest": {
+      "status": "locked",
+      "evidenceSeen": false
+    },
+    "boss": {
+      "status": "locked",
+      "evidenceSeen": false
+    }
+  },
+  "trustworthiness": {
+    "trustworthyTargets": [],
+    "weakTargets": [],
+    "contaminatedTargets": [],
+    "missingEvidence": [
+      "No normalized activity readings were written for raw trace evidence."
+    ]
+  },
+  "evidenceInterpreted": {
+    "activities": [],
+    "targets": [],
+    "missedTargets": [],
+    "correctTargets": [],
+    "contaminatedTargets": []
+  },
+  "adaptationDecision": {
+    "status": "missing",
+    "reason": "No next-plan decision was written after interpreted activity evidence."
+  }
+}
