@@ -5,8 +5,7 @@
   "callSource": "showroom",
   "relationshipState": "previewing",
   "startedAt": "2026-05-30T20:37:46.706Z",
-  "endedAt": "2026-05-30T20:40:46.711Z",
-  "eventCount": 158,
+  "eventCount": 159,
   "loopSuspected": false,
   "likelyCause": "stale_activity_reaction",
   "activeTicTacToeState": {
@@ -981,6 +980,11 @@
       "eventName": "call_ended",
       "origin": "client",
       "timestamp": 1780173646711
+    },
+    {
+      "eventName": "speech_listen_start",
+      "origin": "client",
+      "timestamp": 1780175604696
     }
   ],
   "turns": [

@@ -1,0 +1,103 @@
+{
+  "traceId": "trace_20260530t211321_42wee",
+  "childId": "ila",
+  "companionId": "elli",
+  "callSource": "showroom",
+  "relationshipState": "previewing",
+  "startedAt": "2026-05-30T21:13:21.119Z",
+  "endedAt": "2026-05-30T21:13:55.716Z",
+  "eventCount": 12,
+  "loopSuspected": false,
+  "likelyCause": "none",
+  "eventOrder": [
+    {
+      "eventName": "call_started",
+      "origin": "client",
+      "timestamp": 1780175601119
+    },
+    {
+      "eventName": "speech_result",
+      "origin": "client",
+      "turnId": "trace_20260530t211321_42wee_turn_1",
+      "timestamp": 1780175611149
+    },
+    {
+      "eventName": "talk_request_start",
+      "origin": "client",
+      "turnId": "trace_20260530t211321_42wee_turn_1",
+      "timestamp": 1780175611149
+    },
+    {
+      "eventName": "talk_request_start",
+      "origin": "server",
+      "turnId": "trace_20260530t211321_42wee_turn_1",
+      "timestamp": 1780175611184,
+      "transcriptPreview": "Hey, Ale. Can you hear me?"
+    },
+    {
+      "eventName": "talk_response_received",
+      "origin": "server",
+      "turnId": "trace_20260530t211321_42wee_turn_1",
+      "timestamp": 1780175615316,
+      "responsePreview": "Hey! Yeah, I can hear you perfectly."
+    },
+    {
+      "eventName": "talk_response_received",
+      "origin": "client",
+      "turnId": "trace_20260530t211321_42wee_turn_1",
+      "timestamp": 1780175615350
+    },
+    {
+      "eventName": "audio_play_start",
+      "origin": "client",
+      "turnId": "trace_20260530t211321_42wee_turn_1",
+      "timestamp": 1780175615360
+    },
+    {
+      "eventName": "audio_ended",
+      "origin": "client",
+      "turnId": "trace_20260530t211321_42wee_turn_1",
+      "timestamp": 1780175617598
+    },
+    {
+      "eventName": "handsfree_rearm_scheduled",
+      "origin": "client",
+      "timestamp": 1780175617599
+    },
+    {
+      "eventName": "handsfree_rearm_starting",
+      "origin": "client",
+      "timestamp": 1780175617969
+    },
+    {
+      "eventName": "speech_listen_start",
+      "origin": "client",
+      "timestamp": 1780175617970
+    },
+    {
+      "eventName": "call_ended",
+      "origin": "client",
+      "timestamp": 1780175635716
+    }
+  ],
+  "turns": [
+    {
+      "turnId": "trace_20260530t211321_42wee_turn_1",
+      "eventNames": [
+        "speech_result",
+        "talk_request_start",
+        "talk_request_start",
+        "talk_response_received",
+        "talk_response_received",
+        "audio_play_start",
+        "audio_ended"
+      ],
+      "transcriptPreview": "Hey, Ale. Can you hear me?",
+      "transcriptHash": "b7844cb020976b32",
+      "responsePreview": "Hey! Yeah, I can hear you perfectly.",
+      "responseHash": "68340ea0f30a113c",
+      "requestToResponseMs": 4167,
+      "audioMs": 2238
+    }
+  ]
+}
