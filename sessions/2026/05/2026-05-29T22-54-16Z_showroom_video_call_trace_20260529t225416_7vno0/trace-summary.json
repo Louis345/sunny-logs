@@ -1,0 +1,18 @@
+{
+  "traceId": "trace_20260529t225416_7vno0",
+  "childId": "showroom",
+  "companionId": "elli",
+  "callSource": "showroom",
+  "relationshipState": "previewing",
+  "startedAt": "2026-05-29T22:54:16.645Z",
+  "eventCount": 1,
+  "loopSuspected": false,
+  "likelyCause": "none",
+  "eventOrder": [
+    {
+      "eventName": "call_started",
+      "timestamp": 1780095256645
+    }
+  ],
+  "turns": []
+}

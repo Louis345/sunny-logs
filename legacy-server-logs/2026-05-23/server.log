@@ -9,3 +9,4 @@
 🎮 [audit] component=transcript action=accepted turnState=IDLE tts=on childName=Reina round=1
 🎮 [audit] component=transcript action=accepted turnState=IDLE tts=on childName=Reina round=2
 🎮 [audit] component=transcript action=accepted turnState=IDLE tts=on childName=Reina round=3
+🎮 [audit] component=transcript action=duplicate_suppressed turnState=IDLE tts=on childName=Reina round=0

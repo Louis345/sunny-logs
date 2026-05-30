@@ -1,0 +1,183 @@
+{
+  "traceId": "trace_20260529t184242_63kzy",
+  "childId": "showroom",
+  "companionId": "elli",
+  "callSource": "showroom",
+  "relationshipState": "previewing",
+  "startedAt": "2026-05-29T18:42:42.272Z",
+  "eventCount": 20,
+  "loopSuspected": true,
+  "likelyCause": "repeated_turn",
+  "activeTicTacToeState": {
+    "activityId": "tic_tac_toe",
+    "surface": "video_call_overlay",
+    "status": "active",
+    "board": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "childMark": "X",
+    "companionMark": "O",
+    "turn": "child",
+    "summary": "Tic-tac-toe is open. The child moves first as X.",
+    "updatedAt": 1780080257546
+  },
+  "activityReactions": {
+    "aiAuthoredCount": 1,
+    "fallbackCount": 0,
+    "averageResponseMs": 4868
+  },
+  "eventOrder": [
+    {
+      "eventName": "call_started",
+      "timestamp": 1780080162272
+    },
+    {
+      "eventName": "talk_request_start",
+      "turnId": "trace_20260529t184242_63kzy_turn_1",
+      "timestamp": 1780080253234
+    },
+    {
+      "eventName": "talk_request_start",
+      "turnId": "trace_20260529t184242_63kzy_turn_1",
+      "timestamp": 1780080253267,
+      "transcriptPreview": "Let’s play tic-tac-toe."
+    },
+    {
+      "eventName": "talk_response_received",
+      "turnId": "trace_20260529t184242_63kzy_turn_1",
+      "timestamp": 1780080257460,
+      "responsePreview": "Let's see who can get three in a row first!"
+    },
+    {
+      "eventName": "talk_response_received",
+      "turnId": "trace_20260529t184242_63kzy_turn_1",
+      "timestamp": 1780080257482
+    },
+    {
+      "eventName": "audio_play_start",
+      "turnId": "trace_20260529t184242_63kzy_turn_1",
+      "timestamp": 1780080257491
+    },
+    {
+      "eventName": "activity_context_changed",
+      "timestamp": 1780080257546
+    },
+    {
+      "eventName": "activity_reaction_request_start",
+      "turnId": "trace_20260529t184242_63kzy_turn_2",
+      "timestamp": 1780080257550
+    },
+    {
+      "eventName": "audio_error",
+      "turnId": "trace_20260529t184242_63kzy_turn_1",
+      "timestamp": 1780080257568
+    },
+    {
+      "eventName": "talk_request_start",
+      "turnId": "trace_20260529t184242_63kzy_turn_2",
+      "timestamp": 1780080257582,
+      "transcriptPreview": "React to starting tic-tac-toe in the video call."
+    },
+    {
+      "eventName": "activity_reaction_request_start",
+      "turnId": "trace_20260529t184242_63kzy_turn_2",
+      "timestamp": 1780080257582
+    },
+    {
+      "eventName": "talk_response_received",
+      "turnId": "trace_20260529t184242_63kzy_turn_2",
+      "timestamp": 1780080262449,
+      "responsePreview": "Here we go! You get to be X and go first - pick any square you want!"
+    },
+    {
+      "eventName": "activity_reaction_response_received",
+      "turnId": "trace_20260529t184242_63kzy_turn_2",
+      "timestamp": 1780080262450,
+      "responsePreview": "Here we go! You get to be X and go first - pick any square you want!"
+    },
+    {
+      "eventName": "activity_reaction_response_received",
+      "turnId": "trace_20260529t184242_63kzy_turn_2",
+      "timestamp": 1780080262460
+    },
+    {
+      "eventName": "activity_reaction_audio_start",
+      "turnId": "trace_20260529t184242_63kzy_turn_2",
+      "timestamp": 1780080262463
+    },
+    {
+      "eventName": "activity_reaction_audio_ended",
+      "turnId": "trace_20260529t184242_63kzy_turn_2",
+      "timestamp": 1780080266030
+    },
+    {
+      "eventName": "handsfree_rearm_scheduled",
+      "timestamp": 1780080266031
+    },
+    {
+      "eventName": "handsfree_rearm_starting",
+      "timestamp": 1780080266394
+    },
+    {
+      "eventName": "speech_listen_start",
+      "turnId": "trace_20260529t184242_63kzy_turn_3",
+      "timestamp": 1780080266394
+    },
+    {
+      "eventName": "speech_error",
+      "turnId": "trace_20260529t184242_63kzy_turn_3",
+      "timestamp": 1780080266418
+    }
+  ],
+  "turns": [
+    {
+      "turnId": "trace_20260529t184242_63kzy_turn_1",
+      "eventNames": [
+        "talk_request_start",
+        "talk_request_start",
+        "talk_response_received",
+        "talk_response_received",
+        "audio_play_start",
+        "audio_error"
+      ],
+      "transcriptPreview": "Let’s play tic-tac-toe.",
+      "transcriptHash": "9ffcb41d81aed8c4",
+      "responsePreview": "Let's see who can get three in a row first!",
+      "responseHash": "b66caddf24948cf7",
+      "requestToResponseMs": 4226
+    },
+    {
+      "turnId": "trace_20260529t184242_63kzy_turn_2",
+      "eventNames": [
+        "activity_reaction_request_start",
+        "talk_request_start",
+        "activity_reaction_request_start",
+        "talk_response_received",
+        "activity_reaction_response_received",
+        "activity_reaction_response_received",
+        "activity_reaction_audio_start",
+        "activity_reaction_audio_ended"
+      ],
+      "transcriptPreview": "React to starting tic-tac-toe in the video call.",
+      "transcriptHash": "7b52f25dda962671",
+      "responsePreview": "Here we go! You get to be X and go first - pick any square you want!",
+      "responseHash": "035c5ad1cea8aff5",
+      "requestToResponseMs": 4867
+    },
+    {
+      "turnId": "trace_20260529t184242_63kzy_turn_3",
+      "eventNames": [
+        "speech_listen_start",
+        "speech_error"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "sessionId": "ec35e8cf-f9e7-4d70-89d4-10a91a662bcc",
+  "child": "Ila",
+  "subject": "spelling",
+  "mode": "default",
+  "startedAt": "2026-05-30T00:35:35.483Z",
+  "command": "npm run npx",
+  "gitCommit": "bc001a5",
+  "envFlags": {
+    "TTS_ENABLED": "true"
+  }
+}

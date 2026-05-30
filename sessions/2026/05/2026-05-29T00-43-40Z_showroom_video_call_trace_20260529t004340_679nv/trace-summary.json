@@ -1,0 +1,185 @@
+{
+  "traceId": "trace_20260529t004340_679nv",
+  "childId": "showroom",
+  "companionId": "elli",
+  "callSource": "showroom",
+  "relationshipState": "previewing",
+  "startedAt": "2026-05-29T00:43:40.484Z",
+  "eventCount": 27,
+  "loopSuspected": true,
+  "likelyCause": "handsfree_rearm_loop",
+  "activeTicTacToeState": {
+    "activityId": "tic_tac_toe",
+    "surface": "video_call_overlay",
+    "status": "completed",
+    "board": [
+      "X",
+      "X",
+      "O",
+      "O",
+      "O",
+      "X",
+      "X",
+      "X",
+      "O"
+    ],
+    "childMark": "X",
+    "companionMark": "O",
+    "turn": "none",
+    "lastMove": {
+      "by": "child",
+      "square": 8,
+      "mark": "X",
+      "timestamp": 1780015460475
+    },
+    "result": "draw",
+    "summary": "The tic-tac-toe round ended in a draw.",
+    "updatedAt": 1780015460493
+  },
+  "eventOrder": [
+    {
+      "eventName": "call_started",
+      "timestamp": 1780015420484
+    },
+    {
+      "eventName": "activity_context_changed",
+      "timestamp": 1780015435131
+    },
+    {
+      "eventName": "handsfree_rearm_scheduled",
+      "timestamp": 1780015438003
+    },
+    {
+      "eventName": "handsfree_rearm_starting",
+      "timestamp": 1780015438371
+    },
+    {
+      "eventName": "speech_listen_start",
+      "turnId": "trace_20260529t004340_679nv_turn_1",
+      "timestamp": 1780015438371
+    },
+    {
+      "eventName": "activity_context_changed",
+      "timestamp": 1780015440085
+    },
+    {
+      "eventName": "speech_error",
+      "turnId": "trace_20260529t004340_679nv_turn_1",
+      "timestamp": 1780015440149
+    },
+    {
+      "eventName": "activity_context_changed",
+      "timestamp": 1780015441666
+    },
+    {
+      "eventName": "activity_context_changed",
+      "timestamp": 1780015444277
+    },
+    {
+      "eventName": "activity_context_changed",
+      "timestamp": 1780015445725
+    },
+    {
+      "eventName": "handsfree_rearm_scheduled",
+      "timestamp": 1780015448526
+    },
+    {
+      "eventName": "handsfree_rearm_starting",
+      "timestamp": 1780015448891
+    },
+    {
+      "eventName": "speech_listen_start",
+      "turnId": "trace_20260529t004340_679nv_turn_2",
+      "timestamp": 1780015448891
+    },
+    {
+      "eventName": "activity_context_changed",
+      "timestamp": 1780015450532
+    },
+    {
+      "eventName": "speech_error",
+      "turnId": "trace_20260529t004340_679nv_turn_2",
+      "timestamp": 1780015450564
+    },
+    {
+      "eventName": "activity_context_changed",
+      "timestamp": 1780015451953
+    },
+    {
+      "eventName": "handsfree_rearm_scheduled",
+      "timestamp": 1780015455343
+    },
+    {
+      "eventName": "handsfree_rearm_starting",
+      "timestamp": 1780015455704
+    },
+    {
+      "eventName": "speech_listen_start",
+      "turnId": "trace_20260529t004340_679nv_turn_3",
+      "timestamp": 1780015455705
+    },
+    {
+      "eventName": "activity_context_changed",
+      "timestamp": 1780015457016
+    },
+    {
+      "eventName": "speech_error",
+      "turnId": "trace_20260529t004340_679nv_turn_3",
+      "timestamp": 1780015457059
+    },
+    {
+      "eventName": "activity_context_changed",
+      "timestamp": 1780015458588
+    },
+    {
+      "eventName": "activity_context_changed",
+      "timestamp": 1780015460475
+    },
+    {
+      "eventName": "activity_context_changed",
+      "timestamp": 1780015460493
+    },
+    {
+      "eventName": "handsfree_rearm_scheduled",
+      "timestamp": 1780015464236
+    },
+    {
+      "eventName": "handsfree_rearm_starting",
+      "timestamp": 1780015464600
+    },
+    {
+      "eventName": "speech_listen_start",
+      "turnId": "trace_20260529t004340_679nv_turn_4",
+      "timestamp": 1780015464602
+    }
+  ],
+  "turns": [
+    {
+      "turnId": "trace_20260529t004340_679nv_turn_1",
+      "eventNames": [
+        "speech_listen_start",
+        "speech_error"
+      ]
+    },
+    {
+      "turnId": "trace_20260529t004340_679nv_turn_2",
+      "eventNames": [
+        "speech_listen_start",
+        "speech_error"
+      ]
+    },
+    {
+      "turnId": "trace_20260529t004340_679nv_turn_3",
+      "eventNames": [
+        "speech_listen_start",
+        "speech_error"
+      ]
+    },
+    {
+      "turnId": "trace_20260529t004340_679nv_turn_4",
+      "eventNames": [
+        "speech_listen_start"
+      ]
+    }
+  ]
+}
