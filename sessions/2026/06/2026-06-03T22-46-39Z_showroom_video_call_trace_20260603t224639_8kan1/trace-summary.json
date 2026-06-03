@@ -1,0 +1,64 @@
+{
+  "traceId": "trace_20260603t224639_8kan1",
+  "childId": "ila",
+  "companionId": "elli",
+  "callSource": "showroom",
+  "relationshipState": "previewing",
+  "startedAt": "2026-06-03T22:46:39.463Z",
+  "eventCount": 5,
+  "loopSuspected": false,
+  "likelyCause": "none",
+  "eventOrder": [
+    {
+      "eventName": "call_started",
+      "origin": "client",
+      "timestamp": 1780526799463,
+      "payload": {
+        "showroomTheme": "crystal",
+        "videoCallLayout": "call",
+        "rewardContext": {}
+      }
+    },
+    {
+      "eventName": "handsfree_rearm_scheduled",
+      "origin": "client",
+      "timestamp": 1780526804804,
+      "payload": {
+        "reason": "greeting_audio_ended",
+        "delayMs": 360,
+        "videoCallLayout": "call"
+      }
+    },
+    {
+      "eventName": "handsfree_rearm_starting",
+      "origin": "client",
+      "timestamp": 1780526805167,
+      "payload": {
+        "reason": "greeting_audio_ended",
+        "videoCallLayout": "call"
+      }
+    },
+    {
+      "eventName": "speech_listen_start",
+      "origin": "client",
+      "timestamp": 1780526805167,
+      "payload": {
+        "source": "deepgram",
+        "mode": "always_on",
+        "status": "idle",
+        "videoCallLayout": "call"
+      }
+    },
+    {
+      "eventName": "speech_error",
+      "origin": "client",
+      "timestamp": 1780526805205,
+      "payload": {
+        "source": "deepgram",
+        "error": "Microphone permission is blocked. You can still type to Elli.",
+        "videoCallLayout": "call"
+      }
+    }
+  ],
+  "turns": []
+}

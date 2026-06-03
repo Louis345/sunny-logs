@@ -1,0 +1,171 @@
+{
+  "traceId": "trace_20260603t205806_5p9s0",
+  "childId": "ila",
+  "companionId": "elli",
+  "callSource": "showroom",
+  "relationshipState": "previewing",
+  "startedAt": "2026-06-03T20:58:06.151Z",
+  "eventCount": 17,
+  "loopSuspected": false,
+  "likelyCause": "slow_response",
+  "activeTicTacToeState": {
+    "activityId": "tic_tac_toe",
+    "surface": "video_call_overlay",
+    "status": "active",
+    "board": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "childMark": "X",
+    "companionMark": "O",
+    "turn": "child",
+    "summary": "Tic-tac-toe is open. The child moves first as X.",
+    "updatedAt": 1780520313861
+  },
+  "activityReactions": {
+    "aiAuthoredCount": 0,
+    "presenceCount": 1,
+    "fallbackCount": 0,
+    "staleDroppedCount": 0,
+    "spokenCount": 1,
+    "missingAudioCount": 0,
+    "averageResponseMs": 1446,
+    "averagePresenceResponseMs": 1446
+  },
+  "eventOrder": [
+    {
+      "eventName": "call_started",
+      "origin": "client",
+      "timestamp": 1780520286151
+    },
+    {
+      "eventName": "handsfree_rearm_skipped",
+      "origin": "client",
+      "timestamp": 1780520301959
+    },
+    {
+      "eventName": "talk_request_start",
+      "origin": "client",
+      "turnId": "trace_20260603t205806_5p9s0_turn_1",
+      "timestamp": 1780520303427
+    },
+    {
+      "eventName": "activity_phase_changed",
+      "origin": "client",
+      "turnId": "trace_20260603t205806_5p9s0_turn_1",
+      "timestamp": 1780520303428
+    },
+    {
+      "eventName": "talk_request_start",
+      "origin": "server",
+      "turnId": "trace_20260603t205806_5p9s0_turn_1",
+      "timestamp": 1780520303435,
+      "transcriptPreview": "let us play tic tac toe"
+    },
+    {
+      "eventName": "talk_response_received",
+      "origin": "server",
+      "turnId": "trace_20260603t205806_5p9s0_turn_1",
+      "timestamp": 1780520310193,
+      "responsePreview": "Yes! Let's see who can get three in a row first!"
+    },
+    {
+      "eventName": "talk_response_received",
+      "origin": "client",
+      "turnId": "trace_20260603t205806_5p9s0_turn_1",
+      "timestamp": 1780520310351
+    },
+    {
+      "eventName": "audio_play_start",
+      "origin": "client",
+      "turnId": "trace_20260603t205806_5p9s0_turn_1",
+      "timestamp": 1780520310363
+    },
+    {
+      "eventName": "audio_ended",
+      "origin": "client",
+      "turnId": "trace_20260603t205806_5p9s0_turn_1",
+      "timestamp": 1780520313616
+    },
+    {
+      "eventName": "activity_context_changed",
+      "origin": "client",
+      "timestamp": 1780520313617
+    },
+    {
+      "eventName": "handsfree_rearm_skipped",
+      "origin": "client",
+      "timestamp": 1780520313621
+    },
+    {
+      "eventName": "activity_context_changed",
+      "origin": "client",
+      "timestamp": 1780520313861
+    },
+    {
+      "eventName": "activity_reaction_request_start",
+      "origin": "client",
+      "turnId": "trace_20260603t205806_5p9s0_turn_2",
+      "timestamp": 1780520313863
+    },
+    {
+      "eventName": "activity_reaction_response_received",
+      "origin": "client",
+      "turnId": "trace_20260603t205806_5p9s0_turn_2",
+      "timestamp": 1780520315309
+    },
+    {
+      "eventName": "activity_reaction_audio_start",
+      "origin": "client",
+      "turnId": "trace_20260603t205806_5p9s0_turn_2",
+      "timestamp": 1780520315310
+    },
+    {
+      "eventName": "activity_reaction_audio_ended",
+      "origin": "client",
+      "turnId": "trace_20260603t205806_5p9s0_turn_2",
+      "timestamp": 1780520316877
+    },
+    {
+      "eventName": "handsfree_rearm_skipped",
+      "origin": "client",
+      "timestamp": 1780520316878
+    }
+  ],
+  "turns": [
+    {
+      "turnId": "trace_20260603t205806_5p9s0_turn_1",
+      "eventNames": [
+        "talk_request_start",
+        "activity_phase_changed",
+        "talk_request_start",
+        "talk_response_received",
+        "talk_response_received",
+        "audio_play_start",
+        "audio_ended"
+      ],
+      "transcriptPreview": "let us play tic tac toe",
+      "transcriptHash": "8abaf48da7c3d98c",
+      "responsePreview": "Yes! Let's see who can get three in a row first!",
+      "responseHash": "329ba9806ab84103",
+      "requestToResponseMs": 6766,
+      "audioMs": 3253
+    },
+    {
+      "turnId": "trace_20260603t205806_5p9s0_turn_2",
+      "eventNames": [
+        "activity_reaction_request_start",
+        "activity_reaction_response_received",
+        "activity_reaction_audio_start",
+        "activity_reaction_audio_ended"
+      ]
+    }
+  ]
+}
