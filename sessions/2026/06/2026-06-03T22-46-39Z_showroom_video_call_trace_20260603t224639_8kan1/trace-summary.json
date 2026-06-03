@@ -5,7 +5,7 @@
   "callSource": "showroom",
   "relationshipState": "previewing",
   "startedAt": "2026-06-03T22:46:39.463Z",
-  "eventCount": 5,
+  "eventCount": 8,
   "loopSuspected": false,
   "likelyCause": "none",
   "eventOrder": [
@@ -56,6 +56,38 @@
       "payload": {
         "source": "deepgram",
         "error": "Microphone permission is blocked. You can still type to Elli.",
+        "videoCallLayout": "call"
+      }
+    },
+    {
+      "eventName": "call_greeting_selected",
+      "origin": "client",
+      "timestamp": 1780527124396,
+      "payload": {
+        "greetingText": "Hiii Ila! I was hoping you'd call.",
+        "usedMemorySeed": false,
+        "callSource": "showroom",
+        "relationshipState": "previewing",
+        "videoCallLayout": "call"
+      }
+    },
+    {
+      "eventName": "call_greeting_audio_start",
+      "origin": "client",
+      "timestamp": 1780527125272,
+      "payload": {
+        "latencyMs": 876,
+        "usedMemorySeed": false,
+        "videoCallLayout": "call"
+      }
+    },
+    {
+      "eventName": "call_greeting_audio_ended",
+      "origin": "client",
+      "timestamp": 1780527127624,
+      "payload": {
+        "latencyMs": 3228,
+        "usedMemorySeed": false,
         "videoCallLayout": "call"
       }
     }
