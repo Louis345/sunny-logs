@@ -1,0 +1,7 @@
+{
+  "persistedSessionData": true,
+  "postSessionError": "messages: text content blocks must be non-empty",
+  "shouldPersistSessionData": true,
+  "conversationTurns": 0,
+  "rewardLogEntries": 0
+}
