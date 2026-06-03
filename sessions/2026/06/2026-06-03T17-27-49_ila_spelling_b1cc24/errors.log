@@ -1,0 +1,10 @@
+[2026-06-03T17:33:57.961Z] Post-session chain error
+AI_LoadAPIKeyError: Anthropic API key is missing. Pass it using the 'apiKey' parameter or the ANTHROPIC_API_KEY environment variable.
+    at loadApiKey (/Users/jamaltaylor/Development/sunny-mainline-cutover/node_modules/@ai-sdk/provider-utils/src/load-api-key.ts:33:11)
+    at getHeaders (/Users/jamaltaylor/Development/sunny-mainline-cutover/node_modules/@ai-sdk/anthropic/src/anthropic-provider.ts:116:24)
+    at resolve (/Users/jamaltaylor/Development/sunny-mainline-cutover/node_modules/@ai-sdk/provider-utils/src/resolve.ts:12:14)
+    at AnthropicMessagesLanguageModel.getBetasFromHeaders (/Users/jamaltaylor/Development/sunny-mainline-cutover/node_modules/@ai-sdk/anthropic/src/anthropic-messages-language-model.ts:668:33)
+    at AnthropicMessagesLanguageModel.doGenerate (/Users/jamaltaylor/Development/sunny-mainline-cutover/node_modules/@ai-sdk/anthropic/src/anthropic-messages-language-model.ts:754:37)
+    at fn (/Users/jamaltaylor/Development/sunny-mainline-cutover/node_modules/ai/src/generate-text/generate-text.ts:810:50)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async <anonymous> (/Users/jamaltaylor/Development/sunny-mainline-cutover/node_modules/ai/src/telemetry/record-span.ts:32:24)

@@ -1,0 +1,7 @@
+{
+  "persistedSessionData": true,
+  "postSessionError": "Anthropic API key is missing. Pass it using the 'apiKey' parameter or the ANTHROPIC_API_KEY environment variable.",
+  "shouldPersistSessionData": true,
+  "conversationTurns": 0,
+  "rewardLogEntries": 0
+}

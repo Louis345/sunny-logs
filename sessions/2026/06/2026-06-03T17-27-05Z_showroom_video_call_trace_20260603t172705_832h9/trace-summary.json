@@ -1,0 +1,54 @@
+{
+  "traceId": "trace_20260603t172705_832h9",
+  "childId": "ila",
+  "companionId": "elli",
+  "callSource": "showroom",
+  "relationshipState": "previewing",
+  "startedAt": "2026-06-03T17:27:05.616Z",
+  "eventCount": 8,
+  "loopSuspected": false,
+  "likelyCause": "none",
+  "eventOrder": [
+    {
+      "eventName": "call_started",
+      "origin": "client",
+      "timestamp": 1780507625616
+    },
+    {
+      "eventName": "handsfree_rearm_scheduled",
+      "origin": "client",
+      "timestamp": 1780507627595
+    },
+    {
+      "eventName": "handsfree_rearm_starting",
+      "origin": "client",
+      "timestamp": 1780507627956
+    },
+    {
+      "eventName": "speech_listen_start",
+      "origin": "client",
+      "timestamp": 1780507627956
+    },
+    {
+      "eventName": "speech_error",
+      "origin": "client",
+      "timestamp": 1780507628247
+    },
+    {
+      "eventName": "call_ended",
+      "origin": "client",
+      "timestamp": 1780507638347
+    },
+    {
+      "eventName": "call_greeting_selected",
+      "origin": "client",
+      "timestamp": 1780507641256
+    },
+    {
+      "eventName": "call_greeting_skipped",
+      "origin": "client",
+      "timestamp": 1780507641264
+    }
+  ],
+  "turns": []
+}
