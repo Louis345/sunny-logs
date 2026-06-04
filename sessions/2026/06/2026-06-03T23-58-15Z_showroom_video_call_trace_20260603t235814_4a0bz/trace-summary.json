@@ -1,0 +1,2637 @@
+{
+  "traceId": "trace_20260603t235814_4a0bz",
+  "childId": "ila",
+  "companionId": "elli",
+  "callSource": "showroom",
+  "relationshipState": "previewing",
+  "startedAt": "2026-06-03T23:58:15.001Z",
+  "eventCount": 55,
+  "loopSuspected": false,
+  "likelyCause": "slow_response",
+  "activeTicTacToeState": {
+    "activityId": "tic_tac_toe",
+    "surface": "video_call_overlay",
+    "status": "completed",
+    "board": [
+      "X",
+      "X",
+      "O",
+      "O",
+      "O",
+      "X",
+      "X",
+      "X",
+      "O"
+    ],
+    "childMark": "X",
+    "companionMark": "O",
+    "turn": "none",
+    "lastMove": {
+      "by": "child",
+      "square": 8,
+      "mark": "X",
+      "timestamp": 1780531139746
+    },
+    "result": "draw",
+    "summary": "The tic-tac-toe round ended in a draw.",
+    "updatedAt": 1780531139763
+  },
+  "activityReactions": {
+    "aiAuthoredCount": 0,
+    "presenceCount": 3,
+    "fallbackCount": 0,
+    "staleDroppedCount": 0,
+    "spokenCount": 3,
+    "missingAudioCount": 0,
+    "averageResponseMs": 1384,
+    "averagePresenceResponseMs": 1384
+  },
+  "eventOrder": [
+    {
+      "eventName": "call_started",
+      "origin": "client",
+      "timestamp": 1780531095001,
+      "payload": {
+        "showroomTheme": "crystal",
+        "videoCallLayout": "call",
+        "rewardContext": {}
+      }
+    },
+    {
+      "eventName": "handsfree_rearm_skipped",
+      "origin": "client",
+      "timestamp": 1780531106509,
+      "payload": {
+        "reason": "stt_unavailable",
+        "requestedReason": "greeting_audio_ended",
+        "videoCallLayout": "call"
+      }
+    },
+    {
+      "eventName": "talk_request_start",
+      "origin": "client",
+      "turnId": "trace_20260603t235814_4a0bz_turn_1",
+      "timestamp": 1780531108333,
+      "payload": {
+        "conversationIntent": "social",
+        "activeActivityIncluded": false,
+        "visualSnapshot": null,
+        "visionRequested": false,
+        "videoCallLayout": "call",
+        "transcriptPreview": "let us play tic tac toe",
+        "transcriptHash": "c8d3f110",
+        "transcriptLength": 23
+      }
+    },
+    {
+      "eventName": "activity_phase_changed",
+      "origin": "client",
+      "turnId": "trace_20260603t235814_4a0bz_turn_1",
+      "timestamp": 1780531108334,
+      "payload": {
+        "phase": "companion_thinking",
+        "reason": "video_call_talk",
+        "conversationMode": "social",
+        "commandType": "emote",
+        "emote": "thinking",
+        "animation": null,
+        "videoCallLayout": "call"
+      }
+    },
+    {
+      "eventName": "talk_request_start",
+      "origin": "server",
+      "turnId": "trace_20260603t235814_4a0bz_turn_1",
+      "timestamp": 1780531108339,
+      "transcriptPreview": "let us play tic tac toe",
+      "payload": {
+        "showroomTheme": "crystal",
+        "mode": "video_call",
+        "conversationIntent": "social",
+        "visionRequested": false
+      }
+    },
+    {
+      "eventName": "talk_response_received",
+      "origin": "server",
+      "turnId": "trace_20260603t235814_4a0bz_turn_1",
+      "timestamp": 1780531115039,
+      "responsePreview": "Yes! Let's see if you can beat me this time!",
+      "payload": {
+        "commandCount": 1,
+        "activityRequestCount": 1,
+        "conversationIntent": "social",
+        "visionUsed": false,
+        "requestToResponseMs": 6697,
+        "latencySpans": {
+          "claudeMs": 3994,
+          "toolFollowupMs": 1649,
+          "ttsMs": 1050,
+          "requestToResponseMs": 6697
+        }
+      }
+    },
+    {
+      "eventName": "talk_response_received",
+      "origin": "client",
+      "turnId": "trace_20260603t235814_4a0bz_turn_1",
+      "timestamp": 1780531115488,
+      "payload": {
+        "latencyMs": 7156,
+        "conversationIntent": "social",
+        "commandCount": 1,
+        "activityRequestCount": 1,
+        "visionUsed": false,
+        "videoCallLayout": "call",
+        "responsePreview": "Yes! Let's see if you can beat me this time!",
+        "responseHash": "1ae93a03",
+        "responseLength": 44
+      }
+    },
+    {
+      "eventName": "audio_play_start",
+      "origin": "client",
+      "turnId": "trace_20260603t235814_4a0bz_turn_1",
+      "timestamp": 1780531115494,
+      "payload": {
+        "latencyMs": 7161,
+        "videoCallLayout": "call"
+      }
+    },
+    {
+      "eventName": "audio_ended",
+      "origin": "client",
+      "turnId": "trace_20260603t235814_4a0bz_turn_1",
+      "timestamp": 1780531118800,
+      "payload": {
+        "latencyMs": 10467,
+        "videoCallLayout": "call"
+      }
+    },
+    {
+      "eventName": "activity_context_changed",
+      "origin": "client",
+      "timestamp": 1780531118800,
+      "payload": {
+        "reason": "openCompanionActivity",
+        "openTiming": "audio_ended",
+        "activityRequest": {
+          "source": "claude",
+          "childId": "ila",
+          "companionId": "elli",
+          "activityId": "tic_tac_toe",
+          "surface": "video_call_overlay",
+          "reason": "child_requested_tic_tac_toe_game",
+          "timestamp": 1780531112337
+        },
+        "activeActivity": null,
+        "videoCallLayout": "call"
+      }
+    },
+    {
+      "eventName": "handsfree_rearm_skipped",
+      "origin": "client",
+      "timestamp": 1780531118800,
+      "payload": {
+        "reason": "stt_unavailable",
+        "requestedReason": "audio_ended",
+        "videoCallLayout": "call"
+      }
+    },
+    {
+      "eventName": "activity_context_changed",
+      "origin": "client",
+      "timestamp": 1780531119144,
+      "payload": {
+        "type": "companion_tic_tac_toe_started",
+        "activityId": "tic_tac_toe",
+        "surface": "video_call_overlay",
+        "companionName": "Elli",
+        "timestamp": 1780531119144,
+        "board": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        "childId": "ila",
+        "companionId": "elli",
+        "showroomTheme": "crystal",
+        "callSource": "showroom",
+        "relationshipState": "previewing",
+        "videoCallLayout": "play",
+        "phase": "video_call_activity",
+        "progress": "Elli tic-tac-toe activity updated.",
+        "activeActivity": {
+          "activityId": "tic_tac_toe",
+          "surface": "video_call_overlay",
+          "status": "active",
+          "board": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          "childMark": "X",
+          "companionMark": "O",
+          "turn": "child",
+          "summary": "Tic-tac-toe is open. The child moves first as X.",
+          "updatedAt": 1780531119144
+        }
+      }
+    },
+    {
+      "eventName": "activity_context_changed",
+      "origin": "client",
+      "timestamp": 1780531122683,
+      "payload": {
+        "activityId": "tic_tac_toe",
+        "surface": "video_call_overlay",
+        "companionName": "Elli",
+        "timestamp": 1780531122683,
+        "board": [
+          "X",
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        "type": "companion_tic_tac_toe_child_move",
+        "square": 1,
+        "mark": "X",
+        "childId": "ila",
+        "companionId": "elli",
+        "showroomTheme": "crystal",
+        "callSource": "showroom",
+        "relationshipState": "previewing",
+        "videoCallLayout": "play",
+        "phase": "video_call_activity",
+        "progress": "Elli tic-tac-toe activity updated.",
+        "activeActivity": {
+          "activityId": "tic_tac_toe",
+          "surface": "video_call_overlay",
+          "status": "active",
+          "board": [
+            "X",
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          "childMark": "X",
+          "companionMark": "O",
+          "turn": "companion",
+          "lastMove": {
+            "by": "child",
+            "square": 1,
+            "mark": "X",
+            "timestamp": 1780531122683
+          },
+          "summary": "The child placed X on square 1. It is the companion's turn.",
+          "updatedAt": 1780531122683
+        }
+      }
+    },
+    {
+      "eventName": "activity_phase_changed",
+      "origin": "client",
+      "timestamp": 1780531122684,
+      "payload": {
+        "phase": "child_turn",
+        "activityId": "tic_tac_toe",
+        "banter": {
+          "phase": "child_move",
+          "square": 1
+        },
+        "conversationMode": "social",
+        "activeActivity": {
+          "activityId": "tic_tac_toe",
+          "surface": "video_call_overlay",
+          "status": "active",
+          "board": [
+            "X",
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          "childMark": "X",
+          "companionMark": "O",
+          "turn": "companion",
+          "lastMove": {
+            "by": "child",
+            "square": 1,
+            "mark": "X",
+            "timestamp": 1780531122683
+          },
+          "summary": "The child placed X on square 1. It is the companion's turn.",
+          "updatedAt": 1780531122683
+        },
+        "videoCallLayout": "play"
+      }
+    },
+    {
+      "eventName": "activity_phase_changed",
+      "origin": "client",
+      "timestamp": 1780531122684,
+      "payload": {
+        "phase": "companion_thinking",
+        "activityId": "tic_tac_toe",
+        "banter": {
+          "phase": "companion_thinking"
+        },
+        "conversationMode": "social",
+        "activeActivity": {
+          "activityId": "tic_tac_toe",
+          "surface": "video_call_overlay",
+          "status": "active",
+          "board": [
+            "X",
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          "childMark": "X",
+          "companionMark": "O",
+          "turn": "companion",
+          "lastMove": {
+            "by": "child",
+            "square": 1,
+            "mark": "X",
+            "timestamp": 1780531122683
+          },
+          "summary": "The child placed X on square 1. It is the companion's turn.",
+          "updatedAt": 1780531122683
+        },
+        "videoCallLayout": "play"
+      }
+    },
+    {
+      "eventName": "activity_phase_changed",
+      "origin": "client",
+      "timestamp": 1780531122685,
+      "payload": {
+        "phase": "companion_thinking",
+        "reason": "tic_tac_toe_companion_turn",
+        "conversationMode": "social",
+        "commandType": "emote",
+        "emote": "thinking",
+        "animation": null,
+        "activeActivity": {
+          "activityId": "tic_tac_toe",
+          "surface": "video_call_overlay",
+          "status": "active",
+          "board": [
+            "X",
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          "childMark": "X",
+          "companionMark": "O",
+          "turn": "companion",
+          "lastMove": {
+            "by": "child",
+            "square": 1,
+            "mark": "X",
+            "timestamp": 1780531122683
+          },
+          "summary": "The child placed X on square 1. It is the companion's turn.",
+          "updatedAt": 1780531122683
+        },
+        "videoCallLayout": "play"
+      }
+    },
+    {
+      "eventName": "activity_context_changed",
+      "origin": "client",
+      "timestamp": 1780531123977,
+      "payload": {
+        "activityId": "tic_tac_toe",
+        "surface": "video_call_overlay",
+        "companionName": "Elli",
+        "timestamp": 1780531123977,
+        "board": [
+          "X",
+          null,
+          null,
+          null,
+          "O",
+          null,
+          null,
+          null,
+          null
+        ],
+        "type": "companion_tic_tac_toe_companion_move",
+        "square": 5,
+        "mark": "O",
+        "decisionStartedAt": 1780531122684,
+        "plannedDecisionDelayMs": 986,
+        "decisionLatencyMs": 1292,
+        "childId": "ila",
+        "companionId": "elli",
+        "showroomTheme": "crystal",
+        "callSource": "showroom",
+        "relationshipState": "previewing",
+        "videoCallLayout": "play",
+        "phase": "video_call_activity",
+        "progress": "Elli tic-tac-toe activity updated.",
+        "activeActivity": {
+          "activityId": "tic_tac_toe",
+          "surface": "video_call_overlay",
+          "status": "active",
+          "board": [
+            "X",
+            null,
+            null,
+            null,
+            "O",
+            null,
+            null,
+            null,
+            null
+          ],
+          "childMark": "X",
+          "companionMark": "O",
+          "turn": "child",
+          "lastMove": {
+            "by": "companion",
+            "square": 5,
+            "mark": "O",
+            "timestamp": 1780531123977
+          },
+          "summary": "The companion placed O on square 5. It is the child's turn.",
+          "updatedAt": 1780531123977
+        }
+      }
+    },
+    {
+      "eventName": "activity_phase_changed",
+      "origin": "client",
+      "timestamp": 1780531123978,
+      "payload": {
+        "phase": "companion_move",
+        "activityId": "tic_tac_toe",
+        "banter": {
+          "phase": "companion_move",
+          "square": 5
+        },
+        "conversationMode": "social",
+        "activeActivity": {
+          "activityId": "tic_tac_toe",
+          "surface": "video_call_overlay",
+          "status": "active",
+          "board": [
+            "X",
+            null,
+            null,
+            null,
+            "O",
+            null,
+            null,
+            null,
+            null
+          ],
+          "childMark": "X",
+          "companionMark": "O",
+          "turn": "child",
+          "lastMove": {
+            "by": "companion",
+            "square": 5,
+            "mark": "O",
+            "timestamp": 1780531123977
+          },
+          "summary": "The companion placed O on square 5. It is the child's turn.",
+          "updatedAt": 1780531123977
+        },
+        "videoCallLayout": "play"
+      }
+    },
+    {
+      "eventName": "activity_context_changed",
+      "origin": "client",
+      "timestamp": 1780531126866,
+      "payload": {
+        "activityId": "tic_tac_toe",
+        "surface": "video_call_overlay",
+        "companionName": "Elli",
+        "timestamp": 1780531126866,
+        "board": [
+          "X",
+          "X",
+          null,
+          null,
+          "O",
+          null,
+          null,
+          null,
+          null
+        ],
+        "type": "companion_tic_tac_toe_child_move",
+        "square": 2,
+        "mark": "X",
+        "childId": "ila",
+        "companionId": "elli",
+        "showroomTheme": "crystal",
+        "callSource": "showroom",
+        "relationshipState": "previewing",
+        "videoCallLayout": "play",
+        "phase": "video_call_activity",
+        "progress": "Elli tic-tac-toe activity updated.",
+        "activeActivity": {
+          "activityId": "tic_tac_toe",
+          "surface": "video_call_overlay",
+          "status": "active",
+          "board": [
+            "X",
+            "X",
+            null,
+            null,
+            "O",
+            null,
+            null,
+            null,
+            null
+          ],
+          "childMark": "X",
+          "companionMark": "O",
+          "turn": "companion",
+          "lastMove": {
+            "by": "child",
+            "square": 2,
+            "mark": "X",
+            "timestamp": 1780531126866
+          },
+          "summary": "The child placed X on square 2. It is the companion's turn.",
+          "updatedAt": 1780531126866
+        }
+      }
+    },
+    {
+      "eventName": "activity_phase_changed",
+      "origin": "client",
+      "timestamp": 1780531126867,
+      "payload": {
+        "phase": "child_turn",
+        "activityId": "tic_tac_toe",
+        "banter": {
+          "phase": "child_move",
+          "square": 2
+        },
+        "conversationMode": "social",
+        "activeActivity": {
+          "activityId": "tic_tac_toe",
+          "surface": "video_call_overlay",
+          "status": "active",
+          "board": [
+            "X",
+            "X",
+            null,
+            null,
+            "O",
+            null,
+            null,
+            null,
+            null
+          ],
+          "childMark": "X",
+          "companionMark": "O",
+          "turn": "companion",
+          "lastMove": {
+            "by": "child",
+            "square": 2,
+            "mark": "X",
+            "timestamp": 1780531126866
+          },
+          "summary": "The child placed X on square 2. It is the companion's turn.",
+          "updatedAt": 1780531126866
+        },
+        "videoCallLayout": "play"
+      }
+    },
+    {
+      "eventName": "activity_phase_changed",
+      "origin": "client",
+      "timestamp": 1780531126867,
+      "payload": {
+        "phase": "companion_thinking",
+        "activityId": "tic_tac_toe",
+        "banter": {
+          "phase": "companion_thinking"
+        },
+        "conversationMode": "social",
+        "activeActivity": {
+          "activityId": "tic_tac_toe",
+          "surface": "video_call_overlay",
+          "status": "active",
+          "board": [
+            "X",
+            "X",
+            null,
+            null,
+            "O",
+            null,
+            null,
+            null,
+            null
+          ],
+          "childMark": "X",
+          "companionMark": "O",
+          "turn": "companion",
+          "lastMove": {
+            "by": "child",
+            "square": 2,
+            "mark": "X",
+            "timestamp": 1780531126866
+          },
+          "summary": "The child placed X on square 2. It is the companion's turn.",
+          "updatedAt": 1780531126866
+        },
+        "videoCallLayout": "play"
+      }
+    },
+    {
+      "eventName": "activity_phase_changed",
+      "origin": "client",
+      "timestamp": 1780531126867,
+      "payload": {
+        "phase": "companion_thinking",
+        "reason": "tic_tac_toe_companion_turn",
+        "conversationMode": "social",
+        "commandType": "emote",
+        "emote": "thinking",
+        "animation": null,
+        "activeActivity": {
+          "activityId": "tic_tac_toe",
+          "surface": "video_call_overlay",
+          "status": "active",
+          "board": [
+            "X",
+            "X",
+            null,
+            null,
+            "O",
+            null,
+            null,
+            null,
+            null
+          ],
+          "childMark": "X",
+          "companionMark": "O",
+          "turn": "companion",
+          "lastMove": {
+            "by": "child",
+            "square": 2,
+            "mark": "X",
+            "timestamp": 1780531126866
+          },
+          "summary": "The child placed X on square 2. It is the companion's turn.",
+          "updatedAt": 1780531126866
+        },
+        "videoCallLayout": "play"
+      }
+    },
+    {
+      "eventName": "activity_context_changed",
+      "origin": "client",
+      "timestamp": 1780531128162,
+      "payload": {
+        "activityId": "tic_tac_toe",
+        "surface": "video_call_overlay",
+        "companionName": "Elli",
+        "timestamp": 1780531128162,
+        "board": [
+          "X",
+          "X",
+          "O",
+          null,
+          "O",
+          null,
+          null,
+          null,
+          null
+        ],
+        "type": "companion_tic_tac_toe_companion_move",
+        "square": 3,
+        "mark": "O",
+        "decisionStartedAt": 1780531126867,
+        "plannedDecisionDelayMs": 1102,
+        "decisionLatencyMs": 1290,
+        "childId": "ila",
+        "companionId": "elli",
+        "showroomTheme": "crystal",
+        "callSource": "showroom",
+        "relationshipState": "previewing",
+        "videoCallLayout": "play",
+        "phase": "video_call_activity",
+        "progress": "Elli tic-tac-toe activity updated.",
+        "activeActivity": {
+          "activityId": "tic_tac_toe",
+          "surface": "video_call_overlay",
+          "status": "active",
+          "board": [
+            "X",
+            "X",
+            "O",
+            null,
+            "O",
+            null,
+            null,
+            null,
+            null
+          ],
+          "childMark": "X",
+          "companionMark": "O",
+          "turn": "child",
+          "lastMove": {
+            "by": "companion",
+            "square": 3,
+            "mark": "O",
+            "timestamp": 1780531128162
+          },
+          "summary": "The companion placed O on square 3. It is the child's turn.",
+          "updatedAt": 1780531128162
+        }
+      }
+    },
+    {
+      "eventName": "activity_reaction_request_start",
+      "origin": "client",
+      "turnId": "trace_20260603t235814_4a0bz_turn_2",
+      "timestamp": 1780531128162,
+      "payload": {
+        "reactionLane": "presence",
+        "activityReaction": {
+          "activityId": "tic_tac_toe",
+          "eventType": "companion_move",
+          "momentType": "companion_blocked_child",
+          "salience": "medium",
+          "suggestedGesture": "think",
+          "board": [
+            "X",
+            "X",
+            "O",
+            null,
+            "O",
+            null,
+            null,
+            null,
+            null
+          ],
+          "boardSignature": "XXO-O----",
+          "childMark": "X",
+          "companionMark": "O",
+          "turn": "child",
+          "lastMove": {
+            "by": "companion",
+            "square": 3,
+            "mark": "O",
+            "timestamp": 1780531128162
+          },
+          "summary": "The companion placed O on square 3. It is the child's turn.",
+          "updatedAt": 1780531128162,
+          "desiredTone": "playful_strategic"
+        },
+        "activeActivity": {
+          "activityId": "tic_tac_toe",
+          "surface": "video_call_overlay",
+          "status": "active",
+          "board": [
+            "X",
+            "X",
+            "O",
+            null,
+            "O",
+            null,
+            null,
+            null,
+            null
+          ],
+          "childMark": "X",
+          "companionMark": "O",
+          "turn": "child",
+          "lastMove": {
+            "by": "companion",
+            "square": 3,
+            "mark": "O",
+            "timestamp": 1780531128162
+          },
+          "summary": "The companion placed O on square 3. It is the child's turn.",
+          "updatedAt": 1780531128162
+        },
+        "videoCallLayout": "play"
+      }
+    },
+    {
+      "eventName": "activity_phase_changed",
+      "origin": "client",
+      "timestamp": 1780531128163,
+      "payload": {
+        "phase": "companion_move",
+        "activityId": "tic_tac_toe",
+        "banter": {
+          "phase": "companion_move",
+          "square": 3
+        },
+        "conversationMode": "social",
+        "activeActivity": {
+          "activityId": "tic_tac_toe",
+          "surface": "video_call_overlay",
+          "status": "active",
+          "board": [
+            "X",
+            "X",
+            "O",
+            null,
+            "O",
+            null,
+            null,
+            null,
+            null
+          ],
+          "childMark": "X",
+          "companionMark": "O",
+          "turn": "child",
+          "lastMove": {
+            "by": "companion",
+            "square": 3,
+            "mark": "O",
+            "timestamp": 1780531128162
+          },
+          "summary": "The companion placed O on square 3. It is the child's turn.",
+          "updatedAt": 1780531128162
+        },
+        "videoCallLayout": "play"
+      }
+    },
+    {
+      "eventName": "activity_reaction_response_received",
+      "origin": "client",
+      "turnId": "trace_20260603t235814_4a0bz_turn_2",
+      "timestamp": 1780531129849,
+      "payload": {
+        "requestToResponseMs": 1687,
+        "reactionLane": "presence",
+        "aiAuthored": false,
+        "commandCount": 0,
+        "activityReaction": {
+          "activityId": "tic_tac_toe",
+          "eventType": "companion_move",
+          "momentType": "companion_blocked_child",
+          "salience": "medium",
+          "suggestedGesture": "think",
+          "board": [
+            "X",
+            "X",
+            "O",
+            null,
+            "O",
+            null,
+            null,
+            null,
+            null
+          ],
+          "boardSignature": "XXO-O----",
+          "childMark": "X",
+          "companionMark": "O",
+          "turn": "child",
+          "lastMove": {
+            "by": "companion",
+            "square": 3,
+            "mark": "O",
+            "timestamp": 1780531128162
+          },
+          "summary": "The companion placed O on square 3. It is the child's turn.",
+          "updatedAt": 1780531128162,
+          "desiredTone": "playful_strategic"
+        },
+        "activeActivity": {
+          "activityId": "tic_tac_toe",
+          "surface": "video_call_overlay",
+          "status": "active",
+          "board": [
+            "X",
+            "X",
+            "O",
+            null,
+            "O",
+            null,
+            null,
+            null,
+            null
+          ],
+          "childMark": "X",
+          "companionMark": "O",
+          "turn": "child",
+          "lastMove": {
+            "by": "companion",
+            "square": 3,
+            "mark": "O",
+            "timestamp": 1780531128162
+          },
+          "summary": "The companion placed O on square 3. It is the child's turn.",
+          "updatedAt": 1780531128162
+        },
+        "latencySpans": {
+          "ttsMs": 1687,
+          "requestToResponseMs": 1687
+        },
+        "videoCallLayout": "play",
+        "responsePreview": "I blocked it.",
+        "responseHash": "0cdc90d5",
+        "responseLength": 13
+      }
+    },
+    {
+      "eventName": "activity_reaction_audio_start",
+      "origin": "client",
+      "turnId": "trace_20260603t235814_4a0bz_turn_2",
+      "timestamp": 1780531129850,
+      "payload": {
+        "latencyMs": 1688,
+        "reactionLane": "presence",
+        "activityReaction": {
+          "activityId": "tic_tac_toe",
+          "eventType": "companion_move",
+          "momentType": "companion_blocked_child",
+          "salience": "medium",
+          "suggestedGesture": "think",
+          "board": [
+            "X",
+            "X",
+            "O",
+            null,
+            "O",
+            null,
+            null,
+            null,
+            null
+          ],
+          "boardSignature": "XXO-O----",
+          "childMark": "X",
+          "companionMark": "O",
+          "turn": "child",
+          "lastMove": {
+            "by": "companion",
+            "square": 3,
+            "mark": "O",
+            "timestamp": 1780531128162
+          },
+          "summary": "The companion placed O on square 3. It is the child's turn.",
+          "updatedAt": 1780531128162,
+          "desiredTone": "playful_strategic"
+        },
+        "activeActivity": {
+          "activityId": "tic_tac_toe",
+          "surface": "video_call_overlay",
+          "status": "active",
+          "board": [
+            "X",
+            "X",
+            "O",
+            null,
+            "O",
+            null,
+            null,
+            null,
+            null
+          ],
+          "childMark": "X",
+          "companionMark": "O",
+          "turn": "child",
+          "lastMove": {
+            "by": "companion",
+            "square": 3,
+            "mark": "O",
+            "timestamp": 1780531128162
+          },
+          "summary": "The companion placed O on square 3. It is the child's turn.",
+          "updatedAt": 1780531128162
+        },
+        "videoCallLayout": "play"
+      }
+    },
+    {
+      "eventName": "activity_context_changed",
+      "origin": "client",
+      "timestamp": 1780531131122,
+      "payload": {
+        "activityId": "tic_tac_toe",
+        "surface": "video_call_overlay",
+        "companionName": "Elli",
+        "timestamp": 1780531131122,
+        "board": [
+          "X",
+          "X",
+          "O",
+          null,
+          "O",
+          null,
+          "X",
+          null,
+          null
+        ],
+        "type": "companion_tic_tac_toe_child_move",
+        "square": 7,
+        "mark": "X",
+        "childId": "ila",
+        "companionId": "elli",
+        "showroomTheme": "crystal",
+        "callSource": "showroom",
+        "relationshipState": "previewing",
+        "videoCallLayout": "play",
+        "phase": "video_call_activity",
+        "progress": "Elli tic-tac-toe activity updated.",
+        "activeActivity": {
+          "activityId": "tic_tac_toe",
+          "surface": "video_call_overlay",
+          "status": "active",
+          "board": [
+            "X",
+            "X",
+            "O",
+            null,
+            "O",
+            null,
+            "X",
+            null,
+            null
+          ],
+          "childMark": "X",
+          "companionMark": "O",
+          "turn": "companion",
+          "lastMove": {
+            "by": "child",
+            "square": 7,
+            "mark": "X",
+            "timestamp": 1780531131122
+          },
+          "summary": "The child placed X on square 7. It is the companion's turn.",
+          "updatedAt": 1780531131122
+        }
+      }
+    },
+    {
+      "eventName": "activity_phase_changed",
+      "origin": "client",
+      "timestamp": 1780531131123,
+      "payload": {
+        "phase": "child_turn",
+        "activityId": "tic_tac_toe",
+        "banter": {
+          "phase": "child_move",
+          "square": 7
+        },
+        "conversationMode": "social",
+        "activeActivity": {
+          "activityId": "tic_tac_toe",
+          "surface": "video_call_overlay",
+          "status": "active",
+          "board": [
+            "X",
+            "X",
+            "O",
+            null,
+            "O",
+            null,
+            "X",
+            null,
+            null
+          ],
+          "childMark": "X",
+          "companionMark": "O",
+          "turn": "companion",
+          "lastMove": {
+            "by": "child",
+            "square": 7,
+            "mark": "X",
+            "timestamp": 1780531131122
+          },
+          "summary": "The child placed X on square 7. It is the companion's turn.",
+          "updatedAt": 1780531131122
+        },
+        "videoCallLayout": "play"
+      }
+    },
+    {
+      "eventName": "activity_phase_changed",
+      "origin": "client",
+      "timestamp": 1780531131123,
+      "payload": {
+        "phase": "companion_thinking",
+        "reason": "tic_tac_toe_companion_turn",
+        "conversationMode": "social",
+        "commandType": "emote",
+        "emote": "thinking",
+        "animation": null,
+        "activeActivity": {
+          "activityId": "tic_tac_toe",
+          "surface": "video_call_overlay",
+          "status": "active",
+          "board": [
+            "X",
+            "X",
+            "O",
+            null,
+            "O",
+            null,
+            "X",
+            null,
+            null
+          ],
+          "childMark": "X",
+          "companionMark": "O",
+          "turn": "companion",
+          "lastMove": {
+            "by": "child",
+            "square": 7,
+            "mark": "X",
+            "timestamp": 1780531131122
+          },
+          "summary": "The child placed X on square 7. It is the companion's turn.",
+          "updatedAt": 1780531131122
+        },
+        "videoCallLayout": "play"
+      }
+    },
+    {
+      "eventName": "activity_phase_changed",
+      "origin": "client",
+      "timestamp": 1780531131123,
+      "payload": {
+        "phase": "companion_thinking",
+        "activityId": "tic_tac_toe",
+        "banter": {
+          "phase": "companion_thinking"
+        },
+        "conversationMode": "social",
+        "activeActivity": {
+          "activityId": "tic_tac_toe",
+          "surface": "video_call_overlay",
+          "status": "active",
+          "board": [
+            "X",
+            "X",
+            "O",
+            null,
+            "O",
+            null,
+            "X",
+            null,
+            null
+          ],
+          "childMark": "X",
+          "companionMark": "O",
+          "turn": "companion",
+          "lastMove": {
+            "by": "child",
+            "square": 7,
+            "mark": "X",
+            "timestamp": 1780531131122
+          },
+          "summary": "The child placed X on square 7. It is the companion's turn.",
+          "updatedAt": 1780531131122
+        },
+        "videoCallLayout": "play"
+      }
+    },
+    {
+      "eventName": "activity_reaction_audio_ended",
+      "origin": "client",
+      "turnId": "trace_20260603t235814_4a0bz_turn_2",
+      "timestamp": 1780531131779,
+      "payload": {
+        "reason": "audio_ended",
+        "reactionLane": "presence",
+        "latencyMs": 3617,
+        "activityReaction": {
+          "activityId": "tic_tac_toe",
+          "eventType": "companion_move",
+          "momentType": "companion_blocked_child",
+          "salience": "medium",
+          "suggestedGesture": "think",
+          "board": [
+            "X",
+            "X",
+            "O",
+            null,
+            "O",
+            null,
+            null,
+            null,
+            null
+          ],
+          "boardSignature": "XXO-O----",
+          "childMark": "X",
+          "companionMark": "O",
+          "turn": "child",
+          "lastMove": {
+            "by": "companion",
+            "square": 3,
+            "mark": "O",
+            "timestamp": 1780531128162
+          },
+          "summary": "The companion placed O on square 3. It is the child's turn.",
+          "updatedAt": 1780531128162,
+          "desiredTone": "playful_strategic"
+        },
+        "activeActivity": {
+          "activityId": "tic_tac_toe",
+          "surface": "video_call_overlay",
+          "status": "active",
+          "board": [
+            "X",
+            "X",
+            "O",
+            null,
+            "O",
+            null,
+            "X",
+            null,
+            null
+          ],
+          "childMark": "X",
+          "companionMark": "O",
+          "turn": "companion",
+          "lastMove": {
+            "by": "child",
+            "square": 7,
+            "mark": "X",
+            "timestamp": 1780531131122
+          },
+          "summary": "The child placed X on square 7. It is the companion's turn.",
+          "updatedAt": 1780531131122
+        },
+        "videoCallLayout": "play"
+      }
+    },
+    {
+      "eventName": "handsfree_rearm_skipped",
+      "origin": "client",
+      "timestamp": 1780531131779,
+      "payload": {
+        "reason": "stt_unavailable",
+        "requestedReason": "presence_activity_reaction_audio_ended",
+        "activeActivity": {
+          "activityId": "tic_tac_toe",
+          "surface": "video_call_overlay",
+          "status": "active",
+          "board": [
+            "X",
+            "X",
+            "O",
+            null,
+            "O",
+            null,
+            "X",
+            null,
+            null
+          ],
+          "childMark": "X",
+          "companionMark": "O",
+          "turn": "companion",
+          "lastMove": {
+            "by": "child",
+            "square": 7,
+            "mark": "X",
+            "timestamp": 1780531131122
+          },
+          "summary": "The child placed X on square 7. It is the companion's turn.",
+          "updatedAt": 1780531131122
+        },
+        "videoCallLayout": "play"
+      }
+    },
+    {
+      "eventName": "activity_context_changed",
+      "origin": "client",
+      "timestamp": 1780531133400,
+      "payload": {
+        "activityId": "tic_tac_toe",
+        "surface": "video_call_overlay",
+        "companionName": "Elli",
+        "timestamp": 1780531133400,
+        "board": [
+          "X",
+          "X",
+          "O",
+          "O",
+          "O",
+          null,
+          "X",
+          null,
+          null
+        ],
+        "type": "companion_tic_tac_toe_companion_move",
+        "square": 4,
+        "mark": "O",
+        "decisionStartedAt": 1780531131123,
+        "plannedDecisionDelayMs": 1041,
+        "decisionLatencyMs": 2273,
+        "childId": "ila",
+        "companionId": "elli",
+        "showroomTheme": "crystal",
+        "callSource": "showroom",
+        "relationshipState": "previewing",
+        "videoCallLayout": "play",
+        "phase": "video_call_activity",
+        "progress": "Elli tic-tac-toe activity updated.",
+        "activeActivity": {
+          "activityId": "tic_tac_toe",
+          "surface": "video_call_overlay",
+          "status": "active",
+          "board": [
+            "X",
+            "X",
+            "O",
+            "O",
+            "O",
+            null,
+            "X",
+            null,
+            null
+          ],
+          "childMark": "X",
+          "companionMark": "O",
+          "turn": "child",
+          "lastMove": {
+            "by": "companion",
+            "square": 4,
+            "mark": "O",
+            "timestamp": 1780531133400
+          },
+          "summary": "The companion placed O on square 4. It is the child's turn.",
+          "updatedAt": 1780531133400
+        }
+      }
+    },
+    {
+      "eventName": "activity_reaction_request_start",
+      "origin": "client",
+      "turnId": "trace_20260603t235814_4a0bz_turn_3",
+      "timestamp": 1780531133401,
+      "payload": {
+        "reactionLane": "presence",
+        "activityReaction": {
+          "activityId": "tic_tac_toe",
+          "eventType": "companion_move",
+          "momentType": "companion_blocked_child",
+          "salience": "medium",
+          "suggestedGesture": "think",
+          "board": [
+            "X",
+            "X",
+            "O",
+            "O",
+            "O",
+            null,
+            "X",
+            null,
+            null
+          ],
+          "boardSignature": "XXOOO-X--",
+          "childMark": "X",
+          "companionMark": "O",
+          "turn": "child",
+          "lastMove": {
+            "by": "companion",
+            "square": 4,
+            "mark": "O",
+            "timestamp": 1780531133400
+          },
+          "summary": "The companion placed O on square 4. It is the child's turn.",
+          "updatedAt": 1780531133400,
+          "desiredTone": "playful_strategic"
+        },
+        "activeActivity": {
+          "activityId": "tic_tac_toe",
+          "surface": "video_call_overlay",
+          "status": "active",
+          "board": [
+            "X",
+            "X",
+            "O",
+            "O",
+            "O",
+            null,
+            "X",
+            null,
+            null
+          ],
+          "childMark": "X",
+          "companionMark": "O",
+          "turn": "child",
+          "lastMove": {
+            "by": "companion",
+            "square": 4,
+            "mark": "O",
+            "timestamp": 1780531133400
+          },
+          "summary": "The companion placed O on square 4. It is the child's turn.",
+          "updatedAt": 1780531133400
+        },
+        "videoCallLayout": "play"
+      }
+    },
+    {
+      "eventName": "activity_phase_changed",
+      "origin": "client",
+      "timestamp": 1780531133401,
+      "payload": {
+        "phase": "companion_move",
+        "activityId": "tic_tac_toe",
+        "banter": {
+          "phase": "companion_move",
+          "square": 4
+        },
+        "conversationMode": "social",
+        "activeActivity": {
+          "activityId": "tic_tac_toe",
+          "surface": "video_call_overlay",
+          "status": "active",
+          "board": [
+            "X",
+            "X",
+            "O",
+            "O",
+            "O",
+            null,
+            "X",
+            null,
+            null
+          ],
+          "childMark": "X",
+          "companionMark": "O",
+          "turn": "child",
+          "lastMove": {
+            "by": "companion",
+            "square": 4,
+            "mark": "O",
+            "timestamp": 1780531133400
+          },
+          "summary": "The companion placed O on square 4. It is the child's turn.",
+          "updatedAt": 1780531133400
+        },
+        "videoCallLayout": "play"
+      }
+    },
+    {
+      "eventName": "activity_reaction_response_received",
+      "origin": "client",
+      "turnId": "trace_20260603t235814_4a0bz_turn_3",
+      "timestamp": 1780531134489,
+      "payload": {
+        "requestToResponseMs": 1089,
+        "reactionLane": "presence",
+        "aiAuthored": false,
+        "commandCount": 0,
+        "activityReaction": {
+          "activityId": "tic_tac_toe",
+          "eventType": "companion_move",
+          "momentType": "companion_blocked_child",
+          "salience": "medium",
+          "suggestedGesture": "think",
+          "board": [
+            "X",
+            "X",
+            "O",
+            "O",
+            "O",
+            null,
+            "X",
+            null,
+            null
+          ],
+          "boardSignature": "XXOOO-X--",
+          "childMark": "X",
+          "companionMark": "O",
+          "turn": "child",
+          "lastMove": {
+            "by": "companion",
+            "square": 4,
+            "mark": "O",
+            "timestamp": 1780531133400
+          },
+          "summary": "The companion placed O on square 4. It is the child's turn.",
+          "updatedAt": 1780531133400,
+          "desiredTone": "playful_strategic"
+        },
+        "activeActivity": {
+          "activityId": "tic_tac_toe",
+          "surface": "video_call_overlay",
+          "status": "active",
+          "board": [
+            "X",
+            "X",
+            "O",
+            "O",
+            "O",
+            null,
+            "X",
+            null,
+            null
+          ],
+          "childMark": "X",
+          "companionMark": "O",
+          "turn": "child",
+          "lastMove": {
+            "by": "companion",
+            "square": 4,
+            "mark": "O",
+            "timestamp": 1780531133400
+          },
+          "summary": "The companion placed O on square 4. It is the child's turn.",
+          "updatedAt": 1780531133400
+        },
+        "latencySpans": {
+          "ttsMs": 1089,
+          "requestToResponseMs": 1089
+        },
+        "videoCallLayout": "play",
+        "responsePreview": "I blocked it.",
+        "responseHash": "0cdc90d5",
+        "responseLength": 13
+      }
+    },
+    {
+      "eventName": "activity_reaction_audio_start",
+      "origin": "client",
+      "turnId": "trace_20260603t235814_4a0bz_turn_3",
+      "timestamp": 1780531134490,
+      "payload": {
+        "latencyMs": 1089,
+        "reactionLane": "presence",
+        "activityReaction": {
+          "activityId": "tic_tac_toe",
+          "eventType": "companion_move",
+          "momentType": "companion_blocked_child",
+          "salience": "medium",
+          "suggestedGesture": "think",
+          "board": [
+            "X",
+            "X",
+            "O",
+            "O",
+            "O",
+            null,
+            "X",
+            null,
+            null
+          ],
+          "boardSignature": "XXOOO-X--",
+          "childMark": "X",
+          "companionMark": "O",
+          "turn": "child",
+          "lastMove": {
+            "by": "companion",
+            "square": 4,
+            "mark": "O",
+            "timestamp": 1780531133400
+          },
+          "summary": "The companion placed O on square 4. It is the child's turn.",
+          "updatedAt": 1780531133400,
+          "desiredTone": "playful_strategic"
+        },
+        "activeActivity": {
+          "activityId": "tic_tac_toe",
+          "surface": "video_call_overlay",
+          "status": "active",
+          "board": [
+            "X",
+            "X",
+            "O",
+            "O",
+            "O",
+            null,
+            "X",
+            null,
+            null
+          ],
+          "childMark": "X",
+          "companionMark": "O",
+          "turn": "child",
+          "lastMove": {
+            "by": "companion",
+            "square": 4,
+            "mark": "O",
+            "timestamp": 1780531133400
+          },
+          "summary": "The companion placed O on square 4. It is the child's turn.",
+          "updatedAt": 1780531133400
+        },
+        "videoCallLayout": "play"
+      }
+    },
+    {
+      "eventName": "activity_context_changed",
+      "origin": "client",
+      "timestamp": 1780531135546,
+      "payload": {
+        "activityId": "tic_tac_toe",
+        "surface": "video_call_overlay",
+        "companionName": "Elli",
+        "timestamp": 1780531135546,
+        "board": [
+          "X",
+          "X",
+          "O",
+          "O",
+          "O",
+          "X",
+          "X",
+          null,
+          null
+        ],
+        "type": "companion_tic_tac_toe_child_move",
+        "square": 6,
+        "mark": "X",
+        "childId": "ila",
+        "companionId": "elli",
+        "showroomTheme": "crystal",
+        "callSource": "showroom",
+        "relationshipState": "previewing",
+        "videoCallLayout": "play",
+        "phase": "video_call_activity",
+        "progress": "Elli tic-tac-toe activity updated.",
+        "activeActivity": {
+          "activityId": "tic_tac_toe",
+          "surface": "video_call_overlay",
+          "status": "active",
+          "board": [
+            "X",
+            "X",
+            "O",
+            "O",
+            "O",
+            "X",
+            "X",
+            null,
+            null
+          ],
+          "childMark": "X",
+          "companionMark": "O",
+          "turn": "companion",
+          "lastMove": {
+            "by": "child",
+            "square": 6,
+            "mark": "X",
+            "timestamp": 1780531135546
+          },
+          "summary": "The child placed X on square 6. It is the companion's turn.",
+          "updatedAt": 1780531135546
+        }
+      }
+    },
+    {
+      "eventName": "activity_phase_changed",
+      "origin": "client",
+      "timestamp": 1780531135546,
+      "payload": {
+        "phase": "child_turn",
+        "activityId": "tic_tac_toe",
+        "banter": {
+          "phase": "child_move",
+          "square": 6
+        },
+        "conversationMode": "social",
+        "activeActivity": {
+          "activityId": "tic_tac_toe",
+          "surface": "video_call_overlay",
+          "status": "active",
+          "board": [
+            "X",
+            "X",
+            "O",
+            "O",
+            "O",
+            "X",
+            "X",
+            null,
+            null
+          ],
+          "childMark": "X",
+          "companionMark": "O",
+          "turn": "companion",
+          "lastMove": {
+            "by": "child",
+            "square": 6,
+            "mark": "X",
+            "timestamp": 1780531135546
+          },
+          "summary": "The child placed X on square 6. It is the companion's turn.",
+          "updatedAt": 1780531135546
+        },
+        "videoCallLayout": "play"
+      }
+    },
+    {
+      "eventName": "activity_phase_changed",
+      "origin": "client",
+      "timestamp": 1780531135547,
+      "payload": {
+        "phase": "companion_thinking",
+        "activityId": "tic_tac_toe",
+        "banter": {
+          "phase": "companion_thinking"
+        },
+        "conversationMode": "social",
+        "activeActivity": {
+          "activityId": "tic_tac_toe",
+          "surface": "video_call_overlay",
+          "status": "active",
+          "board": [
+            "X",
+            "X",
+            "O",
+            "O",
+            "O",
+            "X",
+            "X",
+            null,
+            null
+          ],
+          "childMark": "X",
+          "companionMark": "O",
+          "turn": "companion",
+          "lastMove": {
+            "by": "child",
+            "square": 6,
+            "mark": "X",
+            "timestamp": 1780531135546
+          },
+          "summary": "The child placed X on square 6. It is the companion's turn.",
+          "updatedAt": 1780531135546
+        },
+        "videoCallLayout": "play"
+      }
+    },
+    {
+      "eventName": "activity_phase_changed",
+      "origin": "client",
+      "timestamp": 1780531135547,
+      "payload": {
+        "phase": "companion_thinking",
+        "reason": "tic_tac_toe_companion_turn",
+        "conversationMode": "social",
+        "commandType": "emote",
+        "emote": "thinking",
+        "animation": null,
+        "activeActivity": {
+          "activityId": "tic_tac_toe",
+          "surface": "video_call_overlay",
+          "status": "active",
+          "board": [
+            "X",
+            "X",
+            "O",
+            "O",
+            "O",
+            "X",
+            "X",
+            null,
+            null
+          ],
+          "childMark": "X",
+          "companionMark": "O",
+          "turn": "companion",
+          "lastMove": {
+            "by": "child",
+            "square": 6,
+            "mark": "X",
+            "timestamp": 1780531135546
+          },
+          "summary": "The child placed X on square 6. It is the companion's turn.",
+          "updatedAt": 1780531135546
+        },
+        "videoCallLayout": "play"
+      }
+    },
+    {
+      "eventName": "activity_context_changed",
+      "origin": "client",
+      "timestamp": 1780531136640,
+      "payload": {
+        "activityId": "tic_tac_toe",
+        "surface": "video_call_overlay",
+        "companionName": "Elli",
+        "timestamp": 1780531136640,
+        "board": [
+          "X",
+          "X",
+          "O",
+          "O",
+          "O",
+          "X",
+          "X",
+          null,
+          "O"
+        ],
+        "type": "companion_tic_tac_toe_companion_move",
+        "square": 9,
+        "mark": "O",
+        "decisionStartedAt": 1780531135547,
+        "plannedDecisionDelayMs": 949,
+        "decisionLatencyMs": 1092,
+        "childId": "ila",
+        "companionId": "elli",
+        "showroomTheme": "crystal",
+        "callSource": "showroom",
+        "relationshipState": "previewing",
+        "videoCallLayout": "play",
+        "phase": "video_call_activity",
+        "progress": "Elli tic-tac-toe activity updated.",
+        "activeActivity": {
+          "activityId": "tic_tac_toe",
+          "surface": "video_call_overlay",
+          "status": "active",
+          "board": [
+            "X",
+            "X",
+            "O",
+            "O",
+            "O",
+            "X",
+            "X",
+            null,
+            "O"
+          ],
+          "childMark": "X",
+          "companionMark": "O",
+          "turn": "child",
+          "lastMove": {
+            "by": "companion",
+            "square": 9,
+            "mark": "O",
+            "timestamp": 1780531136640
+          },
+          "summary": "The companion placed O on square 9. It is the child's turn.",
+          "updatedAt": 1780531136640
+        }
+      }
+    },
+    {
+      "eventName": "activity_phase_changed",
+      "origin": "client",
+      "timestamp": 1780531136641,
+      "payload": {
+        "phase": "companion_move",
+        "activityId": "tic_tac_toe",
+        "banter": {
+          "phase": "companion_move",
+          "square": 9
+        },
+        "conversationMode": "social",
+        "activeActivity": {
+          "activityId": "tic_tac_toe",
+          "surface": "video_call_overlay",
+          "status": "active",
+          "board": [
+            "X",
+            "X",
+            "O",
+            "O",
+            "O",
+            "X",
+            "X",
+            null,
+            "O"
+          ],
+          "childMark": "X",
+          "companionMark": "O",
+          "turn": "child",
+          "lastMove": {
+            "by": "companion",
+            "square": 9,
+            "mark": "O",
+            "timestamp": 1780531136640
+          },
+          "summary": "The companion placed O on square 9. It is the child's turn.",
+          "updatedAt": 1780531136640
+        },
+        "videoCallLayout": "play"
+      }
+    },
+    {
+      "eventName": "activity_reaction_audio_ended",
+      "origin": "client",
+      "turnId": "trace_20260603t235814_4a0bz_turn_3",
+      "timestamp": 1780531136641,
+      "payload": {
+        "reason": "audio_ended",
+        "reactionLane": "presence",
+        "latencyMs": 3241,
+        "activityReaction": {
+          "activityId": "tic_tac_toe",
+          "eventType": "companion_move",
+          "momentType": "companion_blocked_child",
+          "salience": "medium",
+          "suggestedGesture": "think",
+          "board": [
+            "X",
+            "X",
+            "O",
+            "O",
+            "O",
+            null,
+            "X",
+            null,
+            null
+          ],
+          "boardSignature": "XXOOO-X--",
+          "childMark": "X",
+          "companionMark": "O",
+          "turn": "child",
+          "lastMove": {
+            "by": "companion",
+            "square": 4,
+            "mark": "O",
+            "timestamp": 1780531133400
+          },
+          "summary": "The companion placed O on square 4. It is the child's turn.",
+          "updatedAt": 1780531133400,
+          "desiredTone": "playful_strategic"
+        },
+        "activeActivity": {
+          "activityId": "tic_tac_toe",
+          "surface": "video_call_overlay",
+          "status": "active",
+          "board": [
+            "X",
+            "X",
+            "O",
+            "O",
+            "O",
+            "X",
+            "X",
+            null,
+            "O"
+          ],
+          "childMark": "X",
+          "companionMark": "O",
+          "turn": "child",
+          "lastMove": {
+            "by": "companion",
+            "square": 9,
+            "mark": "O",
+            "timestamp": 1780531136640
+          },
+          "summary": "The companion placed O on square 9. It is the child's turn.",
+          "updatedAt": 1780531136640
+        },
+        "videoCallLayout": "play"
+      }
+    },
+    {
+      "eventName": "handsfree_rearm_skipped",
+      "origin": "client",
+      "timestamp": 1780531136642,
+      "payload": {
+        "reason": "stt_unavailable",
+        "requestedReason": "presence_activity_reaction_audio_ended",
+        "activeActivity": {
+          "activityId": "tic_tac_toe",
+          "surface": "video_call_overlay",
+          "status": "active",
+          "board": [
+            "X",
+            "X",
+            "O",
+            "O",
+            "O",
+            "X",
+            "X",
+            null,
+            "O"
+          ],
+          "childMark": "X",
+          "companionMark": "O",
+          "turn": "child",
+          "lastMove": {
+            "by": "companion",
+            "square": 9,
+            "mark": "O",
+            "timestamp": 1780531136640
+          },
+          "summary": "The companion placed O on square 9. It is the child's turn.",
+          "updatedAt": 1780531136640
+        },
+        "videoCallLayout": "play"
+      }
+    },
+    {
+      "eventName": "activity_context_changed",
+      "origin": "client",
+      "timestamp": 1780531139746,
+      "payload": {
+        "activityId": "tic_tac_toe",
+        "surface": "video_call_overlay",
+        "companionName": "Elli",
+        "timestamp": 1780531139746,
+        "board": [
+          "X",
+          "X",
+          "O",
+          "O",
+          "O",
+          "X",
+          "X",
+          "X",
+          "O"
+        ],
+        "type": "companion_tic_tac_toe_child_move",
+        "square": 8,
+        "mark": "X",
+        "childId": "ila",
+        "companionId": "elli",
+        "showroomTheme": "crystal",
+        "callSource": "showroom",
+        "relationshipState": "previewing",
+        "videoCallLayout": "play",
+        "phase": "video_call_activity",
+        "progress": "Elli tic-tac-toe activity updated.",
+        "activeActivity": {
+          "activityId": "tic_tac_toe",
+          "surface": "video_call_overlay",
+          "status": "active",
+          "board": [
+            "X",
+            "X",
+            "O",
+            "O",
+            "O",
+            "X",
+            "X",
+            "X",
+            "O"
+          ],
+          "childMark": "X",
+          "companionMark": "O",
+          "turn": "companion",
+          "lastMove": {
+            "by": "child",
+            "square": 8,
+            "mark": "X",
+            "timestamp": 1780531139746
+          },
+          "summary": "The child placed X on square 8. It is the companion's turn.",
+          "updatedAt": 1780531139746
+        }
+      }
+    },
+    {
+      "eventName": "activity_phase_changed",
+      "origin": "client",
+      "timestamp": 1780531139746,
+      "payload": {
+        "phase": "child_turn",
+        "activityId": "tic_tac_toe",
+        "banter": {
+          "phase": "child_move",
+          "square": 8
+        },
+        "conversationMode": "social",
+        "activeActivity": {
+          "activityId": "tic_tac_toe",
+          "surface": "video_call_overlay",
+          "status": "active",
+          "board": [
+            "X",
+            "X",
+            "O",
+            "O",
+            "O",
+            "X",
+            "X",
+            "X",
+            "O"
+          ],
+          "childMark": "X",
+          "companionMark": "O",
+          "turn": "companion",
+          "lastMove": {
+            "by": "child",
+            "square": 8,
+            "mark": "X",
+            "timestamp": 1780531139746
+          },
+          "summary": "The child placed X on square 8. It is the companion's turn.",
+          "updatedAt": 1780531139746
+        },
+        "videoCallLayout": "play"
+      }
+    },
+    {
+      "eventName": "activity_context_changed",
+      "origin": "client",
+      "timestamp": 1780531139763,
+      "payload": {
+        "activityId": "tic_tac_toe",
+        "surface": "video_call_overlay",
+        "companionName": "Elli",
+        "timestamp": 1780531139763,
+        "board": [
+          "X",
+          "X",
+          "O",
+          "O",
+          "O",
+          "X",
+          "X",
+          "X",
+          "O"
+        ],
+        "type": "companion_tic_tac_toe_round_complete",
+        "result": "draw",
+        "childId": "ila",
+        "companionId": "elli",
+        "showroomTheme": "crystal",
+        "callSource": "showroom",
+        "relationshipState": "previewing",
+        "videoCallLayout": "play",
+        "phase": "video_call_activity",
+        "progress": "Elli completed a tic-tac-toe round.",
+        "activeActivity": {
+          "activityId": "tic_tac_toe",
+          "surface": "video_call_overlay",
+          "status": "completed",
+          "board": [
+            "X",
+            "X",
+            "O",
+            "O",
+            "O",
+            "X",
+            "X",
+            "X",
+            "O"
+          ],
+          "childMark": "X",
+          "companionMark": "O",
+          "turn": "none",
+          "lastMove": {
+            "by": "child",
+            "square": 8,
+            "mark": "X",
+            "timestamp": 1780531139746
+          },
+          "result": "draw",
+          "summary": "The tic-tac-toe round ended in a draw.",
+          "updatedAt": 1780531139763
+        }
+      }
+    },
+    {
+      "eventName": "activity_reaction_request_start",
+      "origin": "client",
+      "turnId": "trace_20260603t235814_4a0bz_turn_4",
+      "timestamp": 1780531139764,
+      "payload": {
+        "reactionLane": "presence",
+        "activityReaction": {
+          "activityId": "tic_tac_toe",
+          "eventType": "round_complete",
+          "momentType": "round_complete",
+          "salience": "high",
+          "suggestedGesture": "shrug",
+          "board": [
+            "X",
+            "X",
+            "O",
+            "O",
+            "O",
+            "X",
+            "X",
+            "X",
+            "O"
+          ],
+          "boardSignature": "XXOOOXXXO",
+          "childMark": "X",
+          "companionMark": "O",
+          "turn": "none",
+          "lastMove": {
+            "by": "child",
+            "square": 8,
+            "mark": "X",
+            "timestamp": 1780531139746
+          },
+          "result": "draw",
+          "summary": "The tic-tac-toe round ended in a draw.",
+          "updatedAt": 1780531139763,
+          "desiredTone": "friendly_draw"
+        },
+        "activeActivity": {
+          "activityId": "tic_tac_toe",
+          "surface": "video_call_overlay",
+          "status": "completed",
+          "board": [
+            "X",
+            "X",
+            "O",
+            "O",
+            "O",
+            "X",
+            "X",
+            "X",
+            "O"
+          ],
+          "childMark": "X",
+          "companionMark": "O",
+          "turn": "none",
+          "lastMove": {
+            "by": "child",
+            "square": 8,
+            "mark": "X",
+            "timestamp": 1780531139746
+          },
+          "result": "draw",
+          "summary": "The tic-tac-toe round ended in a draw.",
+          "updatedAt": 1780531139763
+        },
+        "videoCallLayout": "play"
+      }
+    },
+    {
+      "eventName": "activity_phase_changed",
+      "origin": "client",
+      "timestamp": 1780531139765,
+      "payload": {
+        "phase": "round_complete",
+        "activityId": "tic_tac_toe",
+        "banter": {
+          "phase": "round_complete",
+          "result": "draw"
+        },
+        "conversationMode": "social",
+        "activeActivity": {
+          "activityId": "tic_tac_toe",
+          "surface": "video_call_overlay",
+          "status": "completed",
+          "board": [
+            "X",
+            "X",
+            "O",
+            "O",
+            "O",
+            "X",
+            "X",
+            "X",
+            "O"
+          ],
+          "childMark": "X",
+          "companionMark": "O",
+          "turn": "none",
+          "lastMove": {
+            "by": "child",
+            "square": 8,
+            "mark": "X",
+            "timestamp": 1780531139746
+          },
+          "result": "draw",
+          "summary": "The tic-tac-toe round ended in a draw.",
+          "updatedAt": 1780531139763
+        },
+        "videoCallLayout": "play"
+      }
+    },
+    {
+      "eventName": "activity_reaction_response_received",
+      "origin": "client",
+      "turnId": "trace_20260603t235814_4a0bz_turn_4",
+      "timestamp": 1780531141139,
+      "payload": {
+        "requestToResponseMs": 1375,
+        "reactionLane": "presence",
+        "aiAuthored": false,
+        "commandCount": 0,
+        "activityReaction": {
+          "activityId": "tic_tac_toe",
+          "eventType": "round_complete",
+          "momentType": "round_complete",
+          "salience": "high",
+          "suggestedGesture": "shrug",
+          "board": [
+            "X",
+            "X",
+            "O",
+            "O",
+            "O",
+            "X",
+            "X",
+            "X",
+            "O"
+          ],
+          "boardSignature": "XXOOOXXXO",
+          "childMark": "X",
+          "companionMark": "O",
+          "turn": "none",
+          "lastMove": {
+            "by": "child",
+            "square": 8,
+            "mark": "X",
+            "timestamp": 1780531139746
+          },
+          "result": "draw",
+          "summary": "The tic-tac-toe round ended in a draw.",
+          "updatedAt": 1780531139763,
+          "desiredTone": "friendly_draw"
+        },
+        "activeActivity": {
+          "activityId": "tic_tac_toe",
+          "surface": "video_call_overlay",
+          "status": "completed",
+          "board": [
+            "X",
+            "X",
+            "O",
+            "O",
+            "O",
+            "X",
+            "X",
+            "X",
+            "O"
+          ],
+          "childMark": "X",
+          "companionMark": "O",
+          "turn": "none",
+          "lastMove": {
+            "by": "child",
+            "square": 8,
+            "mark": "X",
+            "timestamp": 1780531139746
+          },
+          "result": "draw",
+          "summary": "The tic-tac-toe round ended in a draw.",
+          "updatedAt": 1780531139763
+        },
+        "latencySpans": {
+          "ttsMs": 1375,
+          "requestToResponseMs": 1375
+        },
+        "videoCallLayout": "play",
+        "responsePreview": "Good game.",
+        "responseHash": "23afc01c",
+        "responseLength": 10
+      }
+    },
+    {
+      "eventName": "activity_reaction_audio_start",
+      "origin": "client",
+      "turnId": "trace_20260603t235814_4a0bz_turn_4",
+      "timestamp": 1780531141140,
+      "payload": {
+        "latencyMs": 1376,
+        "reactionLane": "presence",
+        "activityReaction": {
+          "activityId": "tic_tac_toe",
+          "eventType": "round_complete",
+          "momentType": "round_complete",
+          "salience": "high",
+          "suggestedGesture": "shrug",
+          "board": [
+            "X",
+            "X",
+            "O",
+            "O",
+            "O",
+            "X",
+            "X",
+            "X",
+            "O"
+          ],
+          "boardSignature": "XXOOOXXXO",
+          "childMark": "X",
+          "companionMark": "O",
+          "turn": "none",
+          "lastMove": {
+            "by": "child",
+            "square": 8,
+            "mark": "X",
+            "timestamp": 1780531139746
+          },
+          "result": "draw",
+          "summary": "The tic-tac-toe round ended in a draw.",
+          "updatedAt": 1780531139763,
+          "desiredTone": "friendly_draw"
+        },
+        "activeActivity": {
+          "activityId": "tic_tac_toe",
+          "surface": "video_call_overlay",
+          "status": "completed",
+          "board": [
+            "X",
+            "X",
+            "O",
+            "O",
+            "O",
+            "X",
+            "X",
+            "X",
+            "O"
+          ],
+          "childMark": "X",
+          "companionMark": "O",
+          "turn": "none",
+          "lastMove": {
+            "by": "child",
+            "square": 8,
+            "mark": "X",
+            "timestamp": 1780531139746
+          },
+          "result": "draw",
+          "summary": "The tic-tac-toe round ended in a draw.",
+          "updatedAt": 1780531139763
+        },
+        "videoCallLayout": "play"
+      }
+    },
+    {
+      "eventName": "activity_reaction_audio_ended",
+      "origin": "client",
+      "turnId": "trace_20260603t235814_4a0bz_turn_4",
+      "timestamp": 1780531142952,
+      "payload": {
+        "reason": "audio_ended",
+        "reactionLane": "presence",
+        "latencyMs": 3188,
+        "activityReaction": {
+          "activityId": "tic_tac_toe",
+          "eventType": "round_complete",
+          "momentType": "round_complete",
+          "salience": "high",
+          "suggestedGesture": "shrug",
+          "board": [
+            "X",
+            "X",
+            "O",
+            "O",
+            "O",
+            "X",
+            "X",
+            "X",
+            "O"
+          ],
+          "boardSignature": "XXOOOXXXO",
+          "childMark": "X",
+          "companionMark": "O",
+          "turn": "none",
+          "lastMove": {
+            "by": "child",
+            "square": 8,
+            "mark": "X",
+            "timestamp": 1780531139746
+          },
+          "result": "draw",
+          "summary": "The tic-tac-toe round ended in a draw.",
+          "updatedAt": 1780531139763,
+          "desiredTone": "friendly_draw"
+        },
+        "activeActivity": {
+          "activityId": "tic_tac_toe",
+          "surface": "video_call_overlay",
+          "status": "completed",
+          "board": [
+            "X",
+            "X",
+            "O",
+            "O",
+            "O",
+            "X",
+            "X",
+            "X",
+            "O"
+          ],
+          "childMark": "X",
+          "companionMark": "O",
+          "turn": "none",
+          "lastMove": {
+            "by": "child",
+            "square": 8,
+            "mark": "X",
+            "timestamp": 1780531139746
+          },
+          "result": "draw",
+          "summary": "The tic-tac-toe round ended in a draw.",
+          "updatedAt": 1780531139763
+        },
+        "videoCallLayout": "play"
+      }
+    },
+    {
+      "eventName": "handsfree_rearm_skipped",
+      "origin": "client",
+      "timestamp": 1780531142952,
+      "payload": {
+        "reason": "stt_unavailable",
+        "requestedReason": "presence_activity_reaction_audio_ended",
+        "activeActivity": {
+          "activityId": "tic_tac_toe",
+          "surface": "video_call_overlay",
+          "status": "completed",
+          "board": [
+            "X",
+            "X",
+            "O",
+            "O",
+            "O",
+            "X",
+            "X",
+            "X",
+            "O"
+          ],
+          "childMark": "X",
+          "companionMark": "O",
+          "turn": "none",
+          "lastMove": {
+            "by": "child",
+            "square": 8,
+            "mark": "X",
+            "timestamp": 1780531139746
+          },
+          "result": "draw",
+          "summary": "The tic-tac-toe round ended in a draw.",
+          "updatedAt": 1780531139763
+        },
+        "videoCallLayout": "play"
+      }
+    }
+  ],
+  "turns": [
+    {
+      "turnId": "trace_20260603t235814_4a0bz_turn_1",
+      "eventNames": [
+        "talk_request_start",
+        "activity_phase_changed",
+        "talk_request_start",
+        "talk_response_received",
+        "talk_response_received",
+        "audio_play_start",
+        "audio_ended"
+      ],
+      "transcriptPreview": "let us play tic tac toe",
+      "transcriptHash": "8abaf48da7c3d98c",
+      "responsePreview": "Yes! Let's see if you can beat me this time!",
+      "responseHash": "0a3c2f4f6ba5671b",
+      "requestToResponseMs": 6706,
+      "audioMs": 3306
+    },
+    {
+      "turnId": "trace_20260603t235814_4a0bz_turn_2",
+      "eventNames": [
+        "activity_reaction_request_start",
+        "activity_reaction_response_received",
+        "activity_reaction_audio_start",
+        "activity_reaction_audio_ended"
+      ]
+    },
+    {
+      "turnId": "trace_20260603t235814_4a0bz_turn_3",
+      "eventNames": [
+        "activity_reaction_request_start",
+        "activity_reaction_response_received",
+        "activity_reaction_audio_start",
+        "activity_reaction_audio_ended"
+      ]
+    },
+    {
+      "turnId": "trace_20260603t235814_4a0bz_turn_4",
+      "eventNames": [
+        "activity_reaction_request_start",
+        "activity_reaction_response_received",
+        "activity_reaction_audio_start",
+        "activity_reaction_audio_ended"
+      ]
+    }
+  ]
+}
