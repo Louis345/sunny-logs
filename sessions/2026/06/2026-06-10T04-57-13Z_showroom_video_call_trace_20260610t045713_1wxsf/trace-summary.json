@@ -1,0 +1,129 @@
+{
+  "traceId": "trace_20260610t045713_1wxsf",
+  "childId": "ila",
+  "companionId": "elli",
+  "callSource": "showroom",
+  "relationshipState": "previewing",
+  "startedAt": "2026-06-10T04:57:13.828Z",
+  "eventCount": 17,
+  "loopSuspected": false,
+  "likelyCause": "slow_response",
+  "eventOrder": [
+    {
+      "eventName": "call_started",
+      "origin": "client",
+      "timestamp": 1781067433828
+    },
+    {
+      "eventName": "handsfree_rearm_scheduled",
+      "origin": "client",
+      "timestamp": 1781067439305
+    },
+    {
+      "eventName": "handsfree_rearm_starting",
+      "origin": "client",
+      "timestamp": 1781067439671
+    },
+    {
+      "eventName": "speech_listen_start",
+      "origin": "client",
+      "timestamp": 1781067439671
+    },
+    {
+      "eventName": "speech_error",
+      "origin": "client",
+      "timestamp": 1781067439692
+    },
+    {
+      "eventName": "conversation_mode_changed",
+      "origin": "client",
+      "turnId": "trace_20260610t045713_1wxsf_turn_1",
+      "timestamp": 1781067923577
+    },
+    {
+      "eventName": "talk_request_start",
+      "origin": "client",
+      "turnId": "trace_20260610t045713_1wxsf_turn_1",
+      "timestamp": 1781067923577
+    },
+    {
+      "eventName": "activity_phase_changed",
+      "origin": "client",
+      "turnId": "trace_20260610t045713_1wxsf_turn_1",
+      "timestamp": 1781067923578
+    },
+    {
+      "eventName": "talk_request_start",
+      "origin": "server",
+      "turnId": "trace_20260610t045713_1wxsf_turn_1",
+      "timestamp": 1781067923588,
+      "transcriptPreview": "Can you take a quick look?"
+    },
+    {
+      "eventName": "talk_response_received",
+      "origin": "server",
+      "turnId": "trace_20260610t045713_1wxsf_turn_1",
+      "timestamp": 1781067941652,
+      "responsePreview": "I'd love to take a look! Can you tap the \"Look\" button so I can see what you're up to?"
+    },
+    {
+      "eventName": "talk_response_received",
+      "origin": "client",
+      "turnId": "trace_20260610t045713_1wxsf_turn_1",
+      "timestamp": 1781067941655
+    },
+    {
+      "eventName": "audio_play_start",
+      "origin": "client",
+      "turnId": "trace_20260610t045713_1wxsf_turn_1",
+      "timestamp": 1781067941662
+    },
+    {
+      "eventName": "audio_ended",
+      "origin": "client",
+      "turnId": "trace_20260610t045713_1wxsf_turn_1",
+      "timestamp": 1781067945789
+    },
+    {
+      "eventName": "handsfree_rearm_scheduled",
+      "origin": "client",
+      "timestamp": 1781067945790
+    },
+    {
+      "eventName": "handsfree_rearm_starting",
+      "origin": "client",
+      "timestamp": 1781067946151
+    },
+    {
+      "eventName": "speech_listen_start",
+      "origin": "client",
+      "timestamp": 1781067946151
+    },
+    {
+      "eventName": "speech_error",
+      "origin": "client",
+      "timestamp": 1781067946179
+    }
+  ],
+  "turns": [
+    {
+      "turnId": "trace_20260610t045713_1wxsf_turn_1",
+      "eventNames": [
+        "conversation_mode_changed",
+        "talk_request_start",
+        "activity_phase_changed",
+        "talk_request_start",
+        "talk_response_received",
+        "talk_response_received",
+        "audio_play_start",
+        "audio_ended"
+      ],
+      "transcriptPreview": "Can you take a quick look?",
+      "transcriptHash": "69dc5274c119d737",
+      "responsePreview": "I'd love to take a look! Can you tap the \"Look\" button so I can see what you're up to?",
+      "responseHash": "c8e40f703d7f2ee0",
+      "requestToResponseMs": 18075,
+      "audioMs": 4127
+    }
+  ]
+}

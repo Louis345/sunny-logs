@@ -1,0 +1,12 @@
+{
+  "sessionId": "26db9945-46e6-4bee-ab16-29b55f6c7793",
+  "child": "Ila",
+  "subject": "spelling",
+  "mode": "default",
+  "startedAt": "2026-06-10T03:01:12.571Z",
+  "command": "/Users/jamaltaylor/.nvm/versions/node/v20.20.0/bin/node /Users/jamaltaylor/Development/sunny/src/server.ts",
+  "gitCommit": "3f9fa18",
+  "envFlags": {
+    "TTS_ENABLED": "true"
+  }
+}

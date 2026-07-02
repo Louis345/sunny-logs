@@ -1,0 +1,10 @@
+{
+  "sessionId": "c1bb1864-1c66-4259-8c7a-b63eeedb3712",
+  "child": "Ila",
+  "subject": "spelling",
+  "mode": "default",
+  "startedAt": "2026-06-13T23:16:59.477Z",
+  "command": "/Users/jamaltaylor/.nvm/versions/node/v20.20.0/bin/node /Users/jamaltaylor/Development/sunny/src/server.ts",
+  "gitCommit": "8c7e236",
+  "envFlags": {}
+}

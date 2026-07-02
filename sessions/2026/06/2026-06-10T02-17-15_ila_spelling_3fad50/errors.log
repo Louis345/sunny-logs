@@ -1,0 +1,11 @@
+[2026-06-10T02:22:03.890Z] Deepgram error
+Error: TIMEOUT
+    at V2Socket.handleError (/Users/jamaltaylor/Development/sunny/node_modules/@deepgram/sdk/dist/cjs/api/resources/listen/resources/v2/client/Socket.js:68:101)
+    at ReconnectingWebSocket._callEventListener (/Users/jamaltaylor/Development/sunny/node_modules/@deepgram/sdk/dist/cjs/core/websocket/ws.js:440:13)
+    at /Users/jamaltaylor/Development/sunny/node_modules/@deepgram/sdk/dist/cjs/core/websocket/ws.js:148:62
+    at Array.forEach (<anonymous>)
+    at ReconnectingWebSocket._handleError (/Users/jamaltaylor/Development/sunny/node_modules/@deepgram/sdk/dist/cjs/core/websocket/ws.js:148:35)
+    at ReconnectingWebSocket._handleTimeout (/Users/jamaltaylor/Development/sunny/node_modules/@deepgram/sdk/dist/cjs/core/websocket/ws.js:413:14)
+    at Timeout.<anonymous> (/Users/jamaltaylor/Development/sunny/node_modules/@deepgram/sdk/dist/cjs/core/websocket/ws.js:408:58)
+    at listOnTimeout (node:internal/timers:581:17)
+    at process.processTimers (node:internal/timers:519:7)

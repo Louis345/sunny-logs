@@ -1,0 +1,17 @@
+{
+  "traceId": "trace_runtime_smoke",
+  "childId": "ila",
+  "companionId": "elli",
+  "startedAt": "2026-05-30T22:17:34.326Z",
+  "eventCount": 1,
+  "loopSuspected": false,
+  "likelyCause": "none",
+  "eventOrder": [
+    {
+      "eventName": "conversation_mode_changed",
+      "origin": "client",
+      "timestamp": 1780179454326
+    }
+  ],
+  "turns": []
+}

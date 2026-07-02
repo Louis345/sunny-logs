@@ -1,0 +1,378 @@
+{
+  "traceId": "trace_20260610t033711_9zhnu",
+  "childId": "ila",
+  "companionId": "elli",
+  "callSource": "showroom",
+  "relationshipState": "previewing",
+  "startedAt": "2026-06-10T03:37:11.722Z",
+  "eventCount": 51,
+  "loopSuspected": true,
+  "likelyCause": "handsfree_rearm_loop",
+  "activeTicTacToeState": {
+    "activityId": "tic_tac_toe",
+    "surface": "video_call_overlay",
+    "status": "active",
+    "board": [
+      "X",
+      "X",
+      "O",
+      null,
+      "O",
+      null,
+      null,
+      null,
+      null
+    ],
+    "childMark": "X",
+    "companionMark": "O",
+    "turn": "child",
+    "lastMove": {
+      "by": "companion",
+      "square": 3,
+      "mark": "O",
+      "timestamp": 1781062831553
+    },
+    "summary": "The companion placed O on square 3. It is the child's turn.",
+    "updatedAt": 1781062831553
+  },
+  "activityReactions": {
+    "aiAuthoredCount": 2,
+    "fallbackCount": 0,
+    "staleDroppedCount": 0,
+    "spokenCount": 2,
+    "missingAudioCount": 0,
+    "averageResponseMs": 3277
+  },
+  "eventOrder": [
+    {
+      "eventName": "call_started",
+      "origin": "client",
+      "timestamp": 1781062631722
+    },
+    {
+      "eventName": "handsfree_rearm_scheduled",
+      "origin": "client",
+      "timestamp": 1781062639224
+    },
+    {
+      "eventName": "handsfree_rearm_starting",
+      "origin": "client",
+      "timestamp": 1781062639586
+    },
+    {
+      "eventName": "speech_listen_start",
+      "origin": "client",
+      "timestamp": 1781062639590
+    },
+    {
+      "eventName": "speech_error",
+      "origin": "client",
+      "timestamp": 1781062639726
+    },
+    {
+      "eventName": "talk_request_start",
+      "origin": "client",
+      "turnId": "trace_20260610t033711_9zhnu_turn_1",
+      "timestamp": 1781062644138
+    },
+    {
+      "eventName": "activity_phase_changed",
+      "origin": "client",
+      "turnId": "trace_20260610t033711_9zhnu_turn_1",
+      "timestamp": 1781062644140
+    },
+    {
+      "eventName": "talk_request_start",
+      "origin": "server",
+      "turnId": "trace_20260610t033711_9zhnu_turn_1",
+      "timestamp": 1781062644157,
+      "transcriptPreview": "Let's play tic tac toe"
+    },
+    {
+      "eventName": "talk_response_received",
+      "origin": "server",
+      "turnId": "trace_20260610t033711_9zhnu_turn_1",
+      "timestamp": 1781062649850,
+      "responsePreview": "Yes! Who's going first this time?"
+    },
+    {
+      "eventName": "talk_response_received",
+      "origin": "client",
+      "turnId": "trace_20260610t033711_9zhnu_turn_1",
+      "timestamp": 1781062649857
+    },
+    {
+      "eventName": "audio_play_start",
+      "origin": "client",
+      "turnId": "trace_20260610t033711_9zhnu_turn_1",
+      "timestamp": 1781062649863
+    },
+    {
+      "eventName": "audio_ended",
+      "origin": "client",
+      "turnId": "trace_20260610t033711_9zhnu_turn_1",
+      "timestamp": 1781062651526
+    },
+    {
+      "eventName": "activity_context_changed",
+      "origin": "client",
+      "timestamp": 1781062651527
+    },
+    {
+      "eventName": "handsfree_rearm_scheduled",
+      "origin": "client",
+      "timestamp": 1781062651527
+    },
+    {
+      "eventName": "activity_context_changed",
+      "origin": "client",
+      "timestamp": 1781062651565
+    },
+    {
+      "eventName": "activity_phase_changed",
+      "origin": "client",
+      "turnId": "trace_20260610t033711_9zhnu_turn_2",
+      "timestamp": 1781062651568
+    },
+    {
+      "eventName": "activity_reaction_request_start",
+      "origin": "client",
+      "turnId": "trace_20260610t033711_9zhnu_turn_2",
+      "timestamp": 1781062651572
+    },
+    {
+      "eventName": "talk_request_start",
+      "origin": "server",
+      "turnId": "trace_20260610t033711_9zhnu_turn_2",
+      "timestamp": 1781062651645,
+      "transcriptPreview": "React to starting tic-tac-toe in the video call."
+    },
+    {
+      "eventName": "activity_reaction_request_start",
+      "origin": "server",
+      "turnId": "trace_20260610t033711_9zhnu_turn_2",
+      "timestamp": 1781062651645
+    },
+    {
+      "eventName": "handsfree_rearm_skipped",
+      "origin": "client",
+      "timestamp": 1781062651889
+    },
+    {
+      "eventName": "talk_response_received",
+      "origin": "server",
+      "turnId": "trace_20260610t033711_9zhnu_turn_2",
+      "timestamp": 1781062656841,
+      "responsePreview": "Your move first - let's see where you put that X!"
+    },
+    {
+      "eventName": "activity_reaction_response_received",
+      "origin": "server",
+      "turnId": "trace_20260610t033711_9zhnu_turn_2",
+      "timestamp": 1781062656846,
+      "responsePreview": "Your move first - let's see where you put that X!"
+    },
+    {
+      "eventName": "activity_reaction_response_received",
+      "origin": "client",
+      "turnId": "trace_20260610t033711_9zhnu_turn_2",
+      "timestamp": 1781062656866
+    },
+    {
+      "eventName": "activity_reaction_audio_start",
+      "origin": "client",
+      "turnId": "trace_20260610t033711_9zhnu_turn_2",
+      "timestamp": 1781062656871
+    },
+    {
+      "eventName": "activity_reaction_audio_ended",
+      "origin": "client",
+      "turnId": "trace_20260610t033711_9zhnu_turn_2",
+      "timestamp": 1781062659460
+    },
+    {
+      "eventName": "handsfree_rearm_scheduled",
+      "origin": "client",
+      "timestamp": 1781062659462
+    },
+    {
+      "eventName": "handsfree_rearm_starting",
+      "origin": "client",
+      "timestamp": 1781062659823
+    },
+    {
+      "eventName": "speech_listen_start",
+      "origin": "client",
+      "timestamp": 1781062659824
+    },
+    {
+      "eventName": "speech_error",
+      "origin": "client",
+      "timestamp": 1781062659866
+    },
+    {
+      "eventName": "activity_context_changed",
+      "origin": "client",
+      "timestamp": 1781062674017
+    },
+    {
+      "eventName": "activity_context_changed",
+      "origin": "client",
+      "timestamp": 1781062718726
+    },
+    {
+      "eventName": "activity_phase_changed",
+      "origin": "client",
+      "timestamp": 1781062718728
+    },
+    {
+      "eventName": "activity_phase_changed",
+      "origin": "client",
+      "timestamp": 1781062718728
+    },
+    {
+      "eventName": "activity_phase_changed",
+      "origin": "client",
+      "timestamp": 1781062718729
+    },
+    {
+      "eventName": "activity_context_changed",
+      "origin": "client",
+      "timestamp": 1781062721328
+    },
+    {
+      "eventName": "activity_phase_changed",
+      "origin": "client",
+      "timestamp": 1781062721328
+    },
+    {
+      "eventName": "activity_context_changed",
+      "origin": "client",
+      "timestamp": 1781062828965
+    },
+    {
+      "eventName": "activity_phase_changed",
+      "origin": "client",
+      "timestamp": 1781062828966
+    },
+    {
+      "eventName": "activity_phase_changed",
+      "origin": "client",
+      "timestamp": 1781062828967
+    },
+    {
+      "eventName": "activity_phase_changed",
+      "origin": "client",
+      "timestamp": 1781062828968
+    },
+    {
+      "eventName": "activity_context_changed",
+      "origin": "client",
+      "timestamp": 1781062831553
+    },
+    {
+      "eventName": "activity_phase_changed",
+      "origin": "client",
+      "turnId": "trace_20260610t033711_9zhnu_turn_3",
+      "timestamp": 1781062831554
+    },
+    {
+      "eventName": "activity_reaction_request_start",
+      "origin": "client",
+      "turnId": "trace_20260610t033711_9zhnu_turn_3",
+      "timestamp": 1781062831554
+    },
+    {
+      "eventName": "activity_phase_changed",
+      "origin": "client",
+      "timestamp": 1781062831555
+    },
+    {
+      "eventName": "activity_reaction_response_received",
+      "origin": "client",
+      "turnId": "trace_20260610t033711_9zhnu_turn_3",
+      "timestamp": 1781062832913
+    },
+    {
+      "eventName": "activity_reaction_audio_start",
+      "origin": "client",
+      "turnId": "trace_20260610t033711_9zhnu_turn_3",
+      "timestamp": 1781062832917
+    },
+    {
+      "eventName": "activity_reaction_audio_ended",
+      "origin": "client",
+      "turnId": "trace_20260610t033711_9zhnu_turn_3",
+      "timestamp": 1781062835196
+    },
+    {
+      "eventName": "handsfree_rearm_scheduled",
+      "origin": "client",
+      "timestamp": 1781062835196
+    },
+    {
+      "eventName": "handsfree_rearm_starting",
+      "origin": "client",
+      "timestamp": 1781062835557
+    },
+    {
+      "eventName": "speech_listen_start",
+      "origin": "client",
+      "timestamp": 1781062835557
+    },
+    {
+      "eventName": "speech_error",
+      "origin": "client",
+      "timestamp": 1781062835625
+    }
+  ],
+  "turns": [
+    {
+      "turnId": "trace_20260610t033711_9zhnu_turn_1",
+      "eventNames": [
+        "talk_request_start",
+        "activity_phase_changed",
+        "talk_request_start",
+        "talk_response_received",
+        "talk_response_received",
+        "audio_play_start",
+        "audio_ended"
+      ],
+      "transcriptPreview": "Let's play tic tac toe",
+      "transcriptHash": "b3e4fba1a137a1ed",
+      "responsePreview": "Yes! Who's going first this time?",
+      "responseHash": "c970ad35ac368864",
+      "requestToResponseMs": 5712,
+      "audioMs": 1663
+    },
+    {
+      "turnId": "trace_20260610t033711_9zhnu_turn_2",
+      "eventNames": [
+        "activity_phase_changed",
+        "activity_reaction_request_start",
+        "talk_request_start",
+        "activity_reaction_request_start",
+        "talk_response_received",
+        "activity_reaction_response_received",
+        "activity_reaction_response_received",
+        "activity_reaction_audio_start",
+        "activity_reaction_audio_ended"
+      ],
+      "transcriptPreview": "React to starting tic-tac-toe in the video call.",
+      "transcriptHash": "7b52f25dda962671",
+      "responsePreview": "Your move first - let's see where you put that X!",
+      "responseHash": "a204bf303738b239",
+      "requestToResponseMs": 5196
+    },
+    {
+      "turnId": "trace_20260610t033711_9zhnu_turn_3",
+      "eventNames": [
+        "activity_phase_changed",
+        "activity_reaction_request_start",
+        "activity_reaction_response_received",
+        "activity_reaction_audio_start",
+        "activity_reaction_audio_ended"
+      ]
+    }
+  ]
+}

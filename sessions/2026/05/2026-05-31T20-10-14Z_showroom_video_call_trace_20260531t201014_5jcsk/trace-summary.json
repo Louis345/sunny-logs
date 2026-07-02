@@ -1,0 +1,110 @@
+{
+  "traceId": "trace_20260531t201014_5jcsk",
+  "childId": "ila",
+  "companionId": "elli",
+  "callSource": "showroom",
+  "relationshipState": "previewing",
+  "startedAt": "2026-05-31T20:10:14.129Z",
+  "endedAt": "2026-05-31T20:10:41.599Z",
+  "eventCount": 13,
+  "loopSuspected": false,
+  "likelyCause": "game_context_overrode_social_intent",
+  "eventOrder": [
+    {
+      "eventName": "call_started",
+      "origin": "client",
+      "timestamp": 1780258214129
+    },
+    {
+      "eventName": "speech_result",
+      "origin": "client",
+      "turnId": "trace_20260531t201014_5jcsk_turn_1",
+      "timestamp": 1780258225555
+    },
+    {
+      "eventName": "talk_request_start",
+      "origin": "client",
+      "turnId": "trace_20260531t201014_5jcsk_turn_1",
+      "timestamp": 1780258225557
+    },
+    {
+      "eventName": "activity_phase_changed",
+      "origin": "client",
+      "turnId": "trace_20260531t201014_5jcsk_turn_1",
+      "timestamp": 1780258225559
+    },
+    {
+      "eventName": "talk_request_start",
+      "origin": "server",
+      "turnId": "trace_20260531t201014_5jcsk_turn_1",
+      "timestamp": 1780258225583,
+      "transcriptPreview": "Hey, Ale. Can you hear me?"
+    },
+    {
+      "eventName": "talk_response_received",
+      "origin": "server",
+      "turnId": "trace_20260531t201014_5jcsk_turn_1",
+      "timestamp": 1780258231248,
+      "responsePreview": "Yep, loud and clear! Ready for another round of tic-tac-toe, or want to try something new today?"
+    },
+    {
+      "eventName": "talk_response_received",
+      "origin": "client",
+      "turnId": "trace_20260531t201014_5jcsk_turn_1",
+      "timestamp": 1780258231270
+    },
+    {
+      "eventName": "audio_play_start",
+      "origin": "client",
+      "turnId": "trace_20260531t201014_5jcsk_turn_1",
+      "timestamp": 1780258231281
+    },
+    {
+      "eventName": "audio_ended",
+      "origin": "client",
+      "turnId": "trace_20260531t201014_5jcsk_turn_1",
+      "timestamp": 1780258235827
+    },
+    {
+      "eventName": "handsfree_rearm_scheduled",
+      "origin": "client",
+      "timestamp": 1780258235829
+    },
+    {
+      "eventName": "handsfree_rearm_starting",
+      "origin": "client",
+      "timestamp": 1780258236192
+    },
+    {
+      "eventName": "speech_listen_start",
+      "origin": "client",
+      "timestamp": 1780258236192
+    },
+    {
+      "eventName": "call_ended",
+      "origin": "client",
+      "timestamp": 1780258241599
+    }
+  ],
+  "turns": [
+    {
+      "turnId": "trace_20260531t201014_5jcsk_turn_1",
+      "eventNames": [
+        "speech_result",
+        "talk_request_start",
+        "activity_phase_changed",
+        "talk_request_start",
+        "talk_response_received",
+        "talk_response_received",
+        "audio_play_start",
+        "audio_ended"
+      ],
+      "transcriptPreview": "Hey, Ale. Can you hear me?",
+      "transcriptHash": "b7844cb020976b32",
+      "responsePreview": "Yep, loud and clear! Ready for another round of tic-tac-toe, or want to try something new today?",
+      "responseHash": "1a8bb2b3e885c0f2",
+      "requestToResponseMs": 5691,
+      "audioMs": 4546
+    }
+  ]
+}

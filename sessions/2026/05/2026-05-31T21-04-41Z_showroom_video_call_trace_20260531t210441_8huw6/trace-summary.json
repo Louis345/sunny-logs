@@ -1,0 +1,313 @@
+{
+  "traceId": "trace_20260531t210441_8huw6",
+  "childId": "ila",
+  "companionId": "elli",
+  "callSource": "showroom",
+  "relationshipState": "previewing",
+  "startedAt": "2026-05-31T21:04:41.484Z",
+  "eventCount": 36,
+  "loopSuspected": false,
+  "likelyCause": "slow_response",
+  "activeTicTacToeState": {
+    "activityId": "tic_tac_toe",
+    "surface": "video_call_overlay",
+    "status": "active",
+    "board": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "childMark": "X",
+    "companionMark": "O",
+    "turn": "child",
+    "summary": "Tic-tac-toe is open. The child moves first as X.",
+    "updatedAt": 1780261503616
+  },
+  "activityReactions": {
+    "aiAuthoredCount": 1,
+    "fallbackCount": 0,
+    "staleDroppedCount": 0,
+    "spokenCount": 1,
+    "missingAudioCount": 0,
+    "averageResponseMs": 4724
+  },
+  "eventOrder": [
+    {
+      "eventName": "call_started",
+      "origin": "client",
+      "timestamp": 1780261481484
+    },
+    {
+      "eventName": "speech_result",
+      "origin": "client",
+      "turnId": "trace_20260531t210441_8huw6_turn_1",
+      "timestamp": 1780261494089
+    },
+    {
+      "eventName": "talk_request_start",
+      "origin": "client",
+      "turnId": "trace_20260531t210441_8huw6_turn_1",
+      "timestamp": 1780261494092
+    },
+    {
+      "eventName": "activity_phase_changed",
+      "origin": "client",
+      "turnId": "trace_20260531t210441_8huw6_turn_1",
+      "timestamp": 1780261494100
+    },
+    {
+      "eventName": "talk_request_start",
+      "origin": "server",
+      "turnId": "trace_20260531t210441_8huw6_turn_1",
+      "timestamp": 1780261494151,
+      "transcriptPreview": "Hey, LA. Let's play tic tac toe."
+    },
+    {
+      "eventName": "talk_response_received",
+      "origin": "server",
+      "turnId": "trace_20260531t210441_8huw6_turn_1",
+      "timestamp": 1780261501004,
+      "responsePreview": "Let's go! You can pick X or O to start."
+    },
+    {
+      "eventName": "talk_response_received",
+      "origin": "client",
+      "turnId": "trace_20260531t210441_8huw6_turn_1",
+      "timestamp": 1780261501111
+    },
+    {
+      "eventName": "audio_play_start",
+      "origin": "client",
+      "turnId": "trace_20260531t210441_8huw6_turn_1",
+      "timestamp": 1780261501156
+    },
+    {
+      "eventName": "audio_ended",
+      "origin": "client",
+      "turnId": "trace_20260531t210441_8huw6_turn_1",
+      "timestamp": 1780261503560
+    },
+    {
+      "eventName": "activity_context_changed",
+      "origin": "client",
+      "timestamp": 1780261503564
+    },
+    {
+      "eventName": "handsfree_rearm_scheduled",
+      "origin": "client",
+      "timestamp": 1780261503567
+    },
+    {
+      "eventName": "activity_context_changed",
+      "origin": "client",
+      "timestamp": 1780261503616
+    },
+    {
+      "eventName": "activity_phase_changed",
+      "origin": "client",
+      "turnId": "trace_20260531t210441_8huw6_turn_2",
+      "timestamp": 1780261503623
+    },
+    {
+      "eventName": "activity_reaction_request_start",
+      "origin": "client",
+      "turnId": "trace_20260531t210441_8huw6_turn_2",
+      "timestamp": 1780261503624
+    },
+    {
+      "eventName": "talk_request_start",
+      "origin": "server",
+      "turnId": "trace_20260531t210441_8huw6_turn_2",
+      "timestamp": 1780261503651,
+      "transcriptPreview": "React to starting tic-tac-toe in the video call."
+    },
+    {
+      "eventName": "activity_reaction_request_start",
+      "origin": "server",
+      "turnId": "trace_20260531t210441_8huw6_turn_2",
+      "timestamp": 1780261503651
+    },
+    {
+      "eventName": "handsfree_rearm_skipped",
+      "origin": "client",
+      "timestamp": 1780261503954
+    },
+    {
+      "eventName": "talk_response_received",
+      "origin": "server",
+      "turnId": "trace_20260531t210441_8huw6_turn_2",
+      "timestamp": 1780261508378,
+      "responsePreview": "Your turn to make the first move! Where are you going to put your X?"
+    },
+    {
+      "eventName": "activity_reaction_response_received",
+      "origin": "server",
+      "turnId": "trace_20260531t210441_8huw6_turn_2",
+      "timestamp": 1780261508380,
+      "responsePreview": "Your turn to make the first move! Where are you going to put your X?"
+    },
+    {
+      "eventName": "activity_reaction_response_received",
+      "origin": "client",
+      "turnId": "trace_20260531t210441_8huw6_turn_2",
+      "timestamp": 1780261508387
+    },
+    {
+      "eventName": "activity_reaction_audio_start",
+      "origin": "client",
+      "turnId": "trace_20260531t210441_8huw6_turn_2",
+      "timestamp": 1780261508395
+    },
+    {
+      "eventName": "activity_reaction_audio_ended",
+      "origin": "client",
+      "turnId": "trace_20260531t210441_8huw6_turn_2",
+      "timestamp": 1780261511959
+    },
+    {
+      "eventName": "handsfree_rearm_scheduled",
+      "origin": "client",
+      "timestamp": 1780261511962
+    },
+    {
+      "eventName": "handsfree_rearm_starting",
+      "origin": "client",
+      "timestamp": 1780261512327
+    },
+    {
+      "eventName": "speech_listen_start",
+      "origin": "client",
+      "timestamp": 1780261512331
+    },
+    {
+      "eventName": "speech_result",
+      "origin": "client",
+      "turnId": "trace_20260531t210441_8huw6_turn_3",
+      "timestamp": 1780261929902
+    },
+    {
+      "eventName": "talk_request_start",
+      "origin": "client",
+      "turnId": "trace_20260531t210441_8huw6_turn_3",
+      "timestamp": 1780261929913
+    },
+    {
+      "eventName": "activity_phase_changed",
+      "origin": "client",
+      "turnId": "trace_20260531t210441_8huw6_turn_3",
+      "timestamp": 1780261929926
+    },
+    {
+      "eventName": "talk_request_start",
+      "origin": "server",
+      "turnId": "trace_20260531t210441_8huw6_turn_3",
+      "timestamp": 1780261929965,
+      "transcriptPreview": "I just"
+    },
+    {
+      "eventName": "talk_response_received",
+      "origin": "server",
+      "turnId": "trace_20260531t210441_8huw6_turn_3",
+      "timestamp": 1780261933911,
+      "responsePreview": "What happened? You okay?"
+    },
+    {
+      "eventName": "talk_response_received",
+      "origin": "client",
+      "turnId": "trace_20260531t210441_8huw6_turn_3",
+      "timestamp": 1780261933925
+    },
+    {
+      "eventName": "audio_play_start",
+      "origin": "client",
+      "turnId": "trace_20260531t210441_8huw6_turn_3",
+      "timestamp": 1780261933934
+    },
+    {
+      "eventName": "audio_ended",
+      "origin": "client",
+      "turnId": "trace_20260531t210441_8huw6_turn_3",
+      "timestamp": 1780261935400
+    },
+    {
+      "eventName": "handsfree_rearm_scheduled",
+      "origin": "client",
+      "timestamp": 1780261935402
+    },
+    {
+      "eventName": "handsfree_rearm_starting",
+      "origin": "client",
+      "timestamp": 1780261935765
+    },
+    {
+      "eventName": "speech_listen_start",
+      "origin": "client",
+      "timestamp": 1780261935765
+    }
+  ],
+  "turns": [
+    {
+      "turnId": "trace_20260531t210441_8huw6_turn_1",
+      "eventNames": [
+        "speech_result",
+        "talk_request_start",
+        "activity_phase_changed",
+        "talk_request_start",
+        "talk_response_received",
+        "talk_response_received",
+        "audio_play_start",
+        "audio_ended"
+      ],
+      "transcriptPreview": "Hey, LA. Let's play tic tac toe.",
+      "transcriptHash": "d99fe9a0d77a5dfb",
+      "responsePreview": "Let's go! You can pick X or O to start.",
+      "responseHash": "06b9e4e0cb9c61d0",
+      "requestToResponseMs": 6912,
+      "audioMs": 2404
+    },
+    {
+      "turnId": "trace_20260531t210441_8huw6_turn_2",
+      "eventNames": [
+        "activity_phase_changed",
+        "activity_reaction_request_start",
+        "talk_request_start",
+        "activity_reaction_request_start",
+        "talk_response_received",
+        "activity_reaction_response_received",
+        "activity_reaction_response_received",
+        "activity_reaction_audio_start",
+        "activity_reaction_audio_ended"
+      ],
+      "transcriptPreview": "React to starting tic-tac-toe in the video call.",
+      "transcriptHash": "7b52f25dda962671",
+      "responsePreview": "Your turn to make the first move! Where are you going to put your X?",
+      "responseHash": "7fd731eede1fd212",
+      "requestToResponseMs": 4727
+    },
+    {
+      "turnId": "trace_20260531t210441_8huw6_turn_3",
+      "eventNames": [
+        "speech_result",
+        "talk_request_start",
+        "activity_phase_changed",
+        "talk_request_start",
+        "talk_response_received",
+        "talk_response_received",
+        "audio_play_start",
+        "audio_ended"
+      ],
+      "transcriptPreview": "I just",
+      "transcriptHash": "a3ff3d9422b6d51a",
+      "responsePreview": "What happened? You okay?",
+      "responseHash": "3d23b69a43d0f4a9",
+      "requestToResponseMs": 3998,
+      "audioMs": 1466
+    }
+  ]
+}

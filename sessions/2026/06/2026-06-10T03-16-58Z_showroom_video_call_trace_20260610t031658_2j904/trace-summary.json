@@ -1,0 +1,252 @@
+{
+  "traceId": "trace_20260610t031658_2j904",
+  "childId": "ila",
+  "companionId": "elli",
+  "callSource": "showroom",
+  "relationshipState": "previewing",
+  "startedAt": "2026-06-10T03:16:58.431Z",
+  "eventCount": 30,
+  "loopSuspected": false,
+  "likelyCause": "slow_response",
+  "activeTicTacToeState": {
+    "activityId": "tic_tac_toe",
+    "surface": "video_call_overlay",
+    "status": "active",
+    "board": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "childMark": "X",
+    "companionMark": "O",
+    "turn": "child",
+    "summary": "Tic-tac-toe is open. The child moves first as X.",
+    "updatedAt": 1781061440811
+  },
+  "activityReactions": {
+    "aiAuthoredCount": 1,
+    "fallbackCount": 0,
+    "staleDroppedCount": 0,
+    "spokenCount": 1,
+    "missingAudioCount": 0,
+    "averageResponseMs": 24434
+  },
+  "eventOrder": [
+    {
+      "eventName": "call_started",
+      "origin": "client",
+      "timestamp": 1781061418431
+    },
+    {
+      "eventName": "handsfree_rearm_scheduled",
+      "origin": "client",
+      "timestamp": 1781061430987
+    },
+    {
+      "eventName": "handsfree_rearm_starting",
+      "origin": "client",
+      "timestamp": 1781061431350
+    },
+    {
+      "eventName": "speech_listen_start",
+      "origin": "client",
+      "timestamp": 1781061431351
+    },
+    {
+      "eventName": "speech_error",
+      "origin": "client",
+      "timestamp": 1781061431377
+    },
+    {
+      "eventName": "talk_request_start",
+      "origin": "client",
+      "turnId": "trace_20260610t031658_2j904_turn_1",
+      "timestamp": 1781061432605
+    },
+    {
+      "eventName": "activity_phase_changed",
+      "origin": "client",
+      "turnId": "trace_20260610t031658_2j904_turn_1",
+      "timestamp": 1781061432607
+    },
+    {
+      "eventName": "talk_request_start",
+      "origin": "server",
+      "turnId": "trace_20260610t031658_2j904_turn_1",
+      "timestamp": 1781061432613,
+      "transcriptPreview": "Let's play tic tac toe"
+    },
+    {
+      "eventName": "talk_response_received",
+      "origin": "server",
+      "turnId": "trace_20260610t031658_2j904_turn_1",
+      "timestamp": 1781061438322,
+      "responsePreview": "Yes! Ready to see if you can beat me this time?"
+    },
+    {
+      "eventName": "talk_response_received",
+      "origin": "client",
+      "turnId": "trace_20260610t031658_2j904_turn_1",
+      "timestamp": 1781061438329
+    },
+    {
+      "eventName": "audio_play_start",
+      "origin": "client",
+      "turnId": "trace_20260610t031658_2j904_turn_1",
+      "timestamp": 1781061438334
+    },
+    {
+      "eventName": "audio_ended",
+      "origin": "client",
+      "turnId": "trace_20260610t031658_2j904_turn_1",
+      "timestamp": 1781061440792
+    },
+    {
+      "eventName": "activity_context_changed",
+      "origin": "client",
+      "timestamp": 1781061440794
+    },
+    {
+      "eventName": "handsfree_rearm_scheduled",
+      "origin": "client",
+      "timestamp": 1781061440794
+    },
+    {
+      "eventName": "activity_context_changed",
+      "origin": "client",
+      "timestamp": 1781061440811
+    },
+    {
+      "eventName": "activity_phase_changed",
+      "origin": "client",
+      "turnId": "trace_20260610t031658_2j904_turn_2",
+      "timestamp": 1781061440813
+    },
+    {
+      "eventName": "activity_reaction_request_start",
+      "origin": "client",
+      "turnId": "trace_20260610t031658_2j904_turn_2",
+      "timestamp": 1781061440813
+    },
+    {
+      "eventName": "talk_request_start",
+      "origin": "server",
+      "turnId": "trace_20260610t031658_2j904_turn_2",
+      "timestamp": 1781061440824,
+      "transcriptPreview": "React to starting tic-tac-toe in the video call."
+    },
+    {
+      "eventName": "activity_reaction_request_start",
+      "origin": "server",
+      "turnId": "trace_20260610t031658_2j904_turn_2",
+      "timestamp": 1781061440824
+    },
+    {
+      "eventName": "handsfree_rearm_skipped",
+      "origin": "client",
+      "timestamp": 1781061441157
+    },
+    {
+      "eventName": "talk_response_received",
+      "origin": "server",
+      "turnId": "trace_20260610t031658_2j904_turn_2",
+      "timestamp": 1781061465262,
+      "responsePreview": "Your move first - where are you gonna go?"
+    },
+    {
+      "eventName": "activity_reaction_response_received",
+      "origin": "server",
+      "turnId": "trace_20260610t031658_2j904_turn_2",
+      "timestamp": 1781061465266,
+      "responsePreview": "Your move first - where are you gonna go?"
+    },
+    {
+      "eventName": "activity_reaction_response_received",
+      "origin": "client",
+      "turnId": "trace_20260610t031658_2j904_turn_2",
+      "timestamp": 1781061465273
+    },
+    {
+      "eventName": "activity_reaction_audio_start",
+      "origin": "client",
+      "turnId": "trace_20260610t031658_2j904_turn_2",
+      "timestamp": 1781061465278
+    },
+    {
+      "eventName": "activity_reaction_audio_ended",
+      "origin": "client",
+      "turnId": "trace_20260610t031658_2j904_turn_2",
+      "timestamp": 1781061467314
+    },
+    {
+      "eventName": "handsfree_rearm_scheduled",
+      "origin": "client",
+      "timestamp": 1781061467315
+    },
+    {
+      "eventName": "handsfree_rearm_starting",
+      "origin": "client",
+      "timestamp": 1781061467678
+    },
+    {
+      "eventName": "speech_listen_start",
+      "origin": "client",
+      "timestamp": 1781061467679
+    },
+    {
+      "eventName": "speech_error",
+      "origin": "client",
+      "timestamp": 1781061467710
+    },
+    {
+      "eventName": "activity_context_changed",
+      "origin": "client",
+      "timestamp": 1781061481774
+    }
+  ],
+  "turns": [
+    {
+      "turnId": "trace_20260610t031658_2j904_turn_1",
+      "eventNames": [
+        "talk_request_start",
+        "activity_phase_changed",
+        "talk_request_start",
+        "talk_response_received",
+        "talk_response_received",
+        "audio_play_start",
+        "audio_ended"
+      ],
+      "transcriptPreview": "Let's play tic tac toe",
+      "transcriptHash": "b3e4fba1a137a1ed",
+      "responsePreview": "Yes! Ready to see if you can beat me this time?",
+      "responseHash": "02256572f9bb02e3",
+      "requestToResponseMs": 5717,
+      "audioMs": 2458
+    },
+    {
+      "turnId": "trace_20260610t031658_2j904_turn_2",
+      "eventNames": [
+        "activity_phase_changed",
+        "activity_reaction_request_start",
+        "talk_request_start",
+        "activity_reaction_request_start",
+        "talk_response_received",
+        "activity_reaction_response_received",
+        "activity_reaction_response_received",
+        "activity_reaction_audio_start",
+        "activity_reaction_audio_ended"
+      ],
+      "transcriptPreview": "React to starting tic-tac-toe in the video call.",
+      "transcriptHash": "7b52f25dda962671",
+      "responsePreview": "Your move first - where are you gonna go?",
+      "responseHash": "5511aab48622cb0d",
+      "requestToResponseMs": 24438
+    }
+  ]
+}

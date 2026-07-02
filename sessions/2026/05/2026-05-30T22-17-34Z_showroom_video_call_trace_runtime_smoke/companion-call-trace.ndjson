@@ -1,0 +1,1 @@
+{"traceId":"trace_runtime_smoke","eventName":"conversation_mode_changed","origin":"client","childId":"ila","companionId":"elli","timestamp":1780179454326,"recordedAt":"2026-05-30T22:17:34.327Z","payload":{"previousMode":"social","nextMode":"repeat_after"}}

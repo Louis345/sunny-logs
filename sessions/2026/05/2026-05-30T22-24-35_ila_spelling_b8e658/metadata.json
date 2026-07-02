@@ -1,0 +1,10 @@
+{
+  "sessionId": "b8e658d6-0068-4937-8cc0-1ee20066c66d",
+  "child": "Ila",
+  "subject": "spelling",
+  "mode": "default",
+  "startedAt": "2026-05-30T22:24:35.109Z",
+  "command": "/Users/jamaltaylor/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/bin/node /Users/jamaltaylor/Development/sunny/src/server.ts",
+  "gitCommit": "b79dd19",
+  "envFlags": {}
+}

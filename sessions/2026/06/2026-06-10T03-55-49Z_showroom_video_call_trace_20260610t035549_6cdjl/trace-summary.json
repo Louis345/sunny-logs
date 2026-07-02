@@ -1,0 +1,1094 @@
+{
+  "traceId": "trace_20260610t035549_6cdjl",
+  "childId": "ila",
+  "companionId": "elli",
+  "callSource": "showroom",
+  "relationshipState": "previewing",
+  "startedAt": "2026-06-10T03:55:49.026Z",
+  "eventCount": 149,
+  "loopSuspected": false,
+  "likelyCause": "stale_activity_reaction",
+  "activeTicTacToeState": {
+    "activityId": "tic_tac_toe",
+    "surface": "video_call_overlay",
+    "status": "completed",
+    "board": [
+      "X",
+      "X",
+      "O",
+      "O",
+      "O",
+      "X",
+      "X",
+      "X",
+      "O"
+    ],
+    "childMark": "X",
+    "companionMark": "O",
+    "turn": "none",
+    "lastMove": {
+      "by": "child",
+      "square": 2,
+      "mark": "X",
+      "timestamp": 1781063892180
+    },
+    "result": "draw",
+    "summary": "The tic-tac-toe round ended in a draw.",
+    "updatedAt": 1781063892191
+  },
+  "activityReactions": {
+    "aiAuthoredCount": 4,
+    "fallbackCount": 1,
+    "staleDroppedCount": 3,
+    "spokenCount": 1,
+    "missingAudioCount": 0,
+    "averageResponseMs": 6014
+  },
+  "eventOrder": [
+    {
+      "eventName": "call_started",
+      "origin": "client",
+      "timestamp": 1781063749026
+    },
+    {
+      "eventName": "handsfree_rearm_scheduled",
+      "origin": "client",
+      "timestamp": 1781063754799
+    },
+    {
+      "eventName": "handsfree_rearm_starting",
+      "origin": "client",
+      "timestamp": 1781063755165
+    },
+    {
+      "eventName": "speech_listen_start",
+      "origin": "client",
+      "timestamp": 1781063755165
+    },
+    {
+      "eventName": "speech_result",
+      "origin": "client",
+      "turnId": "trace_20260610t035549_6cdjl_turn_1",
+      "timestamp": 1781063766354
+    },
+    {
+      "eventName": "talk_request_start",
+      "origin": "client",
+      "turnId": "trace_20260610t035549_6cdjl_turn_1",
+      "timestamp": 1781063766356
+    },
+    {
+      "eventName": "activity_phase_changed",
+      "origin": "client",
+      "turnId": "trace_20260610t035549_6cdjl_turn_1",
+      "timestamp": 1781063766359
+    },
+    {
+      "eventName": "talk_request_start",
+      "origin": "server",
+      "turnId": "trace_20260610t035549_6cdjl_turn_1",
+      "timestamp": 1781063766419,
+      "transcriptPreview": "Can you hear me?"
+    },
+    {
+      "eventName": "talk_response_received",
+      "origin": "server",
+      "turnId": "trace_20260610t035549_6cdjl_turn_1",
+      "timestamp": 1781063770970,
+      "responsePreview": "I can hear you perfectly! Ready for another round of tic-tac-toe, or want to try something new today?"
+    },
+    {
+      "eventName": "talk_response_received",
+      "origin": "client",
+      "turnId": "trace_20260610t035549_6cdjl_turn_1",
+      "timestamp": 1781063770986
+    },
+    {
+      "eventName": "audio_play_start",
+      "origin": "client",
+      "turnId": "trace_20260610t035549_6cdjl_turn_1",
+      "timestamp": 1781063770992
+    },
+    {
+      "eventName": "audio_ended",
+      "origin": "client",
+      "turnId": "trace_20260610t035549_6cdjl_turn_1",
+      "timestamp": 1781063775886
+    },
+    {
+      "eventName": "handsfree_rearm_scheduled",
+      "origin": "client",
+      "timestamp": 1781063775887
+    },
+    {
+      "eventName": "handsfree_rearm_starting",
+      "origin": "client",
+      "timestamp": 1781063776247
+    },
+    {
+      "eventName": "speech_listen_start",
+      "origin": "client",
+      "timestamp": 1781063776248
+    },
+    {
+      "eventName": "speech_result",
+      "origin": "client",
+      "turnId": "trace_20260610t035549_6cdjl_turn_2",
+      "timestamp": 1781063778518
+    },
+    {
+      "eventName": "talk_request_start",
+      "origin": "client",
+      "turnId": "trace_20260610t035549_6cdjl_turn_2",
+      "timestamp": 1781063778519
+    },
+    {
+      "eventName": "activity_phase_changed",
+      "origin": "client",
+      "turnId": "trace_20260610t035549_6cdjl_turn_2",
+      "timestamp": 1781063778519
+    },
+    {
+      "eventName": "talk_request_start",
+      "origin": "server",
+      "turnId": "trace_20260610t035549_6cdjl_turn_2",
+      "timestamp": 1781063778556,
+      "transcriptPreview": "Let's do tic tac toe."
+    },
+    {
+      "eventName": "talk_response_received",
+      "origin": "server",
+      "turnId": "trace_20260610t035549_6cdjl_turn_2",
+      "timestamp": 1781063782854,
+      "responsePreview": "Yes! Let's see who gets three in a row first!"
+    },
+    {
+      "eventName": "talk_response_received",
+      "origin": "client",
+      "turnId": "trace_20260610t035549_6cdjl_turn_2",
+      "timestamp": 1781063782871
+    },
+    {
+      "eventName": "audio_play_start",
+      "origin": "client",
+      "turnId": "trace_20260610t035549_6cdjl_turn_2",
+      "timestamp": 1781063782878
+    },
+    {
+      "eventName": "audio_ended",
+      "origin": "client",
+      "turnId": "trace_20260610t035549_6cdjl_turn_2",
+      "timestamp": 1781063785405
+    },
+    {
+      "eventName": "activity_context_changed",
+      "origin": "client",
+      "timestamp": 1781063785407
+    },
+    {
+      "eventName": "handsfree_rearm_scheduled",
+      "origin": "client",
+      "timestamp": 1781063785408
+    },
+    {
+      "eventName": "activity_context_changed",
+      "origin": "client",
+      "timestamp": 1781063785454
+    },
+    {
+      "eventName": "activity_phase_changed",
+      "origin": "client",
+      "turnId": "trace_20260610t035549_6cdjl_turn_3",
+      "timestamp": 1781063785457
+    },
+    {
+      "eventName": "activity_reaction_request_start",
+      "origin": "client",
+      "turnId": "trace_20260610t035549_6cdjl_turn_3",
+      "timestamp": 1781063785458
+    },
+    {
+      "eventName": "talk_request_start",
+      "origin": "server",
+      "turnId": "trace_20260610t035549_6cdjl_turn_3",
+      "timestamp": 1781063785675,
+      "transcriptPreview": "React to starting tic-tac-toe in the video call."
+    },
+    {
+      "eventName": "activity_reaction_request_start",
+      "origin": "server",
+      "turnId": "trace_20260610t035549_6cdjl_turn_3",
+      "timestamp": 1781063785675
+    },
+    {
+      "eventName": "handsfree_rearm_skipped",
+      "origin": "client",
+      "timestamp": 1781063785770
+    },
+    {
+      "eventName": "activity_context_changed",
+      "origin": "client",
+      "timestamp": 1781063789710
+    },
+    {
+      "eventName": "activity_phase_changed",
+      "origin": "client",
+      "timestamp": 1781063789711
+    },
+    {
+      "eventName": "activity_phase_changed",
+      "origin": "client",
+      "timestamp": 1781063789712
+    },
+    {
+      "eventName": "activity_phase_changed",
+      "origin": "client",
+      "timestamp": 1781063789713
+    },
+    {
+      "eventName": "talk_response_received",
+      "origin": "server",
+      "turnId": "trace_20260610t035549_6cdjl_turn_3",
+      "timestamp": 1781063790018,
+      "responsePreview": "Your move - pick any square you want!"
+    },
+    {
+      "eventName": "activity_reaction_response_received",
+      "origin": "server",
+      "turnId": "trace_20260610t035549_6cdjl_turn_3",
+      "timestamp": 1781063790116,
+      "responsePreview": "Your move - pick any square you want!"
+    },
+    {
+      "eventName": "activity_reaction_stale_dropped",
+      "origin": "client",
+      "turnId": "trace_20260610t035549_6cdjl_turn_3",
+      "timestamp": 1781063790138
+    },
+    {
+      "eventName": "handsfree_rearm_scheduled",
+      "origin": "client",
+      "timestamp": 1781063790139
+    },
+    {
+      "eventName": "handsfree_rearm_starting",
+      "origin": "client",
+      "timestamp": 1781063790500
+    },
+    {
+      "eventName": "speech_listen_start",
+      "origin": "client",
+      "timestamp": 1781063790501
+    },
+    {
+      "eventName": "activity_context_changed",
+      "origin": "client",
+      "timestamp": 1781063793165
+    },
+    {
+      "eventName": "activity_phase_changed",
+      "origin": "client",
+      "timestamp": 1781063793166
+    },
+    {
+      "eventName": "activity_context_changed",
+      "origin": "client",
+      "timestamp": 1781063795121
+    },
+    {
+      "eventName": "activity_phase_changed",
+      "origin": "client",
+      "timestamp": 1781063795122
+    },
+    {
+      "eventName": "activity_phase_changed",
+      "origin": "client",
+      "timestamp": 1781063795122
+    },
+    {
+      "eventName": "activity_phase_changed",
+      "origin": "client",
+      "timestamp": 1781063795123
+    },
+    {
+      "eventName": "activity_context_changed",
+      "origin": "client",
+      "timestamp": 1781063797596
+    },
+    {
+      "eventName": "activity_phase_changed",
+      "origin": "client",
+      "turnId": "trace_20260610t035549_6cdjl_turn_4",
+      "timestamp": 1781063797596
+    },
+    {
+      "eventName": "activity_reaction_request_start",
+      "origin": "client",
+      "turnId": "trace_20260610t035549_6cdjl_turn_4",
+      "timestamp": 1781063797596
+    },
+    {
+      "eventName": "activity_phase_changed",
+      "origin": "client",
+      "timestamp": 1781063797597
+    },
+    {
+      "eventName": "talk_request_start",
+      "origin": "server",
+      "turnId": "trace_20260610t035549_6cdjl_turn_4",
+      "timestamp": 1781063797622,
+      "transcriptPreview": "You blocked the child from getting three in a row. Respond as Elli with one short playful sentence, then let the child m"
+    },
+    {
+      "eventName": "activity_reaction_request_start",
+      "origin": "server",
+      "turnId": "trace_20260610t035549_6cdjl_turn_4",
+      "timestamp": 1781063797622
+    },
+    {
+      "eventName": "activity_context_changed",
+      "origin": "client",
+      "timestamp": 1781063800254
+    },
+    {
+      "eventName": "activity_phase_changed",
+      "origin": "client",
+      "timestamp": 1781063800255
+    },
+    {
+      "eventName": "activity_phase_changed",
+      "origin": "client",
+      "timestamp": 1781063800255
+    },
+    {
+      "eventName": "activity_phase_changed",
+      "origin": "client",
+      "timestamp": 1781063800255
+    },
+    {
+      "eventName": "activity_context_changed",
+      "origin": "client",
+      "timestamp": 1781063803072
+    },
+    {
+      "eventName": "activity_phase_changed",
+      "origin": "client",
+      "timestamp": 1781063803072
+    },
+    {
+      "eventName": "talk_response_received",
+      "origin": "server",
+      "turnId": "trace_20260610t035549_6cdjl_turn_4",
+      "timestamp": 1781063804216,
+      "responsePreview": "Nice try - I had to jump in there quick!"
+    },
+    {
+      "eventName": "activity_reaction_response_received",
+      "origin": "server",
+      "turnId": "trace_20260610t035549_6cdjl_turn_4",
+      "timestamp": 1781063804229,
+      "responsePreview": "Nice try - I had to jump in there quick!"
+    },
+    {
+      "eventName": "activity_reaction_stale_dropped",
+      "origin": "client",
+      "turnId": "trace_20260610t035549_6cdjl_turn_4",
+      "timestamp": 1781063804237
+    },
+    {
+      "eventName": "activity_reaction_request_start",
+      "origin": "client",
+      "turnId": "trace_20260610t035549_6cdjl_turn_6",
+      "timestamp": 1781063804238
+    },
+    {
+      "eventName": "activity_phase_changed",
+      "origin": "client",
+      "turnId": "trace_20260610t035549_6cdjl_turn_6",
+      "timestamp": 1781063804238
+    },
+    {
+      "eventName": "talk_request_start",
+      "origin": "server",
+      "turnId": "trace_20260610t035549_6cdjl_turn_6",
+      "timestamp": 1781063804274,
+      "transcriptPreview": "The child blocked your tic-tac-toe line. Respond as Elli with one short impressed sentence, then take your turn."
+    },
+    {
+      "eventName": "activity_reaction_request_start",
+      "origin": "server",
+      "turnId": "trace_20260610t035549_6cdjl_turn_6",
+      "timestamp": 1781063804274
+    },
+    {
+      "eventName": "activity_context_changed",
+      "origin": "client",
+      "timestamp": 1781063806162
+    },
+    {
+      "eventName": "talk_response_received",
+      "origin": "server",
+      "turnId": "trace_20260610t035549_6cdjl_turn_6",
+      "timestamp": 1781063810816,
+      "responsePreview": "Nice block! I'm going for square 8."
+    },
+    {
+      "eventName": "activity_reaction_response_received",
+      "origin": "server",
+      "turnId": "trace_20260610t035549_6cdjl_turn_6",
+      "timestamp": 1781063810818,
+      "responsePreview": "Nice block! I'm going for square 8."
+    },
+    {
+      "eventName": "activity_reaction_stale_dropped",
+      "origin": "client",
+      "turnId": "trace_20260610t035549_6cdjl_turn_6",
+      "timestamp": 1781063810826
+    },
+    {
+      "eventName": "handsfree_rearm_scheduled",
+      "origin": "client",
+      "timestamp": 1781063810826
+    },
+    {
+      "eventName": "handsfree_rearm_starting",
+      "origin": "client",
+      "timestamp": 1781063811192
+    },
+    {
+      "eventName": "speech_listen_start",
+      "origin": "client",
+      "timestamp": 1781063811193
+    },
+    {
+      "eventName": "speech_result",
+      "origin": "client",
+      "turnId": "trace_20260610t035549_6cdjl_turn_7",
+      "timestamp": 1781063820336
+    },
+    {
+      "eventName": "conversation_mode_changed",
+      "origin": "client",
+      "turnId": "trace_20260610t035549_6cdjl_turn_7",
+      "timestamp": 1781063820337
+    },
+    {
+      "eventName": "talk_request_start",
+      "origin": "client",
+      "turnId": "trace_20260610t035549_6cdjl_turn_7",
+      "timestamp": 1781063820337
+    },
+    {
+      "eventName": "activity_phase_changed",
+      "origin": "client",
+      "turnId": "trace_20260610t035549_6cdjl_turn_7",
+      "timestamp": 1781063820338
+    },
+    {
+      "eventName": "talk_request_start",
+      "origin": "server",
+      "turnId": "trace_20260610t035549_6cdjl_turn_7",
+      "timestamp": 1781063820408,
+      "transcriptPreview": "Whose turn is it?"
+    },
+    {
+      "eventName": "talk_response_received",
+      "origin": "server",
+      "turnId": "trace_20260610t035549_6cdjl_turn_7",
+      "timestamp": 1781063826092,
+      "responsePreview": "It's your turn! You're X and I just put my O on square 3. Where do you want to make your next move?"
+    },
+    {
+      "eventName": "talk_response_received",
+      "origin": "client",
+      "turnId": "trace_20260610t035549_6cdjl_turn_7",
+      "timestamp": 1781063826117
+    },
+    {
+      "eventName": "audio_play_start",
+      "origin": "client",
+      "turnId": "trace_20260610t035549_6cdjl_turn_7",
+      "timestamp": 1781063826121
+    },
+    {
+      "eventName": "audio_ended",
+      "origin": "client",
+      "turnId": "trace_20260610t035549_6cdjl_turn_7",
+      "timestamp": 1781063830875
+    },
+    {
+      "eventName": "handsfree_rearm_scheduled",
+      "origin": "client",
+      "timestamp": 1781063830875
+    },
+    {
+      "eventName": "handsfree_rearm_starting",
+      "origin": "client",
+      "timestamp": 1781063831241
+    },
+    {
+      "eventName": "speech_listen_start",
+      "origin": "client",
+      "timestamp": 1781063831242
+    },
+    {
+      "eventName": "activity_context_changed",
+      "origin": "client",
+      "timestamp": 1781063884123
+    },
+    {
+      "eventName": "activity_phase_changed",
+      "origin": "client",
+      "timestamp": 1781063884124
+    },
+    {
+      "eventName": "activity_phase_changed",
+      "origin": "client",
+      "timestamp": 1781063884124
+    },
+    {
+      "eventName": "activity_phase_changed",
+      "origin": "client",
+      "timestamp": 1781063884126
+    },
+    {
+      "eventName": "activity_context_changed",
+      "origin": "client",
+      "timestamp": 1781063886796
+    },
+    {
+      "eventName": "activity_phase_changed",
+      "origin": "client",
+      "turnId": "trace_20260610t035549_6cdjl_turn_8",
+      "timestamp": 1781063886797
+    },
+    {
+      "eventName": "activity_reaction_request_start",
+      "origin": "client",
+      "turnId": "trace_20260610t035549_6cdjl_turn_8",
+      "timestamp": 1781063886797
+    },
+    {
+      "eventName": "activity_phase_changed",
+      "origin": "client",
+      "timestamp": 1781063886798
+    },
+    {
+      "eventName": "activity_context_changed",
+      "origin": "client",
+      "timestamp": 1781063892180
+    },
+    {
+      "eventName": "activity_phase_changed",
+      "origin": "client",
+      "timestamp": 1781063892181
+    },
+    {
+      "eventName": "activity_context_changed",
+      "origin": "client",
+      "timestamp": 1781063892191
+    },
+    {
+      "eventName": "activity_phase_changed",
+      "origin": "client",
+      "timestamp": 1781063892192
+    },
+    {
+      "eventName": "activity_reaction_response_received",
+      "origin": "client",
+      "turnId": "trace_20260610t035549_6cdjl_turn_8",
+      "timestamp": 1781063893396
+    },
+    {
+      "eventName": "activity_reaction_audio_start",
+      "origin": "client",
+      "turnId": "trace_20260610t035549_6cdjl_turn_8",
+      "timestamp": 1781063893398
+    },
+    {
+      "eventName": "activity_reaction_audio_ended",
+      "origin": "client",
+      "turnId": "trace_20260610t035549_6cdjl_turn_8",
+      "timestamp": 1781063895003
+    },
+    {
+      "eventName": "activity_phase_changed",
+      "origin": "client",
+      "turnId": "trace_20260610t035549_6cdjl_turn_10",
+      "timestamp": 1781063895005
+    },
+    {
+      "eventName": "activity_reaction_request_start",
+      "origin": "client",
+      "turnId": "trace_20260610t035549_6cdjl_turn_10",
+      "timestamp": 1781063895005
+    },
+    {
+      "eventName": "activity_reaction_fallback",
+      "origin": "client",
+      "turnId": "trace_20260610t035549_6cdjl_turn_10",
+      "timestamp": 1781063895006
+    },
+    {
+      "eventName": "handsfree_rearm_scheduled",
+      "origin": "client",
+      "timestamp": 1781063895006
+    },
+    {
+      "eventName": "handsfree_rearm_scheduled",
+      "origin": "client",
+      "timestamp": 1781063895006
+    },
+    {
+      "eventName": "handsfree_rearm_starting",
+      "origin": "client",
+      "timestamp": 1781063895597
+    },
+    {
+      "eventName": "speech_listen_start",
+      "origin": "client",
+      "timestamp": 1781063895597
+    },
+    {
+      "eventName": "handsfree_rearm_starting",
+      "origin": "client",
+      "timestamp": 1781063896908
+    },
+    {
+      "eventName": "speech_listen_start",
+      "origin": "client",
+      "timestamp": 1781063896908
+    },
+    {
+      "eventName": "speech_result",
+      "origin": "client",
+      "turnId": "trace_20260610t035549_6cdjl_turn_11",
+      "timestamp": 1781063900936
+    },
+    {
+      "eventName": "conversation_mode_changed",
+      "origin": "client",
+      "turnId": "trace_20260610t035549_6cdjl_turn_11",
+      "timestamp": 1781063900936
+    },
+    {
+      "eventName": "talk_request_start",
+      "origin": "client",
+      "turnId": "trace_20260610t035549_6cdjl_turn_11",
+      "timestamp": 1781063900937
+    },
+    {
+      "eventName": "activity_phase_changed",
+      "origin": "client",
+      "turnId": "trace_20260610t035549_6cdjl_turn_11",
+      "timestamp": 1781063900937
+    },
+    {
+      "eventName": "talk_request_start",
+      "origin": "server",
+      "turnId": "trace_20260610t035549_6cdjl_turn_11",
+      "timestamp": 1781063901041,
+      "transcriptPreview": "You wanna play another round?"
+    },
+    {
+      "eventName": "talk_response_received",
+      "origin": "server",
+      "turnId": "trace_20260610t035549_6cdjl_turn_11",
+      "timestamp": 1781063906605,
+      "responsePreview": "Yes! Let's do this - your move first or mine?"
+    },
+    {
+      "eventName": "talk_response_received",
+      "origin": "client",
+      "turnId": "trace_20260610t035549_6cdjl_turn_11",
+      "timestamp": 1781063906612
+    },
+    {
+      "eventName": "audio_play_start",
+      "origin": "client",
+      "turnId": "trace_20260610t035549_6cdjl_turn_11",
+      "timestamp": 1781063906614
+    },
+    {
+      "eventName": "audio_ended",
+      "origin": "client",
+      "turnId": "trace_20260610t035549_6cdjl_turn_11",
+      "timestamp": 1781063909470
+    },
+    {
+      "eventName": "activity_context_changed",
+      "origin": "client",
+      "timestamp": 1781063909470
+    },
+    {
+      "eventName": "handsfree_rearm_scheduled",
+      "origin": "client",
+      "timestamp": 1781063909471
+    },
+    {
+      "eventName": "handsfree_rearm_starting",
+      "origin": "client",
+      "timestamp": 1781063909835
+    },
+    {
+      "eventName": "speech_listen_start",
+      "origin": "client",
+      "timestamp": 1781063909835
+    },
+    {
+      "eventName": "speech_result",
+      "origin": "client",
+      "turnId": "trace_20260610t035549_6cdjl_turn_12",
+      "timestamp": 1781063916888
+    },
+    {
+      "eventName": "talk_request_start",
+      "origin": "client",
+      "turnId": "trace_20260610t035549_6cdjl_turn_12",
+      "timestamp": 1781063916889
+    },
+    {
+      "eventName": "activity_phase_changed",
+      "origin": "client",
+      "turnId": "trace_20260610t035549_6cdjl_turn_12",
+      "timestamp": 1781063916889
+    },
+    {
+      "eventName": "talk_request_start",
+      "origin": "server",
+      "turnId": "trace_20260610t035549_6cdjl_turn_12",
+      "timestamp": 1781063916930,
+      "transcriptPreview": "You gotta clear the board."
+    },
+    {
+      "eventName": "talk_response_received",
+      "origin": "server",
+      "turnId": "trace_20260610t035549_6cdjl_turn_12",
+      "timestamp": 1781063929316,
+      "responsePreview": "Oh right! Want to start fresh with a new tic-tac-toe game?"
+    },
+    {
+      "eventName": "talk_response_received",
+      "origin": "client",
+      "turnId": "trace_20260610t035549_6cdjl_turn_12",
+      "timestamp": 1781063929583
+    },
+    {
+      "eventName": "audio_play_start",
+      "origin": "client",
+      "turnId": "trace_20260610t035549_6cdjl_turn_12",
+      "timestamp": 1781063929586
+    },
+    {
+      "eventName": "audio_ended",
+      "origin": "client",
+      "turnId": "trace_20260610t035549_6cdjl_turn_12",
+      "timestamp": 1781063932721
+    },
+    {
+      "eventName": "handsfree_rearm_scheduled",
+      "origin": "client",
+      "timestamp": 1781063932722
+    },
+    {
+      "eventName": "handsfree_rearm_starting",
+      "origin": "client",
+      "timestamp": 1781063933084
+    },
+    {
+      "eventName": "speech_listen_start",
+      "origin": "client",
+      "timestamp": 1781063933085
+    },
+    {
+      "eventName": "activity_context_changed",
+      "origin": "client",
+      "timestamp": 1781063939020
+    },
+    {
+      "eventName": "speech_result",
+      "origin": "client",
+      "turnId": "trace_20260610t035549_6cdjl_turn_13",
+      "timestamp": 1781063942035
+    },
+    {
+      "eventName": "talk_request_start",
+      "origin": "client",
+      "turnId": "trace_20260610t035549_6cdjl_turn_13",
+      "timestamp": 1781063942035
+    },
+    {
+      "eventName": "activity_phase_changed",
+      "origin": "client",
+      "turnId": "trace_20260610t035549_6cdjl_turn_13",
+      "timestamp": 1781063942035
+    },
+    {
+      "eventName": "talk_request_start",
+      "origin": "server",
+      "turnId": "trace_20260610t035549_6cdjl_turn_13",
+      "timestamp": 1781063942600,
+      "transcriptPreview": "Yep."
+    },
+    {
+      "eventName": "talk_response_received",
+      "origin": "server",
+      "turnId": "trace_20260610t035549_6cdjl_turn_13",
+      "timestamp": 1781063948903,
+      "responsePreview": "Hey! Ready for another round of tic-tac-toe, or want to try something totally new today?"
+    },
+    {
+      "eventName": "talk_response_received",
+      "origin": "client",
+      "turnId": "trace_20260610t035549_6cdjl_turn_13",
+      "timestamp": 1781063949132
+    },
+    {
+      "eventName": "audio_play_start",
+      "origin": "client",
+      "turnId": "trace_20260610t035549_6cdjl_turn_13",
+      "timestamp": 1781063949136
+    },
+    {
+      "eventName": "audio_ended",
+      "origin": "client",
+      "turnId": "trace_20260610t035549_6cdjl_turn_13",
+      "timestamp": 1781063953731
+    },
+    {
+      "eventName": "handsfree_rearm_scheduled",
+      "origin": "client",
+      "timestamp": 1781063953732
+    },
+    {
+      "eventName": "handsfree_rearm_starting",
+      "origin": "client",
+      "timestamp": 1781063954097
+    },
+    {
+      "eventName": "speech_listen_start",
+      "origin": "client",
+      "timestamp": 1781063954098
+    },
+    {
+      "eventName": "speech_result",
+      "origin": "client",
+      "turnId": "trace_20260610t035549_6cdjl_turn_14",
+      "timestamp": 1781063960132
+    },
+    {
+      "eventName": "talk_request_start",
+      "origin": "client",
+      "turnId": "trace_20260610t035549_6cdjl_turn_14",
+      "timestamp": 1781063960133
+    },
+    {
+      "eventName": "conversation_mode_changed",
+      "origin": "client",
+      "turnId": "trace_20260610t035549_6cdjl_turn_14",
+      "timestamp": 1781063960133
+    },
+    {
+      "eventName": "activity_phase_changed",
+      "origin": "client",
+      "turnId": "trace_20260610t035549_6cdjl_turn_14",
+      "timestamp": 1781063960134
+    }
+  ],
+  "turns": [
+    {
+      "turnId": "trace_20260610t035549_6cdjl_turn_1",
+      "eventNames": [
+        "speech_result",
+        "talk_request_start",
+        "activity_phase_changed",
+        "talk_request_start",
+        "talk_response_received",
+        "talk_response_received",
+        "audio_play_start",
+        "audio_ended"
+      ],
+      "transcriptPreview": "Can you hear me?",
+      "transcriptHash": "5d3511d27cdb6a7f",
+      "responsePreview": "I can hear you perfectly! Ready for another round of tic-tac-toe, or want to try something new today?",
+      "responseHash": "72eda1d84ec34b6f",
+      "requestToResponseMs": 4614,
+      "audioMs": 4894
+    },
+    {
+      "turnId": "trace_20260610t035549_6cdjl_turn_2",
+      "eventNames": [
+        "speech_result",
+        "talk_request_start",
+        "activity_phase_changed",
+        "talk_request_start",
+        "talk_response_received",
+        "talk_response_received",
+        "audio_play_start",
+        "audio_ended"
+      ],
+      "transcriptPreview": "Let's do tic tac toe.",
+      "transcriptHash": "bd44da30372d7475",
+      "responsePreview": "Yes! Let's see who gets three in a row first!",
+      "responseHash": "49eb52e1ab9a373e",
+      "requestToResponseMs": 4335,
+      "audioMs": 2527
+    },
+    {
+      "turnId": "trace_20260610t035549_6cdjl_turn_3",
+      "eventNames": [
+        "activity_phase_changed",
+        "activity_reaction_request_start",
+        "talk_request_start",
+        "activity_reaction_request_start",
+        "talk_response_received",
+        "activity_reaction_response_received",
+        "activity_reaction_stale_dropped"
+      ],
+      "transcriptPreview": "React to starting tic-tac-toe in the video call.",
+      "transcriptHash": "7b52f25dda962671",
+      "responsePreview": "Your move - pick any square you want!",
+      "responseHash": "61e6308ad938fb78",
+      "requestToResponseMs": 4343
+    },
+    {
+      "turnId": "trace_20260610t035549_6cdjl_turn_4",
+      "eventNames": [
+        "activity_phase_changed",
+        "activity_reaction_request_start",
+        "talk_request_start",
+        "activity_reaction_request_start",
+        "talk_response_received",
+        "activity_reaction_response_received",
+        "activity_reaction_stale_dropped"
+      ],
+      "transcriptPreview": "You blocked the child from getting three in a row. Respond as Elli with one short playful sentence, then let the child m",
+      "transcriptHash": "d770a834cb2648b5",
+      "responsePreview": "Nice try - I had to jump in there quick!",
+      "responseHash": "a5f0150efe040f75",
+      "requestToResponseMs": 6594
+    },
+    {
+      "turnId": "trace_20260610t035549_6cdjl_turn_6",
+      "eventNames": [
+        "activity_reaction_request_start",
+        "activity_phase_changed",
+        "talk_request_start",
+        "activity_reaction_request_start",
+        "talk_response_received",
+        "activity_reaction_response_received",
+        "activity_reaction_stale_dropped"
+      ],
+      "transcriptPreview": "The child blocked your tic-tac-toe line. Respond as Elli with one short impressed sentence, then take your turn.",
+      "transcriptHash": "6a5fab19c84d05e8",
+      "responsePreview": "Nice block! I'm going for square 8.",
+      "responseHash": "74be4a20e695abc8",
+      "requestToResponseMs": 6542
+    },
+    {
+      "turnId": "trace_20260610t035549_6cdjl_turn_7",
+      "eventNames": [
+        "speech_result",
+        "conversation_mode_changed",
+        "talk_request_start",
+        "activity_phase_changed",
+        "talk_request_start",
+        "talk_response_received",
+        "talk_response_received",
+        "audio_play_start",
+        "audio_ended"
+      ],
+      "transcriptPreview": "Whose turn is it?",
+      "transcriptHash": "af109d14f0bae6c7",
+      "responsePreview": "It's your turn! You're X and I just put my O on square 3. Where do you want to make your next move?",
+      "responseHash": "2df7918d00037905",
+      "requestToResponseMs": 5755,
+      "audioMs": 4754
+    },
+    {
+      "turnId": "trace_20260610t035549_6cdjl_turn_8",
+      "eventNames": [
+        "activity_phase_changed",
+        "activity_reaction_request_start",
+        "activity_reaction_response_received",
+        "activity_reaction_audio_start",
+        "activity_reaction_audio_ended"
+      ]
+    },
+    {
+      "turnId": "trace_20260610t035549_6cdjl_turn_10",
+      "eventNames": [
+        "activity_phase_changed",
+        "activity_reaction_request_start",
+        "activity_reaction_fallback"
+      ]
+    },
+    {
+      "turnId": "trace_20260610t035549_6cdjl_turn_11",
+      "eventNames": [
+        "speech_result",
+        "conversation_mode_changed",
+        "talk_request_start",
+        "activity_phase_changed",
+        "talk_request_start",
+        "talk_response_received",
+        "talk_response_received",
+        "audio_play_start",
+        "audio_ended"
+      ],
+      "transcriptPreview": "You wanna play another round?",
+      "transcriptHash": "6e15db45a8247001",
+      "responsePreview": "Yes! Let's do this - your move first or mine?",
+      "responseHash": "a096d87b813bba24",
+      "requestToResponseMs": 5668,
+      "audioMs": 2856
+    },
+    {
+      "turnId": "trace_20260610t035549_6cdjl_turn_12",
+      "eventNames": [
+        "speech_result",
+        "talk_request_start",
+        "activity_phase_changed",
+        "talk_request_start",
+        "talk_response_received",
+        "talk_response_received",
+        "audio_play_start",
+        "audio_ended"
+      ],
+      "transcriptPreview": "You gotta clear the board.",
+      "transcriptHash": "1ae601c816e82347",
+      "responsePreview": "Oh right! Want to start fresh with a new tic-tac-toe game?",
+      "responseHash": "64892fa538e3edbd",
+      "requestToResponseMs": 12427,
+      "audioMs": 3135
+    },
+    {
+      "turnId": "trace_20260610t035549_6cdjl_turn_13",
+      "eventNames": [
+        "speech_result",
+        "talk_request_start",
+        "activity_phase_changed",
+        "talk_request_start",
+        "talk_response_received",
+        "talk_response_received",
+        "audio_play_start",
+        "audio_ended"
+      ],
+      "transcriptPreview": "Yep.",
+      "transcriptHash": "ce76e452601024a7",
+      "responsePreview": "Hey! Ready for another round of tic-tac-toe, or want to try something totally new today?",
+      "responseHash": "7fb304b244ae8964",
+      "requestToResponseMs": 6868,
+      "audioMs": 4595
+    },
+    {
+      "turnId": "trace_20260610t035549_6cdjl_turn_14",
+      "eventNames": [
+        "speech_result",
+        "talk_request_start",
+        "conversation_mode_changed",
+        "activity_phase_changed"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+{"logKind":"adventure","ts":"2026-06-10T03:56:06.353Z","sessionId":"6fd1245d-2740-493d-ac8d-bb11e3bdab89","child":"Ila","subject":"spelling","type":"companion_turn","role":"user","text":"Can you hear me?"}
+{"logKind":"adventure","ts":"2026-06-10T03:56:18.517Z","sessionId":"6fd1245d-2740-493d-ac8d-bb11e3bdab89","child":"Ila","subject":"spelling","type":"companion_turn","role":"user","text":"Let's do tic tac toe."}
+{"logKind":"adventure","ts":"2026-06-10T03:56:47.833Z","sessionId":"6fd1245d-2740-493d-ac8d-bb11e3bdab89","child":"Ila","subject":"spelling","type":"companion_turn","role":"user","text":"Where should I go now, Ali?"}
+{"logKind":"adventure","ts":"2026-06-10T03:57:00.334Z","sessionId":"6fd1245d-2740-493d-ac8d-bb11e3bdab89","child":"Ila","subject":"spelling","type":"companion_turn","role":"user","text":"Whose turn is it?"}
+{"logKind":"adventure","ts":"2026-06-10T03:58:20.924Z","sessionId":"6fd1245d-2740-493d-ac8d-bb11e3bdab89","child":"Ila","subject":"spelling","type":"companion_turn","role":"user","text":"You wanna play another round?"}
+{"logKind":"adventure","ts":"2026-06-10T03:58:36.888Z","sessionId":"6fd1245d-2740-493d-ac8d-bb11e3bdab89","child":"Ila","subject":"spelling","type":"companion_turn","role":"user","text":"You gotta clear the board."}
+{"logKind":"adventure","ts":"2026-06-10T03:59:02.016Z","sessionId":"6fd1245d-2740-493d-ac8d-bb11e3bdab89","child":"Ila","subject":"spelling","type":"companion_turn","role":"user","text":"Yep."}
+{"logKind":"adventure","ts":"2026-06-10T03:59:20.080Z","sessionId":"6fd1245d-2740-493d-ac8d-bb11e3bdab89","child":"Ila","subject":"spelling","type":"companion_turn","role":"user","text":"let's do a new game with Tic Tac Toe."}

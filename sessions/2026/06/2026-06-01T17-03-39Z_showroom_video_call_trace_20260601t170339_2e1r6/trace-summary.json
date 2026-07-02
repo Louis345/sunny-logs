@@ -1,0 +1,125 @@
+{
+  "traceId": "trace_20260601t170339_2e1r6",
+  "childId": "ila",
+  "companionId": "elli",
+  "callSource": "showroom",
+  "relationshipState": "previewing",
+  "startedAt": "2026-06-01T17:03:39.150Z",
+  "endedAt": "2026-06-01T17:04:04.682Z",
+  "eventCount": 16,
+  "loopSuspected": false,
+  "likelyCause": "game_context_overrode_social_intent",
+  "eventOrder": [
+    {
+      "eventName": "call_started",
+      "origin": "client",
+      "timestamp": 1780333419150
+    },
+    {
+      "eventName": "handsfree_rearm_scheduled",
+      "origin": "client",
+      "timestamp": 1780333425586
+    },
+    {
+      "eventName": "handsfree_rearm_starting",
+      "origin": "client",
+      "timestamp": 1780333425974
+    },
+    {
+      "eventName": "speech_listen_start",
+      "origin": "client",
+      "timestamp": 1780333425975
+    },
+    {
+      "eventName": "speech_result",
+      "origin": "client",
+      "turnId": "trace_20260601t170339_2e1r6_turn_1",
+      "timestamp": 1780333428988
+    },
+    {
+      "eventName": "talk_request_start",
+      "origin": "client",
+      "turnId": "trace_20260601t170339_2e1r6_turn_1",
+      "timestamp": 1780333428995
+    },
+    {
+      "eventName": "activity_phase_changed",
+      "origin": "client",
+      "turnId": "trace_20260601t170339_2e1r6_turn_1",
+      "timestamp": 1780333429004
+    },
+    {
+      "eventName": "talk_request_start",
+      "origin": "server",
+      "turnId": "trace_20260601t170339_2e1r6_turn_1",
+      "timestamp": 1780333429040,
+      "transcriptPreview": "Can you hear me?"
+    },
+    {
+      "eventName": "talk_response_received",
+      "origin": "server",
+      "turnId": "trace_20260601t170339_2e1r6_turn_1",
+      "timestamp": 1780333434121,
+      "responsePreview": "I can hear you perfectly! Ready for another tic-tac-toe round or something totally different today?"
+    },
+    {
+      "eventName": "talk_response_received",
+      "origin": "client",
+      "turnId": "trace_20260601t170339_2e1r6_turn_1",
+      "timestamp": 1780333434144
+    },
+    {
+      "eventName": "audio_play_start",
+      "origin": "client",
+      "turnId": "trace_20260601t170339_2e1r6_turn_1",
+      "timestamp": 1780333434154
+    },
+    {
+      "eventName": "audio_ended",
+      "origin": "client",
+      "turnId": "trace_20260601t170339_2e1r6_turn_1",
+      "timestamp": 1780333439485
+    },
+    {
+      "eventName": "handsfree_rearm_scheduled",
+      "origin": "client",
+      "timestamp": 1780333439495
+    },
+    {
+      "eventName": "handsfree_rearm_starting",
+      "origin": "client",
+      "timestamp": 1780333439862
+    },
+    {
+      "eventName": "speech_listen_start",
+      "origin": "client",
+      "timestamp": 1780333439863
+    },
+    {
+      "eventName": "call_ended",
+      "origin": "client",
+      "timestamp": 1780333444682
+    }
+  ],
+  "turns": [
+    {
+      "turnId": "trace_20260601t170339_2e1r6_turn_1",
+      "eventNames": [
+        "speech_result",
+        "talk_request_start",
+        "activity_phase_changed",
+        "talk_request_start",
+        "talk_response_received",
+        "talk_response_received",
+        "audio_play_start",
+        "audio_ended"
+      ],
+      "transcriptPreview": "Can you hear me?",
+      "transcriptHash": "5d3511d27cdb6a7f",
+      "responsePreview": "I can hear you perfectly! Ready for another tic-tac-toe round or something totally different today?",
+      "responseHash": "a7163a112f0a88c8",
+      "requestToResponseMs": 5126,
+      "audioMs": 5331
+    }
+  ]
+}

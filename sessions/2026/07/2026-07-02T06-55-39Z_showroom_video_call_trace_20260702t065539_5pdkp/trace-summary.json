@@ -1,0 +1,78 @@
+{
+  "traceId": "trace_20260702t065539_5pdkp",
+  "childId": "ila",
+  "companionId": "matilda",
+  "callSource": "showroom",
+  "relationshipState": "previewing",
+  "startedAt": "2026-07-02T06:55:39.497Z",
+  "eventCount": 9,
+  "loopSuspected": false,
+  "likelyCause": "none",
+  "eventOrder": [
+    {
+      "eventName": "call_started",
+      "origin": "client",
+      "timestamp": 1782975339497
+    },
+    {
+      "eventName": "handsfree_rearm_scheduled",
+      "origin": "client",
+      "timestamp": 1782975345938
+    },
+    {
+      "eventName": "handsfree_rearm_starting",
+      "origin": "client",
+      "timestamp": 1782975346360
+    },
+    {
+      "eventName": "speech_listen_start",
+      "origin": "client",
+      "timestamp": 1782975346367
+    },
+    {
+      "eventName": "speech_result",
+      "origin": "client",
+      "turnId": "trace_20260702t065539_5pdkp_turn_1",
+      "timestamp": 1782975356925
+    },
+    {
+      "eventName": "talk_request_start",
+      "origin": "client",
+      "turnId": "trace_20260702t065539_5pdkp_turn_1",
+      "timestamp": 1782975356927
+    },
+    {
+      "eventName": "activity_phase_changed",
+      "origin": "client",
+      "turnId": "trace_20260702t065539_5pdkp_turn_1",
+      "timestamp": 1782975356930
+    },
+    {
+      "eventName": "talk_request_start",
+      "origin": "server",
+      "turnId": "trace_20260702t065539_5pdkp_turn_1",
+      "timestamp": 1782975356967,
+      "transcriptPreview": "Can we play a tic tac toe?"
+    },
+    {
+      "eventName": "audio_error",
+      "origin": "client",
+      "turnId": "trace_20260702t065539_5pdkp_turn_1",
+      "timestamp": 1782975357330
+    }
+  ],
+  "turns": [
+    {
+      "turnId": "trace_20260702t065539_5pdkp_turn_1",
+      "eventNames": [
+        "speech_result",
+        "talk_request_start",
+        "activity_phase_changed",
+        "talk_request_start",
+        "audio_error"
+      ],
+      "transcriptPreview": "Can we play a tic tac toe?",
+      "transcriptHash": "47bdc346a0c423e6"
+    }
+  ]
+}
