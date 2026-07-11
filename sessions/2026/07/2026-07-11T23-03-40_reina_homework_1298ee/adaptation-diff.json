@@ -1,0 +1,10 @@
+{
+  "changed": false,
+  "status": "missing",
+  "reason": "No next-plan decision was written after interpreted activity evidence.",
+  "evidence": {
+    "weakTargets": [],
+    "contaminatedTargets": [],
+    "trustworthyTargets": []
+  }
+}
