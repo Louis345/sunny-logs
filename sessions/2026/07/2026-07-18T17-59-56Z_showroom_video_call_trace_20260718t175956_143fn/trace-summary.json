@@ -1,0 +1,34 @@
+{
+  "traceId": "trace_20260718t175956_143fn",
+  "childId": "showroom",
+  "companionId": "yukari",
+  "callSource": "showroom",
+  "relationshipState": "previewing",
+  "startedAt": "2026-07-18T17:59:56.667Z",
+  "eventCount": 4,
+  "loopSuspected": false,
+  "likelyCause": "none",
+  "eventOrder": [
+    {
+      "eventName": "call_started",
+      "origin": "client",
+      "timestamp": 1784397596667
+    },
+    {
+      "eventName": "handsfree_rearm_scheduled",
+      "origin": "client",
+      "timestamp": 1784397599189
+    },
+    {
+      "eventName": "handsfree_rearm_starting",
+      "origin": "client",
+      "timestamp": 1784397599550
+    },
+    {
+      "eventName": "speech_listen_start",
+      "origin": "client",
+      "timestamp": 1784397599551
+    }
+  ],
+  "turns": []
+}
