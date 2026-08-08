@@ -1,0 +1,61 @@
+{
+  "traceId": "trace_20260808t185737_4pqu0",
+  "childId": "showroom",
+  "companionId": "elli",
+  "callSource": "showroom",
+  "relationshipState": "previewing",
+  "startedAt": "2026-08-08T18:57:37.251Z",
+  "eventCount": 7,
+  "loopSuspected": false,
+  "likelyCause": "none",
+  "eventOrder": [
+    {
+      "eventName": "call_started",
+      "origin": "client",
+      "timestamp": 1786215457251
+    },
+    {
+      "eventName": "handsfree_rearm_scheduled",
+      "origin": "client",
+      "timestamp": 1786215459231
+    },
+    {
+      "eventName": "handsfree_rearm_starting",
+      "origin": "client",
+      "timestamp": 1786215459593
+    },
+    {
+      "eventName": "speech_listen_start",
+      "origin": "client",
+      "timestamp": 1786215459594
+    },
+    {
+      "eventName": "talk_request_start",
+      "origin": "client",
+      "turnId": "trace_20260808t185737_4pqu0_turn_1",
+      "timestamp": 1786215474598
+    },
+    {
+      "eventName": "activity_phase_changed",
+      "origin": "client",
+      "turnId": "trace_20260808t185737_4pqu0_turn_1",
+      "timestamp": 1786215474599
+    },
+    {
+      "eventName": "audio_error",
+      "origin": "client",
+      "turnId": "trace_20260808t185737_4pqu0_turn_1",
+      "timestamp": 1786215474629
+    }
+  ],
+  "turns": [
+    {
+      "turnId": "trace_20260808t185737_4pqu0_turn_1",
+      "eventNames": [
+        "talk_request_start",
+        "activity_phase_changed",
+        "audio_error"
+      ]
+    }
+  ]
+}
