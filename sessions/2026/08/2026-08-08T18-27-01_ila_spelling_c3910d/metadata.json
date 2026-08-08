@@ -1,0 +1,10 @@
+{
+  "sessionId": "c3910d32-71a1-4fd9-b296-a07d4a0d42b5",
+  "child": "Ila",
+  "subject": "spelling",
+  "mode": "default",
+  "startedAt": "2026-08-08T18:27:01.469Z",
+  "command": "npm run npx",
+  "gitCommit": "f172e1b",
+  "envFlags": {}
+}
