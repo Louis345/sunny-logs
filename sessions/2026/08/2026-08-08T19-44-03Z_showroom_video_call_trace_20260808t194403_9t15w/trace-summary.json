@@ -1,0 +1,371 @@
+{
+  "traceId": "trace_20260808t194403_9t15w",
+  "childId": "showroom",
+  "companionId": "princess",
+  "callSource": "showroom",
+  "relationshipState": "previewing",
+  "startedAt": "2026-08-08T19:44:03.198Z",
+  "eventCount": 48,
+  "loopSuspected": false,
+  "likelyCause": "slow_response",
+  "eventOrder": [
+    {
+      "eventName": "call_started",
+      "origin": "client",
+      "timestamp": 1786218243198
+    },
+    {
+      "eventName": "handsfree_rearm_scheduled",
+      "origin": "client",
+      "timestamp": 1786218248812
+    },
+    {
+      "eventName": "handsfree_rearm_starting",
+      "origin": "client",
+      "timestamp": 1786218249176
+    },
+    {
+      "eventName": "speech_listen_start",
+      "origin": "client",
+      "timestamp": 1786218249176
+    },
+    {
+      "eventName": "talk_request_start",
+      "origin": "client",
+      "turnId": "trace_20260808t194403_9t15w_turn_1",
+      "timestamp": 1786218320235
+    },
+    {
+      "eventName": "activity_phase_changed",
+      "origin": "client",
+      "turnId": "trace_20260808t194403_9t15w_turn_1",
+      "timestamp": 1786218320237
+    },
+    {
+      "eventName": "talk_request_start",
+      "origin": "server",
+      "turnId": "trace_20260808t194403_9t15w_turn_1",
+      "timestamp": 1786218320249,
+      "transcriptPreview": "React naturally to the item that was just tried on."
+    },
+    {
+      "eventName": "talk_response_received",
+      "origin": "server",
+      "turnId": "trace_20260808t194403_9t15w_turn_1",
+      "timestamp": 1786218329608,
+      "responsePreview": "Ooh, that golden crown looks so sparkly on us, it is exactly the royal treasure I dreamed of."
+    },
+    {
+      "eventName": "talk_response_received",
+      "origin": "client",
+      "turnId": "trace_20260808t194403_9t15w_turn_1",
+      "timestamp": 1786218329614
+    },
+    {
+      "eventName": "audio_play_start",
+      "origin": "client",
+      "turnId": "trace_20260808t194403_9t15w_turn_1",
+      "timestamp": 1786218329620
+    },
+    {
+      "eventName": "audio_ended",
+      "origin": "client",
+      "turnId": "trace_20260808t194403_9t15w_turn_1",
+      "timestamp": 1786218335966
+    },
+    {
+      "eventName": "handsfree_rearm_scheduled",
+      "origin": "client",
+      "timestamp": 1786218335968
+    },
+    {
+      "eventName": "handsfree_rearm_starting",
+      "origin": "client",
+      "timestamp": 1786218336329
+    },
+    {
+      "eventName": "speech_listen_start",
+      "origin": "client",
+      "timestamp": 1786218336329
+    },
+    {
+      "eventName": "speech_result",
+      "origin": "client",
+      "turnId": "trace_20260808t194403_9t15w_turn_2",
+      "timestamp": 1786218347211
+    },
+    {
+      "eventName": "talk_request_start",
+      "origin": "client",
+      "turnId": "trace_20260808t194403_9t15w_turn_2",
+      "timestamp": 1786218347212
+    },
+    {
+      "eventName": "activity_phase_changed",
+      "origin": "client",
+      "turnId": "trace_20260808t194403_9t15w_turn_2",
+      "timestamp": 1786218347212
+    },
+    {
+      "eventName": "talk_request_start",
+      "origin": "server",
+      "turnId": "trace_20260808t194403_9t15w_turn_2",
+      "timestamp": 1786218347224,
+      "transcriptPreview": "Can you hear me?"
+    },
+    {
+      "eventName": "talk_response_received",
+      "origin": "server",
+      "turnId": "trace_20260808t194403_9t15w_turn_2",
+      "timestamp": 1786218353106,
+      "responsePreview": "Loud and clear! Your voice is like music to my royal ears."
+    },
+    {
+      "eventName": "talk_response_received",
+      "origin": "client",
+      "turnId": "trace_20260808t194403_9t15w_turn_2",
+      "timestamp": 1786218353113
+    },
+    {
+      "eventName": "audio_play_start",
+      "origin": "client",
+      "turnId": "trace_20260808t194403_9t15w_turn_2",
+      "timestamp": 1786218353118
+    },
+    {
+      "eventName": "audio_ended",
+      "origin": "client",
+      "turnId": "trace_20260808t194403_9t15w_turn_2",
+      "timestamp": 1786218356984
+    },
+    {
+      "eventName": "handsfree_rearm_scheduled",
+      "origin": "client",
+      "timestamp": 1786218356986
+    },
+    {
+      "eventName": "handsfree_rearm_starting",
+      "origin": "client",
+      "timestamp": 1786218357347
+    },
+    {
+      "eventName": "speech_listen_start",
+      "origin": "client",
+      "timestamp": 1786218357347
+    },
+    {
+      "eventName": "speech_result",
+      "origin": "client",
+      "turnId": "trace_20260808t194403_9t15w_turn_3",
+      "timestamp": 1786218452712
+    },
+    {
+      "eventName": "talk_request_start",
+      "origin": "client",
+      "turnId": "trace_20260808t194403_9t15w_turn_3",
+      "timestamp": 1786218452712
+    },
+    {
+      "eventName": "activity_phase_changed",
+      "origin": "client",
+      "turnId": "trace_20260808t194403_9t15w_turn_3",
+      "timestamp": 1786218452713
+    },
+    {
+      "eventName": "talk_request_start",
+      "origin": "server",
+      "turnId": "trace_20260808t194403_9t15w_turn_3",
+      "timestamp": 1786218452723,
+      "transcriptPreview": "Hello?"
+    },
+    {
+      "eventName": "talk_response_received",
+      "origin": "server",
+      "turnId": "trace_20260808t194403_9t15w_turn_3",
+      "timestamp": 1786218457879,
+      "responsePreview": "Hello there! It's so nice to see you at the call today."
+    },
+    {
+      "eventName": "talk_response_received",
+      "origin": "client",
+      "turnId": "trace_20260808t194403_9t15w_turn_3",
+      "timestamp": 1786218457885
+    },
+    {
+      "eventName": "audio_play_start",
+      "origin": "client",
+      "turnId": "trace_20260808t194403_9t15w_turn_3",
+      "timestamp": 1786218457888
+    },
+    {
+      "eventName": "audio_ended",
+      "origin": "client",
+      "turnId": "trace_20260808t194403_9t15w_turn_3",
+      "timestamp": 1786218461635
+    },
+    {
+      "eventName": "handsfree_rearm_scheduled",
+      "origin": "client",
+      "timestamp": 1786218461637
+    },
+    {
+      "eventName": "handsfree_rearm_starting",
+      "origin": "client",
+      "timestamp": 1786218461998
+    },
+    {
+      "eventName": "speech_listen_start",
+      "origin": "client",
+      "timestamp": 1786218461998
+    },
+    {
+      "eventName": "speech_result",
+      "origin": "client",
+      "turnId": "trace_20260808t194403_9t15w_turn_4",
+      "timestamp": 1786218463704
+    },
+    {
+      "eventName": "conversation_mode_changed",
+      "origin": "client",
+      "turnId": "trace_20260808t194403_9t15w_turn_4",
+      "timestamp": 1786218463705
+    },
+    {
+      "eventName": "talk_request_start",
+      "origin": "client",
+      "turnId": "trace_20260808t194403_9t15w_turn_4",
+      "timestamp": 1786218463705
+    },
+    {
+      "eventName": "activity_phase_changed",
+      "origin": "client",
+      "turnId": "trace_20260808t194403_9t15w_turn_4",
+      "timestamp": 1786218463706
+    },
+    {
+      "eventName": "talk_request_start",
+      "origin": "server",
+      "turnId": "trace_20260808t194403_9t15w_turn_4",
+      "timestamp": 1786218463723,
+      "transcriptPreview": "Can you see me?"
+    },
+    {
+      "eventName": "talk_response_received",
+      "origin": "server",
+      "turnId": "trace_20260808t194403_9t15w_turn_4",
+      "timestamp": 1786218470324,
+      "responsePreview": "I can't peek at you just yet, but tap Look and I can take a quick glance! Meanwhile, tell me, do you like this sparkly g"
+    },
+    {
+      "eventName": "talk_response_received",
+      "origin": "client",
+      "turnId": "trace_20260808t194403_9t15w_turn_4",
+      "timestamp": 1786218470331
+    },
+    {
+      "eventName": "audio_play_start",
+      "origin": "client",
+      "turnId": "trace_20260808t194403_9t15w_turn_4",
+      "timestamp": 1786218470337
+    },
+    {
+      "eventName": "audio_ended",
+      "origin": "client",
+      "turnId": "trace_20260808t194403_9t15w_turn_4",
+      "timestamp": 1786218480339
+    },
+    {
+      "eventName": "handsfree_rearm_scheduled",
+      "origin": "client",
+      "timestamp": 1786218480341
+    },
+    {
+      "eventName": "handsfree_rearm_starting",
+      "origin": "client",
+      "timestamp": 1786218480704
+    },
+    {
+      "eventName": "speech_listen_start",
+      "origin": "client",
+      "timestamp": 1786218480704
+    }
+  ],
+  "turns": [
+    {
+      "turnId": "trace_20260808t194403_9t15w_turn_1",
+      "eventNames": [
+        "talk_request_start",
+        "activity_phase_changed",
+        "talk_request_start",
+        "talk_response_received",
+        "talk_response_received",
+        "audio_play_start",
+        "audio_ended"
+      ],
+      "transcriptPreview": "React naturally to the item that was just tried on.",
+      "transcriptHash": "f8d82e5f17496dd3",
+      "responsePreview": "Ooh, that golden crown looks so sparkly on us, it is exactly the royal treasure I dreamed of.",
+      "responseHash": "ca85a915dd268d99",
+      "requestToResponseMs": 9373,
+      "audioMs": 6346
+    },
+    {
+      "turnId": "trace_20260808t194403_9t15w_turn_2",
+      "eventNames": [
+        "speech_result",
+        "talk_request_start",
+        "activity_phase_changed",
+        "talk_request_start",
+        "talk_response_received",
+        "talk_response_received",
+        "audio_play_start",
+        "audio_ended"
+      ],
+      "transcriptPreview": "Can you hear me?",
+      "transcriptHash": "5d3511d27cdb6a7f",
+      "responsePreview": "Loud and clear! Your voice is like music to my royal ears.",
+      "responseHash": "42f7270b29f9dfe5",
+      "requestToResponseMs": 5894,
+      "audioMs": 3866
+    },
+    {
+      "turnId": "trace_20260808t194403_9t15w_turn_3",
+      "eventNames": [
+        "speech_result",
+        "talk_request_start",
+        "activity_phase_changed",
+        "talk_request_start",
+        "talk_response_received",
+        "talk_response_received",
+        "audio_play_start",
+        "audio_ended"
+      ],
+      "transcriptPreview": "Hello?",
+      "transcriptHash": "b45cf64669f2f8da",
+      "responsePreview": "Hello there! It's so nice to see you at the call today.",
+      "responseHash": "06361d107654945f",
+      "requestToResponseMs": 5167,
+      "audioMs": 3747
+    },
+    {
+      "turnId": "trace_20260808t194403_9t15w_turn_4",
+      "eventNames": [
+        "speech_result",
+        "conversation_mode_changed",
+        "talk_request_start",
+        "activity_phase_changed",
+        "talk_request_start",
+        "talk_response_received",
+        "talk_response_received",
+        "audio_play_start",
+        "audio_ended"
+      ],
+      "transcriptPreview": "Can you see me?",
+      "transcriptHash": "a398e7d67b4d7bcd",
+      "responsePreview": "I can't peek at you just yet, but tap Look and I can take a quick glance! Meanwhile, tell me, do you like this sparkly g",
+      "responseHash": "6b8c5be32af72499",
+      "requestToResponseMs": 6619,
+      "audioMs": 10002
+    }
+  ]
+}
