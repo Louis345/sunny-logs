@@ -1,0 +1,309 @@
+{
+  "traceId": "trace_20260808t191055_7h5if",
+  "childId": "showroom",
+  "companionId": "elli",
+  "callSource": "showroom",
+  "relationshipState": "previewing",
+  "startedAt": "2026-08-08T19:10:55.968Z",
+  "eventCount": 40,
+  "loopSuspected": false,
+  "likelyCause": "slow_response",
+  "eventOrder": [
+    {
+      "eventName": "call_started",
+      "origin": "client",
+      "timestamp": 1786216255968
+    },
+    {
+      "eventName": "handsfree_rearm_scheduled",
+      "origin": "client",
+      "timestamp": 1786216257955
+    },
+    {
+      "eventName": "handsfree_rearm_starting",
+      "origin": "client",
+      "timestamp": 1786216258317
+    },
+    {
+      "eventName": "speech_listen_start",
+      "origin": "client",
+      "timestamp": 1786216258318
+    },
+    {
+      "eventName": "talk_request_start",
+      "origin": "client",
+      "turnId": "trace_20260808t191055_7h5if_turn_1",
+      "timestamp": 1786216264597
+    },
+    {
+      "eventName": "activity_phase_changed",
+      "origin": "client",
+      "turnId": "trace_20260808t191055_7h5if_turn_1",
+      "timestamp": 1786216264598
+    },
+    {
+      "eventName": "talk_request_start",
+      "origin": "server",
+      "turnId": "trace_20260808t191055_7h5if_turn_1",
+      "timestamp": 1786216264604,
+      "transcriptPreview": "React naturally to the item that was just tried on."
+    },
+    {
+      "eventName": "audio_error",
+      "origin": "client",
+      "turnId": "trace_20260808t191055_7h5if_turn_1",
+      "timestamp": 1786216264660
+    },
+    {
+      "eventName": "talk_request_start",
+      "origin": "client",
+      "turnId": "trace_20260808t191055_7h5if_turn_1",
+      "timestamp": 1786216381948
+    },
+    {
+      "eventName": "activity_phase_changed",
+      "origin": "client",
+      "turnId": "trace_20260808t191055_7h5if_turn_1",
+      "timestamp": 1786216381949
+    },
+    {
+      "eventName": "talk_request_start",
+      "origin": "server",
+      "turnId": "trace_20260808t191055_7h5if_turn_1",
+      "timestamp": 1786216381988,
+      "transcriptPreview": "React naturally to the item that was just tried on."
+    },
+    {
+      "eventName": "talk_response_received",
+      "origin": "server",
+      "turnId": "trace_20260808t191055_7h5if_turn_1",
+      "timestamp": 1786216388804,
+      "responsePreview": "Okay wait, cat ears?! These are SO cute, I kind of never want to take them off now."
+    },
+    {
+      "eventName": "talk_response_received",
+      "origin": "client",
+      "turnId": "trace_20260808t191055_7h5if_turn_1",
+      "timestamp": 1786216388810
+    },
+    {
+      "eventName": "audio_play_start",
+      "origin": "client",
+      "turnId": "trace_20260808t191055_7h5if_turn_1",
+      "timestamp": 1786216388816
+    },
+    {
+      "eventName": "audio_ended",
+      "origin": "client",
+      "turnId": "trace_20260808t191055_7h5if_turn_1",
+      "timestamp": 1786216393728
+    },
+    {
+      "eventName": "handsfree_rearm_scheduled",
+      "origin": "client",
+      "timestamp": 1786216393730
+    },
+    {
+      "eventName": "handsfree_rearm_starting",
+      "origin": "client",
+      "timestamp": 1786216394094
+    },
+    {
+      "eventName": "speech_listen_start",
+      "origin": "client",
+      "timestamp": 1786216394094
+    },
+    {
+      "eventName": "speech_result",
+      "origin": "client",
+      "turnId": "trace_20260808t191055_7h5if_turn_2",
+      "timestamp": 1786216448814
+    },
+    {
+      "eventName": "talk_request_start",
+      "origin": "client",
+      "turnId": "trace_20260808t191055_7h5if_turn_2",
+      "timestamp": 1786216448815
+    },
+    {
+      "eventName": "activity_phase_changed",
+      "origin": "client",
+      "turnId": "trace_20260808t191055_7h5if_turn_2",
+      "timestamp": 1786216448816
+    },
+    {
+      "eventName": "talk_request_start",
+      "origin": "server",
+      "turnId": "trace_20260808t191055_7h5if_turn_2",
+      "timestamp": 1786216448831,
+      "transcriptPreview": "Bonnie ish."
+    },
+    {
+      "eventName": "talk_response_received",
+      "origin": "server",
+      "turnId": "trace_20260808t191055_7h5if_turn_2",
+      "timestamp": 1786216453563,
+      "responsePreview": "I'm here with you. Let's keep going."
+    },
+    {
+      "eventName": "talk_response_received",
+      "origin": "client",
+      "turnId": "trace_20260808t191055_7h5if_turn_2",
+      "timestamp": 1786216453566
+    },
+    {
+      "eventName": "audio_play_start",
+      "origin": "client",
+      "turnId": "trace_20260808t191055_7h5if_turn_2",
+      "timestamp": 1786216453571
+    },
+    {
+      "eventName": "audio_ended",
+      "origin": "client",
+      "turnId": "trace_20260808t191055_7h5if_turn_2",
+      "timestamp": 1786216455416
+    },
+    {
+      "eventName": "handsfree_rearm_scheduled",
+      "origin": "client",
+      "timestamp": 1786216455417
+    },
+    {
+      "eventName": "handsfree_rearm_starting",
+      "origin": "client",
+      "timestamp": 1786216455779
+    },
+    {
+      "eventName": "speech_listen_start",
+      "origin": "client",
+      "timestamp": 1786216455780
+    },
+    {
+      "eventName": "speech_result",
+      "origin": "client",
+      "turnId": "trace_20260808t191055_7h5if_turn_3",
+      "timestamp": 1786216456214
+    },
+    {
+      "eventName": "talk_request_start",
+      "origin": "client",
+      "turnId": "trace_20260808t191055_7h5if_turn_3",
+      "timestamp": 1786216456214
+    },
+    {
+      "eventName": "activity_phase_changed",
+      "origin": "client",
+      "turnId": "trace_20260808t191055_7h5if_turn_3",
+      "timestamp": 1786216456215
+    },
+    {
+      "eventName": "talk_request_start",
+      "origin": "server",
+      "turnId": "trace_20260808t191055_7h5if_turn_3",
+      "timestamp": 1786216456222,
+      "transcriptPreview": "super nice guy, very"
+    },
+    {
+      "eventName": "talk_response_received",
+      "origin": "server",
+      "turnId": "trace_20260808t191055_7h5if_turn_3",
+      "timestamp": 1786216463923,
+      "responsePreview": "Ooh wait, who's the super nice guy? You gotta fill me in!"
+    },
+    {
+      "eventName": "talk_response_received",
+      "origin": "client",
+      "turnId": "trace_20260808t191055_7h5if_turn_3",
+      "timestamp": 1786216463930
+    },
+    {
+      "eventName": "audio_play_start",
+      "origin": "client",
+      "turnId": "trace_20260808t191055_7h5if_turn_3",
+      "timestamp": 1786216463933
+    },
+    {
+      "eventName": "audio_ended",
+      "origin": "client",
+      "turnId": "trace_20260808t191055_7h5if_turn_3",
+      "timestamp": 1786216467165
+    },
+    {
+      "eventName": "handsfree_rearm_scheduled",
+      "origin": "client",
+      "timestamp": 1786216467166
+    },
+    {
+      "eventName": "handsfree_rearm_starting",
+      "origin": "client",
+      "timestamp": 1786216467528
+    },
+    {
+      "eventName": "speech_listen_start",
+      "origin": "client",
+      "timestamp": 1786216467528
+    }
+  ],
+  "turns": [
+    {
+      "turnId": "trace_20260808t191055_7h5if_turn_1",
+      "eventNames": [
+        "talk_request_start",
+        "activity_phase_changed",
+        "talk_request_start",
+        "audio_error",
+        "talk_request_start",
+        "activity_phase_changed",
+        "talk_request_start",
+        "talk_response_received",
+        "talk_response_received",
+        "audio_play_start",
+        "audio_ended"
+      ],
+      "transcriptPreview": "React naturally to the item that was just tried on.",
+      "transcriptHash": "f8d82e5f17496dd3",
+      "responsePreview": "Okay wait, cat ears?! These are SO cute, I kind of never want to take them off now.",
+      "responseHash": "64881cdd721a8e05",
+      "requestToResponseMs": 124207,
+      "audioMs": 4912
+    },
+    {
+      "turnId": "trace_20260808t191055_7h5if_turn_2",
+      "eventNames": [
+        "speech_result",
+        "talk_request_start",
+        "activity_phase_changed",
+        "talk_request_start",
+        "talk_response_received",
+        "talk_response_received",
+        "audio_play_start",
+        "audio_ended"
+      ],
+      "transcriptPreview": "Bonnie ish.",
+      "transcriptHash": "c400502384267933",
+      "responsePreview": "I'm here with you. Let's keep going.",
+      "responseHash": "504319378d4081a0",
+      "requestToResponseMs": 4748,
+      "audioMs": 1845
+    },
+    {
+      "turnId": "trace_20260808t191055_7h5if_turn_3",
+      "eventNames": [
+        "speech_result",
+        "talk_request_start",
+        "activity_phase_changed",
+        "talk_request_start",
+        "talk_response_received",
+        "talk_response_received",
+        "audio_play_start",
+        "audio_ended"
+      ],
+      "transcriptPreview": "super nice guy, very",
+      "transcriptHash": "b06985c21856fbf2",
+      "responsePreview": "Ooh wait, who's the super nice guy? You gotta fill me in!",
+      "responseHash": "df4433b94c0d8c71",
+      "requestToResponseMs": 7709,
+      "audioMs": 3232
+    }
+  ]
+}
