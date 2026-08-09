@@ -29,3 +29,4 @@
 🎮 [audit] component=turn action=barge_in stateBefore=PROCESSING turnState=IDLE tts=on childName=Ila round=0
 🎮 [audit] component=transcript action=urgent_learning_organic turnState=IDLE tts=on childName=Ila round=0
 🎮 [audit] component=transcript action=accepted turnState=IDLE tts=on childName=Ila round=0
+🎮 [audit] component=transcript action=accepted turnState=IDLE tts=on childName=Ila round=0

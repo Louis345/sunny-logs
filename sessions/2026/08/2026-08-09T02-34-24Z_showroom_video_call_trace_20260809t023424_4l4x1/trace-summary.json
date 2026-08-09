@@ -1,0 +1,94 @@
+{
+  "traceId": "trace_20260809t023424_4l4x1",
+  "childId": "showroom",
+  "companionId": "elli",
+  "callSource": "showroom",
+  "relationshipState": "previewing",
+  "startedAt": "2026-08-09T02:34:24.592Z",
+  "eventCount": 11,
+  "loopSuspected": false,
+  "likelyCause": "none",
+  "eventOrder": [
+    {
+      "eventName": "call_started",
+      "origin": "client",
+      "timestamp": 1786242864592
+    },
+    {
+      "eventName": "handsfree_rearm_scheduled",
+      "origin": "client",
+      "timestamp": 1786242869460
+    },
+    {
+      "eventName": "handsfree_rearm_starting",
+      "origin": "client",
+      "timestamp": 1786242869821
+    },
+    {
+      "eventName": "speech_listen_start",
+      "origin": "client",
+      "timestamp": 1786242869822
+    },
+    {
+      "eventName": "talk_request_start",
+      "origin": "client",
+      "turnId": "trace_20260809t023424_4l4x1_turn_1",
+      "timestamp": 1786242888707
+    },
+    {
+      "eventName": "activity_phase_changed",
+      "origin": "client",
+      "turnId": "trace_20260809t023424_4l4x1_turn_1",
+      "timestamp": 1786242888709
+    },
+    {
+      "eventName": "audio_error",
+      "origin": "client",
+      "turnId": "trace_20260809t023424_4l4x1_turn_1",
+      "timestamp": 1786242888790
+    },
+    {
+      "eventName": "speech_result",
+      "origin": "client",
+      "turnId": "trace_20260809t023424_4l4x1_turn_2",
+      "timestamp": 1786242912148
+    },
+    {
+      "eventName": "talk_request_start",
+      "origin": "client",
+      "turnId": "trace_20260809t023424_4l4x1_turn_2",
+      "timestamp": 1786242912148
+    },
+    {
+      "eventName": "activity_phase_changed",
+      "origin": "client",
+      "turnId": "trace_20260809t023424_4l4x1_turn_2",
+      "timestamp": 1786242912149
+    },
+    {
+      "eventName": "audio_error",
+      "origin": "client",
+      "turnId": "trace_20260809t023424_4l4x1_turn_2",
+      "timestamp": 1786242912171
+    }
+  ],
+  "turns": [
+    {
+      "turnId": "trace_20260809t023424_4l4x1_turn_1",
+      "eventNames": [
+        "talk_request_start",
+        "activity_phase_changed",
+        "audio_error"
+      ]
+    },
+    {
+      "turnId": "trace_20260809t023424_4l4x1_turn_2",
+      "eventNames": [
+        "speech_result",
+        "talk_request_start",
+        "activity_phase_changed",
+        "audio_error"
+      ]
+    }
+  ]
+}
