@@ -1,0 +1,94 @@
+{
+  "traceId": "trace_20260809t000812_7kiuc",
+  "childId": "showroom",
+  "companionId": "elli",
+  "callSource": "showroom",
+  "relationshipState": "previewing",
+  "startedAt": "2026-08-09T00:08:12.499Z",
+  "eventCount": 11,
+  "loopSuspected": false,
+  "likelyCause": "slow_response",
+  "eventOrder": [
+    {
+      "eventName": "call_started",
+      "origin": "client",
+      "timestamp": 1786234092499
+    },
+    {
+      "eventName": "handsfree_rearm_scheduled",
+      "origin": "client",
+      "timestamp": 1786234097864
+    },
+    {
+      "eventName": "handsfree_rearm_starting",
+      "origin": "client",
+      "timestamp": 1786234098226
+    },
+    {
+      "eventName": "speech_listen_start",
+      "origin": "client",
+      "timestamp": 1786234098226
+    },
+    {
+      "eventName": "talk_request_start",
+      "origin": "client",
+      "turnId": "trace_20260809t000812_7kiuc_turn_1",
+      "timestamp": 1786234109032
+    },
+    {
+      "eventName": "activity_phase_changed",
+      "origin": "client",
+      "turnId": "trace_20260809t000812_7kiuc_turn_1",
+      "timestamp": 1786234109034
+    },
+    {
+      "eventName": "talk_request_start",
+      "origin": "server",
+      "turnId": "trace_20260809t000812_7kiuc_turn_1",
+      "timestamp": 1786234109050,
+      "transcriptPreview": "React naturally to the item that was just tried on."
+    },
+    {
+      "eventName": "talk_response_received",
+      "origin": "server",
+      "turnId": "trace_20260809t000812_7kiuc_turn_1",
+      "timestamp": 1786234123649,
+      "responsePreview": "Okay wait, those cat ears are way too cute on you, purple is such a good color choice!"
+    },
+    {
+      "eventName": "talk_response_received",
+      "origin": "client",
+      "turnId": "trace_20260809t000812_7kiuc_turn_1",
+      "timestamp": 1786234123655
+    },
+    {
+      "eventName": "audio_play_start",
+      "origin": "client",
+      "turnId": "trace_20260809t000812_7kiuc_turn_1",
+      "timestamp": 1786234123659
+    },
+    {
+      "eventName": "speech_listen_start",
+      "origin": "client",
+      "timestamp": 1786234124654
+    }
+  ],
+  "turns": [
+    {
+      "turnId": "trace_20260809t000812_7kiuc_turn_1",
+      "eventNames": [
+        "talk_request_start",
+        "activity_phase_changed",
+        "talk_request_start",
+        "talk_response_received",
+        "talk_response_received",
+        "audio_play_start"
+      ],
+      "transcriptPreview": "React naturally to the item that was just tried on.",
+      "transcriptHash": "f8d82e5f17496dd3",
+      "responsePreview": "Okay wait, those cat ears are way too cute on you, purple is such a good color choice!",
+      "responseHash": "a5a8cf54f142d554",
+      "requestToResponseMs": 14617
+    }
+  ]
+}
