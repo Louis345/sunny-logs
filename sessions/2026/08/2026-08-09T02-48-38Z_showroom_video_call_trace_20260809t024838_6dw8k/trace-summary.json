@@ -1,0 +1,358 @@
+{
+  "traceId": "trace_20260809t024838_6dw8k",
+  "childId": "showroom",
+  "companionId": "elli",
+  "callSource": "showroom",
+  "relationshipState": "previewing",
+  "startedAt": "2026-08-09T02:48:38.436Z",
+  "eventCount": 42,
+  "loopSuspected": true,
+  "likelyCause": "repeated_turn",
+  "eventOrder": [
+    {
+      "eventName": "call_started",
+      "origin": "client",
+      "timestamp": 1786243718436
+    },
+    {
+      "eventName": "handsfree_rearm_scheduled",
+      "origin": "client",
+      "timestamp": 1786243723312
+    },
+    {
+      "eventName": "handsfree_rearm_starting",
+      "origin": "client",
+      "timestamp": 1786243723674
+    },
+    {
+      "eventName": "speech_listen_start",
+      "origin": "client",
+      "timestamp": 1786243723675
+    },
+    {
+      "eventName": "speech_result",
+      "origin": "client",
+      "turnId": "trace_20260809t024838_6dw8k_turn_1",
+      "timestamp": 1786243768046
+    },
+    {
+      "eventName": "conversation_mode_changed",
+      "origin": "client",
+      "turnId": "trace_20260809t024838_6dw8k_turn_1",
+      "timestamp": 1786243768048
+    },
+    {
+      "eventName": "talk_request_start",
+      "origin": "client",
+      "turnId": "trace_20260809t024838_6dw8k_turn_1",
+      "timestamp": 1786243768049
+    },
+    {
+      "eventName": "activity_phase_changed",
+      "origin": "client",
+      "turnId": "trace_20260809t024838_6dw8k_turn_1",
+      "timestamp": 1786243768050
+    },
+    {
+      "eventName": "talk_request_start",
+      "origin": "server",
+      "turnId": "trace_20260809t024838_6dw8k_turn_1",
+      "timestamp": 1786243768065,
+      "transcriptPreview": "The night before these guys' look, here I came out and he went laser focused and he was like, watch this stuff right her"
+    },
+    {
+      "eventName": "audio_error",
+      "origin": "client",
+      "turnId": "trace_20260809t024838_6dw8k_turn_1",
+      "timestamp": 1786243768248
+    },
+    {
+      "eventName": "speech_result",
+      "origin": "client",
+      "turnId": "trace_20260809t024838_6dw8k_turn_2",
+      "timestamp": 1786244040623
+    },
+    {
+      "eventName": "conversation_mode_changed",
+      "origin": "client",
+      "turnId": "trace_20260809t024838_6dw8k_turn_2",
+      "timestamp": 1786244040633
+    },
+    {
+      "eventName": "talk_request_start",
+      "origin": "client",
+      "turnId": "trace_20260809t024838_6dw8k_turn_2",
+      "timestamp": 1786244040634
+    },
+    {
+      "eventName": "activity_phase_changed",
+      "origin": "client",
+      "turnId": "trace_20260809t024838_6dw8k_turn_2",
+      "timestamp": 1786244040635
+    },
+    {
+      "eventName": "talk_request_start",
+      "origin": "server",
+      "turnId": "trace_20260809t024838_6dw8k_turn_2",
+      "timestamp": 1786244040664,
+      "transcriptPreview": "You want my clothes? No. No. No. No. God. He's touching my breast. I can feel everything, but I can't move. His hands ar"
+    },
+    {
+      "eventName": "audio_error",
+      "origin": "client",
+      "turnId": "trace_20260809t024838_6dw8k_turn_2",
+      "timestamp": 1786244041107
+    },
+    {
+      "eventName": "speech_result",
+      "origin": "client",
+      "turnId": "trace_20260809t024838_6dw8k_turn_3",
+      "timestamp": 1786244102034
+    },
+    {
+      "eventName": "talk_request_start",
+      "origin": "client",
+      "turnId": "trace_20260809t024838_6dw8k_turn_3",
+      "timestamp": 1786244102038
+    },
+    {
+      "eventName": "activity_phase_changed",
+      "origin": "client",
+      "turnId": "trace_20260809t024838_6dw8k_turn_3",
+      "timestamp": 1786244102044
+    },
+    {
+      "eventName": "talk_request_start",
+      "origin": "server",
+      "turnId": "trace_20260809t024838_6dw8k_turn_3",
+      "timestamp": 1786244102065,
+      "transcriptPreview": "Time is stopping."
+    },
+    {
+      "eventName": "audio_error",
+      "origin": "client",
+      "turnId": "trace_20260809t024838_6dw8k_turn_3",
+      "timestamp": 1786244102348
+    },
+    {
+      "eventName": "speech_result",
+      "origin": "client",
+      "turnId": "trace_20260809t024838_6dw8k_turn_4",
+      "timestamp": 1786244232374
+    },
+    {
+      "eventName": "talk_request_start",
+      "origin": "client",
+      "turnId": "trace_20260809t024838_6dw8k_turn_4",
+      "timestamp": 1786244232376
+    },
+    {
+      "eventName": "activity_phase_changed",
+      "origin": "client",
+      "turnId": "trace_20260809t024838_6dw8k_turn_4",
+      "timestamp": 1786244232381
+    },
+    {
+      "eventName": "talk_request_start",
+      "origin": "server",
+      "turnId": "trace_20260809t024838_6dw8k_turn_4",
+      "timestamp": 1786244232393,
+      "transcriptPreview": "Jesus."
+    },
+    {
+      "eventName": "audio_error",
+      "origin": "client",
+      "turnId": "trace_20260809t024838_6dw8k_turn_4",
+      "timestamp": 1786244232640
+    },
+    {
+      "eventName": "speech_result",
+      "origin": "client",
+      "turnId": "trace_20260809t024838_6dw8k_turn_5",
+      "timestamp": 1786244257716
+    },
+    {
+      "eventName": "talk_request_start",
+      "origin": "client",
+      "turnId": "trace_20260809t024838_6dw8k_turn_5",
+      "timestamp": 1786244257718
+    },
+    {
+      "eventName": "activity_phase_changed",
+      "origin": "client",
+      "turnId": "trace_20260809t024838_6dw8k_turn_5",
+      "timestamp": 1786244257720
+    },
+    {
+      "eventName": "talk_request_start",
+      "origin": "server",
+      "turnId": "trace_20260809t024838_6dw8k_turn_5",
+      "timestamp": 1786244257732,
+      "transcriptPreview": "Hi."
+    },
+    {
+      "eventName": "audio_error",
+      "origin": "client",
+      "turnId": "trace_20260809t024838_6dw8k_turn_5",
+      "timestamp": 1786244257940
+    },
+    {
+      "eventName": "speech_result",
+      "origin": "client",
+      "turnId": "trace_20260809t024838_6dw8k_turn_6",
+      "timestamp": 1786244460591
+    },
+    {
+      "eventName": "talk_request_start",
+      "origin": "client",
+      "turnId": "trace_20260809t024838_6dw8k_turn_6",
+      "timestamp": 1786244460595
+    },
+    {
+      "eventName": "activity_phase_changed",
+      "origin": "client",
+      "turnId": "trace_20260809t024838_6dw8k_turn_6",
+      "timestamp": 1786244460600
+    },
+    {
+      "eventName": "talk_request_start",
+      "origin": "server",
+      "turnId": "trace_20260809t024838_6dw8k_turn_6",
+      "timestamp": 1786244460624,
+      "transcriptPreview": "Yes. Give me"
+    },
+    {
+      "eventName": "audio_error",
+      "origin": "client",
+      "turnId": "trace_20260809t024838_6dw8k_turn_6",
+      "timestamp": 1786244460911
+    },
+    {
+      "eventName": "speech_result",
+      "origin": "client",
+      "turnId": "trace_20260809t024838_6dw8k_turn_7",
+      "timestamp": 1786244463675
+    },
+    {
+      "eventName": "loop_suspected",
+      "origin": "client",
+      "turnId": "trace_20260809t024838_6dw8k_turn_7",
+      "timestamp": 1786244463676
+    },
+    {
+      "eventName": "talk_request_start",
+      "origin": "client",
+      "turnId": "trace_20260809t024838_6dw8k_turn_7",
+      "timestamp": 1786244463676
+    },
+    {
+      "eventName": "activity_phase_changed",
+      "origin": "client",
+      "turnId": "trace_20260809t024838_6dw8k_turn_7",
+      "timestamp": 1786244463677
+    },
+    {
+      "eventName": "talk_request_start",
+      "origin": "server",
+      "turnId": "trace_20260809t024838_6dw8k_turn_7",
+      "timestamp": 1786244463692,
+      "transcriptPreview": "Yes. Give me"
+    },
+    {
+      "eventName": "audio_error",
+      "origin": "client",
+      "turnId": "trace_20260809t024838_6dw8k_turn_7",
+      "timestamp": 1786244464009
+    }
+  ],
+  "turns": [
+    {
+      "turnId": "trace_20260809t024838_6dw8k_turn_1",
+      "eventNames": [
+        "speech_result",
+        "conversation_mode_changed",
+        "talk_request_start",
+        "activity_phase_changed",
+        "talk_request_start",
+        "audio_error"
+      ],
+      "transcriptPreview": "The night before these guys' look, here I came out and he went laser focused and he was like, watch this stuff right her",
+      "transcriptHash": "b1c6a4ea1ff9b787"
+    },
+    {
+      "turnId": "trace_20260809t024838_6dw8k_turn_2",
+      "eventNames": [
+        "speech_result",
+        "conversation_mode_changed",
+        "talk_request_start",
+        "activity_phase_changed",
+        "talk_request_start",
+        "audio_error"
+      ],
+      "transcriptPreview": "You want my clothes? No. No. No. No. God. He's touching my breast. I can feel everything, but I can't move. His hands ar",
+      "transcriptHash": "76f2c0e18de1b920"
+    },
+    {
+      "turnId": "trace_20260809t024838_6dw8k_turn_3",
+      "eventNames": [
+        "speech_result",
+        "talk_request_start",
+        "activity_phase_changed",
+        "talk_request_start",
+        "audio_error"
+      ],
+      "transcriptPreview": "Time is stopping.",
+      "transcriptHash": "7c210092fef9e4f9"
+    },
+    {
+      "turnId": "trace_20260809t024838_6dw8k_turn_4",
+      "eventNames": [
+        "speech_result",
+        "talk_request_start",
+        "activity_phase_changed",
+        "talk_request_start",
+        "audio_error"
+      ],
+      "transcriptPreview": "Jesus.",
+      "transcriptHash": "18924d8b05a229a9"
+    },
+    {
+      "turnId": "trace_20260809t024838_6dw8k_turn_5",
+      "eventNames": [
+        "speech_result",
+        "talk_request_start",
+        "activity_phase_changed",
+        "talk_request_start",
+        "audio_error"
+      ],
+      "transcriptPreview": "Hi.",
+      "transcriptHash": "0466d81a12520734"
+    },
+    {
+      "turnId": "trace_20260809t024838_6dw8k_turn_6",
+      "eventNames": [
+        "speech_result",
+        "talk_request_start",
+        "activity_phase_changed",
+        "talk_request_start",
+        "audio_error"
+      ],
+      "transcriptPreview": "Yes. Give me",
+      "transcriptHash": "3d35a704183226b0"
+    },
+    {
+      "turnId": "trace_20260809t024838_6dw8k_turn_7",
+      "eventNames": [
+        "speech_result",
+        "loop_suspected",
+        "talk_request_start",
+        "activity_phase_changed",
+        "talk_request_start",
+        "audio_error"
+      ],
+      "transcriptPreview": "Yes. Give me",
+      "transcriptHash": "3d35a704183226b0",
+      "loopSuspected": true
+    }
+  ]
+}

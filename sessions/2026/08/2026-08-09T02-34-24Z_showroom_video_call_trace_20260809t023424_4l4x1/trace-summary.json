@@ -5,7 +5,7 @@
   "callSource": "showroom",
   "relationshipState": "previewing",
   "startedAt": "2026-08-09T02:34:24.592Z",
-  "eventCount": 11,
+  "eventCount": 15,
   "loopSuspected": false,
   "likelyCause": "none",
   "eventOrder": [
@@ -70,6 +70,31 @@
       "origin": "client",
       "turnId": "trace_20260809t023424_4l4x1_turn_2",
       "timestamp": 1786242912171
+    },
+    {
+      "eventName": "talk_request_start",
+      "origin": "client",
+      "turnId": "trace_20260809t023424_4l4x1_turn_2",
+      "timestamp": 1786242946539
+    },
+    {
+      "eventName": "activity_phase_changed",
+      "origin": "client",
+      "turnId": "trace_20260809t023424_4l4x1_turn_2",
+      "timestamp": 1786242946543
+    },
+    {
+      "eventName": "talk_request_start",
+      "origin": "server",
+      "turnId": "trace_20260809t023424_4l4x1_turn_2",
+      "timestamp": 1786242946590,
+      "transcriptPreview": "Give a brief first impression of the selected item."
+    },
+    {
+      "eventName": "audio_error",
+      "origin": "client",
+      "turnId": "trace_20260809t023424_4l4x1_turn_2",
+      "timestamp": 1786242946601
     }
   ],
   "turns": [
@@ -87,8 +112,14 @@
         "speech_result",
         "talk_request_start",
         "activity_phase_changed",
+        "audio_error",
+        "talk_request_start",
+        "activity_phase_changed",
+        "talk_request_start",
         "audio_error"
-      ]
+      ],
+      "transcriptPreview": "Give a brief first impression of the selected item.",
+      "transcriptHash": "8b51f292e5ca201b"
     }
   ]
 }

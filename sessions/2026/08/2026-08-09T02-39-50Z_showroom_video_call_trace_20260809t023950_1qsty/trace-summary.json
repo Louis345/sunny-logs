@@ -1,0 +1,139 @@
+{
+  "traceId": "trace_20260809t023950_1qsty",
+  "childId": "showroom",
+  "companionId": "elli",
+  "callSource": "showroom",
+  "relationshipState": "previewing",
+  "startedAt": "2026-08-09T02:39:50.960Z",
+  "eventCount": 18,
+  "loopSuspected": false,
+  "likelyCause": "none",
+  "eventOrder": [
+    {
+      "eventName": "call_started",
+      "origin": "client",
+      "timestamp": 1786243190960
+    },
+    {
+      "eventName": "handsfree_rearm_scheduled",
+      "origin": "client",
+      "timestamp": 1786243194828
+    },
+    {
+      "eventName": "talk_request_start",
+      "origin": "client",
+      "turnId": "trace_20260809t023950_1qsty_turn_1",
+      "timestamp": 1786243195004
+    },
+    {
+      "eventName": "activity_phase_changed",
+      "origin": "client",
+      "turnId": "trace_20260809t023950_1qsty_turn_1",
+      "timestamp": 1786243195005
+    },
+    {
+      "eventName": "handsfree_rearm_skipped",
+      "origin": "client",
+      "timestamp": 1786243195370
+    },
+    {
+      "eventName": "talk_request_start",
+      "origin": "server",
+      "turnId": "trace_20260809t023950_1qsty_turn_1",
+      "timestamp": 1786243195589,
+      "transcriptPreview": "Give a brief first impression of the selected item."
+    },
+    {
+      "eventName": "audio_error",
+      "origin": "client",
+      "turnId": "trace_20260809t023950_1qsty_turn_1",
+      "timestamp": 1786243195781
+    },
+    {
+      "eventName": "talk_request_start",
+      "origin": "client",
+      "turnId": "trace_20260809t023950_1qsty_turn_1",
+      "timestamp": 1786243196684
+    },
+    {
+      "eventName": "activity_phase_changed",
+      "origin": "client",
+      "turnId": "trace_20260809t023950_1qsty_turn_1",
+      "timestamp": 1786243196684
+    },
+    {
+      "eventName": "talk_request_start",
+      "origin": "server",
+      "turnId": "trace_20260809t023950_1qsty_turn_1",
+      "timestamp": 1786243196706,
+      "transcriptPreview": "React naturally to the item that was just tried on."
+    },
+    {
+      "eventName": "audio_error",
+      "origin": "client",
+      "turnId": "trace_20260809t023950_1qsty_turn_1",
+      "timestamp": 1786243196737
+    },
+    {
+      "eventName": "talk_request_start",
+      "origin": "client",
+      "turnId": "trace_20260809t023950_1qsty_turn_1",
+      "timestamp": 1786243262029
+    },
+    {
+      "eventName": "activity_phase_changed",
+      "origin": "client",
+      "turnId": "trace_20260809t023950_1qsty_turn_1",
+      "timestamp": 1786243262030
+    },
+    {
+      "eventName": "talk_request_start",
+      "origin": "server",
+      "turnId": "trace_20260809t023950_1qsty_turn_1",
+      "timestamp": 1786243262046,
+      "transcriptPreview": "React naturally to the item that was just tried on."
+    },
+    {
+      "eventName": "audio_error",
+      "origin": "client",
+      "turnId": "trace_20260809t023950_1qsty_turn_1",
+      "timestamp": 1786243262122
+    },
+    {
+      "eventName": "call_ended",
+      "origin": "client",
+      "timestamp": 1786243334040
+    },
+    {
+      "eventName": "call_greeting_selected",
+      "origin": "client",
+      "timestamp": 1786243337331
+    },
+    {
+      "eventName": "call_greeting_skipped",
+      "origin": "client",
+      "timestamp": 1786243337346
+    }
+  ],
+  "turns": [
+    {
+      "turnId": "trace_20260809t023950_1qsty_turn_1",
+      "eventNames": [
+        "talk_request_start",
+        "activity_phase_changed",
+        "talk_request_start",
+        "audio_error",
+        "talk_request_start",
+        "activity_phase_changed",
+        "talk_request_start",
+        "audio_error",
+        "talk_request_start",
+        "activity_phase_changed",
+        "talk_request_start",
+        "audio_error"
+      ],
+      "transcriptPreview": "Give a brief first impression of the selected item.",
+      "transcriptHash": "8b51f292e5ca201b"
+    }
+  ]
+}

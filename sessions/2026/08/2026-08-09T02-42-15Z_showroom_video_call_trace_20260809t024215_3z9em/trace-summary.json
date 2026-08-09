@@ -1,0 +1,236 @@
+{
+  "traceId": "trace_20260809t024215_3z9em",
+  "childId": "showroom",
+  "companionId": "elli",
+  "callSource": "showroom",
+  "relationshipState": "previewing",
+  "startedAt": "2026-08-09T02:42:15.224Z",
+  "eventCount": 32,
+  "loopSuspected": false,
+  "likelyCause": "none",
+  "eventOrder": [
+    {
+      "eventName": "call_started",
+      "origin": "client",
+      "timestamp": 1786243335224
+    },
+    {
+      "eventName": "talk_request_start",
+      "origin": "client",
+      "turnId": "trace_20260809t024215_3z9em_turn_1",
+      "timestamp": 1786243336805
+    },
+    {
+      "eventName": "activity_phase_changed",
+      "origin": "client",
+      "turnId": "trace_20260809t024215_3z9em_turn_1",
+      "timestamp": 1786243336805
+    },
+    {
+      "eventName": "talk_request_start",
+      "origin": "server",
+      "turnId": "trace_20260809t024215_3z9em_turn_1",
+      "timestamp": 1786243336813,
+      "transcriptPreview": "Give a brief first impression of the selected item."
+    },
+    {
+      "eventName": "audio_error",
+      "origin": "client",
+      "turnId": "trace_20260809t024215_3z9em_turn_1",
+      "timestamp": 1786243336841
+    },
+    {
+      "eventName": "handsfree_rearm_scheduled",
+      "origin": "client",
+      "timestamp": 1786243337347
+    },
+    {
+      "eventName": "handsfree_rearm_starting",
+      "origin": "client",
+      "timestamp": 1786243337708
+    },
+    {
+      "eventName": "speech_listen_start",
+      "origin": "client",
+      "timestamp": 1786243337708
+    },
+    {
+      "eventName": "talk_request_start",
+      "origin": "client",
+      "turnId": "trace_20260809t024215_3z9em_turn_1",
+      "timestamp": 1786243409362
+    },
+    {
+      "eventName": "activity_phase_changed",
+      "origin": "client",
+      "turnId": "trace_20260809t024215_3z9em_turn_1",
+      "timestamp": 1786243409365
+    },
+    {
+      "eventName": "talk_request_start",
+      "origin": "server",
+      "turnId": "trace_20260809t024215_3z9em_turn_1",
+      "timestamp": 1786243409386,
+      "transcriptPreview": "Give a brief first impression of the selected item."
+    },
+    {
+      "eventName": "audio_error",
+      "origin": "client",
+      "turnId": "trace_20260809t024215_3z9em_turn_1",
+      "timestamp": 1786243409450
+    },
+    {
+      "eventName": "talk_request_start",
+      "origin": "client",
+      "turnId": "trace_20260809t024215_3z9em_turn_1",
+      "timestamp": 1786243410335
+    },
+    {
+      "eventName": "activity_phase_changed",
+      "origin": "client",
+      "turnId": "trace_20260809t024215_3z9em_turn_1",
+      "timestamp": 1786243410336
+    },
+    {
+      "eventName": "talk_request_start",
+      "origin": "server",
+      "turnId": "trace_20260809t024215_3z9em_turn_1",
+      "timestamp": 1786243410342,
+      "transcriptPreview": "React naturally to the item that was just tried on."
+    },
+    {
+      "eventName": "audio_error",
+      "origin": "client",
+      "turnId": "trace_20260809t024215_3z9em_turn_1",
+      "timestamp": 1786243410449
+    },
+    {
+      "eventName": "talk_request_start",
+      "origin": "client",
+      "turnId": "trace_20260809t024215_3z9em_turn_1",
+      "timestamp": 1786243456683
+    },
+    {
+      "eventName": "activity_phase_changed",
+      "origin": "client",
+      "turnId": "trace_20260809t024215_3z9em_turn_1",
+      "timestamp": 1786243456684
+    },
+    {
+      "eventName": "talk_request_start",
+      "origin": "server",
+      "turnId": "trace_20260809t024215_3z9em_turn_1",
+      "timestamp": 1786243456699,
+      "transcriptPreview": "React naturally to the item that was just tried on."
+    },
+    {
+      "eventName": "audio_error",
+      "origin": "client",
+      "turnId": "trace_20260809t024215_3z9em_turn_1",
+      "timestamp": 1786243456726
+    },
+    {
+      "eventName": "talk_request_start",
+      "origin": "client",
+      "turnId": "trace_20260809t024215_3z9em_turn_1",
+      "timestamp": 1786243499016
+    },
+    {
+      "eventName": "activity_phase_changed",
+      "origin": "client",
+      "turnId": "trace_20260809t024215_3z9em_turn_1",
+      "timestamp": 1786243499018
+    },
+    {
+      "eventName": "talk_request_start",
+      "origin": "server",
+      "turnId": "trace_20260809t024215_3z9em_turn_1",
+      "timestamp": 1786243499051,
+      "transcriptPreview": "Give a brief first impression of the selected item."
+    },
+    {
+      "eventName": "audio_error",
+      "origin": "client",
+      "turnId": "trace_20260809t024215_3z9em_turn_1",
+      "timestamp": 1786243499445
+    },
+    {
+      "eventName": "talk_request_start",
+      "origin": "client",
+      "turnId": "trace_20260809t024215_3z9em_turn_1",
+      "timestamp": 1786243678939
+    },
+    {
+      "eventName": "activity_phase_changed",
+      "origin": "client",
+      "turnId": "trace_20260809t024215_3z9em_turn_1",
+      "timestamp": 1786243678941
+    },
+    {
+      "eventName": "talk_request_start",
+      "origin": "server",
+      "turnId": "trace_20260809t024215_3z9em_turn_1",
+      "timestamp": 1786243678972,
+      "transcriptPreview": "Give a brief first impression of the selected item."
+    },
+    {
+      "eventName": "audio_error",
+      "origin": "client",
+      "turnId": "trace_20260809t024215_3z9em_turn_1",
+      "timestamp": 1786243679423
+    },
+    {
+      "eventName": "call_ended",
+      "origin": "client",
+      "timestamp": 1786243717404
+    },
+    {
+      "eventName": "call_greeting_selected",
+      "origin": "client",
+      "timestamp": 1786243720393
+    },
+    {
+      "eventName": "call_greeting_audio_start",
+      "origin": "client",
+      "timestamp": 1786243721209
+    },
+    {
+      "eventName": "call_greeting_audio_ended",
+      "origin": "client",
+      "timestamp": 1786243723311
+    }
+  ],
+  "turns": [
+    {
+      "turnId": "trace_20260809t024215_3z9em_turn_1",
+      "eventNames": [
+        "talk_request_start",
+        "activity_phase_changed",
+        "talk_request_start",
+        "audio_error",
+        "talk_request_start",
+        "activity_phase_changed",
+        "talk_request_start",
+        "audio_error",
+        "talk_request_start",
+        "activity_phase_changed",
+        "talk_request_start",
+        "audio_error",
+        "talk_request_start",
+        "activity_phase_changed",
+        "talk_request_start",
+        "audio_error",
+        "talk_request_start",
+        "activity_phase_changed",
+        "talk_request_start",
+        "audio_error",
+        "talk_request_start",
+        "activity_phase_changed",
+        "talk_request_start",
+        "audio_error"
+      ],
+      "transcriptPreview": "Give a brief first impression of the selected item.",
+      "transcriptHash": "8b51f292e5ca201b"
+    }
+  ]
+}
