@@ -1,0 +1,84 @@
+{
+  "traceId": "trace_20260810t214317_4le4b",
+  "childId": "showroom",
+  "companionId": "elli",
+  "callSource": "showroom",
+  "relationshipState": "previewing",
+  "startedAt": "2026-08-10T21:43:17.343Z",
+  "eventCount": 9,
+  "loopSuspected": false,
+  "likelyCause": "game_context_overrode_social_intent",
+  "eventOrder": [
+    {
+      "eventName": "call_started",
+      "origin": "client",
+      "timestamp": 1786398197343
+    },
+    {
+      "eventName": "handsfree_rearm_scheduled",
+      "origin": "client",
+      "timestamp": 1786398202193
+    },
+    {
+      "eventName": "talk_request_start",
+      "origin": "client",
+      "turnId": "trace_20260810t214317_4le4b_turn_1",
+      "timestamp": 1786398202234
+    },
+    {
+      "eventName": "activity_phase_changed",
+      "origin": "client",
+      "turnId": "trace_20260810t214317_4le4b_turn_1",
+      "timestamp": 1786398202238
+    },
+    {
+      "eventName": "talk_request_start",
+      "origin": "server",
+      "turnId": "trace_20260810t214317_4le4b_turn_1",
+      "timestamp": 1786398202261,
+      "transcriptPreview": "Give a brief first impression of the selected item."
+    },
+    {
+      "eventName": "handsfree_rearm_skipped",
+      "origin": "client",
+      "timestamp": 1786398202555
+    },
+    {
+      "eventName": "talk_response_received",
+      "origin": "server",
+      "turnId": "trace_20260810t214317_4le4b_turn_1",
+      "timestamp": 1786398207143,
+      "responsePreview": "I'm Elli, and I'm super excited to hang out with you! I love riddles, silly ideas, and celebrating every little win with"
+    },
+    {
+      "eventName": "talk_response_received",
+      "origin": "client",
+      "turnId": "trace_20260810t214317_4le4b_turn_1",
+      "timestamp": 1786398207161
+    },
+    {
+      "eventName": "audio_play_start",
+      "origin": "client",
+      "turnId": "trace_20260810t214317_4le4b_turn_1",
+      "timestamp": 1786398207176
+    }
+  ],
+  "turns": [
+    {
+      "turnId": "trace_20260810t214317_4le4b_turn_1",
+      "eventNames": [
+        "talk_request_start",
+        "activity_phase_changed",
+        "talk_request_start",
+        "talk_response_received",
+        "talk_response_received",
+        "audio_play_start"
+      ],
+      "transcriptPreview": "Give a brief first impression of the selected item.",
+      "transcriptHash": "8b51f292e5ca201b",
+      "responsePreview": "I'm Elli, and I'm super excited to hang out with you! I love riddles, silly ideas, and celebrating every little win with",
+      "responseHash": "e21cd6514f99d305",
+      "requestToResponseMs": 4909
+    }
+  ]
+}

@@ -1,0 +1,112 @@
+{
+  "traceId": "trace_20260810t214228_2ipyj",
+  "childId": "showroom",
+  "companionId": "elli",
+  "callSource": "showroom",
+  "relationshipState": "previewing",
+  "startedAt": "2026-08-10T21:42:28.830Z",
+  "eventCount": 14,
+  "loopSuspected": false,
+  "likelyCause": "none",
+  "eventOrder": [
+    {
+      "eventName": "call_started",
+      "origin": "client",
+      "timestamp": 1786398148830
+    },
+    {
+      "eventName": "handsfree_rearm_scheduled",
+      "origin": "client",
+      "timestamp": 1786398155529
+    },
+    {
+      "eventName": "handsfree_rearm_starting",
+      "origin": "client",
+      "timestamp": 1786398155925
+    },
+    {
+      "eventName": "speech_listen_start",
+      "origin": "client",
+      "timestamp": 1786398155926
+    },
+    {
+      "eventName": "talk_request_start",
+      "origin": "client",
+      "turnId": "trace_20260810t214228_2ipyj_turn_1",
+      "timestamp": 1786398162344
+    },
+    {
+      "eventName": "activity_phase_changed",
+      "origin": "client",
+      "turnId": "trace_20260810t214228_2ipyj_turn_1",
+      "timestamp": 1786398162346
+    },
+    {
+      "eventName": "talk_request_start",
+      "origin": "server",
+      "turnId": "trace_20260810t214228_2ipyj_turn_1",
+      "timestamp": 1786398162356,
+      "transcriptPreview": "Give a brief first impression of the selected item."
+    },
+    {
+      "eventName": "talk_response_received",
+      "origin": "server",
+      "turnId": "trace_20260810t214228_2ipyj_turn_1",
+      "timestamp": 1786398165964,
+      "responsePreview": "I'm Elli, and I'm so glad you're here! I love hanging out, cracking jokes, and turning anything into an adventure."
+    },
+    {
+      "eventName": "talk_response_received",
+      "origin": "client",
+      "turnId": "trace_20260810t214228_2ipyj_turn_1",
+      "timestamp": 1786398165974
+    },
+    {
+      "eventName": "audio_play_start",
+      "origin": "client",
+      "turnId": "trace_20260810t214228_2ipyj_turn_1",
+      "timestamp": 1786398165981
+    },
+    {
+      "eventName": "audio_ended",
+      "origin": "client",
+      "turnId": "trace_20260810t214228_2ipyj_turn_1",
+      "timestamp": 1786398172028
+    },
+    {
+      "eventName": "handsfree_rearm_scheduled",
+      "origin": "client",
+      "timestamp": 1786398172033
+    },
+    {
+      "eventName": "handsfree_rearm_starting",
+      "origin": "client",
+      "timestamp": 1786398172396
+    },
+    {
+      "eventName": "speech_listen_start",
+      "origin": "client",
+      "timestamp": 1786398172396
+    }
+  ],
+  "turns": [
+    {
+      "turnId": "trace_20260810t214228_2ipyj_turn_1",
+      "eventNames": [
+        "talk_request_start",
+        "activity_phase_changed",
+        "talk_request_start",
+        "talk_response_received",
+        "talk_response_received",
+        "audio_play_start",
+        "audio_ended"
+      ],
+      "transcriptPreview": "Give a brief first impression of the selected item.",
+      "transcriptHash": "8b51f292e5ca201b",
+      "responsePreview": "I'm Elli, and I'm so glad you're here! I love hanging out, cracking jokes, and turning anything into an adventure.",
+      "responseHash": "b1e471feb4b7791f",
+      "requestToResponseMs": 3620,
+      "audioMs": 6047
+    }
+  ]
+}

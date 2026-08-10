@@ -1,0 +1,7 @@
+{
+  "persistedSessionData": true,
+  "postSessionError": "ENOENT: no such file or directory, open '/Users/jamaltaylor/Development/sunny-feedback-ingestion-proof-2026-08-09-1805/src/context/reina/soul.md'",
+  "shouldPersistSessionData": true,
+  "conversationTurns": 65,
+  "rewardLogEntries": 0
+}

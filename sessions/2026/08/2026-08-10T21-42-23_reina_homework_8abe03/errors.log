@@ -1,0 +1,9 @@
+[2026-08-10T21:54:10.754Z] Post-session chain error
+Error: ENOENT: no such file or directory, open '/Users/jamaltaylor/Development/sunny-feedback-ingestion-proof-2026-08-09-1805/src/context/reina/soul.md'
+    at Object.readFileSync (node:fs:440:20)
+    at readSoul (/Users/jamaltaylor/Development/sunny-feedback-ingestion-proof-2026-08-09-1805/src/agents/prompts.ts:36:13)
+    at summarizerSystemPrompt (/Users/jamaltaylor/Development/sunny-feedback-ingestion-proof-2026-08-09-1805/src/agents/slp-recorder/recorder.ts:8:16)
+    at recordSession (/Users/jamaltaylor/Development/sunny-feedback-ingestion-proof-2026-08-09-1805/src/agents/slp-recorder/recorder.ts:44:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async SessionManager.end (/Users/jamaltaylor/Development/sunny-feedback-ingestion-proof-2026-08-09-1805/src/server/session-manager.ts:1414:9)
+    at async WebSocket.<anonymous> (/Users/jamaltaylor/Development/sunny-feedback-ingestion-proof-2026-08-09-1805/src/server/ws-handler.ts:350:7)
