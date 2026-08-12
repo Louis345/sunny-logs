@@ -1,0 +1,1099 @@
+{
+  "traceId": "trace_20260812t214639_6e4eh",
+  "childId": "showroom",
+  "companionId": "elli",
+  "callSource": "showroom",
+  "relationshipState": "previewing",
+  "startedAt": "2026-08-12T21:46:39.454Z",
+  "eventCount": 138,
+  "loopSuspected": false,
+  "likelyCause": "slow_response",
+  "eventOrder": [
+    {
+      "eventName": "call_started",
+      "origin": "client",
+      "timestamp": 1786571199454
+    },
+    {
+      "eventName": "talk_request_start",
+      "origin": "client",
+      "turnId": "trace_20260812t214639_6e4eh_turn_1",
+      "timestamp": 1786571201299
+    },
+    {
+      "eventName": "activity_phase_changed",
+      "origin": "client",
+      "turnId": "trace_20260812t214639_6e4eh_turn_1",
+      "timestamp": 1786571201300
+    },
+    {
+      "eventName": "talk_request_start",
+      "origin": "server",
+      "turnId": "trace_20260812t214639_6e4eh_turn_1",
+      "timestamp": 1786571201314,
+      "transcriptPreview": "Give a brief first impression of the selected item."
+    },
+    {
+      "eventName": "handsfree_rearm_scheduled",
+      "origin": "client",
+      "timestamp": 1786571204790
+    },
+    {
+      "eventName": "handsfree_rearm_starting",
+      "origin": "client",
+      "timestamp": 1786571205153
+    },
+    {
+      "eventName": "speech_listen_start",
+      "origin": "client",
+      "timestamp": 1786571205154
+    },
+    {
+      "eventName": "talk_response_received",
+      "origin": "server",
+      "turnId": "trace_20260812t214639_6e4eh_turn_1",
+      "timestamp": 1786571206704,
+      "responsePreview": "Ooh, that crown is so gold and sparkly, totally my mood right now — I love it!"
+    },
+    {
+      "eventName": "talk_response_received",
+      "origin": "client",
+      "turnId": "trace_20260812t214639_6e4eh_turn_1",
+      "timestamp": 1786571206731
+    },
+    {
+      "eventName": "audio_play_start",
+      "origin": "client",
+      "turnId": "trace_20260812t214639_6e4eh_turn_1",
+      "timestamp": 1786571206742
+    },
+    {
+      "eventName": "speech_listen_start",
+      "origin": "client",
+      "timestamp": 1786571210401
+    },
+    {
+      "eventName": "speech_result",
+      "origin": "client",
+      "turnId": "trace_20260812t214639_6e4eh_turn_2",
+      "timestamp": 1786571210658
+    },
+    {
+      "eventName": "talk_request_start",
+      "origin": "client",
+      "turnId": "trace_20260812t214639_6e4eh_turn_2",
+      "timestamp": 1786571210660
+    },
+    {
+      "eventName": "activity_phase_changed",
+      "origin": "client",
+      "turnId": "trace_20260812t214639_6e4eh_turn_2",
+      "timestamp": 1786571210662
+    },
+    {
+      "eventName": "talk_request_start",
+      "origin": "server",
+      "turnId": "trace_20260812t214639_6e4eh_turn_2",
+      "timestamp": 1786571210679,
+      "transcriptPreview": "Oh, no."
+    },
+    {
+      "eventName": "talk_response_received",
+      "origin": "server",
+      "turnId": "trace_20260812t214639_6e4eh_turn_2",
+      "timestamp": 1786571215225,
+      "responsePreview": "What happened? You okay?"
+    },
+    {
+      "eventName": "talk_response_received",
+      "origin": "client",
+      "turnId": "trace_20260812t214639_6e4eh_turn_2",
+      "timestamp": 1786571215233
+    },
+    {
+      "eventName": "audio_play_start",
+      "origin": "client",
+      "turnId": "trace_20260812t214639_6e4eh_turn_2",
+      "timestamp": 1786571215239
+    },
+    {
+      "eventName": "speech_listen_start",
+      "origin": "client",
+      "timestamp": 1786571216317
+    },
+    {
+      "eventName": "speech_result",
+      "origin": "client",
+      "turnId": "trace_20260812t214639_6e4eh_turn_3",
+      "timestamp": 1786571222356
+    },
+    {
+      "eventName": "talk_request_start",
+      "origin": "client",
+      "turnId": "trace_20260812t214639_6e4eh_turn_3",
+      "timestamp": 1786571222359
+    },
+    {
+      "eventName": "activity_phase_changed",
+      "origin": "client",
+      "turnId": "trace_20260812t214639_6e4eh_turn_3",
+      "timestamp": 1786571222365
+    },
+    {
+      "eventName": "talk_request_start",
+      "origin": "server",
+      "turnId": "trace_20260812t214639_6e4eh_turn_3",
+      "timestamp": 1786571222420,
+      "transcriptPreview": "Like, it's gonna be entirely... like, so now spelling, math spelling, and math are done."
+    },
+    {
+      "eventName": "talk_response_received",
+      "origin": "server",
+      "turnId": "trace_20260812t214639_6e4eh_turn_3",
+      "timestamp": 1786571227427,
+      "responsePreview": "That's huge — spelling AND math both done means the rest of your day is actually yours now. What are you gonna do with a"
+    },
+    {
+      "eventName": "talk_response_received",
+      "origin": "client",
+      "turnId": "trace_20260812t214639_6e4eh_turn_3",
+      "timestamp": 1786571227445
+    },
+    {
+      "eventName": "audio_play_start",
+      "origin": "client",
+      "turnId": "trace_20260812t214639_6e4eh_turn_3",
+      "timestamp": 1786571227471
+    },
+    {
+      "eventName": "audio_ended",
+      "origin": "client",
+      "turnId": "trace_20260812t214639_6e4eh_turn_3",
+      "timestamp": 1786571235798
+    },
+    {
+      "eventName": "handsfree_rearm_scheduled",
+      "origin": "client",
+      "timestamp": 1786571235806
+    },
+    {
+      "eventName": "talk_request_start",
+      "origin": "client",
+      "turnId": "trace_20260812t214639_6e4eh_turn_3",
+      "timestamp": 1786571235839
+    },
+    {
+      "eventName": "activity_phase_changed",
+      "origin": "client",
+      "turnId": "trace_20260812t214639_6e4eh_turn_3",
+      "timestamp": 1786571235841
+    },
+    {
+      "eventName": "talk_request_start",
+      "origin": "server",
+      "turnId": "trace_20260812t214639_6e4eh_turn_3",
+      "timestamp": 1786571235857,
+      "transcriptPreview": "React naturally to the item that was just tried on."
+    },
+    {
+      "eventName": "handsfree_rearm_skipped",
+      "origin": "client",
+      "timestamp": 1786571236169
+    },
+    {
+      "eventName": "talk_response_received",
+      "origin": "server",
+      "turnId": "trace_20260812t214639_6e4eh_turn_3",
+      "timestamp": 1786571242441,
+      "responsePreview": "Ooh, that crown is SO your color right now, I'm totally in a gold mood too!"
+    },
+    {
+      "eventName": "talk_response_received",
+      "origin": "client",
+      "turnId": "trace_20260812t214639_6e4eh_turn_3",
+      "timestamp": 1786571242462
+    },
+    {
+      "eventName": "audio_play_start",
+      "origin": "client",
+      "turnId": "trace_20260812t214639_6e4eh_turn_3",
+      "timestamp": 1786571242474
+    },
+    {
+      "eventName": "speech_listen_start",
+      "origin": "client",
+      "timestamp": 1786571245747
+    },
+    {
+      "eventName": "speech_result",
+      "origin": "client",
+      "turnId": "trace_20260812t214639_6e4eh_turn_4",
+      "timestamp": 1786571246091
+    },
+    {
+      "eventName": "talk_request_start",
+      "origin": "client",
+      "turnId": "trace_20260812t214639_6e4eh_turn_4",
+      "timestamp": 1786571246092
+    },
+    {
+      "eventName": "activity_phase_changed",
+      "origin": "client",
+      "turnId": "trace_20260812t214639_6e4eh_turn_4",
+      "timestamp": 1786571246094
+    },
+    {
+      "eventName": "talk_request_start",
+      "origin": "server",
+      "turnId": "trace_20260812t214639_6e4eh_turn_4",
+      "timestamp": 1786571246163,
+      "transcriptPreview": "The... so sorry. Can we talk about bills?"
+    },
+    {
+      "eventName": "talk_response_received",
+      "origin": "server",
+      "turnId": "trace_20260812t214639_6e4eh_turn_4",
+      "timestamp": 1786571251745,
+      "responsePreview": "Bills? Okay, that sounds heavy for a hangout chat — what's going on?"
+    },
+    {
+      "eventName": "talk_response_received",
+      "origin": "client",
+      "turnId": "trace_20260812t214639_6e4eh_turn_4",
+      "timestamp": 1786571251763
+    },
+    {
+      "eventName": "audio_play_start",
+      "origin": "client",
+      "turnId": "trace_20260812t214639_6e4eh_turn_4",
+      "timestamp": 1786571251788
+    },
+    {
+      "eventName": "audio_ended",
+      "origin": "client",
+      "turnId": "trace_20260812t214639_6e4eh_turn_4",
+      "timestamp": 1786571255707
+    },
+    {
+      "eventName": "handsfree_rearm_scheduled",
+      "origin": "client",
+      "timestamp": 1786571255708
+    },
+    {
+      "eventName": "handsfree_rearm_starting",
+      "origin": "client",
+      "timestamp": 1786571256073
+    },
+    {
+      "eventName": "speech_listen_start",
+      "origin": "client",
+      "timestamp": 1786571256074
+    },
+    {
+      "eventName": "speech_result",
+      "origin": "client",
+      "turnId": "trace_20260812t214639_6e4eh_turn_5",
+      "timestamp": 1786571259281
+    },
+    {
+      "eventName": "talk_request_start",
+      "origin": "client",
+      "turnId": "trace_20260812t214639_6e4eh_turn_5",
+      "timestamp": 1786571259286
+    },
+    {
+      "eventName": "activity_phase_changed",
+      "origin": "client",
+      "turnId": "trace_20260812t214639_6e4eh_turn_5",
+      "timestamp": 1786571259296
+    },
+    {
+      "eventName": "talk_request_start",
+      "origin": "server",
+      "turnId": "trace_20260812t214639_6e4eh_turn_5",
+      "timestamp": 1786571259331,
+      "transcriptPreview": "So I got another six hundred, so that should be about almost two thousand. And -- How how can I help"
+    },
+    {
+      "eventName": "talk_response_received",
+      "origin": "server",
+      "turnId": "trace_20260812t214639_6e4eh_turn_5",
+      "timestamp": 1786571264212,
+      "responsePreview": "That math is looking awesome, six hundred more really adds up fast! And a"
+    },
+    {
+      "eventName": "talk_response_received",
+      "origin": "client",
+      "turnId": "trace_20260812t214639_6e4eh_turn_5",
+      "timestamp": 1786571264217
+    },
+    {
+      "eventName": "audio_play_start",
+      "origin": "client",
+      "turnId": "trace_20260812t214639_6e4eh_turn_5",
+      "timestamp": 1786571264227
+    },
+    {
+      "eventName": "audio_ended",
+      "origin": "client",
+      "turnId": "trace_20260812t214639_6e4eh_turn_5",
+      "timestamp": 1786571268691
+    },
+    {
+      "eventName": "handsfree_rearm_scheduled",
+      "origin": "client",
+      "timestamp": 1786571268699
+    },
+    {
+      "eventName": "handsfree_rearm_starting",
+      "origin": "client",
+      "timestamp": 1786571269061
+    },
+    {
+      "eventName": "speech_listen_start",
+      "origin": "client",
+      "timestamp": 1786571269061
+    },
+    {
+      "eventName": "speech_result",
+      "origin": "client",
+      "turnId": "trace_20260812t214639_6e4eh_turn_6",
+      "timestamp": 1786571269545
+    },
+    {
+      "eventName": "talk_request_start",
+      "origin": "client",
+      "turnId": "trace_20260812t214639_6e4eh_turn_6",
+      "timestamp": 1786571269546
+    },
+    {
+      "eventName": "activity_phase_changed",
+      "origin": "client",
+      "turnId": "trace_20260812t214639_6e4eh_turn_6",
+      "timestamp": 1786571269548
+    },
+    {
+      "eventName": "talk_request_start",
+      "origin": "server",
+      "turnId": "trace_20260812t214639_6e4eh_turn_6",
+      "timestamp": 1786571269563,
+      "transcriptPreview": "So I got another six hundred, so that should be about almost two thousand. And -- How how can I help you? So that should"
+    },
+    {
+      "eventName": "talk_response_received",
+      "origin": "server",
+      "turnId": "trace_20260812t214639_6e4eh_turn_6",
+      "timestamp": 1786571274095,
+      "responsePreview": "Ooh, two thousand dollars, fancy! Are we playing some kind of money game"
+    },
+    {
+      "eventName": "talk_response_received",
+      "origin": "client",
+      "turnId": "trace_20260812t214639_6e4eh_turn_6",
+      "timestamp": 1786571274099
+    },
+    {
+      "eventName": "audio_play_start",
+      "origin": "client",
+      "turnId": "trace_20260812t214639_6e4eh_turn_6",
+      "timestamp": 1786571274104
+    },
+    {
+      "eventName": "audio_ended",
+      "origin": "client",
+      "turnId": "trace_20260812t214639_6e4eh_turn_6",
+      "timestamp": 1786571277898
+    },
+    {
+      "eventName": "handsfree_rearm_scheduled",
+      "origin": "client",
+      "timestamp": 1786571277912
+    },
+    {
+      "eventName": "handsfree_rearm_starting",
+      "origin": "client",
+      "timestamp": 1786571278275
+    },
+    {
+      "eventName": "speech_listen_start",
+      "origin": "client",
+      "timestamp": 1786571278279
+    },
+    {
+      "eventName": "speech_result",
+      "origin": "client",
+      "turnId": "trace_20260812t214639_6e4eh_turn_7",
+      "timestamp": 1786571285756
+    },
+    {
+      "eventName": "talk_request_start",
+      "origin": "client",
+      "turnId": "trace_20260812t214639_6e4eh_turn_7",
+      "timestamp": 1786571285761
+    },
+    {
+      "eventName": "activity_phase_changed",
+      "origin": "client",
+      "turnId": "trace_20260812t214639_6e4eh_turn_7",
+      "timestamp": 1786571285763
+    },
+    {
+      "eventName": "talk_request_start",
+      "origin": "server",
+      "turnId": "trace_20260812t214639_6e4eh_turn_7",
+      "timestamp": 1786571285799,
+      "transcriptPreview": "Amex now."
+    },
+    {
+      "eventName": "talk_response_received",
+      "origin": "server",
+      "turnId": "trace_20260812t214639_6e4eh_turn_7",
+      "timestamp": 1786571289626,
+      "responsePreview": "Whoa, Amex? That came out of nowhere — what's going on, what are you trying to get?"
+    },
+    {
+      "eventName": "talk_response_received",
+      "origin": "client",
+      "turnId": "trace_20260812t214639_6e4eh_turn_7",
+      "timestamp": 1786571289633
+    },
+    {
+      "eventName": "audio_play_start",
+      "origin": "client",
+      "turnId": "trace_20260812t214639_6e4eh_turn_7",
+      "timestamp": 1786571289656
+    },
+    {
+      "eventName": "audio_ended",
+      "origin": "client",
+      "turnId": "trace_20260812t214639_6e4eh_turn_7",
+      "timestamp": 1786571294274
+    },
+    {
+      "eventName": "handsfree_rearm_scheduled",
+      "origin": "client",
+      "timestamp": 1786571294277
+    },
+    {
+      "eventName": "handsfree_rearm_starting",
+      "origin": "client",
+      "timestamp": 1786571294639
+    },
+    {
+      "eventName": "speech_listen_start",
+      "origin": "client",
+      "timestamp": 1786571294640
+    },
+    {
+      "eventName": "speech_result",
+      "origin": "client",
+      "turnId": "trace_20260812t214639_6e4eh_turn_8",
+      "timestamp": 1786571296495
+    },
+    {
+      "eventName": "talk_request_start",
+      "origin": "client",
+      "turnId": "trace_20260812t214639_6e4eh_turn_8",
+      "timestamp": 1786571296500
+    },
+    {
+      "eventName": "activity_phase_changed",
+      "origin": "client",
+      "turnId": "trace_20260812t214639_6e4eh_turn_8",
+      "timestamp": 1786571296508
+    },
+    {
+      "eventName": "talk_request_start",
+      "origin": "server",
+      "turnId": "trace_20260812t214639_6e4eh_turn_8",
+      "timestamp": 1786571296541,
+      "transcriptPreview": "Amex now. And, uh, yeah, it's. How much is in checking?"
+    },
+    {
+      "eventName": "talk_response_received",
+      "origin": "server",
+      "turnId": "trace_20260812t214639_6e4eh_turn_8",
+      "timestamp": 1786571301365,
+      "responsePreview": "I don't have access to bank stuff like that, silly! But"
+    },
+    {
+      "eventName": "talk_response_received",
+      "origin": "client",
+      "turnId": "trace_20260812t214639_6e4eh_turn_8",
+      "timestamp": 1786571301372
+    },
+    {
+      "eventName": "audio_play_start",
+      "origin": "client",
+      "turnId": "trace_20260812t214639_6e4eh_turn_8",
+      "timestamp": 1786571301376
+    },
+    {
+      "eventName": "speech_listen_start",
+      "origin": "client",
+      "timestamp": 1786571302504
+    },
+    {
+      "eventName": "speech_result",
+      "origin": "client",
+      "turnId": "trace_20260812t214639_6e4eh_turn_9",
+      "timestamp": 1786571308061
+    },
+    {
+      "eventName": "talk_request_start",
+      "origin": "client",
+      "turnId": "trace_20260812t214639_6e4eh_turn_9",
+      "timestamp": 1786571308071
+    },
+    {
+      "eventName": "activity_phase_changed",
+      "origin": "client",
+      "turnId": "trace_20260812t214639_6e4eh_turn_9",
+      "timestamp": 1786571308077
+    },
+    {
+      "eventName": "talk_request_start",
+      "origin": "server",
+      "turnId": "trace_20260812t214639_6e4eh_turn_9",
+      "timestamp": 1786571308291,
+      "transcriptPreview": "Chicken now is two thousand. So let me see."
+    },
+    {
+      "eventName": "talk_response_received",
+      "origin": "server",
+      "turnId": "trace_20260812t214639_6e4eh_turn_9",
+      "timestamp": 1786571311482,
+      "responsePreview": "Ooh, two thousand chicken, fancy! What are we shopping for or building with all that?"
+    },
+    {
+      "eventName": "talk_response_received",
+      "origin": "client",
+      "turnId": "trace_20260812t214639_6e4eh_turn_9",
+      "timestamp": 1786571311489
+    },
+    {
+      "eventName": "audio_play_start",
+      "origin": "client",
+      "turnId": "trace_20260812t214639_6e4eh_turn_9",
+      "timestamp": 1786571311493
+    },
+    {
+      "eventName": "speech_listen_start",
+      "origin": "client",
+      "timestamp": 1786571312793
+    },
+    {
+      "eventName": "speech_result",
+      "origin": "client",
+      "turnId": "trace_20260812t214639_6e4eh_turn_10",
+      "timestamp": 1786571312971
+    },
+    {
+      "eventName": "talk_request_start",
+      "origin": "client",
+      "turnId": "trace_20260812t214639_6e4eh_turn_10",
+      "timestamp": 1786571312972
+    },
+    {
+      "eventName": "activity_phase_changed",
+      "origin": "client",
+      "turnId": "trace_20260812t214639_6e4eh_turn_10",
+      "timestamp": 1786571312973
+    },
+    {
+      "eventName": "talk_request_start",
+      "origin": "server",
+      "turnId": "trace_20260812t214639_6e4eh_turn_10",
+      "timestamp": 1786571312987,
+      "transcriptPreview": "Chicken now is two thousand. So let me see. Two thousand."
+    },
+    {
+      "eventName": "talk_response_received",
+      "origin": "server",
+      "turnId": "trace_20260812t214639_6e4eh_turn_10",
+      "timestamp": 1786571316114,
+      "responsePreview": "Whoa, two thousand chickens?! That's a whole chicken army, what are you counting them for?"
+    },
+    {
+      "eventName": "talk_response_received",
+      "origin": "client",
+      "turnId": "trace_20260812t214639_6e4eh_turn_10",
+      "timestamp": 1786571316130
+    },
+    {
+      "eventName": "audio_play_start",
+      "origin": "client",
+      "turnId": "trace_20260812t214639_6e4eh_turn_10",
+      "timestamp": 1786571316138
+    },
+    {
+      "eventName": "audio_ended",
+      "origin": "client",
+      "turnId": "trace_20260812t214639_6e4eh_turn_10",
+      "timestamp": 1786571320795
+    },
+    {
+      "eventName": "handsfree_rearm_scheduled",
+      "origin": "client",
+      "timestamp": 1786571320799
+    },
+    {
+      "eventName": "handsfree_rearm_starting",
+      "origin": "client",
+      "timestamp": 1786571321162
+    },
+    {
+      "eventName": "speech_listen_start",
+      "origin": "client",
+      "timestamp": 1786571321162
+    },
+    {
+      "eventName": "speech_result",
+      "origin": "client",
+      "turnId": "trace_20260812t214639_6e4eh_turn_11",
+      "timestamp": 1786571335987
+    },
+    {
+      "eventName": "talk_request_start",
+      "origin": "client",
+      "turnId": "trace_20260812t214639_6e4eh_turn_11",
+      "timestamp": 1786571335988
+    },
+    {
+      "eventName": "activity_phase_changed",
+      "origin": "client",
+      "turnId": "trace_20260812t214639_6e4eh_turn_11",
+      "timestamp": 1786571335991
+    },
+    {
+      "eventName": "talk_request_start",
+      "origin": "server",
+      "turnId": "trace_20260812t214639_6e4eh_turn_11",
+      "timestamp": 1786571336015,
+      "transcriptPreview": "Chicken now is two thousand. So let me see. Two thousand. So we have to pay, uh, the five... about five hundred by seven"
+    },
+    {
+      "eventName": "talk_response_received",
+      "origin": "server",
+      "turnId": "trace_20260812t214639_6e4eh_turn_11",
+      "timestamp": 1786571340392,
+      "responsePreview": "Whoa, big numbers today! So wait, are we buying a giant two-thousand-"
+    },
+    {
+      "eventName": "talk_response_received",
+      "origin": "client",
+      "turnId": "trace_20260812t214639_6e4eh_turn_11",
+      "timestamp": 1786571340404
+    },
+    {
+      "eventName": "audio_play_start",
+      "origin": "client",
+      "turnId": "trace_20260812t214639_6e4eh_turn_11",
+      "timestamp": 1786571340424
+    },
+    {
+      "eventName": "speech_listen_start",
+      "origin": "client",
+      "timestamp": 1786571341770
+    },
+    {
+      "eventName": "speech_result",
+      "origin": "client",
+      "turnId": "trace_20260812t214639_6e4eh_turn_12",
+      "timestamp": 1786571345239
+    },
+    {
+      "eventName": "talk_request_start",
+      "origin": "client",
+      "turnId": "trace_20260812t214639_6e4eh_turn_12",
+      "timestamp": 1786571345240
+    },
+    {
+      "eventName": "activity_phase_changed",
+      "origin": "client",
+      "turnId": "trace_20260812t214639_6e4eh_turn_12",
+      "timestamp": 1786571345241
+    },
+    {
+      "eventName": "talk_request_start",
+      "origin": "server",
+      "turnId": "trace_20260812t214639_6e4eh_turn_12",
+      "timestamp": 1786571345253,
+      "transcriptPreview": "But seventeen is five hundred. A total -- It's one more of"
+    },
+    {
+      "eventName": "talk_response_received",
+      "origin": "server",
+      "turnId": "trace_20260812t214639_6e4eh_turn_12",
+      "timestamp": 1786571349539,
+      "responsePreview": "Ha, seventeen equals five hundred? That's a wild new math rule, I love it. What's one more of?"
+    },
+    {
+      "eventName": "talk_response_received",
+      "origin": "client",
+      "turnId": "trace_20260812t214639_6e4eh_turn_12",
+      "timestamp": 1786571349545
+    },
+    {
+      "eventName": "audio_play_start",
+      "origin": "client",
+      "turnId": "trace_20260812t214639_6e4eh_turn_12",
+      "timestamp": 1786571349552
+    },
+    {
+      "eventName": "speech_listen_start",
+      "origin": "client",
+      "timestamp": 1786571349961
+    },
+    {
+      "eventName": "speech_result",
+      "origin": "client",
+      "turnId": "trace_20260812t214639_6e4eh_turn_13",
+      "timestamp": 1786571354349
+    },
+    {
+      "eventName": "talk_request_start",
+      "origin": "client",
+      "turnId": "trace_20260812t214639_6e4eh_turn_13",
+      "timestamp": 1786571354351
+    },
+    {
+      "eventName": "activity_phase_changed",
+      "origin": "client",
+      "turnId": "trace_20260812t214639_6e4eh_turn_13",
+      "timestamp": 1786571354352
+    },
+    {
+      "eventName": "talk_request_start",
+      "origin": "server",
+      "turnId": "trace_20260812t214639_6e4eh_turn_13",
+      "timestamp": 1786571354418,
+      "transcriptPreview": "But seventeen is five hundred. A total -- It's one more of -- In the Amex -- So I just look... if I just make two thousa"
+    },
+    {
+      "eventName": "talk_response_received",
+      "origin": "server",
+      "turnId": "trace_20260812t214639_6e4eh_turn_13",
+      "timestamp": 1786571358554,
+      "responsePreview": "Whoa, that's a lot of numbers flying around at once! What are you trying to figure out—like a money thing or a puzzle?"
+    },
+    {
+      "eventName": "talk_response_received",
+      "origin": "client",
+      "turnId": "trace_20260812t214639_6e4eh_turn_13",
+      "timestamp": 1786571358571
+    },
+    {
+      "eventName": "audio_play_start",
+      "origin": "client",
+      "turnId": "trace_20260812t214639_6e4eh_turn_13",
+      "timestamp": 1786571358595
+    },
+    {
+      "eventName": "speech_listen_start",
+      "origin": "client",
+      "timestamp": 1786571364305
+    },
+    {
+      "eventName": "speech_result",
+      "origin": "client",
+      "turnId": "trace_20260812t214639_6e4eh_turn_14",
+      "timestamp": 1786571367574
+    },
+    {
+      "eventName": "talk_request_start",
+      "origin": "client",
+      "turnId": "trace_20260812t214639_6e4eh_turn_14",
+      "timestamp": 1786571367575
+    },
+    {
+      "eventName": "activity_phase_changed",
+      "origin": "client",
+      "turnId": "trace_20260812t214639_6e4eh_turn_14",
+      "timestamp": 1786571367576
+    },
+    {
+      "eventName": "talk_request_start",
+      "origin": "server",
+      "turnId": "trace_20260812t214639_6e4eh_turn_14",
+      "timestamp": 1786571367590,
+      "transcriptPreview": "Yeah. This one? Yeah. So so how much so how much is in the... how much?"
+    },
+    {
+      "eventName": "talk_response_received",
+      "origin": "server",
+      "turnId": "trace_20260812t214639_6e4eh_turn_14",
+      "timestamp": 1786571372058,
+      "responsePreview": "That crown's 20 coins, and you've got 15 in your pocket right now — so close! Want me to tell you what I think of it any"
+    },
+    {
+      "eventName": "talk_response_received",
+      "origin": "client",
+      "turnId": "trace_20260812t214639_6e4eh_turn_14",
+      "timestamp": 1786571372067
+    },
+    {
+      "eventName": "audio_play_start",
+      "origin": "client",
+      "turnId": "trace_20260812t214639_6e4eh_turn_14",
+      "timestamp": 1786571372072
+    }
+  ],
+  "turns": [
+    {
+      "turnId": "trace_20260812t214639_6e4eh_turn_1",
+      "eventNames": [
+        "talk_request_start",
+        "activity_phase_changed",
+        "talk_request_start",
+        "talk_response_received",
+        "talk_response_received",
+        "audio_play_start"
+      ],
+      "transcriptPreview": "Give a brief first impression of the selected item.",
+      "transcriptHash": "8b51f292e5ca201b",
+      "responsePreview": "Ooh, that crown is so gold and sparkly, totally my mood right now — I love it!",
+      "responseHash": "af8ccdb17d560afe",
+      "requestToResponseMs": 5405
+    },
+    {
+      "turnId": "trace_20260812t214639_6e4eh_turn_2",
+      "eventNames": [
+        "speech_result",
+        "talk_request_start",
+        "activity_phase_changed",
+        "talk_request_start",
+        "talk_response_received",
+        "talk_response_received",
+        "audio_play_start"
+      ],
+      "transcriptPreview": "Oh, no.",
+      "transcriptHash": "5e4dec1744be5ad9",
+      "responsePreview": "What happened? You okay?",
+      "responseHash": "3d23b69a43d0f4a9",
+      "requestToResponseMs": 4565
+    },
+    {
+      "turnId": "trace_20260812t214639_6e4eh_turn_3",
+      "eventNames": [
+        "speech_result",
+        "talk_request_start",
+        "activity_phase_changed",
+        "talk_request_start",
+        "talk_response_received",
+        "talk_response_received",
+        "audio_play_start",
+        "audio_ended",
+        "talk_request_start",
+        "activity_phase_changed",
+        "talk_request_start",
+        "talk_response_received",
+        "talk_response_received",
+        "audio_play_start"
+      ],
+      "transcriptPreview": "Like, it's gonna be entirely... like, so now spelling, math spelling, and math are done.",
+      "transcriptHash": "af3f7352df2ba4b3",
+      "responsePreview": "That's huge — spelling AND math both done means the rest of your day is actually yours now. What are you gonna do with a",
+      "responseHash": "635331a1b8f76c93",
+      "requestToResponseMs": 5068,
+      "audioMs": 8327
+    },
+    {
+      "turnId": "trace_20260812t214639_6e4eh_turn_4",
+      "eventNames": [
+        "speech_result",
+        "talk_request_start",
+        "activity_phase_changed",
+        "talk_request_start",
+        "talk_response_received",
+        "talk_response_received",
+        "audio_play_start",
+        "audio_ended"
+      ],
+      "transcriptPreview": "The... so sorry. Can we talk about bills?",
+      "transcriptHash": "833d99ef2d15aa0c",
+      "responsePreview": "Bills? Okay, that sounds heavy for a hangout chat — what's going on?",
+      "responseHash": "b63af6c1cf5a17a1",
+      "requestToResponseMs": 5653,
+      "audioMs": 3919
+    },
+    {
+      "turnId": "trace_20260812t214639_6e4eh_turn_5",
+      "eventNames": [
+        "speech_result",
+        "talk_request_start",
+        "activity_phase_changed",
+        "talk_request_start",
+        "talk_response_received",
+        "talk_response_received",
+        "audio_play_start",
+        "audio_ended"
+      ],
+      "transcriptPreview": "So I got another six hundred, so that should be about almost two thousand. And -- How how can I help",
+      "transcriptHash": "ec35e6560aed0bd8",
+      "responsePreview": "That math is looking awesome, six hundred more really adds up fast! And a",
+      "responseHash": "8f65656622af49a0",
+      "requestToResponseMs": 4926,
+      "audioMs": 4464
+    },
+    {
+      "turnId": "trace_20260812t214639_6e4eh_turn_6",
+      "eventNames": [
+        "speech_result",
+        "talk_request_start",
+        "activity_phase_changed",
+        "talk_request_start",
+        "talk_response_received",
+        "talk_response_received",
+        "audio_play_start",
+        "audio_ended"
+      ],
+      "transcriptPreview": "So I got another six hundred, so that should be about almost two thousand. And -- How how can I help you? So that should",
+      "transcriptHash": "93c97e8754905db5",
+      "responsePreview": "Ooh, two thousand dollars, fancy! Are we playing some kind of money game",
+      "responseHash": "c30c476f89f7fe4f",
+      "requestToResponseMs": 4549,
+      "audioMs": 3794
+    },
+    {
+      "turnId": "trace_20260812t214639_6e4eh_turn_7",
+      "eventNames": [
+        "speech_result",
+        "talk_request_start",
+        "activity_phase_changed",
+        "talk_request_start",
+        "talk_response_received",
+        "talk_response_received",
+        "audio_play_start",
+        "audio_ended"
+      ],
+      "transcriptPreview": "Amex now.",
+      "transcriptHash": "328ac2b920bd29a4",
+      "responsePreview": "Whoa, Amex? That came out of nowhere — what's going on, what are you trying to get?",
+      "responseHash": "5fce0625bf592e30",
+      "requestToResponseMs": 3865,
+      "audioMs": 4618
+    },
+    {
+      "turnId": "trace_20260812t214639_6e4eh_turn_8",
+      "eventNames": [
+        "speech_result",
+        "talk_request_start",
+        "activity_phase_changed",
+        "talk_request_start",
+        "talk_response_received",
+        "talk_response_received",
+        "audio_play_start"
+      ],
+      "transcriptPreview": "Amex now. And, uh, yeah, it's. How much is in checking?",
+      "transcriptHash": "c7365ea80f4cbe3e",
+      "responsePreview": "I don't have access to bank stuff like that, silly! But",
+      "responseHash": "1ed824c7010dcbd2",
+      "requestToResponseMs": 4865
+    },
+    {
+      "turnId": "trace_20260812t214639_6e4eh_turn_9",
+      "eventNames": [
+        "speech_result",
+        "talk_request_start",
+        "activity_phase_changed",
+        "talk_request_start",
+        "talk_response_received",
+        "talk_response_received",
+        "audio_play_start"
+      ],
+      "transcriptPreview": "Chicken now is two thousand. So let me see.",
+      "transcriptHash": "a119b64bb58f14fa",
+      "responsePreview": "Ooh, two thousand chicken, fancy! What are we shopping for or building with all that?",
+      "responseHash": "ad14f207f9622000",
+      "requestToResponseMs": 3411
+    },
+    {
+      "turnId": "trace_20260812t214639_6e4eh_turn_10",
+      "eventNames": [
+        "speech_result",
+        "talk_request_start",
+        "activity_phase_changed",
+        "talk_request_start",
+        "talk_response_received",
+        "talk_response_received",
+        "audio_play_start",
+        "audio_ended"
+      ],
+      "transcriptPreview": "Chicken now is two thousand. So let me see. Two thousand.",
+      "transcriptHash": "c028069ec68fac0a",
+      "responsePreview": "Whoa, two thousand chickens?! That's a whole chicken army, what are you counting them for?",
+      "responseHash": "3ba1ad23954f9f7a",
+      "requestToResponseMs": 3142,
+      "audioMs": 4657
+    },
+    {
+      "turnId": "trace_20260812t214639_6e4eh_turn_11",
+      "eventNames": [
+        "speech_result",
+        "talk_request_start",
+        "activity_phase_changed",
+        "talk_request_start",
+        "talk_response_received",
+        "talk_response_received",
+        "audio_play_start"
+      ],
+      "transcriptPreview": "Chicken now is two thousand. So let me see. Two thousand. So we have to pay, uh, the five... about five hundred by seven",
+      "transcriptHash": "91987bf4a7e540eb",
+      "responsePreview": "Whoa, big numbers today! So wait, are we buying a giant two-thousand-",
+      "responseHash": "cc01efb7f58f1a2e",
+      "requestToResponseMs": 4404
+    },
+    {
+      "turnId": "trace_20260812t214639_6e4eh_turn_12",
+      "eventNames": [
+        "speech_result",
+        "talk_request_start",
+        "activity_phase_changed",
+        "talk_request_start",
+        "talk_response_received",
+        "talk_response_received",
+        "audio_play_start"
+      ],
+      "transcriptPreview": "But seventeen is five hundred. A total -- It's one more of",
+      "transcriptHash": "90b9b2dfccef28fc",
+      "responsePreview": "Ha, seventeen equals five hundred? That's a wild new math rule, I love it. What's one more of?",
+      "responseHash": "c622fd5479ffa32d",
+      "requestToResponseMs": 4299
+    },
+    {
+      "turnId": "trace_20260812t214639_6e4eh_turn_13",
+      "eventNames": [
+        "speech_result",
+        "talk_request_start",
+        "activity_phase_changed",
+        "talk_request_start",
+        "talk_response_received",
+        "talk_response_received",
+        "audio_play_start"
+      ],
+      "transcriptPreview": "But seventeen is five hundred. A total -- It's one more of -- In the Amex -- So I just look... if I just make two thousa",
+      "transcriptHash": "550613047ea9daac",
+      "responsePreview": "Whoa, that's a lot of numbers flying around at once! What are you trying to figure out—like a money thing or a puzzle?",
+      "responseHash": "068639ddd85c1558",
+      "requestToResponseMs": 4203
+    },
+    {
+      "turnId": "trace_20260812t214639_6e4eh_turn_14",
+      "eventNames": [
+        "speech_result",
+        "talk_request_start",
+        "activity_phase_changed",
+        "talk_request_start",
+        "talk_response_received",
+        "talk_response_received",
+        "audio_play_start"
+      ],
+      "transcriptPreview": "Yeah. This one? Yeah. So so how much so how much is in the... how much?",
+      "transcriptHash": "74fe6dd373edab5f",
+      "responsePreview": "That crown's 20 coins, and you've got 15 in your pocket right now — so close! Want me to tell you what I think of it any",
+      "responseHash": "013332803e35f64a",
+      "requestToResponseMs": 4483
+    }
+  ]
+}
