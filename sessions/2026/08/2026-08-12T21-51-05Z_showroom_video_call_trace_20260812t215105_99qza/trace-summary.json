@@ -1,0 +1,133 @@
+{
+  "traceId": "trace_20260812t215105_99qza",
+  "childId": "showroom",
+  "companionId": "elli",
+  "callSource": "showroom",
+  "relationshipState": "previewing",
+  "startedAt": "2026-08-12T21:51:05.837Z",
+  "eventCount": 15,
+  "loopSuspected": false,
+  "likelyCause": "none",
+  "eventOrder": [
+    {
+      "eventName": "call_started",
+      "origin": "client",
+      "timestamp": 1786571465837
+    },
+    {
+      "eventName": "talk_request_start",
+      "origin": "client",
+      "turnId": "trace_20260812t215105_99qza_turn_1",
+      "timestamp": 1786571467443
+    },
+    {
+      "eventName": "activity_phase_changed",
+      "origin": "client",
+      "turnId": "trace_20260812t215105_99qza_turn_1",
+      "timestamp": 1786571467446
+    },
+    {
+      "eventName": "talk_request_start",
+      "origin": "server",
+      "turnId": "trace_20260812t215105_99qza_turn_1",
+      "timestamp": 1786571467457,
+      "transcriptPreview": "Give a brief first impression of the selected item."
+    },
+    {
+      "eventName": "talk_response_received",
+      "origin": "server",
+      "turnId": "trace_20260812t215105_99qza_turn_1",
+      "timestamp": 1786571471622,
+      "responsePreview": "Ooh, a crown? Yes please, I am so in a gold mood right now!"
+    },
+    {
+      "eventName": "talk_response_received",
+      "origin": "client",
+      "turnId": "trace_20260812t215105_99qza_turn_1",
+      "timestamp": 1786571471632
+    },
+    {
+      "eventName": "audio_play_start",
+      "origin": "client",
+      "turnId": "trace_20260812t215105_99qza_turn_1",
+      "timestamp": 1786571471638
+    },
+    {
+      "eventName": "audio_ended",
+      "origin": "client",
+      "turnId": "trace_20260812t215105_99qza_turn_1",
+      "timestamp": 1786571475015
+    },
+    {
+      "eventName": "talk_request_start",
+      "origin": "client",
+      "turnId": "trace_20260812t215105_99qza_turn_1",
+      "timestamp": 1786571479734
+    },
+    {
+      "eventName": "activity_phase_changed",
+      "origin": "client",
+      "turnId": "trace_20260812t215105_99qza_turn_1",
+      "timestamp": 1786571479734
+    },
+    {
+      "eventName": "talk_request_start",
+      "origin": "server",
+      "turnId": "trace_20260812t215105_99qza_turn_1",
+      "timestamp": 1786571479739,
+      "transcriptPreview": "React naturally to the item that was just tried on."
+    },
+    {
+      "eventName": "talk_response_received",
+      "origin": "server",
+      "turnId": "trace_20260812t215105_99qza_turn_1",
+      "timestamp": 1786571486336,
+      "responsePreview": "Ooh, that crown is giving me such a gold mood right now, I'm obsessed!"
+    },
+    {
+      "eventName": "talk_response_received",
+      "origin": "client",
+      "turnId": "trace_20260812t215105_99qza_turn_1",
+      "timestamp": 1786571486347
+    },
+    {
+      "eventName": "audio_play_start",
+      "origin": "client",
+      "turnId": "trace_20260812t215105_99qza_turn_1",
+      "timestamp": 1786571486350
+    },
+    {
+      "eventName": "audio_ended",
+      "origin": "client",
+      "turnId": "trace_20260812t215105_99qza_turn_1",
+      "timestamp": 1786571489962
+    }
+  ],
+  "turns": [
+    {
+      "turnId": "trace_20260812t215105_99qza_turn_1",
+      "eventNames": [
+        "talk_request_start",
+        "activity_phase_changed",
+        "talk_request_start",
+        "talk_response_received",
+        "talk_response_received",
+        "audio_play_start",
+        "audio_ended",
+        "talk_request_start",
+        "activity_phase_changed",
+        "talk_request_start",
+        "talk_response_received",
+        "talk_response_received",
+        "audio_play_start",
+        "audio_ended"
+      ],
+      "transcriptPreview": "Give a brief first impression of the selected item.",
+      "transcriptHash": "8b51f292e5ca201b",
+      "responsePreview": "Ooh, a crown? Yes please, I am so in a gold mood right now!",
+      "responseHash": "494b6875306f00f0",
+      "requestToResponseMs": 4179,
+      "audioMs": 3377
+    }
+  ]
+}

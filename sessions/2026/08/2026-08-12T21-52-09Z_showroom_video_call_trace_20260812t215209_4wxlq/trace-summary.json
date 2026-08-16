@@ -1,0 +1,82 @@
+{
+  "traceId": "trace_20260812t215209_4wxlq",
+  "childId": "showroom",
+  "companionId": "elli",
+  "callSource": "showroom",
+  "relationshipState": "previewing",
+  "startedAt": "2026-08-12T21:52:09.402Z",
+  "eventCount": 8,
+  "loopSuspected": false,
+  "likelyCause": "slow_response",
+  "eventOrder": [
+    {
+      "eventName": "call_started",
+      "origin": "client",
+      "timestamp": 1786571529402
+    },
+    {
+      "eventName": "talk_request_start",
+      "origin": "client",
+      "turnId": "trace_20260812t215209_4wxlq_turn_1",
+      "timestamp": 1786571530701
+    },
+    {
+      "eventName": "activity_phase_changed",
+      "origin": "client",
+      "turnId": "trace_20260812t215209_4wxlq_turn_1",
+      "timestamp": 1786571530703
+    },
+    {
+      "eventName": "talk_request_start",
+      "origin": "server",
+      "turnId": "trace_20260812t215209_4wxlq_turn_1",
+      "timestamp": 1786571530718,
+      "transcriptPreview": "Give a brief first impression of the selected item."
+    },
+    {
+      "eventName": "talk_response_received",
+      "origin": "server",
+      "turnId": "trace_20260812t215209_4wxlq_turn_1",
+      "timestamp": 1786571537988,
+      "responsePreview": "I'm here with you. Let's keep going."
+    },
+    {
+      "eventName": "talk_response_received",
+      "origin": "client",
+      "turnId": "trace_20260812t215209_4wxlq_turn_1",
+      "timestamp": 1786571538090
+    },
+    {
+      "eventName": "audio_play_start",
+      "origin": "client",
+      "turnId": "trace_20260812t215209_4wxlq_turn_1",
+      "timestamp": 1786571538101
+    },
+    {
+      "eventName": "audio_ended",
+      "origin": "client",
+      "turnId": "trace_20260812t215209_4wxlq_turn_1",
+      "timestamp": 1786571539998
+    }
+  ],
+  "turns": [
+    {
+      "turnId": "trace_20260812t215209_4wxlq_turn_1",
+      "eventNames": [
+        "talk_request_start",
+        "activity_phase_changed",
+        "talk_request_start",
+        "talk_response_received",
+        "talk_response_received",
+        "audio_play_start",
+        "audio_ended"
+      ],
+      "transcriptPreview": "Give a brief first impression of the selected item.",
+      "transcriptHash": "8b51f292e5ca201b",
+      "responsePreview": "I'm here with you. Let's keep going.",
+      "responseHash": "504319378d4081a0",
+      "requestToResponseMs": 7287,
+      "audioMs": 1897
+    }
+  ]
+}

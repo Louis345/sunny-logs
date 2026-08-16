@@ -1,0 +1,306 @@
+{
+  "traceId": "trace_20260816t204520_75fm6",
+  "childId": "showroom",
+  "companionId": "elli",
+  "callSource": "showroom",
+  "relationshipState": "previewing",
+  "startedAt": "2026-08-16T20:45:20.130Z",
+  "eventCount": 36,
+  "loopSuspected": false,
+  "likelyCause": "slow_response",
+  "eventOrder": [
+    {
+      "eventName": "call_started",
+      "origin": "client",
+      "timestamp": 1786913120130
+    },
+    {
+      "eventName": "talk_request_start",
+      "origin": "client",
+      "turnId": "trace_20260816t204520_75fm6_turn_1",
+      "timestamp": 1786913174565
+    },
+    {
+      "eventName": "activity_phase_changed",
+      "origin": "client",
+      "turnId": "trace_20260816t204520_75fm6_turn_1",
+      "timestamp": 1786913174566
+    },
+    {
+      "eventName": "talk_request_start",
+      "origin": "server",
+      "turnId": "trace_20260816t204520_75fm6_turn_1",
+      "timestamp": 1786913174584,
+      "transcriptPreview": "Give a brief first impression of the selected item."
+    },
+    {
+      "eventName": "talk_response_received",
+      "origin": "server",
+      "turnId": "trace_20260816t204520_75fm6_turn_1",
+      "timestamp": 1786913212842,
+      "responsePreview": "That purple hero look is super cool and bold, ngl, but I'm just not feeling that heroic-bold vibe on me today. You could"
+    },
+    {
+      "eventName": "talk_request_start",
+      "origin": "client",
+      "turnId": "trace_20260816t204520_75fm6_turn_1",
+      "timestamp": 1786913212872
+    },
+    {
+      "eventName": "activity_phase_changed",
+      "origin": "client",
+      "turnId": "trace_20260816t204520_75fm6_turn_1",
+      "timestamp": 1786913212873
+    },
+    {
+      "eventName": "talk_request_start",
+      "origin": "server",
+      "turnId": "trace_20260816t204520_75fm6_turn_1",
+      "timestamp": 1786913212934,
+      "transcriptPreview": "React naturally to the item that was just tried on."
+    },
+    {
+      "eventName": "talk_response_received",
+      "origin": "server",
+      "turnId": "trace_20260816t204520_75fm6_turn_1",
+      "timestamp": 1786913220914,
+      "responsePreview": "It's pretty, but that elegant classic look just isn't my vibe today. Not feeling it on me right now, honestly."
+    },
+    {
+      "eventName": "talk_response_received",
+      "origin": "client",
+      "turnId": "trace_20260816t204520_75fm6_turn_1",
+      "timestamp": 1786913220923
+    },
+    {
+      "eventName": "audio_play_start",
+      "origin": "client",
+      "turnId": "trace_20260816t204520_75fm6_turn_1",
+      "timestamp": 1786913220939
+    },
+    {
+      "eventName": "audio_ended",
+      "origin": "client",
+      "turnId": "trace_20260816t204520_75fm6_turn_1",
+      "timestamp": 1786914641366
+    },
+    {
+      "eventName": "talk_request_start",
+      "origin": "client",
+      "turnId": "trace_20260816t204520_75fm6_turn_1",
+      "timestamp": 1786914663338
+    },
+    {
+      "eventName": "activity_phase_changed",
+      "origin": "client",
+      "turnId": "trace_20260816t204520_75fm6_turn_1",
+      "timestamp": 1786914663341
+    },
+    {
+      "eventName": "talk_request_start",
+      "origin": "server",
+      "turnId": "trace_20260816t204520_75fm6_turn_1",
+      "timestamp": 1786914663367,
+      "transcriptPreview": "Give a brief first impression of the selected item."
+    },
+    {
+      "eventName": "talk_response_received",
+      "origin": "server",
+      "turnId": "trace_20260816t204520_75fm6_turn_1",
+      "timestamp": 1786914668069,
+      "responsePreview": "Ooh, cat ears! Purple and magical, super cute, definitely my vibe today."
+    },
+    {
+      "eventName": "talk_response_received",
+      "origin": "client",
+      "turnId": "trace_20260816t204520_75fm6_turn_1",
+      "timestamp": 1786914668073
+    },
+    {
+      "eventName": "audio_play_start",
+      "origin": "client",
+      "turnId": "trace_20260816t204520_75fm6_turn_1",
+      "timestamp": 1786914668079
+    },
+    {
+      "eventName": "audio_ended",
+      "origin": "client",
+      "turnId": "trace_20260816t204520_75fm6_turn_1",
+      "timestamp": 1786914672293
+    },
+    {
+      "eventName": "speech_listen_start",
+      "origin": "client",
+      "timestamp": 1786914673769
+    },
+    {
+      "eventName": "speech_result",
+      "origin": "client",
+      "turnId": "trace_20260816t204520_75fm6_turn_2",
+      "timestamp": 1786914677192
+    },
+    {
+      "eventName": "talk_request_start",
+      "origin": "client",
+      "turnId": "trace_20260816t204520_75fm6_turn_2",
+      "timestamp": 1786914677193
+    },
+    {
+      "eventName": "activity_phase_changed",
+      "origin": "client",
+      "turnId": "trace_20260816t204520_75fm6_turn_2",
+      "timestamp": 1786914677193
+    },
+    {
+      "eventName": "talk_request_start",
+      "origin": "server",
+      "turnId": "trace_20260816t204520_75fm6_turn_2",
+      "timestamp": 1786914677207,
+      "transcriptPreview": "Can you hear me?"
+    },
+    {
+      "eventName": "talk_response_received",
+      "origin": "server",
+      "turnId": "trace_20260816t204520_75fm6_turn_2",
+      "timestamp": 1786914683074,
+      "responsePreview": "Yep, hearing you just fine! What's on your mind?"
+    },
+    {
+      "eventName": "talk_response_received",
+      "origin": "client",
+      "turnId": "trace_20260816t204520_75fm6_turn_2",
+      "timestamp": 1786914683084
+    },
+    {
+      "eventName": "audio_play_start",
+      "origin": "client",
+      "turnId": "trace_20260816t204520_75fm6_turn_2",
+      "timestamp": 1786914683091
+    },
+    {
+      "eventName": "audio_ended",
+      "origin": "client",
+      "turnId": "trace_20260816t204520_75fm6_turn_2",
+      "timestamp": 1786914685616
+    },
+    {
+      "eventName": "speech_result",
+      "origin": "client",
+      "turnId": "trace_20260816t204520_75fm6_turn_3",
+      "timestamp": 1786914687324
+    },
+    {
+      "eventName": "talk_request_start",
+      "origin": "client",
+      "turnId": "trace_20260816t204520_75fm6_turn_3",
+      "timestamp": 1786914687324
+    },
+    {
+      "eventName": "activity_phase_changed",
+      "origin": "client",
+      "turnId": "trace_20260816t204520_75fm6_turn_3",
+      "timestamp": 1786914687325
+    },
+    {
+      "eventName": "talk_request_start",
+      "origin": "server",
+      "turnId": "trace_20260816t204520_75fm6_turn_3",
+      "timestamp": 1786914687337,
+      "transcriptPreview": "you like the carriers?"
+    },
+    {
+      "eventName": "talk_response_received",
+      "origin": "server",
+      "turnId": "trace_20260816t204520_75fm6_turn_3",
+      "timestamp": 1786914693182,
+      "responsePreview": "Yeah, I'm kind of obsessed with them right now, they're so cute and purple and a little magical looking. Are you thin"
+    },
+    {
+      "eventName": "talk_response_received",
+      "origin": "client",
+      "turnId": "trace_20260816t204520_75fm6_turn_3",
+      "timestamp": 1786914693187
+    },
+    {
+      "eventName": "audio_play_start",
+      "origin": "client",
+      "turnId": "trace_20260816t204520_75fm6_turn_3",
+      "timestamp": 1786914693190
+    },
+    {
+      "eventName": "audio_ended",
+      "origin": "client",
+      "turnId": "trace_20260816t204520_75fm6_turn_3",
+      "timestamp": 1786914699566
+    }
+  ],
+  "turns": [
+    {
+      "turnId": "trace_20260816t204520_75fm6_turn_1",
+      "eventNames": [
+        "talk_request_start",
+        "activity_phase_changed",
+        "talk_request_start",
+        "talk_response_received",
+        "talk_request_start",
+        "activity_phase_changed",
+        "talk_request_start",
+        "talk_response_received",
+        "talk_response_received",
+        "audio_play_start",
+        "audio_ended",
+        "talk_request_start",
+        "activity_phase_changed",
+        "talk_request_start",
+        "talk_response_received",
+        "talk_response_received",
+        "audio_play_start",
+        "audio_ended"
+      ],
+      "transcriptPreview": "Give a brief first impression of the selected item.",
+      "transcriptHash": "8b51f292e5ca201b",
+      "responsePreview": "That purple hero look is super cool and bold, ngl, but I'm just not feeling that heroic-bold vibe on me today. You could",
+      "responseHash": "1d2ba6b21e0ac077",
+      "requestToResponseMs": 38277,
+      "audioMs": 1420427
+    },
+    {
+      "turnId": "trace_20260816t204520_75fm6_turn_2",
+      "eventNames": [
+        "speech_result",
+        "talk_request_start",
+        "activity_phase_changed",
+        "talk_request_start",
+        "talk_response_received",
+        "talk_response_received",
+        "audio_play_start",
+        "audio_ended"
+      ],
+      "transcriptPreview": "Can you hear me?",
+      "transcriptHash": "5d3511d27cdb6a7f",
+      "responsePreview": "Yep, hearing you just fine! What's on your mind?",
+      "responseHash": "cf1bedd05d7741ee",
+      "requestToResponseMs": 5881,
+      "audioMs": 2525
+    },
+    {
+      "turnId": "trace_20260816t204520_75fm6_turn_3",
+      "eventNames": [
+        "speech_result",
+        "talk_request_start",
+        "activity_phase_changed",
+        "talk_request_start",
+        "talk_response_received",
+        "talk_response_received",
+        "audio_play_start",
+        "audio_ended"
+      ],
+      "transcriptPreview": "you like the carriers?",
+      "transcriptHash": "a745965905277cfd",
+      "responsePreview": "Yeah, I'm kind of obsessed with them right now, they're so cute and purple and a little magical looking. Are you thin",
+      "responseHash": "5dc1f1b3160cda2b",
+      "requestToResponseMs": 5858,
+      "audioMs": 6376
+    }
+  ]
+}
