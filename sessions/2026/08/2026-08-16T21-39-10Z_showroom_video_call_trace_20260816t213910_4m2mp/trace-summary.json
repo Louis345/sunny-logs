@@ -1,0 +1,193 @@
+{
+  "traceId": "trace_20260816t213910_4m2mp",
+  "childId": "showroom",
+  "companionId": "elli",
+  "callSource": "showroom",
+  "relationshipState": "previewing",
+  "startedAt": "2026-08-16T21:39:10.614Z",
+  "eventCount": 23,
+  "loopSuspected": false,
+  "likelyCause": "slow_response",
+  "eventOrder": [
+    {
+      "eventName": "call_started",
+      "origin": "client",
+      "timestamp": 1786916350614
+    },
+    {
+      "eventName": "talk_request_start",
+      "origin": "client",
+      "turnId": "trace_20260816t213910_4m2mp_turn_1",
+      "timestamp": 1786916351099
+    },
+    {
+      "eventName": "activity_phase_changed",
+      "origin": "client",
+      "turnId": "trace_20260816t213910_4m2mp_turn_1",
+      "timestamp": 1786916351100
+    },
+    {
+      "eventName": "talk_request_start",
+      "origin": "server",
+      "turnId": "trace_20260816t213910_4m2mp_turn_1",
+      "timestamp": 1786916351111,
+      "transcriptPreview": "Give a brief first impression of the selected item."
+    },
+    {
+      "eventName": "talk_response_received",
+      "origin": "server",
+      "turnId": "trace_20260816t213910_4m2mp_turn_1",
+      "timestamp": 1786916358583,
+      "responsePreview": "Ooh, cat ears! Those are so cute, I'm totally into it, feeling extra playful today."
+    },
+    {
+      "eventName": "talk_response_received",
+      "origin": "client",
+      "turnId": "trace_20260816t213910_4m2mp_turn_1",
+      "timestamp": 1786916358591
+    },
+    {
+      "eventName": "audio_play_start",
+      "origin": "client",
+      "turnId": "trace_20260816t213910_4m2mp_turn_1",
+      "timestamp": 1786916358603
+    },
+    {
+      "eventName": "audio_ended",
+      "origin": "client",
+      "turnId": "trace_20260816t213910_4m2mp_turn_1",
+      "timestamp": 1786916363126
+    },
+    {
+      "eventName": "talk_request_start",
+      "origin": "client",
+      "turnId": "trace_20260816t213910_4m2mp_turn_1",
+      "timestamp": 1786916604475
+    },
+    {
+      "eventName": "activity_phase_changed",
+      "origin": "client",
+      "turnId": "trace_20260816t213910_4m2mp_turn_1",
+      "timestamp": 1786916604476
+    },
+    {
+      "eventName": "talk_request_start",
+      "origin": "server",
+      "turnId": "trace_20260816t213910_4m2mp_turn_1",
+      "timestamp": 1786916604493,
+      "transcriptPreview": "Give a brief first impression of the selected item."
+    },
+    {
+      "eventName": "talk_response_received",
+      "origin": "server",
+      "turnId": "trace_20260816t213910_4m2mp_turn_1",
+      "timestamp": 1786916613141,
+      "responsePreview": "Okay THAT purple galaxy cape situation is everything, I am obsessed. Super bold, super heroic, exactly the kind of new e"
+    },
+    {
+      "eventName": "talk_request_start",
+      "origin": "client",
+      "turnId": "trace_20260816t213910_4m2mp_turn_1",
+      "timestamp": 1786916613163
+    },
+    {
+      "eventName": "activity_phase_changed",
+      "origin": "client",
+      "turnId": "trace_20260816t213910_4m2mp_turn_1",
+      "timestamp": 1786916613163
+    },
+    {
+      "eventName": "talk_request_start",
+      "origin": "server",
+      "turnId": "trace_20260816t213910_4m2mp_turn_1",
+      "timestamp": 1786916613180,
+      "transcriptPreview": "React naturally to the item that was just tried on."
+    },
+    {
+      "eventName": "talk_response_received",
+      "origin": "server",
+      "turnId": "trace_20260816t213910_4m2mp_turn_1",
+      "timestamp": 1786916619375,
+      "responsePreview": "Okay, I am OBSESSED with this Galaxy Hero fit — so bold, so me right now. It's giving exactly the \"something new\" energy"
+    },
+    {
+      "eventName": "talk_request_start",
+      "origin": "client",
+      "turnId": "trace_20260816t213910_4m2mp_turn_1",
+      "timestamp": 1786916619398
+    },
+    {
+      "eventName": "activity_phase_changed",
+      "origin": "client",
+      "turnId": "trace_20260816t213910_4m2mp_turn_1",
+      "timestamp": 1786916619399
+    },
+    {
+      "eventName": "talk_request_start",
+      "origin": "server",
+      "turnId": "trace_20260816t213910_4m2mp_turn_1",
+      "timestamp": 1786916619411,
+      "transcriptPreview": "React naturally to the item that was just tried on."
+    },
+    {
+      "eventName": "talk_response_received",
+      "origin": "server",
+      "turnId": "trace_20260816t213910_4m2mp_turn_1",
+      "timestamp": 1786916639427,
+      "responsePreview": "Ooh, it's a pretty dress, but honestly it's giving super fancy vibes and I'm just not feeling elegant today. Wanna keep "
+    },
+    {
+      "eventName": "talk_response_received",
+      "origin": "client",
+      "turnId": "trace_20260816t213910_4m2mp_turn_1",
+      "timestamp": 1786916639478
+    },
+    {
+      "eventName": "audio_play_start",
+      "origin": "client",
+      "turnId": "trace_20260816t213910_4m2mp_turn_1",
+      "timestamp": 1786916639507
+    },
+    {
+      "eventName": "audio_ended",
+      "origin": "client",
+      "turnId": "trace_20260816t213910_4m2mp_turn_1",
+      "timestamp": 1786916648472
+    }
+  ],
+  "turns": [
+    {
+      "turnId": "trace_20260816t213910_4m2mp_turn_1",
+      "eventNames": [
+        "talk_request_start",
+        "activity_phase_changed",
+        "talk_request_start",
+        "talk_response_received",
+        "talk_response_received",
+        "audio_play_start",
+        "audio_ended",
+        "talk_request_start",
+        "activity_phase_changed",
+        "talk_request_start",
+        "talk_response_received",
+        "talk_request_start",
+        "activity_phase_changed",
+        "talk_request_start",
+        "talk_response_received",
+        "talk_request_start",
+        "activity_phase_changed",
+        "talk_request_start",
+        "talk_response_received",
+        "talk_response_received",
+        "audio_play_start",
+        "audio_ended"
+      ],
+      "transcriptPreview": "Give a brief first impression of the selected item.",
+      "transcriptHash": "8b51f292e5ca201b",
+      "responsePreview": "Ooh, cat ears! Those are so cute, I'm totally into it, feeling extra playful today.",
+      "responseHash": "514e074af3b07985",
+      "requestToResponseMs": 7484,
+      "audioMs": 4523
+    }
+  ]
+}

@@ -1,0 +1,301 @@
+{
+  "traceId": "trace_20260816t221157_0k7uc",
+  "childId": "showroom",
+  "companionId": "elli",
+  "callSource": "showroom",
+  "relationshipState": "previewing",
+  "startedAt": "2026-08-16T22:11:57.777Z",
+  "endedAt": "2026-08-16T22:20:11.357Z",
+  "eventCount": 38,
+  "loopSuspected": false,
+  "likelyCause": "slow_response",
+  "eventOrder": [
+    {
+      "eventName": "call_started",
+      "origin": "client",
+      "timestamp": 1786918317777
+    },
+    {
+      "eventName": "talk_request_start",
+      "origin": "client",
+      "turnId": "trace_20260816t221157_0k7uc_turn_1",
+      "timestamp": 1786918334110
+    },
+    {
+      "eventName": "activity_phase_changed",
+      "origin": "client",
+      "turnId": "trace_20260816t221157_0k7uc_turn_1",
+      "timestamp": 1786918334111
+    },
+    {
+      "eventName": "talk_request_start",
+      "origin": "server",
+      "turnId": "trace_20260816t221157_0k7uc_turn_1",
+      "timestamp": 1786918334149,
+      "transcriptPreview": "Give a brief first impression of the selected item."
+    },
+    {
+      "eventName": "talk_response_received",
+      "origin": "server",
+      "turnId": "trace_20260816t221157_0k7uc_turn_1",
+      "timestamp": 1786918341272,
+      "responsePreview": "It's a cute sweater, that blue is so pretty, but it's giving classic vibes and I'm just not feeling classic today. Wanna"
+    },
+    {
+      "eventName": "talk_response_received",
+      "origin": "client",
+      "turnId": "trace_20260816t221157_0k7uc_turn_1",
+      "timestamp": 1786918341276
+    },
+    {
+      "eventName": "audio_play_start",
+      "origin": "client",
+      "turnId": "trace_20260816t221157_0k7uc_turn_1",
+      "timestamp": 1786918341289
+    },
+    {
+      "eventName": "audio_ended",
+      "origin": "client",
+      "turnId": "trace_20260816t221157_0k7uc_turn_1",
+      "timestamp": 1786918350170
+    },
+    {
+      "eventName": "talk_request_start",
+      "origin": "client",
+      "turnId": "trace_20260816t221157_0k7uc_turn_1",
+      "timestamp": 1786918350191
+    },
+    {
+      "eventName": "activity_phase_changed",
+      "origin": "client",
+      "turnId": "trace_20260816t221157_0k7uc_turn_1",
+      "timestamp": 1786918350192
+    },
+    {
+      "eventName": "talk_request_start",
+      "origin": "server",
+      "turnId": "trace_20260816t221157_0k7uc_turn_1",
+      "timestamp": 1786918350197,
+      "transcriptPreview": "React naturally to the item that was just tried on."
+    },
+    {
+      "eventName": "talk_response_received",
+      "origin": "server",
+      "turnId": "trace_20260816t221157_0k7uc_turn_1",
+      "timestamp": 1786918358562,
+      "responsePreview": "Hmm, the blue Celtic sweater is cute and all, but it's giving very classic-grandpa-sweater vibes and I'm just not feelin"
+    },
+    {
+      "eventName": "talk_response_received",
+      "origin": "client",
+      "turnId": "trace_20260816t221157_0k7uc_turn_1",
+      "timestamp": 1786918358571
+    },
+    {
+      "eventName": "audio_play_start",
+      "origin": "client",
+      "turnId": "trace_20260816t221157_0k7uc_turn_1",
+      "timestamp": 1786918358576
+    },
+    {
+      "eventName": "audio_ended",
+      "origin": "client",
+      "turnId": "trace_20260816t221157_0k7uc_turn_1",
+      "timestamp": 1786918368872
+    },
+    {
+      "eventName": "talk_request_start",
+      "origin": "client",
+      "turnId": "trace_20260816t221157_0k7uc_turn_1",
+      "timestamp": 1786918609503
+    },
+    {
+      "eventName": "activity_phase_changed",
+      "origin": "client",
+      "turnId": "trace_20260816t221157_0k7uc_turn_1",
+      "timestamp": 1786918609504
+    },
+    {
+      "eventName": "talk_request_start",
+      "origin": "server",
+      "turnId": "trace_20260816t221157_0k7uc_turn_1",
+      "timestamp": 1786918609519,
+      "transcriptPreview": "Give a brief first impression of the selected item."
+    },
+    {
+      "eventName": "talk_response_received",
+      "origin": "server",
+      "turnId": "trace_20260816t221157_0k7uc_turn_1",
+      "timestamp": 1786918617182,
+      "responsePreview": "That blue Celtic sweater is super cozy-looking, but honestly it's not calling my name today — feels too classic for my m"
+    },
+    {
+      "eventName": "talk_request_start",
+      "origin": "client",
+      "turnId": "trace_20260816t221157_0k7uc_turn_1",
+      "timestamp": 1786918617220
+    },
+    {
+      "eventName": "activity_phase_changed",
+      "origin": "client",
+      "turnId": "trace_20260816t221157_0k7uc_turn_1",
+      "timestamp": 1786918617221
+    },
+    {
+      "eventName": "talk_request_start",
+      "origin": "server",
+      "turnId": "trace_20260816t221157_0k7uc_turn_1",
+      "timestamp": 1786918617238,
+      "transcriptPreview": "React naturally to the item that was just tried on."
+    },
+    {
+      "eventName": "talk_response_received",
+      "origin": "server",
+      "turnId": "trace_20260816t221157_0k7uc_turn_1",
+      "timestamp": 1786918629279,
+      "responsePreview": "Hmm, the blue Celtic sweater is cute, but it's giving classic vibes and I'm just not feeling classic today. Wanna keep b"
+    },
+    {
+      "eventName": "talk_response_received",
+      "origin": "client",
+      "turnId": "trace_20260816t221157_0k7uc_turn_1",
+      "timestamp": 1786918629284
+    },
+    {
+      "eventName": "audio_play_start",
+      "origin": "client",
+      "turnId": "trace_20260816t221157_0k7uc_turn_1",
+      "timestamp": 1786918629290
+    },
+    {
+      "eventName": "audio_ended",
+      "origin": "client",
+      "turnId": "trace_20260816t221157_0k7uc_turn_1",
+      "timestamp": 1786918638242
+    },
+    {
+      "eventName": "talk_request_start",
+      "origin": "client",
+      "turnId": "trace_20260816t221157_0k7uc_turn_1",
+      "timestamp": 1786918785524
+    },
+    {
+      "eventName": "activity_phase_changed",
+      "origin": "client",
+      "turnId": "trace_20260816t221157_0k7uc_turn_1",
+      "timestamp": 1786918785525
+    },
+    {
+      "eventName": "talk_request_start",
+      "origin": "server",
+      "turnId": "trace_20260816t221157_0k7uc_turn_1",
+      "timestamp": 1786918785542,
+      "transcriptPreview": "Give a brief first impression of the selected item."
+    },
+    {
+      "eventName": "talk_response_received",
+      "origin": "server",
+      "turnId": "trace_20260816t221157_0k7uc_turn_1",
+      "timestamp": 1786918793775,
+      "responsePreview": "That blue Celtic sweater is super cozy-looking, but honestly it feels a bit too classic for what I'm in the mood for rig"
+    },
+    {
+      "eventName": "talk_request_start",
+      "origin": "client",
+      "turnId": "trace_20260816t221157_0k7uc_turn_1",
+      "timestamp": 1786918793805
+    },
+    {
+      "eventName": "activity_phase_changed",
+      "origin": "client",
+      "turnId": "trace_20260816t221157_0k7uc_turn_1",
+      "timestamp": 1786918793805
+    },
+    {
+      "eventName": "talk_request_start",
+      "origin": "server",
+      "turnId": "trace_20260816t221157_0k7uc_turn_1",
+      "timestamp": 1786918793812,
+      "transcriptPreview": "React naturally to the item that was just tried on."
+    },
+    {
+      "eventName": "talk_response_received",
+      "origin": "server",
+      "turnId": "trace_20260816t221157_0k7uc_turn_1",
+      "timestamp": 1786918798492,
+      "responsePreview": "Hmm, the blue Celtic sweater is cute but it's just not feeling classic on me today, honestly. Wanna see something else i"
+    },
+    {
+      "eventName": "talk_response_received",
+      "origin": "client",
+      "turnId": "trace_20260816t221157_0k7uc_turn_1",
+      "timestamp": 1786918798497
+    },
+    {
+      "eventName": "audio_play_start",
+      "origin": "client",
+      "turnId": "trace_20260816t221157_0k7uc_turn_1",
+      "timestamp": 1786918798503
+    },
+    {
+      "eventName": "audio_ended",
+      "origin": "client",
+      "turnId": "trace_20260816t221157_0k7uc_turn_1",
+      "timestamp": 1786918805187
+    },
+    {
+      "eventName": "call_ended",
+      "origin": "client",
+      "timestamp": 1786918811357
+    }
+  ],
+  "turns": [
+    {
+      "turnId": "trace_20260816t221157_0k7uc_turn_1",
+      "eventNames": [
+        "talk_request_start",
+        "activity_phase_changed",
+        "talk_request_start",
+        "talk_response_received",
+        "talk_response_received",
+        "audio_play_start",
+        "audio_ended",
+        "talk_request_start",
+        "activity_phase_changed",
+        "talk_request_start",
+        "talk_response_received",
+        "talk_response_received",
+        "audio_play_start",
+        "audio_ended",
+        "talk_request_start",
+        "activity_phase_changed",
+        "talk_request_start",
+        "talk_response_received",
+        "talk_request_start",
+        "activity_phase_changed",
+        "talk_request_start",
+        "talk_response_received",
+        "talk_response_received",
+        "audio_play_start",
+        "audio_ended",
+        "talk_request_start",
+        "activity_phase_changed",
+        "talk_request_start",
+        "talk_response_received",
+        "talk_request_start",
+        "activity_phase_changed",
+        "talk_request_start",
+        "talk_response_received",
+        "talk_response_received",
+        "audio_play_start",
+        "audio_ended"
+      ],
+      "transcriptPreview": "Give a brief first impression of the selected item.",
+      "transcriptHash": "8b51f292e5ca201b",
+      "responsePreview": "It's a cute sweater, that blue is so pretty, but it's giving classic vibes and I'm just not feeling classic today. Wanna",
+      "responseHash": "b316318d591db7f0",
+      "requestToResponseMs": 7162,
+      "audioMs": 8881
+    }
+  ]
+}

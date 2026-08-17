@@ -1,0 +1,214 @@
+{
+  "traceId": "trace_20260816t212647_0wkk3",
+  "childId": "showroom",
+  "companionId": "elli",
+  "callSource": "showroom",
+  "relationshipState": "previewing",
+  "startedAt": "2026-08-16T21:26:47.495Z",
+  "eventCount": 26,
+  "loopSuspected": false,
+  "likelyCause": "slow_response",
+  "eventOrder": [
+    {
+      "eventName": "call_started",
+      "origin": "client",
+      "timestamp": 1786915607495
+    },
+    {
+      "eventName": "talk_request_start",
+      "origin": "client",
+      "turnId": "trace_20260816t212647_0wkk3_turn_1",
+      "timestamp": 1786915631591
+    },
+    {
+      "eventName": "activity_phase_changed",
+      "origin": "client",
+      "turnId": "trace_20260816t212647_0wkk3_turn_1",
+      "timestamp": 1786915631593
+    },
+    {
+      "eventName": "talk_request_start",
+      "origin": "server",
+      "turnId": "trace_20260816t212647_0wkk3_turn_1",
+      "timestamp": 1786915631611,
+      "transcriptPreview": "Give a brief first impression of the selected item."
+    },
+    {
+      "eventName": "talk_response_received",
+      "origin": "server",
+      "turnId": "trace_20260816t212647_0wkk3_turn_1",
+      "timestamp": 1786915638774,
+      "responsePreview": "Ooh, cat ears, super cute and magical-looking, ngl! But honestly I'm not feeling playful today so they're not really cal"
+    },
+    {
+      "eventName": "talk_response_received",
+      "origin": "client",
+      "turnId": "trace_20260816t212647_0wkk3_turn_1",
+      "timestamp": 1786915638780
+    },
+    {
+      "eventName": "audio_play_start",
+      "origin": "client",
+      "turnId": "trace_20260816t212647_0wkk3_turn_1",
+      "timestamp": 1786915638797
+    },
+    {
+      "eventName": "audio_ended",
+      "origin": "client",
+      "turnId": "trace_20260816t212647_0wkk3_turn_1",
+      "timestamp": 1786915646338
+    },
+    {
+      "eventName": "talk_request_start",
+      "origin": "client",
+      "turnId": "trace_20260816t212647_0wkk3_turn_1",
+      "timestamp": 1786915671011
+    },
+    {
+      "eventName": "activity_phase_changed",
+      "origin": "client",
+      "turnId": "trace_20260816t212647_0wkk3_turn_1",
+      "timestamp": 1786915671011
+    },
+    {
+      "eventName": "talk_request_start",
+      "origin": "server",
+      "turnId": "trace_20260816t212647_0wkk3_turn_1",
+      "timestamp": 1786915671023,
+      "transcriptPreview": "React naturally to the item that was just tried on."
+    },
+    {
+      "eventName": "talk_response_received",
+      "origin": "server",
+      "turnId": "trace_20260816t212647_0wkk3_turn_1",
+      "timestamp": 1786915678410,
+      "responsePreview": "Ooh, cat ears, cute idea, but honestly I'm just not feeling playful today so they're not really my vibe right now. You c"
+    },
+    {
+      "eventName": "talk_response_received",
+      "origin": "client",
+      "turnId": "trace_20260816t212647_0wkk3_turn_1",
+      "timestamp": 1786915678422
+    },
+    {
+      "eventName": "audio_play_start",
+      "origin": "client",
+      "turnId": "trace_20260816t212647_0wkk3_turn_1",
+      "timestamp": 1786915678434
+    },
+    {
+      "eventName": "audio_ended",
+      "origin": "client",
+      "turnId": "trace_20260816t212647_0wkk3_turn_1",
+      "timestamp": 1786915685905
+    },
+    {
+      "eventName": "talk_request_start",
+      "origin": "client",
+      "turnId": "trace_20260816t212647_0wkk3_turn_1",
+      "timestamp": 1786915697875
+    },
+    {
+      "eventName": "activity_phase_changed",
+      "origin": "client",
+      "turnId": "trace_20260816t212647_0wkk3_turn_1",
+      "timestamp": 1786915697876
+    },
+    {
+      "eventName": "talk_request_start",
+      "origin": "server",
+      "turnId": "trace_20260816t212647_0wkk3_turn_1",
+      "timestamp": 1786915697883,
+      "transcriptPreview": "Give a brief first impression of the selected item."
+    },
+    {
+      "eventName": "talk_response_received",
+      "origin": "server",
+      "turnId": "trace_20260816t212647_0wkk3_turn_1",
+      "timestamp": 1786915705920,
+      "responsePreview": "That Comet Hoodie is cute, super cozy and sporty looking, but honestly I'm not feeling that playful vibe today so it's a"
+    },
+    {
+      "eventName": "talk_request_start",
+      "origin": "client",
+      "turnId": "trace_20260816t212647_0wkk3_turn_1",
+      "timestamp": 1786915705981
+    },
+    {
+      "eventName": "activity_phase_changed",
+      "origin": "client",
+      "turnId": "trace_20260816t212647_0wkk3_turn_1",
+      "timestamp": 1786915705984
+    },
+    {
+      "eventName": "talk_request_start",
+      "origin": "server",
+      "turnId": "trace_20260816t212647_0wkk3_turn_1",
+      "timestamp": 1786915706169,
+      "transcriptPreview": "React naturally to the item that was just tried on."
+    },
+    {
+      "eventName": "talk_response_received",
+      "origin": "server",
+      "turnId": "trace_20260816t212647_0wkk3_turn_1",
+      "timestamp": 1786915713862,
+      "responsePreview": "Ooh, the Comet Hoodie is cute and all, but I'm just not feeling that playful, sporty vibe today, honestly. It's cozy tho"
+    },
+    {
+      "eventName": "talk_response_received",
+      "origin": "client",
+      "turnId": "trace_20260816t212647_0wkk3_turn_1",
+      "timestamp": 1786915713874
+    },
+    {
+      "eventName": "audio_play_start",
+      "origin": "client",
+      "turnId": "trace_20260816t212647_0wkk3_turn_1",
+      "timestamp": 1786915713882
+    },
+    {
+      "eventName": "audio_ended",
+      "origin": "client",
+      "turnId": "trace_20260816t212647_0wkk3_turn_1",
+      "timestamp": 1786915723505
+    }
+  ],
+  "turns": [
+    {
+      "turnId": "trace_20260816t212647_0wkk3_turn_1",
+      "eventNames": [
+        "talk_request_start",
+        "activity_phase_changed",
+        "talk_request_start",
+        "talk_response_received",
+        "talk_response_received",
+        "audio_play_start",
+        "audio_ended",
+        "talk_request_start",
+        "activity_phase_changed",
+        "talk_request_start",
+        "talk_response_received",
+        "talk_response_received",
+        "audio_play_start",
+        "audio_ended",
+        "talk_request_start",
+        "activity_phase_changed",
+        "talk_request_start",
+        "talk_response_received",
+        "talk_request_start",
+        "activity_phase_changed",
+        "talk_request_start",
+        "talk_response_received",
+        "talk_response_received",
+        "audio_play_start",
+        "audio_ended"
+      ],
+      "transcriptPreview": "Give a brief first impression of the selected item.",
+      "transcriptHash": "8b51f292e5ca201b",
+      "responsePreview": "Ooh, cat ears, super cute and magical-looking, ngl! But honestly I'm not feeling playful today so they're not really cal",
+      "responseHash": "076e6a1157adc991",
+      "requestToResponseMs": 7183,
+      "audioMs": 7541
+    }
+  ]
+}

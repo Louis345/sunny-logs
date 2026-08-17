@@ -1,0 +1,606 @@
+{
+  "traceId": "trace_20260816t212954_35f4e",
+  "childId": "showroom",
+  "companionId": "elli",
+  "callSource": "showroom",
+  "relationshipState": "previewing",
+  "startedAt": "2026-08-16T21:29:54.695Z",
+  "eventCount": 79,
+  "loopSuspected": false,
+  "likelyCause": "slow_response",
+  "eventOrder": [
+    {
+      "eventName": "call_started",
+      "origin": "client",
+      "timestamp": 1786915794695
+    },
+    {
+      "eventName": "talk_request_start",
+      "origin": "client",
+      "turnId": "trace_20260816t212954_35f4e_turn_1",
+      "timestamp": 1786915795409
+    },
+    {
+      "eventName": "activity_phase_changed",
+      "origin": "client",
+      "turnId": "trace_20260816t212954_35f4e_turn_1",
+      "timestamp": 1786915795410
+    },
+    {
+      "eventName": "talk_request_start",
+      "origin": "server",
+      "turnId": "trace_20260816t212954_35f4e_turn_1",
+      "timestamp": 1786915795415,
+      "transcriptPreview": "Give a brief first impression of the selected item."
+    },
+    {
+      "eventName": "talk_response_received",
+      "origin": "server",
+      "turnId": "trace_20260816t212954_35f4e_turn_1",
+      "timestamp": 1786915803245,
+      "responsePreview": "The Comet Hoodie is cute, cozy and purple, but honestly I'm just not feeling that playful vibe today, so it's not really"
+    },
+    {
+      "eventName": "talk_request_start",
+      "origin": "client",
+      "turnId": "trace_20260816t212954_35f4e_turn_1",
+      "timestamp": 1786915803272
+    },
+    {
+      "eventName": "activity_phase_changed",
+      "origin": "client",
+      "turnId": "trace_20260816t212954_35f4e_turn_1",
+      "timestamp": 1786915803273
+    },
+    {
+      "eventName": "talk_request_start",
+      "origin": "server",
+      "turnId": "trace_20260816t212954_35f4e_turn_1",
+      "timestamp": 1786915803281,
+      "transcriptPreview": "React naturally to the item that was just tried on."
+    },
+    {
+      "eventName": "talk_response_received",
+      "origin": "server",
+      "turnId": "trace_20260816t212954_35f4e_turn_1",
+      "timestamp": 1786915812850,
+      "responsePreview": "Ooh the Comet Hoodie is cozy and cute, but honestly I'm just not feeling that playful, sporty vibe today. It's a good on"
+    },
+    {
+      "eventName": "talk_request_start",
+      "origin": "client",
+      "turnId": "trace_20260816t212954_35f4e_turn_1",
+      "timestamp": 1786915812885
+    },
+    {
+      "eventName": "activity_phase_changed",
+      "origin": "client",
+      "turnId": "trace_20260816t212954_35f4e_turn_1",
+      "timestamp": 1786915812886
+    },
+    {
+      "eventName": "talk_request_start",
+      "origin": "server",
+      "turnId": "trace_20260816t212954_35f4e_turn_1",
+      "timestamp": 1786915812899,
+      "transcriptPreview": "Give a brief first impression of the selected item."
+    },
+    {
+      "eventName": "audio_error",
+      "origin": "client",
+      "turnId": "trace_20260816t212954_35f4e_turn_1",
+      "timestamp": 1786915828027
+    },
+    {
+      "eventName": "talk_request_start",
+      "origin": "client",
+      "turnId": "trace_20260816t212954_35f4e_turn_1",
+      "timestamp": 1786915893495
+    },
+    {
+      "eventName": "activity_phase_changed",
+      "origin": "client",
+      "turnId": "trace_20260816t212954_35f4e_turn_1",
+      "timestamp": 1786915893496
+    },
+    {
+      "eventName": "talk_request_start",
+      "origin": "server",
+      "turnId": "trace_20260816t212954_35f4e_turn_1",
+      "timestamp": 1786915893508,
+      "transcriptPreview": "Give a brief first impression of the selected item."
+    },
+    {
+      "eventName": "talk_response_received",
+      "origin": "server",
+      "turnId": "trace_20260816t212954_35f4e_turn_1",
+      "timestamp": 1786915898838,
+      "responsePreview": "Ooh, the Royal Crown! Gold and sparkly is so my mood right now, I'm totally in a royal phase."
+    },
+    {
+      "eventName": "talk_response_received",
+      "origin": "client",
+      "turnId": "trace_20260816t212954_35f4e_turn_1",
+      "timestamp": 1786915898846
+    },
+    {
+      "eventName": "audio_play_start",
+      "origin": "client",
+      "turnId": "trace_20260816t212954_35f4e_turn_1",
+      "timestamp": 1786915898853
+    },
+    {
+      "eventName": "audio_ended",
+      "origin": "client",
+      "turnId": "trace_20260816t212954_35f4e_turn_1",
+      "timestamp": 1786915904693
+    },
+    {
+      "eventName": "talk_request_start",
+      "origin": "client",
+      "turnId": "trace_20260816t212954_35f4e_turn_1",
+      "timestamp": 1786916437896
+    },
+    {
+      "eventName": "activity_phase_changed",
+      "origin": "client",
+      "turnId": "trace_20260816t212954_35f4e_turn_1",
+      "timestamp": 1786916437899
+    },
+    {
+      "eventName": "talk_request_start",
+      "origin": "server",
+      "turnId": "trace_20260816t212954_35f4e_turn_1",
+      "timestamp": 1786916437924,
+      "transcriptPreview": "Give a brief first impression of the selected item."
+    },
+    {
+      "eventName": "talk_response_received",
+      "origin": "server",
+      "turnId": "trace_20260816t212954_35f4e_turn_1",
+      "timestamp": 1786916445048,
+      "responsePreview": "The Comet Hoodie is cute, cozy and sporty for sure, but honestly I'm just not feeling that playful vibe today, so it's n"
+    },
+    {
+      "eventName": "talk_request_start",
+      "origin": "client",
+      "turnId": "trace_20260816t212954_35f4e_turn_1",
+      "timestamp": 1786916445062
+    },
+    {
+      "eventName": "activity_phase_changed",
+      "origin": "client",
+      "turnId": "trace_20260816t212954_35f4e_turn_1",
+      "timestamp": 1786916445063
+    },
+    {
+      "eventName": "talk_request_start",
+      "origin": "server",
+      "turnId": "trace_20260816t212954_35f4e_turn_1",
+      "timestamp": 1786916445071,
+      "transcriptPreview": "React naturally to the item that was just tried on."
+    },
+    {
+      "eventName": "talk_response_received",
+      "origin": "server",
+      "turnId": "trace_20260816t212954_35f4e_turn_1",
+      "timestamp": 1786916452875,
+      "responsePreview": "Ooh the Comet Hoodie's cozy and cute, but honestly I'm just not feeling that playful, sporty vibe today. You could save "
+    },
+    {
+      "eventName": "talk_response_received",
+      "origin": "client",
+      "turnId": "trace_20260816t212954_35f4e_turn_1",
+      "timestamp": 1786916452878
+    },
+    {
+      "eventName": "audio_play_start",
+      "origin": "client",
+      "turnId": "trace_20260816t212954_35f4e_turn_1",
+      "timestamp": 1786916452884
+    },
+    {
+      "eventName": "audio_ended",
+      "origin": "client",
+      "turnId": "trace_20260816t212954_35f4e_turn_1",
+      "timestamp": 1786916461882
+    },
+    {
+      "eventName": "talk_request_start",
+      "origin": "client",
+      "turnId": "trace_20260816t212954_35f4e_turn_1",
+      "timestamp": 1786916481894
+    },
+    {
+      "eventName": "activity_phase_changed",
+      "origin": "client",
+      "turnId": "trace_20260816t212954_35f4e_turn_1",
+      "timestamp": 1786916481894
+    },
+    {
+      "eventName": "talk_request_start",
+      "origin": "server",
+      "turnId": "trace_20260816t212954_35f4e_turn_1",
+      "timestamp": 1786916481909,
+      "transcriptPreview": "Give a brief first impression of the selected item."
+    },
+    {
+      "eventName": "talk_response_received",
+      "origin": "server",
+      "turnId": "trace_20260816t212954_35f4e_turn_1",
+      "timestamp": 1786916499956,
+      "responsePreview": "Ooh, that blue dress is so elegant, I'm obsessed already! It's got that classic vibe that just feels new and fancy at th"
+    },
+    {
+      "eventName": "talk_request_start",
+      "origin": "client",
+      "turnId": "trace_20260816t212954_35f4e_turn_1",
+      "timestamp": 1786916499968
+    },
+    {
+      "eventName": "activity_phase_changed",
+      "origin": "client",
+      "turnId": "trace_20260816t212954_35f4e_turn_1",
+      "timestamp": 1786916499969
+    },
+    {
+      "eventName": "talk_request_start",
+      "origin": "server",
+      "turnId": "trace_20260816t212954_35f4e_turn_1",
+      "timestamp": 1786916499978,
+      "transcriptPreview": "React naturally to the item that was just tried on."
+    },
+    {
+      "eventName": "talk_response_received",
+      "origin": "server",
+      "turnId": "trace_20260816t212954_35f4e_turn_1",
+      "timestamp": 1786916507321,
+      "responsePreview": "Ooh, the Comet Hoodie's cozy and all, but honestly I'm just not feeling playful today, so it's not really vibing with me"
+    },
+    {
+      "eventName": "talk_response_received",
+      "origin": "client",
+      "turnId": "trace_20260816t212954_35f4e_turn_1",
+      "timestamp": 1786916507328
+    },
+    {
+      "eventName": "audio_play_start",
+      "origin": "client",
+      "turnId": "trace_20260816t212954_35f4e_turn_1",
+      "timestamp": 1786916507334
+    },
+    {
+      "eventName": "audio_ended",
+      "origin": "client",
+      "turnId": "trace_20260816t212954_35f4e_turn_1",
+      "timestamp": 1786916516889
+    },
+    {
+      "eventName": "talk_request_start",
+      "origin": "client",
+      "turnId": "trace_20260816t212954_35f4e_turn_1",
+      "timestamp": 1786916518127
+    },
+    {
+      "eventName": "activity_phase_changed",
+      "origin": "client",
+      "turnId": "trace_20260816t212954_35f4e_turn_1",
+      "timestamp": 1786916518128
+    },
+    {
+      "eventName": "talk_request_start",
+      "origin": "server",
+      "turnId": "trace_20260816t212954_35f4e_turn_1",
+      "timestamp": 1786916518136,
+      "transcriptPreview": "Give a brief first impression of the selected item."
+    },
+    {
+      "eventName": "talk_response_received",
+      "origin": "server",
+      "turnId": "trace_20260816t212954_35f4e_turn_1",
+      "timestamp": 1786916525630,
+      "responsePreview": "Ooh, that purple galaxy look is so pretty, my brain can't decide if it's totally me or not yet. It's giving bold hero en"
+    },
+    {
+      "eventName": "talk_request_start",
+      "origin": "client",
+      "turnId": "trace_20260816t212954_35f4e_turn_1",
+      "timestamp": 1786916525643
+    },
+    {
+      "eventName": "activity_phase_changed",
+      "origin": "client",
+      "turnId": "trace_20260816t212954_35f4e_turn_1",
+      "timestamp": 1786916525643
+    },
+    {
+      "eventName": "talk_request_start",
+      "origin": "server",
+      "turnId": "trace_20260816t212954_35f4e_turn_1",
+      "timestamp": 1786916525649,
+      "transcriptPreview": "React naturally to the item that was just tried on."
+    },
+    {
+      "eventName": "talk_response_received",
+      "origin": "server",
+      "turnId": "trace_20260816t212954_35f4e_turn_1",
+      "timestamp": 1786916535258,
+      "responsePreview": "Ooh, the purple and the galaxy sparkles totally get me, that's so my kind of celestial vibe. But I'm not all the way sol"
+    },
+    {
+      "eventName": "talk_response_received",
+      "origin": "client",
+      "turnId": "trace_20260816t212954_35f4e_turn_1",
+      "timestamp": 1786916535263
+    },
+    {
+      "eventName": "audio_play_start",
+      "origin": "client",
+      "turnId": "trace_20260816t212954_35f4e_turn_1",
+      "timestamp": 1786916535270
+    },
+    {
+      "eventName": "audio_ended",
+      "origin": "client",
+      "turnId": "trace_20260816t212954_35f4e_turn_1",
+      "timestamp": 1786916547658
+    },
+    {
+      "eventName": "talk_request_start",
+      "origin": "client",
+      "turnId": "trace_20260816t212954_35f4e_turn_1",
+      "timestamp": 1786919618499
+    },
+    {
+      "eventName": "activity_phase_changed",
+      "origin": "client",
+      "turnId": "trace_20260816t212954_35f4e_turn_1",
+      "timestamp": 1786919618505
+    },
+    {
+      "eventName": "talk_request_start",
+      "origin": "server",
+      "turnId": "trace_20260816t212954_35f4e_turn_1",
+      "timestamp": 1786919618537,
+      "transcriptPreview": "Give a brief first impression of the selected item."
+    },
+    {
+      "eventName": "talk_response_received",
+      "origin": "server",
+      "turnId": "trace_20260816t212954_35f4e_turn_1",
+      "timestamp": 1786919624432,
+      "responsePreview": "Ooh, that Celtic sweater is cozy and kind of festive looking, but I'm not totally sure it's \"me\" yet. What do you think,"
+    },
+    {
+      "eventName": "talk_request_start",
+      "origin": "client",
+      "turnId": "trace_20260816t212954_35f4e_turn_1",
+      "timestamp": 1786919624447
+    },
+    {
+      "eventName": "activity_phase_changed",
+      "origin": "client",
+      "turnId": "trace_20260816t212954_35f4e_turn_1",
+      "timestamp": 1786919624447
+    },
+    {
+      "eventName": "talk_request_start",
+      "origin": "server",
+      "turnId": "trace_20260816t212954_35f4e_turn_1",
+      "timestamp": 1786919624460,
+      "transcriptPreview": "Give a brief first impression of the selected item."
+    },
+    {
+      "eventName": "talk_response_received",
+      "origin": "server",
+      "turnId": "trace_20260816t212954_35f4e_turn_1",
+      "timestamp": 1786919628685,
+      "responsePreview": "Ooh, that Navy Ribbon Dress is gorgeous, so elegant and classic, I love it."
+    },
+    {
+      "eventName": "talk_request_start",
+      "origin": "client",
+      "turnId": "trace_20260816t212954_35f4e_turn_1",
+      "timestamp": 1786919628699
+    },
+    {
+      "eventName": "activity_phase_changed",
+      "origin": "client",
+      "turnId": "trace_20260816t212954_35f4e_turn_1",
+      "timestamp": 1786919628700
+    },
+    {
+      "eventName": "talk_request_start",
+      "origin": "server",
+      "turnId": "trace_20260816t212954_35f4e_turn_1",
+      "timestamp": 1786919628708,
+      "transcriptPreview": "React naturally to the item that was just tried on."
+    },
+    {
+      "eventName": "talk_response_received",
+      "origin": "server",
+      "turnId": "trace_20260816t212954_35f4e_turn_1",
+      "timestamp": 1786919635304,
+      "responsePreview": "Ooh, blue Celtic sweater, that's cozy and kind of festive at the same time. I'm still deciding if it's totally you thoug"
+    },
+    {
+      "eventName": "talk_response_received",
+      "origin": "client",
+      "turnId": "trace_20260816t212954_35f4e_turn_1",
+      "timestamp": 1786919635342
+    },
+    {
+      "eventName": "audio_play_start",
+      "origin": "client",
+      "turnId": "trace_20260816t212954_35f4e_turn_1",
+      "timestamp": 1786919635356
+    },
+    {
+      "eventName": "audio_ended",
+      "origin": "client",
+      "turnId": "trace_20260816t212954_35f4e_turn_1",
+      "timestamp": 1786919643551
+    },
+    {
+      "eventName": "talk_request_start",
+      "origin": "client",
+      "turnId": "trace_20260816t212954_35f4e_turn_1",
+      "timestamp": 1786919675644
+    },
+    {
+      "eventName": "activity_phase_changed",
+      "origin": "client",
+      "turnId": "trace_20260816t212954_35f4e_turn_1",
+      "timestamp": 1786919675644
+    },
+    {
+      "eventName": "talk_request_start",
+      "origin": "server",
+      "turnId": "trace_20260816t212954_35f4e_turn_1",
+      "timestamp": 1786919675678,
+      "transcriptPreview": "Give a brief first impression of the selected item."
+    },
+    {
+      "eventName": "talk_response_received",
+      "origin": "server",
+      "turnId": "trace_20260816t212954_35f4e_turn_1",
+      "timestamp": 1786919684177,
+      "responsePreview": "Ooh, the Star Halo! That celestial sparkle gets me every time, it's so magical and gold."
+    },
+    {
+      "eventName": "talk_request_start",
+      "origin": "client",
+      "turnId": "trace_20260816t212954_35f4e_turn_1",
+      "timestamp": 1786919684193
+    },
+    {
+      "eventName": "activity_phase_changed",
+      "origin": "client",
+      "turnId": "trace_20260816t212954_35f4e_turn_1",
+      "timestamp": 1786919684193
+    },
+    {
+      "eventName": "talk_request_start",
+      "origin": "server",
+      "turnId": "trace_20260816t212954_35f4e_turn_1",
+      "timestamp": 1786919684207,
+      "transcriptPreview": "React naturally to the item that was just tried on."
+    },
+    {
+      "eventName": "talk_response_received",
+      "origin": "server",
+      "turnId": "trace_20260816t212954_35f4e_turn_1",
+      "timestamp": 1786919690441,
+      "responsePreview": "Ohhh the Star Halo, yes please, celestial stuff is basically my weakness! It looks so magical on you."
+    },
+    {
+      "eventName": "talk_response_received",
+      "origin": "client",
+      "turnId": "trace_20260816t212954_35f4e_turn_1",
+      "timestamp": 1786919690445
+    },
+    {
+      "eventName": "audio_play_start",
+      "origin": "client",
+      "turnId": "trace_20260816t212954_35f4e_turn_1",
+      "timestamp": 1786919690452
+    },
+    {
+      "eventName": "audio_ended",
+      "origin": "client",
+      "turnId": "trace_20260816t212954_35f4e_turn_1",
+      "timestamp": 1786919697231
+    }
+  ],
+  "turns": [
+    {
+      "turnId": "trace_20260816t212954_35f4e_turn_1",
+      "eventNames": [
+        "talk_request_start",
+        "activity_phase_changed",
+        "talk_request_start",
+        "talk_response_received",
+        "talk_request_start",
+        "activity_phase_changed",
+        "talk_request_start",
+        "talk_response_received",
+        "talk_request_start",
+        "activity_phase_changed",
+        "talk_request_start",
+        "audio_error",
+        "talk_request_start",
+        "activity_phase_changed",
+        "talk_request_start",
+        "talk_response_received",
+        "talk_response_received",
+        "audio_play_start",
+        "audio_ended",
+        "talk_request_start",
+        "activity_phase_changed",
+        "talk_request_start",
+        "talk_response_received",
+        "talk_request_start",
+        "activity_phase_changed",
+        "talk_request_start",
+        "talk_response_received",
+        "talk_response_received",
+        "audio_play_start",
+        "audio_ended",
+        "talk_request_start",
+        "activity_phase_changed",
+        "talk_request_start",
+        "talk_response_received",
+        "talk_request_start",
+        "activity_phase_changed",
+        "talk_request_start",
+        "talk_response_received",
+        "talk_response_received",
+        "audio_play_start",
+        "audio_ended",
+        "talk_request_start",
+        "activity_phase_changed",
+        "talk_request_start",
+        "talk_response_received",
+        "talk_request_start",
+        "activity_phase_changed",
+        "talk_request_start",
+        "talk_response_received",
+        "talk_response_received",
+        "audio_play_start",
+        "audio_ended",
+        "talk_request_start",
+        "activity_phase_changed",
+        "talk_request_start",
+        "talk_response_received",
+        "talk_request_start",
+        "activity_phase_changed",
+        "talk_request_start",
+        "talk_response_received",
+        "talk_request_start",
+        "activity_phase_changed",
+        "talk_request_start",
+        "talk_response_received",
+        "talk_response_received",
+        "audio_play_start",
+        "audio_ended",
+        "talk_request_start",
+        "activity_phase_changed",
+        "talk_request_start",
+        "talk_response_received",
+        "talk_request_start",
+        "activity_phase_changed",
+        "talk_request_start",
+        "talk_response_received",
+        "talk_response_received",
+        "audio_play_start",
+        "audio_ended"
+      ],
+      "transcriptPreview": "Give a brief first impression of the selected item.",
+      "transcriptHash": "8b51f292e5ca201b",
+      "responsePreview": "The Comet Hoodie is cute, cozy and purple, but honestly I'm just not feeling that playful vibe today, so it's not really",
+      "responseHash": "a6f71fd87e4412d7",
+      "requestToResponseMs": 7836,
+      "audioMs": 5840
+    }
+  ]
+}
