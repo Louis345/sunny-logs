@@ -1,0 +1,84 @@
+{
+  "traceId": "trace_20260817t233108_16o2o",
+  "childId": "showroom",
+  "companionId": "elli",
+  "callSource": "showroom",
+  "relationshipState": "previewing",
+  "startedAt": "2026-08-17T23:31:08.481Z",
+  "eventCount": 9,
+  "loopSuspected": false,
+  "likelyCause": "slow_response",
+  "eventOrder": [
+    {
+      "eventName": "call_started",
+      "origin": "client",
+      "timestamp": 1787009468481
+    },
+    {
+      "eventName": "speech_listen_start",
+      "origin": "client",
+      "timestamp": 1787009473363
+    },
+    {
+      "eventName": "talk_request_start",
+      "origin": "client",
+      "turnId": "trace_20260817t233108_16o2o_turn_1",
+      "timestamp": 1787009481696
+    },
+    {
+      "eventName": "activity_phase_changed",
+      "origin": "client",
+      "turnId": "trace_20260817t233108_16o2o_turn_1",
+      "timestamp": 1787009481697
+    },
+    {
+      "eventName": "talk_request_start",
+      "origin": "server",
+      "turnId": "trace_20260817t233108_16o2o_turn_1",
+      "timestamp": 1787009481708,
+      "transcriptPreview": "React naturally to the item that was just tried on."
+    },
+    {
+      "eventName": "talk_response_received",
+      "origin": "server",
+      "turnId": "trace_20260817t233108_16o2o_turn_1",
+      "timestamp": 1787009486835,
+      "responsePreview": "It's so pretty and elegant, but honestly it's not really matching my vibe today, I'm just not feeling that classic look "
+    },
+    {
+      "eventName": "talk_response_received",
+      "origin": "client",
+      "turnId": "trace_20260817t233108_16o2o_turn_1",
+      "timestamp": 1787009486840
+    },
+    {
+      "eventName": "audio_play_start",
+      "origin": "client",
+      "turnId": "trace_20260817t233108_16o2o_turn_1",
+      "timestamp": 1787009486846
+    },
+    {
+      "eventName": "speech_listen_start",
+      "origin": "client",
+      "timestamp": 1787009488109
+    }
+  ],
+  "turns": [
+    {
+      "turnId": "trace_20260817t233108_16o2o_turn_1",
+      "eventNames": [
+        "talk_request_start",
+        "activity_phase_changed",
+        "talk_request_start",
+        "talk_response_received",
+        "talk_response_received",
+        "audio_play_start"
+      ],
+      "transcriptPreview": "React naturally to the item that was just tried on.",
+      "transcriptHash": "f8d82e5f17496dd3",
+      "responsePreview": "It's so pretty and elegant, but honestly it's not really matching my vibe today, I'm just not feeling that classic look ",
+      "responseHash": "1840f1cce7a34212",
+      "requestToResponseMs": 5139
+    }
+  ]
+}

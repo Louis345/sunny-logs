@@ -1,0 +1,82 @@
+{
+  "traceId": "trace_20260817t230206_1rxsq",
+  "childId": "showroom",
+  "companionId": "elli",
+  "callSource": "showroom",
+  "relationshipState": "previewing",
+  "startedAt": "2026-08-17T23:02:06.555Z",
+  "eventCount": 8,
+  "loopSuspected": false,
+  "likelyCause": "slow_response",
+  "eventOrder": [
+    {
+      "eventName": "call_started",
+      "origin": "client",
+      "timestamp": 1787007726555
+    },
+    {
+      "eventName": "talk_request_start",
+      "origin": "client",
+      "turnId": "trace_20260817t230206_1rxsq_turn_1",
+      "timestamp": 1787007749719
+    },
+    {
+      "eventName": "activity_phase_changed",
+      "origin": "client",
+      "turnId": "trace_20260817t230206_1rxsq_turn_1",
+      "timestamp": 1787007749720
+    },
+    {
+      "eventName": "talk_request_start",
+      "origin": "server",
+      "turnId": "trace_20260817t230206_1rxsq_turn_1",
+      "timestamp": 1787007749730,
+      "transcriptPreview": "React naturally to the item that was just tried on."
+    },
+    {
+      "eventName": "talk_response_received",
+      "origin": "server",
+      "turnId": "trace_20260817t230206_1rxsq_turn_1",
+      "timestamp": 1787007757409,
+      "responsePreview": "I'm here with you. Let's keep going."
+    },
+    {
+      "eventName": "talk_response_received",
+      "origin": "client",
+      "turnId": "trace_20260817t230206_1rxsq_turn_1",
+      "timestamp": 1787007757417
+    },
+    {
+      "eventName": "audio_play_start",
+      "origin": "client",
+      "turnId": "trace_20260817t230206_1rxsq_turn_1",
+      "timestamp": 1787007757430
+    },
+    {
+      "eventName": "audio_ended",
+      "origin": "client",
+      "turnId": "trace_20260817t230206_1rxsq_turn_1",
+      "timestamp": 1787007759772
+    }
+  ],
+  "turns": [
+    {
+      "turnId": "trace_20260817t230206_1rxsq_turn_1",
+      "eventNames": [
+        "talk_request_start",
+        "activity_phase_changed",
+        "talk_request_start",
+        "talk_response_received",
+        "talk_response_received",
+        "audio_play_start",
+        "audio_ended"
+      ],
+      "transcriptPreview": "React naturally to the item that was just tried on.",
+      "transcriptHash": "f8d82e5f17496dd3",
+      "responsePreview": "I'm here with you. Let's keep going.",
+      "responseHash": "504319378d4081a0",
+      "requestToResponseMs": 7690,
+      "audioMs": 2342
+    }
+  ]
+}

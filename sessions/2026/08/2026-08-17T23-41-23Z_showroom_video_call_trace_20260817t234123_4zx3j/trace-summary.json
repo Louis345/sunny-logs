@@ -1,0 +1,82 @@
+{
+  "traceId": "trace_20260817t234123_4zx3j",
+  "childId": "showroom",
+  "companionId": "elli",
+  "callSource": "showroom",
+  "relationshipState": "previewing",
+  "startedAt": "2026-08-17T23:41:23.580Z",
+  "eventCount": 8,
+  "loopSuspected": false,
+  "likelyCause": "slow_response",
+  "eventOrder": [
+    {
+      "eventName": "call_started",
+      "origin": "client",
+      "timestamp": 1787010083580
+    },
+    {
+      "eventName": "talk_request_start",
+      "origin": "client",
+      "turnId": "trace_20260817t234123_4zx3j_turn_1",
+      "timestamp": 1787010091679
+    },
+    {
+      "eventName": "activity_phase_changed",
+      "origin": "client",
+      "turnId": "trace_20260817t234123_4zx3j_turn_1",
+      "timestamp": 1787010091681
+    },
+    {
+      "eventName": "talk_request_start",
+      "origin": "server",
+      "turnId": "trace_20260817t234123_4zx3j_turn_1",
+      "timestamp": 1787010091700,
+      "transcriptPreview": "React naturally to the item that was just tried on."
+    },
+    {
+      "eventName": "talk_response_received",
+      "origin": "server",
+      "turnId": "trace_20260817t234123_4zx3j_turn_1",
+      "timestamp": 1787010096800,
+      "responsePreview": "It's a pretty dress, but the navy and ribbons feel so proper and classic — not really my vibe today. Want to keep browsi"
+    },
+    {
+      "eventName": "talk_response_received",
+      "origin": "client",
+      "turnId": "trace_20260817t234123_4zx3j_turn_1",
+      "timestamp": 1787010096807
+    },
+    {
+      "eventName": "audio_play_start",
+      "origin": "client",
+      "turnId": "trace_20260817t234123_4zx3j_turn_1",
+      "timestamp": 1787010096813
+    },
+    {
+      "eventName": "audio_ended",
+      "origin": "client",
+      "turnId": "trace_20260817t234123_4zx3j_turn_1",
+      "timestamp": 1787010103999
+    }
+  ],
+  "turns": [
+    {
+      "turnId": "trace_20260817t234123_4zx3j_turn_1",
+      "eventNames": [
+        "talk_request_start",
+        "activity_phase_changed",
+        "talk_request_start",
+        "talk_response_received",
+        "talk_response_received",
+        "audio_play_start",
+        "audio_ended"
+      ],
+      "transcriptPreview": "React naturally to the item that was just tried on.",
+      "transcriptHash": "f8d82e5f17496dd3",
+      "responsePreview": "It's a pretty dress, but the navy and ribbons feel so proper and classic — not really my vibe today. Want to keep browsi",
+      "responseHash": "f2c43f7cddef25c5",
+      "requestToResponseMs": 5121,
+      "audioMs": 7186
+    }
+  ]
+}

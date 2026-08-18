@@ -1,0 +1,82 @@
+{
+  "traceId": "trace_20260817t230447_1f33h",
+  "childId": "showroom",
+  "companionId": "elli",
+  "callSource": "showroom",
+  "relationshipState": "previewing",
+  "startedAt": "2026-08-17T23:04:47.752Z",
+  "eventCount": 8,
+  "loopSuspected": false,
+  "likelyCause": "slow_response",
+  "eventOrder": [
+    {
+      "eventName": "call_started",
+      "origin": "client",
+      "timestamp": 1787007887752
+    },
+    {
+      "eventName": "talk_request_start",
+      "origin": "client",
+      "turnId": "trace_20260817t230447_1f33h_turn_1",
+      "timestamp": 1787007889634
+    },
+    {
+      "eventName": "activity_phase_changed",
+      "origin": "client",
+      "turnId": "trace_20260817t230447_1f33h_turn_1",
+      "timestamp": 1787007889635
+    },
+    {
+      "eventName": "talk_request_start",
+      "origin": "server",
+      "turnId": "trace_20260817t230447_1f33h_turn_1",
+      "timestamp": 1787007889647,
+      "transcriptPreview": "React naturally to the item that was just tried on."
+    },
+    {
+      "eventName": "talk_response_received",
+      "origin": "server",
+      "turnId": "trace_20260817t230447_1f33h_turn_1",
+      "timestamp": 1787007895179,
+      "responsePreview": "Hmm, the navy ribbon dress is nice and all, but it's giving very fancy-dinner-party vibes and I'm just not feeling that "
+    },
+    {
+      "eventName": "talk_response_received",
+      "origin": "client",
+      "turnId": "trace_20260817t230447_1f33h_turn_1",
+      "timestamp": 1787007895187
+    },
+    {
+      "eventName": "audio_play_start",
+      "origin": "client",
+      "turnId": "trace_20260817t230447_1f33h_turn_1",
+      "timestamp": 1787007895191
+    },
+    {
+      "eventName": "audio_ended",
+      "origin": "client",
+      "turnId": "trace_20260817t230447_1f33h_turn_1",
+      "timestamp": 1787007905158
+    }
+  ],
+  "turns": [
+    {
+      "turnId": "trace_20260817t230447_1f33h_turn_1",
+      "eventNames": [
+        "talk_request_start",
+        "activity_phase_changed",
+        "talk_request_start",
+        "talk_response_received",
+        "talk_response_received",
+        "audio_play_start",
+        "audio_ended"
+      ],
+      "transcriptPreview": "React naturally to the item that was just tried on.",
+      "transcriptHash": "f8d82e5f17496dd3",
+      "responsePreview": "Hmm, the navy ribbon dress is nice and all, but it's giving very fancy-dinner-party vibes and I'm just not feeling that ",
+      "responseHash": "9ee5988bfbc82392",
+      "requestToResponseMs": 5545,
+      "audioMs": 9967
+    }
+  ]
+}

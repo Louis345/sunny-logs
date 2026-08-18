@@ -1,0 +1,359 @@
+{
+  "traceId": "trace_20260818t000038_5g5wz",
+  "childId": "showroom",
+  "companionId": "elli",
+  "callSource": "showroom",
+  "relationshipState": "previewing",
+  "startedAt": "2026-08-18T00:00:38.570Z",
+  "eventCount": 41,
+  "loopSuspected": true,
+  "likelyCause": "repeated_turn",
+  "eventOrder": [
+    {
+      "eventName": "call_started",
+      "origin": "client",
+      "timestamp": 1787011238570
+    },
+    {
+      "eventName": "speech_listen_start",
+      "origin": "client",
+      "timestamp": 1787011248249
+    },
+    {
+      "eventName": "speech_result",
+      "origin": "client",
+      "turnId": "trace_20260818t000038_5g5wz_turn_1",
+      "timestamp": 1787011256212
+    },
+    {
+      "eventName": "talk_request_start",
+      "origin": "client",
+      "turnId": "trace_20260818t000038_5g5wz_turn_1",
+      "timestamp": 1787011256214
+    },
+    {
+      "eventName": "activity_phase_changed",
+      "origin": "client",
+      "turnId": "trace_20260818t000038_5g5wz_turn_1",
+      "timestamp": 1787011256215
+    },
+    {
+      "eventName": "talk_request_start",
+      "origin": "server",
+      "turnId": "trace_20260818t000038_5g5wz_turn_1",
+      "timestamp": 1787011256221,
+      "transcriptPreview": "There is no turning back."
+    },
+    {
+      "eventName": "talk_response_received",
+      "origin": "server",
+      "turnId": "trace_20260818t000038_5g5wz_turn_1",
+      "timestamp": 1787011261356,
+      "responsePreview": "I'm here with you. Let's keep going."
+    },
+    {
+      "eventName": "talk_response_received",
+      "origin": "client",
+      "turnId": "trace_20260818t000038_5g5wz_turn_1",
+      "timestamp": 1787011261364
+    },
+    {
+      "eventName": "audio_play_start",
+      "origin": "client",
+      "turnId": "trace_20260818t000038_5g5wz_turn_1",
+      "timestamp": 1787011261370
+    },
+    {
+      "eventName": "audio_ended",
+      "origin": "client",
+      "turnId": "trace_20260818t000038_5g5wz_turn_1",
+      "timestamp": 1787011263467
+    },
+    {
+      "eventName": "speech_result",
+      "origin": "client",
+      "turnId": "trace_20260818t000038_5g5wz_turn_2",
+      "timestamp": 1787011264666
+    },
+    {
+      "eventName": "talk_request_start",
+      "origin": "client",
+      "turnId": "trace_20260818t000038_5g5wz_turn_2",
+      "timestamp": 1787011264666
+    },
+    {
+      "eventName": "activity_phase_changed",
+      "origin": "client",
+      "turnId": "trace_20260818t000038_5g5wz_turn_2",
+      "timestamp": 1787011264667
+    },
+    {
+      "eventName": "talk_request_start",
+      "origin": "server",
+      "turnId": "trace_20260818t000038_5g5wz_turn_2",
+      "timestamp": 1787011264676,
+      "transcriptPreview": "You take the Bloom Hill and you can just keep saying so"
+    },
+    {
+      "eventName": "talk_response_received",
+      "origin": "server",
+      "turnId": "trace_20260818t000038_5g5wz_turn_2",
+      "timestamp": 1787011268600,
+      "responsePreview": "Ooh, Bloom Hill, I like the sound of that already! What happens once I take it?"
+    },
+    {
+      "eventName": "talk_response_received",
+      "origin": "client",
+      "turnId": "trace_20260818t000038_5g5wz_turn_2",
+      "timestamp": 1787011268603
+    },
+    {
+      "eventName": "audio_play_start",
+      "origin": "client",
+      "turnId": "trace_20260818t000038_5g5wz_turn_2",
+      "timestamp": 1787011268608
+    },
+    {
+      "eventName": "speech_listen_start",
+      "origin": "client",
+      "timestamp": 1787011269147
+    },
+    {
+      "eventName": "speech_result",
+      "origin": "client",
+      "turnId": "trace_20260818t000038_5g5wz_turn_3",
+      "timestamp": 1787011281834
+    },
+    {
+      "eventName": "talk_request_start",
+      "origin": "client",
+      "turnId": "trace_20260818t000038_5g5wz_turn_3",
+      "timestamp": 1787011281835
+    },
+    {
+      "eventName": "activity_phase_changed",
+      "origin": "client",
+      "turnId": "trace_20260818t000038_5g5wz_turn_3",
+      "timestamp": 1787011281836
+    },
+    {
+      "eventName": "talk_request_start",
+      "origin": "server",
+      "turnId": "trace_20260818t000038_5g5wz_turn_3",
+      "timestamp": 1787011281863,
+      "transcriptPreview": "Can you hear me?"
+    },
+    {
+      "eventName": "talk_response_received",
+      "origin": "server",
+      "turnId": "trace_20260818t000038_5g5wz_turn_3",
+      "timestamp": 1787011286862,
+      "responsePreview": "Yep, loud and clear! What's up?"
+    },
+    {
+      "eventName": "talk_response_received",
+      "origin": "client",
+      "turnId": "trace_20260818t000038_5g5wz_turn_3",
+      "timestamp": 1787011286868
+    },
+    {
+      "eventName": "audio_play_start",
+      "origin": "client",
+      "turnId": "trace_20260818t000038_5g5wz_turn_3",
+      "timestamp": 1787011286873
+    },
+    {
+      "eventName": "audio_ended",
+      "origin": "client",
+      "turnId": "trace_20260818t000038_5g5wz_turn_3",
+      "timestamp": 1787011288579
+    },
+    {
+      "eventName": "speech_result",
+      "origin": "client",
+      "turnId": "trace_20260818t000038_5g5wz_turn_4",
+      "timestamp": 1787011292381
+    },
+    {
+      "eventName": "talk_request_start",
+      "origin": "client",
+      "turnId": "trace_20260818t000038_5g5wz_turn_4",
+      "timestamp": 1787011292381
+    },
+    {
+      "eventName": "activity_phase_changed",
+      "origin": "client",
+      "turnId": "trace_20260818t000038_5g5wz_turn_4",
+      "timestamp": 1787011292382
+    },
+    {
+      "eventName": "talk_request_start",
+      "origin": "server",
+      "turnId": "trace_20260818t000038_5g5wz_turn_4",
+      "timestamp": 1787011292391,
+      "transcriptPreview": "You see the clothes on you?"
+    },
+    {
+      "eventName": "talk_response_received",
+      "origin": "server",
+      "turnId": "trace_20260818t000038_5g5wz_turn_4",
+      "timestamp": 1787011296988,
+      "responsePreview": "I'm here with you. Let's keep going."
+    },
+    {
+      "eventName": "talk_response_received",
+      "origin": "client",
+      "turnId": "trace_20260818t000038_5g5wz_turn_4",
+      "timestamp": 1787011296997
+    },
+    {
+      "eventName": "audio_play_start",
+      "origin": "client",
+      "turnId": "trace_20260818t000038_5g5wz_turn_4",
+      "timestamp": 1787011297000
+    },
+    {
+      "eventName": "audio_ended",
+      "origin": "client",
+      "turnId": "trace_20260818t000038_5g5wz_turn_4",
+      "timestamp": 1787011299056
+    },
+    {
+      "eventName": "speech_result",
+      "origin": "client",
+      "turnId": "trace_20260818t000038_5g5wz_turn_5",
+      "timestamp": 1787011302122
+    },
+    {
+      "eventName": "talk_request_start",
+      "origin": "client",
+      "turnId": "trace_20260818t000038_5g5wz_turn_5",
+      "timestamp": 1787011302122
+    },
+    {
+      "eventName": "activity_phase_changed",
+      "origin": "client",
+      "turnId": "trace_20260818t000038_5g5wz_turn_5",
+      "timestamp": 1787011302123
+    },
+    {
+      "eventName": "talk_request_start",
+      "origin": "server",
+      "turnId": "trace_20260818t000038_5g5wz_turn_5",
+      "timestamp": 1787011302139,
+      "transcriptPreview": "Ellie, are you shopping?"
+    },
+    {
+      "eventName": "talk_response_received",
+      "origin": "server",
+      "turnId": "trace_20260818t000038_5g5wz_turn_5",
+      "timestamp": 1787011307413,
+      "responsePreview": "Yep, trying on this navy ribbon dress right now! It's pretty, but honestly it feels too fancy for how I'm feeling today,"
+    },
+    {
+      "eventName": "talk_response_received",
+      "origin": "client",
+      "turnId": "trace_20260818t000038_5g5wz_turn_5",
+      "timestamp": 1787011307419
+    },
+    {
+      "eventName": "audio_play_start",
+      "origin": "client",
+      "turnId": "trace_20260818t000038_5g5wz_turn_5",
+      "timestamp": 1787011307422
+    }
+  ],
+  "turns": [
+    {
+      "turnId": "trace_20260818t000038_5g5wz_turn_1",
+      "eventNames": [
+        "speech_result",
+        "talk_request_start",
+        "activity_phase_changed",
+        "talk_request_start",
+        "talk_response_received",
+        "talk_response_received",
+        "audio_play_start",
+        "audio_ended"
+      ],
+      "transcriptPreview": "There is no turning back.",
+      "transcriptHash": "0f43776b790c20db",
+      "responsePreview": "I'm here with you. Let's keep going.",
+      "responseHash": "504319378d4081a0",
+      "requestToResponseMs": 5142,
+      "audioMs": 2097
+    },
+    {
+      "turnId": "trace_20260818t000038_5g5wz_turn_2",
+      "eventNames": [
+        "speech_result",
+        "talk_request_start",
+        "activity_phase_changed",
+        "talk_request_start",
+        "talk_response_received",
+        "talk_response_received",
+        "audio_play_start"
+      ],
+      "transcriptPreview": "You take the Bloom Hill and you can just keep saying so",
+      "transcriptHash": "80f59867edde8bb5",
+      "responsePreview": "Ooh, Bloom Hill, I like the sound of that already! What happens once I take it?",
+      "responseHash": "f96b51683e75b5b4",
+      "requestToResponseMs": 3934
+    },
+    {
+      "turnId": "trace_20260818t000038_5g5wz_turn_3",
+      "eventNames": [
+        "speech_result",
+        "talk_request_start",
+        "activity_phase_changed",
+        "talk_request_start",
+        "talk_response_received",
+        "talk_response_received",
+        "audio_play_start",
+        "audio_ended"
+      ],
+      "transcriptPreview": "Can you hear me?",
+      "transcriptHash": "5d3511d27cdb6a7f",
+      "responsePreview": "Yep, loud and clear! What's up?",
+      "responseHash": "c76f672a044cadc4",
+      "requestToResponseMs": 5027,
+      "audioMs": 1706
+    },
+    {
+      "turnId": "trace_20260818t000038_5g5wz_turn_4",
+      "eventNames": [
+        "speech_result",
+        "talk_request_start",
+        "activity_phase_changed",
+        "talk_request_start",
+        "talk_response_received",
+        "talk_response_received",
+        "audio_play_start",
+        "audio_ended"
+      ],
+      "transcriptPreview": "You see the clothes on you?",
+      "transcriptHash": "f78afaeaa2cd2246",
+      "responsePreview": "I'm here with you. Let's keep going.",
+      "responseHash": "504319378d4081a0",
+      "requestToResponseMs": 4607,
+      "audioMs": 2056
+    },
+    {
+      "turnId": "trace_20260818t000038_5g5wz_turn_5",
+      "eventNames": [
+        "speech_result",
+        "talk_request_start",
+        "activity_phase_changed",
+        "talk_request_start",
+        "talk_response_received",
+        "talk_response_received",
+        "audio_play_start"
+      ],
+      "transcriptPreview": "Ellie, are you shopping?",
+      "transcriptHash": "dd99e0a6276c5306",
+      "responsePreview": "Yep, trying on this navy ribbon dress right now! It's pretty, but honestly it feels too fancy for how I'm feeling today,",
+      "responseHash": "7caa01b20420a1e6",
+      "requestToResponseMs": 5291
+    }
+  ]
+}

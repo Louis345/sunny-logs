@@ -1,0 +1,82 @@
+{
+  "traceId": "trace_20260817t235106_01co9",
+  "childId": "showroom",
+  "companionId": "elli",
+  "callSource": "showroom",
+  "relationshipState": "previewing",
+  "startedAt": "2026-08-17T23:51:06.908Z",
+  "eventCount": 8,
+  "loopSuspected": false,
+  "likelyCause": "slow_response",
+  "eventOrder": [
+    {
+      "eventName": "call_started",
+      "origin": "client",
+      "timestamp": 1787010666908
+    },
+    {
+      "eventName": "talk_request_start",
+      "origin": "client",
+      "turnId": "trace_20260817t235106_01co9_turn_1",
+      "timestamp": 1787010684226
+    },
+    {
+      "eventName": "activity_phase_changed",
+      "origin": "client",
+      "turnId": "trace_20260817t235106_01co9_turn_1",
+      "timestamp": 1787010684227
+    },
+    {
+      "eventName": "talk_request_start",
+      "origin": "server",
+      "turnId": "trace_20260817t235106_01co9_turn_1",
+      "timestamp": 1787010684236,
+      "transcriptPreview": "React naturally to the item that was just tried on."
+    },
+    {
+      "eventName": "talk_response_received",
+      "origin": "server",
+      "turnId": "trace_20260817t235106_01co9_turn_1",
+      "timestamp": 1787010689356,
+      "responsePreview": "Ooh, navy and ribbons, very fancy — but honestly I'm just not feeling classic today, so this one's not really my vibe. W"
+    },
+    {
+      "eventName": "talk_response_received",
+      "origin": "client",
+      "turnId": "trace_20260817t235106_01co9_turn_1",
+      "timestamp": 1787010689372
+    },
+    {
+      "eventName": "audio_play_start",
+      "origin": "client",
+      "turnId": "trace_20260817t235106_01co9_turn_1",
+      "timestamp": 1787010689379
+    },
+    {
+      "eventName": "audio_ended",
+      "origin": "client",
+      "turnId": "trace_20260817t235106_01co9_turn_1",
+      "timestamp": 1787010699442
+    }
+  ],
+  "turns": [
+    {
+      "turnId": "trace_20260817t235106_01co9_turn_1",
+      "eventNames": [
+        "talk_request_start",
+        "activity_phase_changed",
+        "talk_request_start",
+        "talk_response_received",
+        "talk_response_received",
+        "audio_play_start",
+        "audio_ended"
+      ],
+      "transcriptPreview": "React naturally to the item that was just tried on.",
+      "transcriptHash": "f8d82e5f17496dd3",
+      "responsePreview": "Ooh, navy and ribbons, very fancy — but honestly I'm just not feeling classic today, so this one's not really my vibe. W",
+      "responseHash": "c07f8e21b3faae5d",
+      "requestToResponseMs": 5130,
+      "audioMs": 10063
+    }
+  ]
+}

@@ -1,0 +1,172 @@
+{
+  "traceId": "trace_20260817t224919_4ielo",
+  "childId": "showroom",
+  "companionId": "elli",
+  "callSource": "showroom",
+  "relationshipState": "previewing",
+  "startedAt": "2026-08-17T22:49:19.558Z",
+  "eventCount": 21,
+  "loopSuspected": false,
+  "likelyCause": "none",
+  "eventOrder": [
+    {
+      "eventName": "call_started",
+      "origin": "client",
+      "timestamp": 1787006959558
+    },
+    {
+      "eventName": "talk_request_start",
+      "origin": "client",
+      "turnId": "trace_20260817t224919_4ielo_turn_1",
+      "timestamp": 1787006964358
+    },
+    {
+      "eventName": "activity_phase_changed",
+      "origin": "client",
+      "turnId": "trace_20260817t224919_4ielo_turn_1",
+      "timestamp": 1787006964359
+    },
+    {
+      "eventName": "talk_request_start",
+      "origin": "server",
+      "turnId": "trace_20260817t224919_4ielo_turn_1",
+      "timestamp": 1787006964372,
+      "transcriptPreview": "Give a brief first impression of the selected item."
+    },
+    {
+      "eventName": "audio_error",
+      "origin": "client",
+      "turnId": "trace_20260817t224919_4ielo_turn_1",
+      "timestamp": 1787006964408
+    },
+    {
+      "eventName": "talk_request_start",
+      "origin": "client",
+      "turnId": "trace_20260817t224919_4ielo_turn_1",
+      "timestamp": 1787006967673
+    },
+    {
+      "eventName": "activity_phase_changed",
+      "origin": "client",
+      "turnId": "trace_20260817t224919_4ielo_turn_1",
+      "timestamp": 1787006967674
+    },
+    {
+      "eventName": "talk_request_start",
+      "origin": "server",
+      "turnId": "trace_20260817t224919_4ielo_turn_1",
+      "timestamp": 1787006967687,
+      "transcriptPreview": "React naturally to the item that was just tried on."
+    },
+    {
+      "eventName": "audio_error",
+      "origin": "client",
+      "turnId": "trace_20260817t224919_4ielo_turn_1",
+      "timestamp": 1787006967695
+    },
+    {
+      "eventName": "talk_request_start",
+      "origin": "client",
+      "turnId": "trace_20260817t224919_4ielo_turn_1",
+      "timestamp": 1787006990173
+    },
+    {
+      "eventName": "activity_phase_changed",
+      "origin": "client",
+      "turnId": "trace_20260817t224919_4ielo_turn_1",
+      "timestamp": 1787006990173
+    },
+    {
+      "eventName": "talk_request_start",
+      "origin": "server",
+      "turnId": "trace_20260817t224919_4ielo_turn_1",
+      "timestamp": 1787006990186,
+      "transcriptPreview": "Give a brief first impression of the selected item."
+    },
+    {
+      "eventName": "audio_error",
+      "origin": "client",
+      "turnId": "trace_20260817t224919_4ielo_turn_1",
+      "timestamp": 1787006990199
+    },
+    {
+      "eventName": "talk_request_start",
+      "origin": "client",
+      "turnId": "trace_20260817t224919_4ielo_turn_1",
+      "timestamp": 1787006991922
+    },
+    {
+      "eventName": "activity_phase_changed",
+      "origin": "client",
+      "turnId": "trace_20260817t224919_4ielo_turn_1",
+      "timestamp": 1787006991923
+    },
+    {
+      "eventName": "talk_request_start",
+      "origin": "server",
+      "turnId": "trace_20260817t224919_4ielo_turn_1",
+      "timestamp": 1787006991934,
+      "transcriptPreview": "Give a brief first impression of the selected item."
+    },
+    {
+      "eventName": "audio_error",
+      "origin": "client",
+      "turnId": "trace_20260817t224919_4ielo_turn_1",
+      "timestamp": 1787006991939
+    },
+    {
+      "eventName": "talk_request_start",
+      "origin": "client",
+      "turnId": "trace_20260817t224919_4ielo_turn_1",
+      "timestamp": 1787006993122
+    },
+    {
+      "eventName": "activity_phase_changed",
+      "origin": "client",
+      "turnId": "trace_20260817t224919_4ielo_turn_1",
+      "timestamp": 1787006993123
+    },
+    {
+      "eventName": "talk_request_start",
+      "origin": "server",
+      "turnId": "trace_20260817t224919_4ielo_turn_1",
+      "timestamp": 1787006993135,
+      "transcriptPreview": "Give a brief first impression of the selected item."
+    },
+    {
+      "eventName": "audio_error",
+      "origin": "client",
+      "turnId": "trace_20260817t224919_4ielo_turn_1",
+      "timestamp": 1787006993140
+    }
+  ],
+  "turns": [
+    {
+      "turnId": "trace_20260817t224919_4ielo_turn_1",
+      "eventNames": [
+        "talk_request_start",
+        "activity_phase_changed",
+        "talk_request_start",
+        "audio_error",
+        "talk_request_start",
+        "activity_phase_changed",
+        "talk_request_start",
+        "audio_error",
+        "talk_request_start",
+        "activity_phase_changed",
+        "talk_request_start",
+        "audio_error",
+        "talk_request_start",
+        "activity_phase_changed",
+        "talk_request_start",
+        "audio_error",
+        "talk_request_start",
+        "activity_phase_changed",
+        "talk_request_start",
+        "audio_error"
+      ],
+      "transcriptPreview": "Give a brief first impression of the selected item.",
+      "transcriptHash": "8b51f292e5ca201b"
+    }
+  ]
+}
