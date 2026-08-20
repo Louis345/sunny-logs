@@ -1,0 +1,550 @@
+{
+  "traceId": "trace_20260820t230112_96j1m",
+  "childId": "showroom",
+  "companionId": "elli",
+  "callSource": "showroom",
+  "relationshipState": "previewing",
+  "startedAt": "2026-08-20T23:01:12.588Z",
+  "endedAt": "2026-08-20T23:04:12.488Z",
+  "eventCount": 66,
+  "loopSuspected": false,
+  "likelyCause": "slow_response",
+  "eventOrder": [
+    {
+      "eventName": "call_started",
+      "origin": "client",
+      "timestamp": 1787266872588
+    },
+    {
+      "eventName": "wardrobe_store_mounted",
+      "origin": "client",
+      "timestamp": 1787266872651
+    },
+    {
+      "eventName": "wardrobe_item_reviewed",
+      "origin": "client",
+      "timestamp": 1787266876022
+    },
+    {
+      "eventName": "wardrobe_try_on_started",
+      "origin": "client",
+      "timestamp": 1787266881137
+    },
+    {
+      "eventName": "wardrobe_voice_requested",
+      "origin": "client",
+      "timestamp": 1787266884537
+    },
+    {
+      "eventName": "speech_listen_start",
+      "origin": "client",
+      "timestamp": 1787266884539
+    },
+    {
+      "eventName": "speech_result",
+      "origin": "client",
+      "turnId": "trace_20260820t230112_96j1m_turn_1",
+      "timestamp": 1787266891969
+    },
+    {
+      "eventName": "talk_request_start",
+      "origin": "client",
+      "turnId": "trace_20260820t230112_96j1m_turn_1",
+      "timestamp": 1787266891973
+    },
+    {
+      "eventName": "activity_phase_changed",
+      "origin": "client",
+      "turnId": "trace_20260820t230112_96j1m_turn_1",
+      "timestamp": 1787266891979
+    },
+    {
+      "eventName": "talk_request_start",
+      "origin": "server",
+      "turnId": "trace_20260820t230112_96j1m_turn_1",
+      "timestamp": 1787266892040,
+      "transcriptPreview": "Can you hear me?"
+    },
+    {
+      "eventName": "talk_response_received",
+      "origin": "server",
+      "turnId": "trace_20260820t230112_96j1m_turn_1",
+      "timestamp": 1787266898667,
+      "responsePreview": "Loud and clear! What's up?"
+    },
+    {
+      "eventName": "talk_response_received",
+      "origin": "client",
+      "turnId": "trace_20260820t230112_96j1m_turn_1",
+      "timestamp": 1787266898681
+    },
+    {
+      "eventName": "audio_play_start",
+      "origin": "client",
+      "turnId": "trace_20260820t230112_96j1m_turn_1",
+      "timestamp": 1787266898690
+    },
+    {
+      "eventName": "audio_ended",
+      "origin": "client",
+      "turnId": "trace_20260820t230112_96j1m_turn_1",
+      "timestamp": 1787266900182
+    },
+    {
+      "eventName": "speech_result",
+      "origin": "client",
+      "turnId": "trace_20260820t230112_96j1m_turn_2",
+      "timestamp": 1787266903259
+    },
+    {
+      "eventName": "conversation_mode_changed",
+      "origin": "client",
+      "turnId": "trace_20260820t230112_96j1m_turn_2",
+      "timestamp": 1787266903265
+    },
+    {
+      "eventName": "talk_request_start",
+      "origin": "client",
+      "turnId": "trace_20260820t230112_96j1m_turn_2",
+      "timestamp": 1787266903265
+    },
+    {
+      "eventName": "activity_phase_changed",
+      "origin": "client",
+      "turnId": "trace_20260820t230112_96j1m_turn_2",
+      "timestamp": 1787266903266
+    },
+    {
+      "eventName": "talk_request_start",
+      "origin": "server",
+      "turnId": "trace_20260820t230112_96j1m_turn_2",
+      "timestamp": 1787266903465,
+      "transcriptPreview": "Can you see the clothes that you have?"
+    },
+    {
+      "eventName": "talk_response_received",
+      "origin": "server",
+      "turnId": "trace_20260820t230112_96j1m_turn_2",
+      "timestamp": 1787266908549,
+      "responsePreview": "I'm here with you. Let's keep going."
+    },
+    {
+      "eventName": "talk_response_received",
+      "origin": "client",
+      "turnId": "trace_20260820t230112_96j1m_turn_2",
+      "timestamp": 1787266908553
+    },
+    {
+      "eventName": "audio_play_start",
+      "origin": "client",
+      "turnId": "trace_20260820t230112_96j1m_turn_2",
+      "timestamp": 1787266908561
+    },
+    {
+      "eventName": "audio_ended",
+      "origin": "client",
+      "turnId": "trace_20260820t230112_96j1m_turn_2",
+      "timestamp": 1787266910442
+    },
+    {
+      "eventName": "speech_result",
+      "origin": "client",
+      "turnId": "trace_20260820t230112_96j1m_turn_3",
+      "timestamp": 1787266913480
+    },
+    {
+      "eventName": "talk_request_start",
+      "origin": "client",
+      "turnId": "trace_20260820t230112_96j1m_turn_3",
+      "timestamp": 1787266913481
+    },
+    {
+      "eventName": "activity_phase_changed",
+      "origin": "client",
+      "turnId": "trace_20260820t230112_96j1m_turn_3",
+      "timestamp": 1787266913482
+    },
+    {
+      "eventName": "talk_request_start",
+      "origin": "server",
+      "turnId": "trace_20260820t230112_96j1m_turn_3",
+      "timestamp": 1787266913500,
+      "transcriptPreview": "Can you see the clothes?"
+    },
+    {
+      "eventName": "talk_response_received",
+      "origin": "server",
+      "turnId": "trace_20260820t230112_96j1m_turn_3",
+      "timestamp": 1787266917573,
+      "responsePreview": "I can feel this navy"
+    },
+    {
+      "eventName": "talk_response_received",
+      "origin": "client",
+      "turnId": "trace_20260820t230112_96j1m_turn_3",
+      "timestamp": 1787266917582
+    },
+    {
+      "eventName": "audio_play_start",
+      "origin": "client",
+      "turnId": "trace_20260820t230112_96j1m_turn_3",
+      "timestamp": 1787266917588
+    },
+    {
+      "eventName": "audio_ended",
+      "origin": "client",
+      "turnId": "trace_20260820t230112_96j1m_turn_3",
+      "timestamp": 1787266919141
+    },
+    {
+      "eventName": "speech_result",
+      "origin": "client",
+      "turnId": "trace_20260820t230112_96j1m_turn_4",
+      "timestamp": 1787266921403
+    },
+    {
+      "eventName": "conversation_mode_changed",
+      "origin": "client",
+      "turnId": "trace_20260820t230112_96j1m_turn_4",
+      "timestamp": 1787266921403
+    },
+    {
+      "eventName": "talk_request_start",
+      "origin": "client",
+      "turnId": "trace_20260820t230112_96j1m_turn_4",
+      "timestamp": 1787266921404
+    },
+    {
+      "eventName": "activity_phase_changed",
+      "origin": "client",
+      "turnId": "trace_20260820t230112_96j1m_turn_4",
+      "timestamp": 1787266921404
+    },
+    {
+      "eventName": "talk_request_start",
+      "origin": "server",
+      "turnId": "trace_20260820t230112_96j1m_turn_4",
+      "timestamp": 1787266921420,
+      "transcriptPreview": "What?"
+    },
+    {
+      "eventName": "talk_response_received",
+      "origin": "server",
+      "turnId": "trace_20260820t230112_96j1m_turn_4",
+      "timestamp": 1787266927186,
+      "responsePreview": "Haha sorry, was I mumbling? What'd you catch — want me to say it again?"
+    },
+    {
+      "eventName": "talk_response_received",
+      "origin": "client",
+      "turnId": "trace_20260820t230112_96j1m_turn_4",
+      "timestamp": 1787266927200
+    },
+    {
+      "eventName": "audio_play_start",
+      "origin": "client",
+      "turnId": "trace_20260820t230112_96j1m_turn_4",
+      "timestamp": 1787266927209
+    },
+    {
+      "eventName": "audio_ended",
+      "origin": "client",
+      "turnId": "trace_20260820t230112_96j1m_turn_4",
+      "timestamp": 1787266932062
+    },
+    {
+      "eventName": "speech_result",
+      "origin": "client",
+      "turnId": "trace_20260820t230112_96j1m_turn_5",
+      "timestamp": 1787266938295
+    },
+    {
+      "eventName": "talk_request_start",
+      "origin": "client",
+      "turnId": "trace_20260820t230112_96j1m_turn_5",
+      "timestamp": 1787266938296
+    },
+    {
+      "eventName": "activity_phase_changed",
+      "origin": "client",
+      "turnId": "trace_20260820t230112_96j1m_turn_5",
+      "timestamp": 1787266938297
+    },
+    {
+      "eventName": "talk_request_start",
+      "origin": "server",
+      "turnId": "trace_20260820t230112_96j1m_turn_5",
+      "timestamp": 1787266938312,
+      "transcriptPreview": "I missed it. I was asking what do you think about your your your new dress."
+    },
+    {
+      "eventName": "talk_response_received",
+      "origin": "server",
+      "turnId": "trace_20260820t230112_96j1m_turn_5",
+      "timestamp": 1787266945337,
+      "responsePreview": "Oh I am obsessed with this navy ribbon dress, it's so elegant and totally my mood right now! Are you gonna get it too?"
+    },
+    {
+      "eventName": "talk_response_received",
+      "origin": "client",
+      "turnId": "trace_20260820t230112_96j1m_turn_5",
+      "timestamp": 1787266945346
+    },
+    {
+      "eventName": "audio_play_start",
+      "origin": "client",
+      "turnId": "trace_20260820t230112_96j1m_turn_5",
+      "timestamp": 1787266945350
+    },
+    {
+      "eventName": "audio_ended",
+      "origin": "client",
+      "turnId": "trace_20260820t230112_96j1m_turn_5",
+      "timestamp": 1787266951490
+    },
+    {
+      "eventName": "speech_result",
+      "origin": "client",
+      "turnId": "trace_20260820t230112_96j1m_turn_6",
+      "timestamp": 1787267032073
+    },
+    {
+      "eventName": "talk_request_start",
+      "origin": "client",
+      "turnId": "trace_20260820t230112_96j1m_turn_6",
+      "timestamp": 1787267032075
+    },
+    {
+      "eventName": "activity_phase_changed",
+      "origin": "client",
+      "turnId": "trace_20260820t230112_96j1m_turn_6",
+      "timestamp": 1787267032075
+    },
+    {
+      "eventName": "talk_request_start",
+      "origin": "server",
+      "turnId": "trace_20260820t230112_96j1m_turn_6",
+      "timestamp": 1787267032111,
+      "transcriptPreview": "Sorry. Do you have any of any of the kids' homework?"
+    },
+    {
+      "eventName": "talk_response_received",
+      "origin": "server",
+      "turnId": "trace_20260820t230112_96j1m_turn_6",
+      "timestamp": 1787267038148,
+      "responsePreview": "I don't have anyone's homework sitting around, but if you've got some you're stuck on, I'm happy to help you figure it o"
+    },
+    {
+      "eventName": "talk_response_received",
+      "origin": "client",
+      "turnId": "trace_20260820t230112_96j1m_turn_6",
+      "timestamp": 1787267038158
+    },
+    {
+      "eventName": "audio_play_start",
+      "origin": "client",
+      "turnId": "trace_20260820t230112_96j1m_turn_6",
+      "timestamp": 1787267038175
+    },
+    {
+      "eventName": "speech_listen_start",
+      "origin": "client",
+      "timestamp": 1787267041689
+    },
+    {
+      "eventName": "speech_result",
+      "origin": "client",
+      "turnId": "trace_20260820t230112_96j1m_turn_7",
+      "timestamp": 1787267043085
+    },
+    {
+      "eventName": "talk_request_start",
+      "origin": "client",
+      "turnId": "trace_20260820t230112_96j1m_turn_7",
+      "timestamp": 1787267043087
+    },
+    {
+      "eventName": "activity_phase_changed",
+      "origin": "client",
+      "turnId": "trace_20260820t230112_96j1m_turn_7",
+      "timestamp": 1787267043087
+    },
+    {
+      "eventName": "talk_request_start",
+      "origin": "server",
+      "turnId": "trace_20260820t230112_96j1m_turn_7",
+      "timestamp": 1787267043105,
+      "transcriptPreview": "How am I supposed to"
+    },
+    {
+      "eventName": "talk_response_received",
+      "origin": "server",
+      "turnId": "trace_20260820t230112_96j1m_turn_7",
+      "timestamp": 1787267045754,
+      "responsePreview": "I'm here, you can just tell me what's on your mind! What's up?"
+    },
+    {
+      "eventName": "talk_response_received",
+      "origin": "client",
+      "turnId": "trace_20260820t230112_96j1m_turn_7",
+      "timestamp": 1787267045759
+    },
+    {
+      "eventName": "audio_play_start",
+      "origin": "client",
+      "turnId": "trace_20260820t230112_96j1m_turn_7",
+      "timestamp": 1787267045764
+    },
+    {
+      "eventName": "audio_ended",
+      "origin": "client",
+      "turnId": "trace_20260820t230112_96j1m_turn_7",
+      "timestamp": 1787267048929
+    },
+    {
+      "eventName": "wardrobe_store_exited",
+      "origin": "client",
+      "timestamp": 1787267052488
+    },
+    {
+      "eventName": "call_ended",
+      "origin": "client",
+      "timestamp": 1787267052488
+    }
+  ],
+  "turns": [
+    {
+      "turnId": "trace_20260820t230112_96j1m_turn_1",
+      "eventNames": [
+        "speech_result",
+        "talk_request_start",
+        "activity_phase_changed",
+        "talk_request_start",
+        "talk_response_received",
+        "talk_response_received",
+        "audio_play_start",
+        "audio_ended"
+      ],
+      "transcriptPreview": "Can you hear me?",
+      "transcriptHash": "5d3511d27cdb6a7f",
+      "responsePreview": "Loud and clear! What's up?",
+      "responseHash": "75b9bae386d8bb17",
+      "requestToResponseMs": 6694,
+      "audioMs": 1492
+    },
+    {
+      "turnId": "trace_20260820t230112_96j1m_turn_2",
+      "eventNames": [
+        "speech_result",
+        "conversation_mode_changed",
+        "talk_request_start",
+        "activity_phase_changed",
+        "talk_request_start",
+        "talk_response_received",
+        "talk_response_received",
+        "audio_play_start",
+        "audio_ended"
+      ],
+      "transcriptPreview": "Can you see the clothes that you have?",
+      "transcriptHash": "01925d4bc529b852",
+      "responsePreview": "I'm here with you. Let's keep going.",
+      "responseHash": "504319378d4081a0",
+      "requestToResponseMs": 5284,
+      "audioMs": 1881
+    },
+    {
+      "turnId": "trace_20260820t230112_96j1m_turn_3",
+      "eventNames": [
+        "speech_result",
+        "talk_request_start",
+        "activity_phase_changed",
+        "talk_request_start",
+        "talk_response_received",
+        "talk_response_received",
+        "audio_play_start",
+        "audio_ended"
+      ],
+      "transcriptPreview": "Can you see the clothes?",
+      "transcriptHash": "fb8d74e75998cbac",
+      "responsePreview": "I can feel this navy",
+      "responseHash": "d80a530e11bc48b3",
+      "requestToResponseMs": 4092,
+      "audioMs": 1553
+    },
+    {
+      "turnId": "trace_20260820t230112_96j1m_turn_4",
+      "eventNames": [
+        "speech_result",
+        "conversation_mode_changed",
+        "talk_request_start",
+        "activity_phase_changed",
+        "talk_request_start",
+        "talk_response_received",
+        "talk_response_received",
+        "audio_play_start",
+        "audio_ended"
+      ],
+      "transcriptPreview": "What?",
+      "transcriptHash": "2cc9a59ae14e4845",
+      "responsePreview": "Haha sorry, was I mumbling? What'd you catch — want me to say it again?",
+      "responseHash": "2475f9601b870ec6",
+      "requestToResponseMs": 5782,
+      "audioMs": 4853
+    },
+    {
+      "turnId": "trace_20260820t230112_96j1m_turn_5",
+      "eventNames": [
+        "speech_result",
+        "talk_request_start",
+        "activity_phase_changed",
+        "talk_request_start",
+        "talk_response_received",
+        "talk_response_received",
+        "audio_play_start",
+        "audio_ended"
+      ],
+      "transcriptPreview": "I missed it. I was asking what do you think about your your your new dress.",
+      "transcriptHash": "7c7b4dc297788444",
+      "responsePreview": "Oh I am obsessed with this navy ribbon dress, it's so elegant and totally my mood right now! Are you gonna get it too?",
+      "responseHash": "55bb674a56730a61",
+      "requestToResponseMs": 7041,
+      "audioMs": 6140
+    },
+    {
+      "turnId": "trace_20260820t230112_96j1m_turn_6",
+      "eventNames": [
+        "speech_result",
+        "talk_request_start",
+        "activity_phase_changed",
+        "talk_request_start",
+        "talk_response_received",
+        "talk_response_received",
+        "audio_play_start"
+      ],
+      "transcriptPreview": "Sorry. Do you have any of any of the kids' homework?",
+      "transcriptHash": "5d0925629e2e2cc3",
+      "responsePreview": "I don't have anyone's homework sitting around, but if you've got some you're stuck on, I'm happy to help you figure it o",
+      "responseHash": "4c34808cf1df4208",
+      "requestToResponseMs": 6073
+    },
+    {
+      "turnId": "trace_20260820t230112_96j1m_turn_7",
+      "eventNames": [
+        "speech_result",
+        "talk_request_start",
+        "activity_phase_changed",
+        "talk_request_start",
+        "talk_response_received",
+        "talk_response_received",
+        "audio_play_start",
+        "audio_ended"
+      ],
+      "transcriptPreview": "How am I supposed to",
+      "transcriptHash": "a48e786bbdcbe22d",
+      "responsePreview": "I'm here, you can just tell me what's on your mind! What's up?",
+      "responseHash": "c894bfa35cd9c1dc",
+      "requestToResponseMs": 2667,
+      "audioMs": 3165
+    }
+  ]
+}
